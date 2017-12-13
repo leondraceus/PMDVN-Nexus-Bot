@@ -45,8 +45,19 @@ bot.on('message', (message) => {
 
     var cmd = bot.commands.get(command.slice(prefix.length));
     if(cmd) cmd.run(bot, message, args);
+});
 
-    if(message.content === "Triboo"){
+bot.on('message', (message) => {
+    if(message.author.bot) return;
+    if(message.channel.type === "dm") return;
+
+    var messageArray = message.content.split(` `);
+    var command = messageArray[0];
+    var args = messageArray.slice(1);
+    var channelname = messageArray[1];
+    var rep = messageArray[2];
+
+    if(message.content === "Tìm một nơi tình yêu đưa lối, buồn làm chi thôi đã hết rồi"){
         message.channel.sendMessage("O ó o ò, o ó o ò 🐔")
     }
 });
