@@ -222,7 +222,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         message.channel.sendEmbed(ME642);
     }
     // Alolan Vulpix (ME786) ///
-    if(args[0]==="ME786"| args[0]==="Me786" | args[0]==="me786"){
+    if(args[0]==="ME786"| args[0]==="Me786" | args[0]==="me786" | args[0]==="Alolanvulpix" | args[0]==="alolanvulpix"){
         var ME786 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Alolan Vulpix/Ka Lê Quốc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/c5/Vulpix_%28alolan%29.png/revision/latest/scale-to-width-down/100?cb=20170910131902`)
@@ -1176,7 +1176,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
         message.channel.sendEmbed(ME906);
     }
     /// Houndour (ME078) ///
-    if(args[0]==="ME078"| args[0]==="me078" | args[0]==="Me078"){
+    if(args[0]==="ME078"| args[0]==="me078" | args[0]==="Me078" | args[0]==="Houndour" | args[0]==="houndour"){
         var ME078 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Houndour/Mạnh Dương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/ba/Houndour.png/revision/latest/scale-to-width-down/100?cb=20170618081347`)
@@ -1192,7 +1192,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             message.channel.sendEmbed(ME078);
     }
     /// Golem (ME081) ///
-    if(args[0]==="ME081"| args[0]==="me081" | args[0]==="Me081"){
+    if(args[0]==="ME081"| args[0]==="me081" | args[0]==="Me081" | args[0]==="Golem" | args[0]==="golem"){
         var ME081 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Golem/Truong Hung Quan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/ce/Golem.png/revision/latest/scale-to-width-down/100?cb=20160816065418`)
