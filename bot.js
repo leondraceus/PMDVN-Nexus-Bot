@@ -65,8 +65,8 @@ bot.on('message', (message) => {
         message.channel.sendMessage("Sốt 42 độ, huỷ show! <:fakesmile:387588841332146178>")
     }
 
-    if(message.content === "Im đi" | message.content === "im đi" | message.content === "Im đê" | message.content === "im đê" | message.content === "ym đi" | message.content === "ym đê"){
-        message.channel.sendMessage("Im đi =V")
+    if(message.content === "Ai là chủ của tiệm bánh tráng trộn ngon nhất vũ trụ?"){
+        message.channel.sendMessage("Bành Thị Bích Nụ ❤")
     }
 });
 
