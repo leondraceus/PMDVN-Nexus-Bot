@@ -60,6 +60,10 @@ bot.on('message', (message) => {
     if(message.content === "Tìm một nơi tình yêu đưa lối, buồn làm chi thôi đã hết rồi"){
         message.channel.sendMessage("O ó o ò, o ó o ò 🐔")
     }
+
+    if(message.content === "Sắp đến giờ diễn rồi mà em thấy không muốn diễn, em phải làm gì đây?"){
+        message.channel.sendMessage("Sốt 42 độ, huỷ show! <:fakesmile:387588841332146178>")
+    }
 });
 
 bot.on('guildMemberAdd', member => {
