@@ -9,11 +9,11 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Profile Customization (1000 <:poke:379535433467428867>)`,`Một vật phẩm có thể giúp cho người dùng chỉnh sửa, thay đổi giao diện trang thông tin của mình theo sở thích. **(Chỉ dùng được 1 lần)**`)
             .addField(`Shiny Charm (1500 <:poke:379535433467428867>)`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
             .addField(`Transform Capsule (2500 <:poke:379535433467428867>)`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác. **(Chỉ dùng được 1 lần)**`)
-            .addField(`Inventory Enlarger 1 (1500 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 25 vật phẩm.`)
-            .addField(`Inventory Enlarger 2 (1800 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 35 vật phẩm.`)
-            .addField(`Inventory Enlarger 3 (2100 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 45 vật phẩm.`)
-            .addField(`Inventory Enlarger 4 (2400 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 55 vật phẩm.`)
-            .addField(`Inventory Enlarger MAX (3200 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 70 vật phẩm.`);
+            .addField(`Inventory Enlarger 1 (1500 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 30 vật phẩm.`)
+            .addField(`Inventory Enlarger 2 (1800 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 45 vật phẩm.`)
+            .addField(`Inventory Enlarger 3 (2100 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 60 vật phẩm.`)
+            .addField(`Inventory Enlarger 4 (2400 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 75 vật phẩm.`)
+            .addField(`Inventory Enlarger MAX (3200 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 100 vật phẩm.`);
 
         message.channel.sendEmbed(customize);
     }
