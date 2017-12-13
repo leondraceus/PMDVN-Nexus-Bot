@@ -45,6 +45,10 @@ bot.on('message', (message) => {
 
     var cmd = bot.commands.get(command.slice(prefix.length));
     if(cmd) cmd.run(bot, message, args);
+
+    if(message.content === "Tìm một nơi tình yêu đưa lối, buồn làm chi thôi đã hết rồi"){
+        message.channel.sendMessage("O ó o ò, o ó o ò 🐔")
+    }
 });
 
 bot.on('guildMemberAdd', member => {
