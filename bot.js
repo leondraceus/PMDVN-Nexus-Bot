@@ -64,6 +64,10 @@ bot.on('message', (message) => {
     if(message.content === "Sắp đến giờ diễn rồi mà em thấy không muốn diễn, em phải làm gì đây?"){
         message.channel.sendMessage("Sốt 42 độ, huỷ show! <:fakesmile:387588841332146178>")
     }
+
+    if(message.content === "Im đi" | message.content === "im đi" | message.content === "Im đê" | message.content === "im đê" | message.content === "ym đi" | message.content === "ym đê"){
+        message.channel.sendMessage("Im đi =V")
+    }
 });
 
 bot.on('guildMemberAdd', member => {
