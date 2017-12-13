@@ -221,6 +221,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         
         message.channel.sendEmbed(ME642);
     }
+
     // Alolan Vulpix (ME786) ///
     if(args[0]==="ME786"| args[0]==="Me786" | args[0]==="me786" | args[0]==="Alolanvulpix" | args[0]==="alolanvulpix"){
         var ME786 = new Discord.RichEmbed().setColor(`#5CE05F`)
@@ -321,7 +322,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.
     if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401" | args[0]==="Leafeon" | args[0]==="leafeon"){
         var ME401 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Leafeon/Minh Ánh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
+            .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Leafeon`)
             .addField(`Tên Facebook:`,`Minh Ánh`)
@@ -458,7 +459,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME028** | **.
         message.channel.sendEmbed(ME697);
     }
 
-    else if(args[0]==="Mega Rayquaza" | args[0]==="Mega rayquaza" | args[0]==="mega rayquaza"){
+    else if(args[0]==="MegaRayquaza" | args[0]==="Megarayquaza" | args[0]==="megarayquaza"){
         message.channel.sendMessage(`**Hiện tại có 2 Mega Rayquaza**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.info ME697**`)
     }
@@ -700,7 +701,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
     }
 
     // Mega Latias (ME089) ///
-    if(args[0]==="ME089"| args[0]==="Me089" | args[0]==="me089"){
+    if(args[0]==="ME089"| args[0]==="Me089" | args[0]==="me089" | args[0]==="MegaLatias" | args[0]==="Megalatias" | args[0]==="megalatias"){
         var ME089 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Mega Latias/Trần Minh Hoàng`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/30/Megalatias.png/revision/latest/scale-to-width-down/100?cb=20160823063629`)
@@ -807,7 +808,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.
     }
 
     // Mega Charizard X (ME209) ///
-    if(args[0]==="ME209"| args[0]==="Me209" | args[0]==="me209"| args[0]==="Mega Charizard X" | args[0]==="Mega charizard x" | args[0]==="mega charizard x" | args[0]==="Mega charizard X" | args[0]==="mega charizard X"){
+    if(args[0]==="ME209"| args[0]==="Me209" | args[0]==="me209"| args[0]==="MegaCharizardX" | args[0]==="Megacharizardx" | args[0]==="megacharizardx" | args[0]==="MegacharizardX" | args[0]==="megacharizardX"){
         var ME209 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Mega Charizard X/Dương Võ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/de/Megacharizardx.png/revision/latest/scale-to-width-down/100?cb=20160818075829`)
@@ -824,7 +825,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.
     }
 
     // Mega Charizard Y (ME054) ///
-    if(args[0]==="ME054"| args[0]==="Me054" | args[0]==="me054"| args[0]==="Mega Charizard Y" | args[0]==="Mega charizard y" | args[0]==="mega charizard y" | args[0]==="Mega charizard Y" | args[0]==="mega charizard Y"){
+    if(args[0]==="ME054"| args[0]==="Me054" | args[0]==="me054"| args[0]==="MegaCharizardY" | args[0]==="Megacharizardy" | args[0]==="megacharizardy" | args[0]==="MegacharizardY" | args[0]==="megacharizardY"){
         var ME054 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Mega Charizard Y/Thu Phương Đỗ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/c8/Megacharizardy.png/revision/latest/scale-to-width-down/100?cb=20160821135727`)
@@ -992,7 +993,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
     }
 
     // Mega Sableye (ME456) ///
-    if(args[0]==="ME456"| args[0]==="Me456" | args[0]==="me456"){
+    if(args[0]==="ME456"| args[0]==="Me456" | args[0]==="me456" | args[0]==="Megasableye" | args[0]==="megasableye"){
         var ME456 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Mega Sableye/Trần Ngọc Phi Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Megasableye.png/revision/latest/scale-to-width-down/100?cb=20171206055525`)
@@ -1009,7 +1010,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
     }
 
     // Sableye (ME441) ///
-    if(args[0]==="ME441"| args[0]==="Me441" | args[0]==="me441"){
+    if(args[0]==="ME441"| args[0]==="Me441" | args[0]==="me441" | args[0]==="Sableye" | args[0]==="sableye"){
         var ME441 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Sableye/Le Ba Tuan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/99/Sableye.png/revision/latest/scale-to-width-down/100?cb=20160908081725`)
@@ -1023,11 +1024,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Thành tích:`,`Pokéween - Giải nhì (Pokékween)`);
 
         message.channel.sendEmbed(ME441);
-    }
-
-    else if(args[0]==="Sableye" | args[0]==="sableye"){
-        message.channel.sendMessage(`**Hiện tại có 2 Sableye**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME441** | **.info ME456**`)
     }
 
     // Gallade (ME110) ///
@@ -1103,23 +1099,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.
         message.channel.sendEmbed(ME607);
     }
 
-    /// Mega Diancie (ME905) ///
-    if(args[0]==="ME905"| args[0]==="me905" | args[0]==="Me905" | args[0]==="Mega Diancie" | args[0]==="mega diancie"){
-        var ME905 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Mega Diancie/Nguyễn Diancie`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/31/Megadiancie.png/revision/latest/scale-to-width-down/100?cb=20160815093508`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Diancie (Mega)`)
-            .addField(`Tên Facebook:`,`Nguyễn Diancie`)
-            .addField(`Giới tính:`,`Nữ`)
-            .addField(`Ngày sinh:`,`6/3`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Pokéween: Giải khuyến khích`);
-            
-        message.channel.sendEmbed(ME905);
-    }
-
     // Cyndaquil (ME867) ///
     if(args[0]==="ME867"| args[0]==="Me867" | args[0]==="me867"){
         var ME867 = new Discord.RichEmbed().setColor(`#3A77E6`)
@@ -1175,6 +1154,131 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
 
         message.channel.sendEmbed(ME906);
     }
+
+    /// Mega Diancie (ME905) ///
+    if(args[0]==="ME905"| args[0]==="me905" | args[0]==="Me905" | args[0]==="MegaDiancie" | args[0]==="Megadiancie" | args[0]==="megadiancie"){
+        var ME905 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Mega Diancie/Nguyễn Diancie`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/31/Megadiancie.png/revision/latest/scale-to-width-down/100?cb=20160815093508`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Diancie (Mega)`)
+            .addField(`Tên Facebook:`,`Nguyễn Diancie`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`6/3`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`Pokéween: Giải khuyến khích`);
+            
+        message.channel.sendEmbed(ME905);
+    }
+
+    /// Mega Lucario (ME923) ///
+    if(args[0]==="ME923"| args[0]==="me923" | args[0]==="Me923" | args[0]==="MegaLucario" | args[0]==="Megalucario" | args[0]==="megalucario"){
+        var ME923 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Mega Lucario/Luke Stelard`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/dd/Megalucario.png/revision/latest/scale-to-width-down/100?cb=20160817072416`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Lucario (Mega)`)
+            .addField(`Tên Facebook:`,`Luke Stelard`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`26/1`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME923);
+    }
+
+    // Ursaring (ME857) ///
+    if(args[0]==="ME857"| args[0]==="Me857" | args[0]==="me857"| args[0]==="Ursaring" | args[0]==="ursaring"){
+        var ME857 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Ursaring/ゲイル ハワアド`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/61/Ursaring.png/revision/latest/scale-to-width-down/100?cb=20171206055526`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Ursaring`)
+            .addField(`Tên Facebook:`,`ゲイル ハワアド`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`12/9`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+
+        message.channel.sendEmbed(ME857);
+    }
+
+    // Froakie (ME041) ///
+    if(args[0]==="ME041"| args[0]==="Me041" | args[0]==="me041"| args[0]==="Froakie" | args[0]==="froakie"){
+        var ME041 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Froakie/Lê N. G. Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8e/Froakie.png/revision/latest/scale-to-width-down/100?cb=20171206084436`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Froakie`)
+            .addField(`Tên Facebook:`,`Lê N. G. Bảo`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`26/3`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+
+        message.channel.sendEmbed(ME041);
+    }
+
+    // Mega Metagross (ME037) ///
+    if(args[0]==="ME037"| args[0]==="Me037" | args[0]==="me037"){
+        var ME037 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Mega Metagross/Nguyễn Hoàng Lâm`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/78/Megametagross.png/revision/latest/scale-to-width-down/100?cb=20160824061358`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Metagross (Mega)`)
+            .addField(`Tên Facebook:`,`Nguyễn Hoàng Lâm`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`9/8`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+
+        message.channel.sendEmbed(ME037);
+    }
+
+    // Mega Metagross (ME813) ///
+    if(args[0]==="ME813"| args[0]==="Me813" | args[0]==="me813"){
+        var ME813 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Mega Metagross/Duy Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/78/Megametagross.png/revision/latest/scale-to-width-down/100?cb=20160824061358`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Metagross (Mega)`)
+            .addField(`Tên Facebook:`,`Duy Tran`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`19/9`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+
+        message.channel.sendEmbed(ME813);
+    }
+
+    else if(args[0]==="Megametagross" | args[0]==="megametagross"){
+        message.channel.sendMessage(`**Hiện tại có 2 Mega Metagross**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.info ME813**`)
+    }
+
+    // Arcanine (ME503) ///
+    if(args[0]==="ME503"| args[0]==="Me503" | args[0]==="me503"| args[0]==="Arcanine" | args[0]==="arcanine"){
+        var ME503 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Arcanine/Khương Trần Duy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/50/Arcanine.png/revision/latest/scale-to-width-down/100?cb=20171202161640`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Arcanine`)
+            .addField(`Tên Facebook:`,`Khương Trần Duy`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`31/1`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+
+        message.channel.sendEmbed(ME503);
+    }
+    
     /// Houndour (ME078) ///
     if(args[0]==="ME078"| args[0]==="me078" | args[0]==="Me078" | args[0]==="Houndour" | args[0]==="houndour"){
         var ME078 = new Discord.RichEmbed().setColor(`#3A77E6`)
