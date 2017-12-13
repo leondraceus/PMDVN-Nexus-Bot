@@ -282,7 +282,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Victini <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Đỗ Khắc Hiệp`)
-            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`17/4`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
@@ -613,10 +613,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
     if(args[0]==="ME411"| args[0]==="me411" | args[0]==="Me411" | args[0]==="Lugia" | args[0]==="lugia"){
         var ME411 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor (`Lugia/Touya Yumemiru`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a7/Lugia.png/revision/latest/scale-to-width-down/100?cb=20160820013937`)
+            .setAuthor (`Lugia/Daigo Metagurosu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a7/Lugia.png/revision/latest/scale-to-width-down/100?cb=20160820013937`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Lugia`)
-            .addField(`Tên Facebook:`,`Touya Yumemiru`)
+            .addField(`Tên Facebook:`,`Daigo Metagurosu`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`4/11`)
             .addField(`Cấp bậc:`,`Member`)
