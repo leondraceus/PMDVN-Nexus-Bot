@@ -1075,7 +1075,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
     if(args[0]==="ME456"| args[0]==="Me456" | args[0]==="me456" | args[0]==="Megasableye" | args[0]==="megasableye"){
         var ME456 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
-            .setAuthor (`Mega Sableye/Trần Ngọc Phi Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Megasableye.png/revision/latest/scale-to-width-down/100?cb=20171206055525`)
+            .setAuthor (`Mega Sableye/Trần Ngọc Phi Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Megasableye_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171214121620`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`634`,inline = true)
             .addField(`Spooky Token:`,`0`,inline = true)
