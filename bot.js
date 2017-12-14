@@ -57,9 +57,9 @@ bot.on('message', (message) => {
     var channelname = messageArray[1];
     var rep = messageArray[2];
 
-    if(message.content === "Tìm một nơi tình yêu đưa lối \
-    Buồn làm chi thôi đã hết rồi"){
-        message.channel.sendMessage("O ó o ò, o ó o ò 🐔")
+    if(message.content === "Tìm một nơi tình yêu đưa lối, buồn làm chi thôi đã hết rồi"){
+        message.channel.sendMessage("O ó o ò \ 
+        O ó o ò 🐔")
     }
 
     if(message.content === "Sắp đến giờ diễn rồi mà em thấy không muốn diễn, em phải làm gì đây?"){
