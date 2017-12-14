@@ -37,7 +37,7 @@ bot.on('message', (message) => {
 
     var messageArray = message.content.split(` `);
     var command = messageArray[0];
-    var args = messageArray.slice(1,5);
+    var args = messageArray.slice(1);
     var channelname = messageArray[1];
     var rep = messageArray[2];
     
