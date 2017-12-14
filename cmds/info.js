@@ -1257,7 +1257,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
         message.channel.sendEmbed(ME813);
     }
 
-    else if(args[0]==="Mega metagross" | args[0]==="megametagross"){
+    else if(args[0,1]==="Mega metagross" | args[0]==="megametagross"){
         message.channel.sendMessage(`**Hiện tại có 2 Mega Metagross**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.info ME813**`)
     }
