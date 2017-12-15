@@ -1316,6 +1316,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME037** | **.i
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME078);
+
     }
     // Golem (ME081) ///
     if(args[0]==="ME081"| args[0]==="me081" | args[0]==="Me081" | args[0]==="Golem" | args[0]==="golem"){
@@ -1328,6 +1329,50 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME037** | **.i
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME081);
+    }
+
+    // Luxray (ME978) ///
+    if(args[0]==="ME978"| args[0]==="Me978" | args[0]==="me978"){
+        var ME978 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Luxray/Nguyễn Hiền`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/ad/Luxray1.png/revision/latest/scale-to-width-down/100?cb=20170710064348`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Spooky Token:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+
+        message.channel.sendEmbed(ME978);
+    }
+
+    // Luxray (ME514) ///
+    if(args[0]==="ME514"| args[0]==="Me514" | args[0]==="me514"){
+        var ME514 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Luxray/Hunter Knight`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ee/Luxray.png/revision/latest/scale-to-width-down/100?cb=20170617152627`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Spooky Token:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+
+        message.channel.sendEmbed(ME514);
+    }
+
+    else if(args[0]==="Luxray" | args[0]==="luxray"){
+        message.channel.sendMessage(`**Hiện tại có 2 Luxray**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.inv ME978**`)
+    }
+
+    /// Serperior (ME868) ///
+    if(args[0]==="ME868"| args[0]==="me868" | args[0]==="Me868" | args[0]==="Serperior" | args[0]==="serperior"){
+        var ME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/ce/Golem.png/revision/latest/scale-to-width-down/100?cb=20160816065418`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`295`,inline = true)
+            .addField(`Spooky Token:`,`40`,inline = true)
+            .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`);
+            
+        message.channel.sendEmbed(ME868);
     }
 }
 
