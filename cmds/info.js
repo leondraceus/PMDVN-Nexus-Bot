@@ -1321,7 +1321,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Luxray`)
             .addField(`Tên Facebook:`,`Nguyễn Hiền`)
-            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`14/5`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
