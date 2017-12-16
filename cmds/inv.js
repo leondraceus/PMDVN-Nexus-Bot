@@ -281,7 +281,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Rainbow Wing`,`Một chiếc lông vũ bảy sắc cầu vồng lấp lánh.`)
             .addField(`Red Balloon`,`Một quả bóng bay màu đỏ.`)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
-            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn. Nó dùng để làm gì?`)
+            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
             .setFooter(`Trang trước (.inv ME509--2) | Trang sau (.inv ME509--4)`);
             
         message.channel.sendEmbed(ME509);
@@ -352,7 +352,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x16)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Bulbasaur Doll`,`Một con búp bê hình Pokémon Bulbasaur.`)
-            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`);
+            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
+            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`);
             
         message.channel.sendEmbed(ME401);
     }
@@ -382,7 +383,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`2956 `,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
-            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn. Nó dùng để làm gì?`)
+            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
             .setFooter(`Trang trước (.inv ME563)`);
             
         message.channel.sendEmbed(ME563);
@@ -987,7 +988,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME640** | **.i
             .addField(`Poké:`,`2299`,inline = true)
             .addField(`Spooky Token:`,`0`,inline = true)
             .addField(`Pichu Doll`,`Một con búp bê hình Pokémon Pichu.`)
-            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn. Nó dùng để làm gì?`)
+            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
             .setFooter(`Trang trước (.inv ME011)`);
 
         message.channel.sendEmbed(ME011);
