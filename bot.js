@@ -71,7 +71,7 @@ bot.on('message', (message) => {
 });
 
 bot.on('guildMemberAdd', member => {
-    member.send("Chào mừng bạn đến PMDVN World, Server chat chính thức của Pokémon Mystery Dungeon Vietnam! Vui lòng đọc kĩ <#388258800697737216> trước khi tham gia chat! Mong bạn sẽ có khoảng thời gian vui vẻ tại nơi này!");
+    member.send("Chào mừng bạn đến PMDVN World, Server Chat chính thức của Pokémon Mystery Dungeon Vietnam! Vui lòng khai báo **Tên Facebook**, **Pokémon bạn hoá thân trên Group** tại <#388210942908956682> và đọc kĩ <#388258800697737216> trước khi tham gia chat! Mong bạn sẽ có khoảng thời gian vui vẻ tại nơi này!");
 });
   
 
