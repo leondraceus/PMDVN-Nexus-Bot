@@ -1385,7 +1385,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`295`,inline = true)
             .addField(`Spooky Token:`,`40`,inline = true)
-            .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`);
+            .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
+            .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`);
             
         message.channel.sendEmbed(ME868);
     }
