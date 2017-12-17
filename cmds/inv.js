@@ -332,7 +332,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`70`,inline = true)
+            .addField(`Poké:`,`0`,inline = true)
             .addField(`Spooky Token:`,`35`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x16)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
