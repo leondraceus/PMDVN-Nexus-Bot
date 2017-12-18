@@ -1412,7 +1412,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .addField(`Poké:`,`0`,inline = true)
             .addField(`Spooky Token:`,`0`,inline = true)
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`);
-        .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`);
+            .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`);
             
         message.channel.sendEmbed(ME819);
     }
