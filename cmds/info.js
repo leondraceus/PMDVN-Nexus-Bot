@@ -185,8 +185,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Guild:`,`---`);
         var ACME044 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event: PokéLand Wonder Library (18/7 -> 1/8)`)
-            .addField(`Đóng góp truyện tích cực cho The Great Archive`);
+            .addField(`Tổ chức Member Event:`,`PokéLand Wonder Library (18/7 -> 1/8)`)
+            .addField(`Đóng góp truyện tích cực cho The Great Archive`,`___`);
             
         message.channel.sendEmbed(ME044);
         message.channel.sendEmbed(ACME044);
@@ -240,8 +240,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
                 .addField(`Guild:`,`---`);
         var ACME786 = new Discord.RichEmbed().setColor(`#5CE05F`)
                 .setTitle(`- THÀNH TÍCH -`)
-                .addField(`Sky Ruins Expedition: Giải nhất`)
-                .addField(`Đăng bài, hoạt động tích cực trên Group`);
+                .addField(`Sky Ruins Expedition:`,`Giải nhất`)
+                .addField(`Đăng bài, hoạt động tích cực trên Group`,`___`);
 
         message.channel.sendEmbed(ME786);
         message.channel.sendEmbed(ACME786);
