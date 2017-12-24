@@ -3,7 +3,7 @@ module.exports.run = async (pw, message, args) => {
        return Math.floor(Math.random() * (max - min + 1)) + min;
     }
     var roll = Math.floor(Math.random() * 100) +1;
-    var sf = Math.floor(Math.random() * 51) +20;
+    var sf = Math.floor(Math.random() * 51) +10;
     if (roll == 86 || roll == 80)
     message.reply("bạn nhận được 1 Articuno Doll!");
     else if (roll == 53 || roll == 63 || roll == 51 || roll == 70 || roll == 23 || roll == 62 || roll == 64)
