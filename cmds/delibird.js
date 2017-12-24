@@ -22,7 +22,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn nhận được 1 Deli-Ticket!");
     else if (roll == 45 || roll == 57)
     message.reply("bạn nhận được 1 Shiny Charm!");
-    else if (roll == 54 || roll == 2)
+    else if (roll == 54)
     message.reply("bạn nhận được 1 Transform Capsule!");
     else if (roll == 84 || roll == 38  || roll == 11 || roll == 82 || roll == 13 || roll == 95 || roll == 4 || roll == 31 || roll == 78 || roll == 42 || roll == 67 || roll == 7 || roll == 98 || roll == 85)
     message.reply("bạn nhận được " + sf + " <:snowflake1:388938310602457089>");
