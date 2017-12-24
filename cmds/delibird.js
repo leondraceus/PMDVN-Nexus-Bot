@@ -4,21 +4,21 @@ module.exports.run = async (pw, message, args) => {
     }
     var roll = Math.floor(Math.random() * 100) +1;
     var sf = Math.floor(Math.random() * 21) +10;
-    if (roll == 86 || roll == 80)
+    if (roll == 86)
     message.reply("bạn nhận được 1 Articuno Doll!");
-    else if (roll == 53 || roll == 63 || roll == 51 || roll == 70 || roll == 23 || roll == 62 || roll == 64)
+    else if (roll == 53 || roll == 63 || roll == 51 || roll == 70 || roll == 23 || roll == 62)
     message.reply("bạn nhận được 1 Snover Doll!");
-    else if (roll == 96 || roll == 24 || roll == 39 || roll == 55 || roll == 50 || roll == 92 || roll == 99)
+    else if (roll == 96 || roll == 24 || roll == 39 || roll == 55 || roll == 50 || roll == 92)
     message.reply("bạn nhận được 1 Cubchoo Doll!");
-    else if (roll == 100 || roll == 20 || roll == 94 || roll == 66 || roll == 75 || roll == 79 || roll == 83)
+    else if (roll == 100 || roll == 20 || roll == 94 || roll == 66 || roll == 75 || roll == 79)
     message.reply("bạn nhận được 1 Deerling Doll! *(Form tuỳ chọn)*");
-    else if (roll == 17 || roll == 36 || roll == 28 || roll == 6 || roll == 29 || roll == 88 || roll == 1)
+    else if (roll == 17 || roll == 36 || roll == 28 || roll == 6 || roll == 29 || roll == 88)
     message.reply("bạn nhận được 1 Delibird Doll!");
-    else if (roll == 49 || roll == 52 || roll == 16 || roll == 97)
+    else if (roll == 49 || roll == 52 || roll == 16)
     message.reply("bạn nhận được 1 Glaceon Doll!");
-    else if (roll == 3 || roll == 81 || roll == 89 || roll == 41 || roll == 58 || roll == 33)
+    else if (roll == 3 || roll == 81 || roll == 89 || roll == 41 || roll == 58)
     message.reply("bạn nhận được 1 Frozen Apple!");
-    else if (roll == 43 || roll == 34 || roll == 47 || roll == 8 || roll == 22 || roll == 60 || roll == 59 || roll == 15 || roll == 56 || roll == 35)
+    else if (roll == 43 || roll == 34 || roll == 47)
     message.reply("bạn nhận được 1 Deli-Ticket!");
     else if (roll == 45)
     message.reply("bạn nhận được 1 Shiny Charm!");
