@@ -182,10 +182,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`26/10`)
             .addField(`Cấp bậc:`,`Contributor`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Tổ chức Event: PokéLand Wonder Library (18/7 -> 1/8)`);
+            .addField(`Guild:`,`---`);
+        var ACME044 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Tổ chức Member Event: PokéLand Wonder Library (18/7 -> 1/8)`)
+            .addField(`Đóng góp truyện tích cực cho The Great Archive`);
             
         message.channel.sendEmbed(ME044);
+        message.channel.sendEmbed(ACME044);
     }
 
     /// Pikachu (ME061) ///
@@ -217,7 +221,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`25/6`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Đăng bài, hoạt động tích cực trên Group`);
         
         message.channel.sendEmbed(ME642);
     }
@@ -233,10 +237,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
                 .addField(`Giới tính:`,`Nam`)
                 .addField(`Ngày sinh:`,`9/1`)
                 .addField(`Cấp bậc:`,`Contributor`)
-                .addField(`Guild:`,`---`)
-                .addField(`Thành tích:`,`Sky Ruins Expedition: Giải nhất`);
+                .addField(`Guild:`,`---`);
+        var ACME786 = new Discord.RichEmbed().setColor(`#5CE05F`)
+                .setTitle(`- THÀNH TÍCH -`)
+                .addField(`Sky Ruins Expedition: Giải nhất`)
+                .addField(`Đăng bài, hoạt động tích cực trên Group`);
 
         message.channel.sendEmbed(ME786);
+        message.channel.sendEmbed(ACME786);
     }
 
 ////////////////   MEMBER   ////////////////
@@ -308,7 +316,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`24/10`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Tổ chức Event: #teamcạpcạp vs #teambắtcạpcạprong (26/9 -> 5/10)`);
+            .addField(`Thành tích:`,`Tổ chức Member Event: #teamcạpcạp vs #teambắtcạpcạprong (26/9 -> 5/10)`);
             
         message.channel.sendEmbed(ME264);
     }
@@ -476,7 +484,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.
             .addField(`Ngày sinh:`,`12/12`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Tổ chức Event: Spinda's Cooking Contest (9/7 -> 16/7)`);
+            .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7 -> 16/7)`);
             
         message.channel.sendEmbed(ME329);
     }
