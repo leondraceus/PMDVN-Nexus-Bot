@@ -20,7 +20,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn nhận được 1 Frozen Apple!");
     else if (roll == 43 || roll == 34 || roll == 47 || roll == 8 || roll == 22 || roll == 60 || roll == 59 || roll == 15 || roll == 56 || roll == 35)
     message.reply("bạn nhận được 1 Deli-Ticket!");
-    else if (roll == 45 || roll == 57)
+    else if (roll == 45)
     message.reply("bạn nhận được 1 Shiny Charm!");
     else if (roll == 54)
     message.reply("bạn nhận được 1 Transform Capsule!");
