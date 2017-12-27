@@ -408,7 +408,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
     }
 
     if(args[0]==="ME185--2"| args[0]==="me185--2" | args[0]==="Me185--2"){
-        var ME185 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME185 = new Discord.RichEmbed().setColor(`#CD90BF`)
             .setTitle(`- KHO ĐỒ (2/2) -`).setImage(`https://i.imgur.com/T47qRfC.gif`)
             .setAuthor(`Fennekin/Quang Phú`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e1/Fennekin1.png/revision/latest/scale-to-width-down/100?cb=20170617053156`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
