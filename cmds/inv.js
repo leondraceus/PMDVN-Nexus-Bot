@@ -1450,6 +1450,19 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             
         message.channel.sendEmbed(ME460);
     }
+
+    /// Ampharos (ME053) ///
+    if(args[0]==="ME053"| args[0]==="me053" | args[0]==="Me053" | args[0]==="Ampharos" | args[0]==="ampharos"){
+        var ME053 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Ampharos/Phạm Nguyên`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f5/Ampharos.png/revision/latest/scale-to-width-down/100?cb=20171227082104`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Spooky Token:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME053);
+    }
 }
 
 module.exports.help = {
