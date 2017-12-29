@@ -295,12 +295,32 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`555`,inline = true)
             .addField(`Spooky Token:`,`202`,inline = true)
+            .addField(`Snowflake:`,`6`,inline = true)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Heart Scale (x2)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
             .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`)
             .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
-            .addField(`Minun Doll`,`Một con búp bê hình Pokémon Minun.`);
+            .setFooter(`Trang sau (.inv ME264--2)`);
+            
+        message.channel.sendEmbed(ME264);
+    }
+
+    
+    if(args[0]==="ME264--2"| args[0]==="me264--2" | args[0]==="Me264--2"){
+        var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/67/Victini2.png/revision/latest/scale-to-width-down/100?cb=20161119021011`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`555`,inline = true)
+            .addField(`Spooky Token:`,`202`,inline = true)
+            .addField(`Snowflake:`,`6`,inline = true)
+            .addField(`Minun Doll`,`Một con búp bê hình Pokémon Minun.`)
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
+            .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
+            .setFooter(`Trang trước (.inv ME264)`);
             
         message.channel.sendEmbed(ME264);
     }
