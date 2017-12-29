@@ -1150,9 +1150,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
     if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Dratini" | args[0]==="dratini"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor (`Dratini/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/4c/Dratini1.png/revision/latest/scale-to-width-down/100?cb=20170904030420`)
+            .setAuthor (`Dratini/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e6/Dratini_%28shiny%29.png/revision/latest?cb=20171227073319`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Dratini`)
+            .addField(`Chủng loài:`,`Dratini <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Ngọc Bảo`)
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`14/1`)
