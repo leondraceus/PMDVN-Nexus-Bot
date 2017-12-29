@@ -1071,9 +1071,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`390`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
+            .addField(`Snowflake:`,`142`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
-            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`);
+            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
+            .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`);
 
         message.channel.sendEmbed(ME330);
     }
