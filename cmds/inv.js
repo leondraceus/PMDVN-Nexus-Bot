@@ -911,7 +911,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .addField(`Minun Doll`,`Một con búp bê hình Pokémon Minun.`)
             .addField(`Salt (x9)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
-            .addField(`Vanillite Cone`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`);
+            .addField(`Vanillite Cone (x1)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`);
             
         message.channel.sendEmbed(ME240);
     }
