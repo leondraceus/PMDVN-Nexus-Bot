@@ -901,7 +901,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
     if(args[0]==="ME240"| args[0]==="Me240" | args[0]==="me240"| args[0]==="Dewott" | args[0]==="dewott"){
         var ME240 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
-            .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b7/Dewott.png/revision/latest/scale-to-width-down/100?cb=20170904025318`)
+            .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`150`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
@@ -909,7 +909,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .addField(`Mudkip Doll`,`Một con búp bê hình Pokémon Mudkip.`)
             .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
             .addField(`Minun Doll`,`Một con búp bê hình Pokémon Minun.`)
-            .addField(`Salt (x9)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`);
+            .addField(`Salt (x9)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+            .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
+            .addField(`Vanillite Cone`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`);
             
         message.channel.sendEmbed(ME240);
     }
