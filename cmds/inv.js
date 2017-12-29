@@ -225,10 +225,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Victini (ME509) ///
     if(args[0]==="ME509"| args[0]==="me509" | args[0]==="Me509"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 1/4) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 1/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1346`,inline = true)
+            .addField(`Poké:`,`1491`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Sea Dew`,`Một loại nước đặc biệt được lấy từ loài Pokémon Phione sống sâu dưới đại dương. Nó có tác dụng chữa bệnh và làm giảm cơn sốt cho Pokémon.`)
             .addField(`Shaymin  Doll`,`Một con búp bê hình Pokémon Shaymin .`)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
@@ -241,10 +242,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--2"| args[0]==="me509--2" | args[0]==="Me509--2"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 2/4) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 2/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1346`,inline = true)
+            .addField(`Poké:`,`1491`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Salt (x999)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`)
             .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
@@ -257,10 +259,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--3"| args[0]==="me509--3" | args[0]==="Me509--3"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 3/4) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 3/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1346`,inline = true)
+            .addField(`Poké:`,`1491`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Marshadow Doll`,`Một con búp bê hình Pokémon Marshadow.`)
             .addField(`Rainbow Wing`,`Một chiếc lông vũ bảy sắc cầu vồng lấp lánh.`)
             .addField(`Red Balloon`,`Một quả bóng bay màu đỏ.`)
@@ -273,16 +276,33 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--4"| args[0]==="me509--4" | args[0]==="Me509--4"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 4/4) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 4/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1346`,inline = true)
+            .addField(`Poké:`,`1491`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Gible Fang`,`Một chiếc răng của Pokémon Gible.`)
             .addField(`Never-Melt Ice`,`Một cục băng có thể bật lại sức nóng, khiến cho nó không thể bị tan ra.`)
             .addField(`Vanillite Cone (x1)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`)
             .addField(`Ice Diamond`,`Một viên kim cương lấp lánh có lớp băng phủ bên ngoài.`)
             .addField(`Frozen Apple`,`Một quả táo được ướp lạnh hoàn toàn rất hiếm và đặc biệt. Ăn quả táo này vào sẽ có cảm giác buốt lạnh toàn thân.`)
-            .setFooter(`Trang trước (.inv ME509--3)`);
+            .setFooter(`Trang trước (.inv ME509--3) | Trang sau (.inv ME509--5)`);
+            
+        message.channel.sendEmbed(ME509);
+    }
+    
+    if(args[0]==="ME509--5"| args[0]==="me509--5" | args[0]==="Me509--5"){
+        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 4/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`1491`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
+            .addField(`Frozen Apple`,`Một quả táo được ướp lạnh hoàn toàn rất hiếm và đặc biệt. Ăn quả táo này vào sẽ có cảm giác buốt lạnh toàn thân.`)
+            .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
+            .addField(`Green Balloon`,`Một quả bóng bay màu xanh lá.`)
+            .setFooter(`Trang trước (.inv ME509--4)`);
             
         message.channel.sendEmbed(ME509);
     }
@@ -338,6 +358,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`0`,inline = true)
             .addField(`Spooky Token:`,`35`,inline = true)
+            .addField(`Snowflake:`,`8`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x16)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Bulbasaur Doll`,`Một con búp bê hình Pokémon Bulbasaur.`)
@@ -355,7 +376,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`0`,inline = true)
             .addField(`Spooky Token:`,`35`,inline = true)
+            .addField(`Snowflake:`,`8`,inline = true)
             .addField(`Jirachi Doll`,`Một con búp bê hình Pokémon Jirachi.`)
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
             .setFooter(`Trang trước (.inv ME401)`);
             
         message.channel.sendEmbed(ME401);
@@ -1098,10 +1121,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Mega Sableye/Trần Ngọc Phi Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Megasableye_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171214121620`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1224`,inline = true)
+            .addField(`Poké:`,`1399`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x1000)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
-            .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`);
+            .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
+            .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
+            .addField(`Frozen Apple`,`Một quả táo được ướp lạnh hoàn toàn rất hiếm và đặc biệt. Ăn quả táo này vào sẽ có cảm giác buốt lạnh toàn thân.`);
 
         message.channel.sendEmbed(ME456);
     }
@@ -1386,10 +1411,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`685`,inline = true)
+            .addField(`Poké:`,`1140`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
-            .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`);
+            .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`);
             
         message.channel.sendEmbed(ME868);
     }
