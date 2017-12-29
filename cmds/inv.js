@@ -290,7 +290,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Victini (ME264) ///
     if(args[0]==="ME264"| args[0]==="me264" | args[0]==="Me264"){
         var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
+            .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/67/Victini2.png/revision/latest/scale-to-width-down/100?cb=20161119021011`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`555`,inline = true)
@@ -309,7 +309,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME264--2"| args[0]==="me264--2" | args[0]==="Me264--2"){
         var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
+            .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/67/Victini2.png/revision/latest/scale-to-width-down/100?cb=20161119021011`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`555`,inline = true)
@@ -517,7 +517,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME028** | **.i
     /// Lilligant (ME571) ///
     if(args[0]==="ME571"| args[0]==="me571" | args[0]==="Me571" | args[0]==="Lilligant" | args[0]==="lilligant"){
         var ME571 = new Discord.RichEmbed().setColor(`#FDFD9C`)
-            .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/kT71Iwl.gif`)
+            .setTitle(`- KHO ĐỒ (1/2) -`).setImage(`https://i.imgur.com/kT71Iwl.gif`)
             .setAuthor(`Lilligant/Lein Cương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Lilligant_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171029142911`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`175`,inline = true)
@@ -525,7 +525,24 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME028** | **.i
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Marshadow Doll`,`Một con búp bê hình Pokémon Marshadow.`)
             .addField(`Deerling Doll (Spring)`,`Một con búp bê hình Pokémon Deerling Doll (Spring Form).`)
-            .addField(`Vanillite Cone (x2)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`);
+            .addField(`Vanillite Cone (x2)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`)
+            .setFooter(`Trang sau (.inv ME571--2)`);
+
+        message.channel.sendEmbed(ME571);
+    }
+    
+    if(args[0]==="ME571--2"| args[0]==="me571--2" | args[0]==="Me571--2"){
+        var ME571 = new Discord.RichEmbed().setColor(`#FDFD9C`)
+            .setTitle(`- KHO ĐỒ (2/2) -`).setImage(`https://i.imgur.com/kT71Iwl.gif`)
+            .setAuthor(`Lilligant/Lein Cương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Lilligant_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171029142911`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`175`,inline = true)
+            .addField(`Deerling Doll (Summer)`,`Một con búp bê hình Pokémon Deerling (Summer Form).`)
+            .addField(`Deerling Doll (Autumn)`,`Một con búp bê hình Pokémon Deerling (Autumn  Form).`)
+            .addField(`Deerling Doll (Winter)`,`Một con búp bê hình Pokémon Deerling (Winter  Form).`)
+            .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
+            .addField(`Deerling Doll (Spring)`,`Một con búp bê hình Pokémon Deerling (Spring  Form).`)
+            .setFooter(`Trang trước (.inv ME571)`);
             
         message.channel.sendEmbed(ME571);
     }
