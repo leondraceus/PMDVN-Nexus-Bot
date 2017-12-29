@@ -746,17 +746,20 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Lugia/Daigo Metagurosu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a7/Lugia.png/revision/latest/scale-to-width-down/100?cb=20160820013937`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`490`,inline = true)
+            .addField(`Poké:`,`610`,inline = true)
+            .addField(`Snowflake:`,`10`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x1000)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
-            .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`);
+            .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
+            .addField(`Transform Capsule`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác.`)
+            .addField(`Totodile Doll`,`Một con búp bê hình Pokémon Totodile.`);
 
         message.channel.sendEmbed(ME411);
     }
 
     // Sharpedo (ME524) ///
     if(args[0]==="ME524"| args[0]==="Me524" | args[0]==="me524"){
-        var ME411 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME524 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Sharpedo/Vũ Ân Mỹ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fc/Sharpedo1.png/revision/latest/scale-to-width-down/100?cb=20171119024849`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -764,7 +767,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x69)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`);
 
-        message.channel.sendEmbed(ME411);
+        message.channel.sendEmbed(ME524);
     }
 
     // Mudkip (ME725) ///
