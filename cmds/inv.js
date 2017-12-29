@@ -1360,8 +1360,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME037** | **.i
             .setAuthor (`Arcanine/Khương Trần Duy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/50/Arcanine.png/revision/latest/scale-to-width-down/100?cb=20171202161640`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`400`,inline = true)
+            .addField(`Snowflake:`,`110`,inline = true)
             .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
-            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`);
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
+            .addField(`Snowver Doll`,`Một con búp bê hình Pokémon Snowver.`)
+            .addField(`Deerling Doll (Winter)`,`Một con búp bê hình Pokémon Deerling (Winter Form).`);
 
         message.channel.sendEmbed(ME503);
     }
