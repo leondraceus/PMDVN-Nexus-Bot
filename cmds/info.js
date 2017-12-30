@@ -344,7 +344,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.
     }
     
     /// Torterra (ME563) ///
-    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Torterra" | args[0]==="Torterra"){
+    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Torterra" | args[0]==="torterra"){
         var ME563 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
