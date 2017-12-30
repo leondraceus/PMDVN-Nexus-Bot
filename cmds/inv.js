@@ -403,7 +403,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`6471 `,inline = true)
+            .addField(`Poké:`,`3971 `,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
@@ -420,13 +420,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`6471 `,inline = true)
+            .addField(`Poké:`,`3971 `,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
             .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
             .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
             .addField(`Turtwig Doll`,`Một con búp bê hình Pokémon Turtwig.`)
             .addField(`Piplup Doll`,`Một con búp bê hình Pokémon Piplup.`)
             .addField(`Pachirisu Doll`,`Một con búp bê hình Pokémon Pachirisu.`)
+            .addField(`Transform Capsule`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác.`)
             .setFooter(`Trang trước (.inv ME563)`);
             
         message.channel.sendEmbed(ME563);
