@@ -100,7 +100,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
             .addField(`Salt (x69)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Rainbow Wing`,`Một chiếc lông vũ bảy sắc cầu vồng lấp lánh.`)
-            .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`);
+            .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`)
+            .addField(`Cyndaquil Doll`,`Một con búp bê hình Pokémon Cyndaquil.`);
             
         message.channel.sendEmbed(AD006);
     }
