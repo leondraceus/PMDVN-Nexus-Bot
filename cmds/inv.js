@@ -238,10 +238,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Victini (ME509) ///
     if(args[0]==="ME509"| args[0]==="me509" | args[0]==="Me509"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 1/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 1/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1491`,inline = true)
+            .addField(`Poké:`,`1091`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Sea Dew`,`Một loại nước đặc biệt được lấy từ loài Pokémon Phione sống sâu dưới đại dương. Nó có tác dụng chữa bệnh và làm giảm cơn sốt cho Pokémon.`)
             .addField(`Shaymin  Doll`,`Một con búp bê hình Pokémon Shaymin .`)
@@ -255,7 +255,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--2"| args[0]==="me509--2" | args[0]==="Me509--2"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 2/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 2/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`1491`,inline = true)
@@ -272,7 +272,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--3"| args[0]==="me509--3" | args[0]==="Me509--3"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 3/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 3/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`1491`,inline = true)
@@ -289,7 +289,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--4"| args[0]==="me509--4" | args[0]==="Me509--4"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 4/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 4/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`1491`,inline = true)
@@ -306,7 +306,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--5"| args[0]==="me509--5" | args[0]==="Me509--5"){
         var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 5/5) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 5/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`1491`,inline = true)
@@ -315,7 +315,21 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Frozen Apple`,`Một quả táo được ướp lạnh hoàn toàn rất hiếm và đặc biệt. Ăn quả táo này vào sẽ có cảm giác buốt lạnh toàn thân.`)
             .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
             .addField(`Green Balloon`,`Một quả bóng bay màu xanh lá.`)
-            .setFooter(`Trang trước (.inv ME509--4)`);
+            .addField(`Blue Balloon`,`Một quả bóng bay màu xanh xanh dương.`)
+            .setFooter(`Trang trước (.inv ME509--4) | Trang sau (.inv ME509--6)`);
+            
+        message.channel.sendEmbed(ME509);
+    }
+    
+    if(args[0]==="ME509--6"| args[0]==="me509--6" | args[0]==="Me509--6"){
+        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 6/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
+            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`1491`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Yellow Balloon`,`Một quả bóng bay màu xanh vàng.`)
+            .setFooter(`Trang trước (.inv ME509--5)`);
             
         message.channel.sendEmbed(ME509);
     }
@@ -1425,7 +1439,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME037** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Luxray/Nguyễn Hiền`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/ad/Luxray1.png/revision/latest/scale-to-width-down/100?cb=20170710064348`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Poké:`,`310`,inline = true)
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
 
         message.channel.sendEmbed(ME978);
