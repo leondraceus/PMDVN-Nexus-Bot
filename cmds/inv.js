@@ -951,9 +951,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Lucario/Đạt Quốc Trương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d0/Lucario.png/revision/latest/scale-to-width-down/100?cb=20171028171549`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`470`,inline = true)
+            .addField(`Poké:`,`490`,inline = true)
             .addField(`Spooky Token:`,`107`,inline = true)
-            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`);
+            .addField(`Snowflake:`,`38`,inline = true)
+            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
+            .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
+            .addField(`Deerling Doll (Winter)`,`Một con búp bê hình Pokémon Deerling (Winter Form).`);
 
         message.channel.sendEmbed(ME300);
     }
