@@ -618,13 +618,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
         message.channel.sendEmbed(ME427);
     }
 
-    // Lugia (ME411) ///
-    if(args[0]==="ME411"| args[0]==="me411" | args[0]==="Me411" | args[0]==="Lugia" | args[0]==="lugia"){
+    // Silvally (ME411) ///
+    if(args[0]==="ME411"| args[0]==="me411" | args[0]==="Me411" | args[0]==="Silvally" | args[0]==="silvally"){
         var ME411 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor (`Lugia/Daigo Metagurosu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a7/Lugia.png/revision/latest/scale-to-width-down/100?cb=20160820013937`)
+            .setAuthor (`Silvally/Daigo Metagurosu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Silvally.png/revision/latest/scale-to-width-down/100?cb=20171230061609`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Lugia`)
+            .addField(`Chủng loài:`,`Silvally`)
             .addField(`Tên Facebook:`,`Daigo Metagurosu`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`4/11`)
