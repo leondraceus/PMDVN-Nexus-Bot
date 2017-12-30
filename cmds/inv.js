@@ -134,19 +134,19 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Salt (x69)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Rainbow Wing`,`Một chiếc lông vũ bảy sắc cầu vồng lấp lánh.`)
             .addField(`Blue Balloon`,`Một quả bóng bay màu lam.`)
-            .setFooter(`Trang sau (.inv ME509--2)`);
+            .setFooter(`Trang sau (.inv AD008--2)`);
             
         message.channel.sendEmbed(AD008);
     }
 
-    if(args[0]==="AD008"| args[0]==="ad008" | args[0]==="Ad008" | args[0]==="Gible" | args[0]==="gible"){
+    if(args[0]==="AD008--2"| args[0]==="ad008--2" | args[0]==="Ad008--2"){
         var AD008 = new Discord.RichEmbed().setColor(`#E7462B`)
             .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/xadjdAw.gif`)
             .setAuthor(`Gible/Leon Draceus`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/37/Gible.png/revision/latest/scale-to-width-down/100?cb=20160827072330`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Piplup Doll`,`Một con búp bê hình Pokémon Piplup.`)
-            .setFooter(`Trang sau (.inv ME509--2)`);
+            .setFooter(`Trang sau (.inv AD008)`);
             
         message.channel.sendEmbed(AD008);
     }
