@@ -1484,13 +1484,25 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
     /// Ampharos (ME053) ///
     if(args[0]==="ME053"| args[0]==="me053" | args[0]==="Me053" | args[0]==="Ampharos" | args[0]==="ampharos"){
         var ME053 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
+            .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Ampharos/Phạm Nguyên`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f5/Ampharos.png/revision/latest/scale-to-width-down/100?cb=20171227082104`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`0`,inline = true)
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME053);
+    }
+
+    /// Zorua (ME134) ///
+    if(args[0]==="ME134"| args[0]==="me134" | args[0]==="Me134" | args[0]==="Zorua" | args[0]==="zorua"){
+        var ME134 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Zorua/Quỷ Lệ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/ff/Zorua.png/revision/latest/scale-to-width-down/100?cb=20160822060620`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME134);
     }
 }
 

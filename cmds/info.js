@@ -1444,6 +1444,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             
         message.channel.sendEmbed(ME053);
     }
+
+    /// Zorua (ME134) ///
+    if(args[0]==="ME134"| args[0]==="me134" | args[0]==="Me134" | args[0]==="Zorua" | args[0]==="zorua"){
+        var ME134 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Zorua/Quỷ Lệ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/ff/Zorua.png/revision/latest/scale-to-width-down/100?cb=20160822060620`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Zorua`)
+            .addField(`Tên Facebook:`,`Quỷ Lệ`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`2/12`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME134);
+    }
 }
 
 module.exports.help = {
