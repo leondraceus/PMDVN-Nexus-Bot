@@ -385,7 +385,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`0`,inline = true)
             .addField(`Spooky Token:`,`35`,inline = true)
-            .addField(`Snowflake:`,`8`,inline = true)
+            .addField(`Snowflake:`,`13`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x16)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Bulbasaur Doll`,`Một con búp bê hình Pokémon Bulbasaur.`)
@@ -403,7 +403,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`0`,inline = true)
             .addField(`Spooky Token:`,`35`,inline = true)
-            .addField(`Snowflake:`,`8`,inline = true)
+            .addField(`Snowflake:`,`13`,inline = true)
             .addField(`Jirachi Doll`,`Một con búp bê hình Pokémon Jirachi.`)
             .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
             .setFooter(`Trang trước (.inv ME401)`);
@@ -1505,7 +1505,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setAuthor(`Cutiefly/Bùi Nhật Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/76/Cutiefly.png/revision/latest/scale-to-width-down/100?cb=20170904043748`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`10`,inline = true)
-            .addField(`Snowflake:`,`28`,inline = true)
+            .addField(`Snowflake:`,`33`,inline = true)
             .addField(`Vanillite Cone (x1)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`)
             .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
             .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`);
