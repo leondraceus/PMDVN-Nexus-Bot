@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-    bot.user.setGame('🎄Pokémas Event🎄')
+    bot.user.setGame('countdown to 2018')
 });
 
 bot.commands = new Discord.Collection();
