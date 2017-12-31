@@ -295,7 +295,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Guild:`,`---`)
         var ACME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7 -> 16/7)`);
+            .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7 -> 16/7)`)
             .addField(`Pokémas:`,`Giải ba (Tour SD)`);
             
         message.channel.sendEmbed(ME329);
