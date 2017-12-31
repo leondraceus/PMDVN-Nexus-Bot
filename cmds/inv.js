@@ -211,6 +211,109 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             
         message.channel.sendEmbed(ME786);
     }
+    
+    /// Leafeon (ME401) ///
+    if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401" | args[0]==="Leafeon" | args[0]==="leafeon"){
+        var ME401 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ (1/2) -`)
+            .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Spooky Token:`,`35`,inline = true)
+            .addField(`Snowflake:`,`13`,inline = true)
+            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
+            .addField(`Salt (x16)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+            .addField(`Bulbasaur Doll`,`Một con búp bê hình Pokémon Bulbasaur.`)
+            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
+            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
+            .setFooter(`Trang sau (.inv ME401--2)`);
+            
+        message.channel.sendEmbed(ME401);
+    }
+
+    if(args[0]==="ME401--2"| args[0]==="me401--2" | args[0]==="Me401--2"){
+        var ME401 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ (2/2) -`)
+            .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Spooky Token:`,`35`,inline = true)
+            .addField(`Snowflake:`,`13`,inline = true)
+            .addField(`Jirachi Doll`,`Một con búp bê hình Pokémon Jirachi.`)
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
+            .setFooter(`Trang trước (.inv ME401)`);
+            
+        message.channel.sendEmbed(ME401);
+    }
+    
+    /// Torterra (ME563) ///
+    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Torterra" | args[0]==="torterra"){
+        var ME401 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ (1/2) -`)
+            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`3971 `,inline = true)
+            .addField(`Spooky Token:`,`60`,inline = true)
+            .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
+            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
+            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
+            .addField(`Chikorita Doll`,`Một con búp bê hình Pokémon Chikorita.`)
+            .addField(`Mega Altaria Doll`,`Một con búp bê hình Pokémon Mega Altaria.`)
+            .setFooter(`Trang sau (.inv ME563--2)`);
+            
+        message.channel.sendEmbed(ME563);
+    }
+    
+    if(args[0]==="ME563--2"| args[0]==="me563--2" | args[0]==="Me563--2"){
+        var ME401 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ (2/2) -`)
+            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`3971 `,inline = true)
+            .addField(`Spooky Token:`,`60`,inline = true)
+            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
+            .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
+            .addField(`Turtwig Doll`,`Một con búp bê hình Pokémon Turtwig.`)
+            .addField(`Piplup Doll`,`Một con búp bê hình Pokémon Piplup.`)
+            .addField(`Pachirisu Doll`,`Một con búp bê hình Pokémon Pachirisu.`)
+            .addField(`Transform Capsule`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác.`)
+            .setFooter(`Trang trước (.inv ME563)`);
+            
+        message.channel.sendEmbed(ME563);
+    }
+
+    /// Spinda (ME329) ///
+    if(args[0]==="ME329"| args[0]==="me329" | args[0]==="Me329" | args[0]==="Spinda" | args[0]==="spinda"){
+        var ME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ (1/2) -`)
+            .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`1940`,inline = true)
+            .addField(`Spooky Token:`,`67`,inline = true)
+            .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
+            .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
+            .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`)
+            .addField(`Tiny Mushroom`,`Một chiếc nấm nhỏ và hiếm, có thể dùng để chế biến thức ăn.`)
+            .addField(`Salt (x1000)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+            .setFooter(`Trang sau (.inv ME329--2)`);
+            
+        message.channel.sendEmbed(ME329);
+    }
+    
+    if(args[0]==="ME329--2"| args[0]==="me329--2" | args[0]==="Me329--2"){
+        var ME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ (2/2) -`)
+            .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`1940`,inline = true)
+            .addField(`Spooky Token:`,`67`,inline = true)
+            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
+            .addField(`Frozen Apple`,`Một quả táo được ướp lạnh hoàn toàn rất hiếm và đặc biệt. Ăn quả táo này vào sẽ có cảm giác buốt lạnh toàn thân.`)
+            .addField(`Deerling Doll (Autumn)`,`Một con búp bê hình Pokémon Deerling (Autumn Form).`)
+            .setFooter(`Trang trước (.inv ME329)`);
+            
+        message.channel.sendEmbed(ME329);
+    }
 
 ////////////////   MEMBER   ////////////////
 
@@ -378,76 +481,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     else if(args[0]==="Victini" | args[0]==="victini"){
         message.channel.sendMessage(`**Hiện tại có 2 Victini**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.inv ME264**`)
-    }
-
-    /// Leafeon (ME401) ///
-    if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401" | args[0]==="Leafeon" | args[0]==="leafeon"){
-        var ME401 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (1/2) -`)
-            .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`0`,inline = true)
-            .addField(`Spooky Token:`,`35`,inline = true)
-            .addField(`Snowflake:`,`13`,inline = true)
-            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
-            .addField(`Salt (x16)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
-            .addField(`Bulbasaur Doll`,`Một con búp bê hình Pokémon Bulbasaur.`)
-            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
-            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
-            .setFooter(`Trang sau (.inv ME401--2)`);
-            
-        message.channel.sendEmbed(ME401);
-    }
-
-    if(args[0]==="ME401--2"| args[0]==="me401--2" | args[0]==="Me401--2"){
-        var ME401 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (2/2) -`)
-            .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`0`,inline = true)
-            .addField(`Spooky Token:`,`35`,inline = true)
-            .addField(`Snowflake:`,`13`,inline = true)
-            .addField(`Jirachi Doll`,`Một con búp bê hình Pokémon Jirachi.`)
-            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
-            .setFooter(`Trang trước (.inv ME401)`);
-            
-        message.channel.sendEmbed(ME401);
-    }
-    
-    /// Torterra (ME563) ///
-    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Torterra" | args[0]==="torterra"){
-        var ME563 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (1/2) -`)
-            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3971 `,inline = true)
-            .addField(`Spooky Token:`,`60`,inline = true)
-            .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
-            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
-            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
-            .addField(`Chikorita Doll`,`Một con búp bê hình Pokémon Chikorita.`)
-            .addField(`Mega Altaria Doll`,`Một con búp bê hình Pokémon Mega Altaria.`)
-            .setFooter(`Trang sau (.inv ME563--2)`);
-            
-        message.channel.sendEmbed(ME563);
-    }
-    
-    if(args[0]==="ME563--2"| args[0]==="me563--2" | args[0]==="Me563--2"){
-        var ME563 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (2/2) -`)
-            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3971 `,inline = true)
-            .addField(`Spooky Token:`,`60`,inline = true)
-            .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
-            .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
-            .addField(`Turtwig Doll`,`Một con búp bê hình Pokémon Turtwig.`)
-            .addField(`Piplup Doll`,`Một con búp bê hình Pokémon Piplup.`)
-            .addField(`Pachirisu Doll`,`Một con búp bê hình Pokémon Pachirisu.`)
-            .addField(`Transform Capsule`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác.`)
-            .setFooter(`Trang trước (.inv ME563)`);
-            
-        message.channel.sendEmbed(ME563);
     }
     
     /// Fennekin (ME185) ///
@@ -632,40 +665,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME028** | **.i
     else if(args[0]==="MegaRayquaza" | args[0]==="Megarayquaza" | args[0]==="megarayquaza"){
         message.channel.sendMessage(`**Hiện tại có 2 Mega Rayquaza**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME642** | **.inv ME697**`)
-    }
-
-    /// Spinda (ME329) ///
-    if(args[0]==="ME329"| args[0]==="me329" | args[0]==="Me329" | args[0]==="Spinda" | args[0]==="spinda"){
-        var ME329 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (1/2) -`)
-            .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1940`,inline = true)
-            .addField(`Spooky Token:`,`67`,inline = true)
-            .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
-            .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
-            .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`)
-            .addField(`Tiny Mushroom`,`Một chiếc nấm nhỏ và hiếm, có thể dùng để chế biến thức ăn.`)
-            .addField(`Salt (x1000)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
-            .setFooter(`Trang sau (.inv ME329--2)`);
-            
-        message.channel.sendEmbed(ME329);
-    }
-    
-    if(args[0]==="ME329--2"| args[0]==="me329--2" | args[0]==="Me329--2"){
-        var ME329 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (2/2) -`)
-            .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1940`,inline = true)
-            .addField(`Spooky Token:`,`67`,inline = true)
-            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
-            .addField(`Frozen Apple`,`Một quả táo được ướp lạnh hoàn toàn rất hiếm và đặc biệt. Ăn quả táo này vào sẽ có cảm giác buốt lạnh toàn thân.`)
-            .addField(`Deerling Doll (Autumn)`,`Một con búp bê hình Pokémon Deerling (Autumn Form).`)
-            .setFooter(`Trang trước (.inv ME329)`);
-            
-        message.channel.sendEmbed(ME329);
-    }
+    }cd
 
     /// Suicune (ME818) ///
     if(args[0]==="ME818"| args[0]==="me818" | args[0]==="Me818" | args[0]==="Suicune" | args[0]==="suicune"){
@@ -788,12 +788,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Silvally/Daigo Metagurosu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Silvally.png/revision/latest/scale-to-width-down/100?cb=20171230061609`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`960`,inline = true)
+            .addField(`Poké:`,`610`,inline = true)
             .addField(`Snowflake:`,`10`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x1000)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
-            .addField(`Totodile Doll`,`Một con búp bê hình Pokémon Totodile.`);
+            .addField(`Totodile Doll`,`Một con búp bê hình Pokémon Totodile.`)
+            .addField(`Cyndaquil Doll`,`Một con búp bê hình Pokémon Cyndaquil.`);
 
         message.channel.sendEmbed(ME411);
     }

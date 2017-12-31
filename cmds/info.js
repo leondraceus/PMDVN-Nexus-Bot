@@ -247,6 +247,57 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         message.channel.sendEmbed(ACME786);
     }
 
+    /// Leafeon (ME401) ///
+    if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401" | args[0]==="Leafeon" | args[0]==="leafeon"){
+        var ME401 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Chủng loài:`,`Leafeon`)
+            .addField(`Tên Facebook:`,`Minh Ánh`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`24/12`)
+            .addField(`Cấp bậc:`,`Contributor`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME401);
+    }
+    
+    /// Torterra (ME563) ///
+    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Torterra" | args[0]==="torterra"){
+        var ME563 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Chủng loài:`,`Torterra`)
+            .addField(`Tên Facebook:`,`Chương Lê`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`12/2`)
+            .addField(`Cấp bậc:`,`Contributor`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME563);
+    }
+    
+    /// Spinda (ME329) ///
+    if(args[0]==="ME329"| args[0]==="me329" | args[0]==="Me329" | args[0]==="Spinda" | args[0]==="spinda"){
+        var ME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Chủng loài:`,`Spinda`)
+            .addField(`Tên Facebook:`,`Bihaicau Neko`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`12/12`)
+            .addField(`Cấp bậc:`,`Contributor`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7 -> 16/7)`);
+            
+        message.channel.sendEmbed(ME329);
+    }
+
 ////////////////   MEMBER   ////////////////
 
     /// Electivire (ME004) ///
@@ -324,40 +375,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     else if(args[0]==="Victini" | args[0]==="victini"){
         message.channel.sendMessage(`**Hiện tại có 2 Victini**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.info ME264**`)
-    }
-    
-    /// Leafeon (ME401) ///
-    if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401" | args[0]==="Leafeon" | args[0]==="leafeon"){
-        var ME401 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Leafeon`)
-            .addField(`Tên Facebook:`,`Minh Ánh`)
-            .addField(`Giới tính:`,`Nữ`)
-            .addField(`Ngày sinh:`,`24/12`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
-            
-        message.channel.sendEmbed(ME401);
-    }
-    
-    /// Torterra (ME563) ///
-    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Torterra" | args[0]==="torterra"){
-        var ME563 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Torterra`)
-            .addField(`Tên Facebook:`,`Chương Lê`)
-            .addField(`Giới tính:`,`Nam`)
-            .addField(`Ngày sinh:`,`12/2`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
-            
-        message.channel.sendEmbed(ME563);
     }
     
     /// Fennekin (ME185) ///
@@ -470,23 +487,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME028** | **.
     else if(args[0]==="MegaRayquaza" | args[0]==="Megarayquaza" | args[0]==="megarayquaza"){
         message.channel.sendMessage(`**Hiện tại có 2 Mega Rayquaza**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.info ME697**`)
-    }
-
-    /// Spinda (ME329) ///
-    if(args[0]==="ME329"| args[0]==="me329" | args[0]==="Me329" | args[0]==="Spinda" | args[0]==="spinda"){
-        var ME329 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Spinda`)
-            .addField(`Tên Facebook:`,`Bihaicau Neko`)
-            .addField(`Giới tính:`,`Nam`)
-            .addField(`Ngày sinh:`,`12/12`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7 -> 16/7)`);
-            
-        message.channel.sendEmbed(ME329);
     }
 
     /// Suicune (ME818) ///
