@@ -68,6 +68,10 @@ bot.on('message', (message) => {
     if(message.content === "Ai là chủ của tiệm bánh tráng trộn ngon nhất vũ trụ?"){
         message.channel.sendMessage("Bành Thị Bích Nụ ❤")
     }
+
+    if(message.content === "0:00"){
+        message.channel.sendMessage("HAPPY NEW YEAR 2018!!!")
+    }
 });
 
 bot.on('guildMemberAdd', member => {
