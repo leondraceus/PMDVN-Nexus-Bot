@@ -665,7 +665,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME028** | **.i
     else if(args[0]==="MegaRayquaza" | args[0]==="Megarayquaza" | args[0]==="megarayquaza"){
         message.channel.sendMessage(`**Hiện tại có 2 Mega Rayquaza**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME642** | **.inv ME697**`)
-    }cd
+    }
 
     /// Suicune (ME818) ///
     if(args[0]==="ME818"| args[0]==="me818" | args[0]==="Me818" | args[0]==="Suicune" | args[0]==="suicune"){
