@@ -293,9 +293,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`12/12`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
+        var ACME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÀNH TÍCH -`)
             .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7 -> 16/7)`);
+            .addField(`Pokémas:`,`Giải ba (Tour SD)`);
             
         message.channel.sendEmbed(ME329);
+        message.channel.sendEmbed(ACME329);
     }
 
 ////////////////   MEMBER   ////////////////
@@ -349,7 +353,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         var ACME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Underwater Expedition:`,`Giải nhất (Thi bơi), Đạt điểm cao nhất (Thi vẽ)`)
-            .addField(`Pokéween 2 - Lost in the Woods:`,`Giải ba (Tour SD)`);
+            .addField(`Pokéween 2 - Lost in the Woods:`,`Giải ba (Tour SD)`)
+            .addField(`Pokémas:`,`Giải nhất (Tour SD)`);
             
         message.channel.sendEmbed(ME509);
         message.channel.sendEmbed(ACME509);
