@@ -259,7 +259,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`24/12`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Giúp đỡ Admin xây dựng, quản lí Server Discord`);
             
         message.channel.sendEmbed(ME401);
     }
@@ -276,7 +276,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`12/2`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Tìm kiếm nguồn và nhắc nhở ghi nguồn cho các ảnh đăng trong Group`);
             
         message.channel.sendEmbed(ME563);
     }
@@ -295,6 +295,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Guild:`,`---`)
         var ACME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Quản lí Spinda's Café`,`___`)
             .addField(`Tổ chức Member Event:`,`Spinda's Cooking Contest (9/7/2017 -> 16/7/2017)`)
             .addField(`Pokémas:`,`Giải ba (Tour SD)`);
             
