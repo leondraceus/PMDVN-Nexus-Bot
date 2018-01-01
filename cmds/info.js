@@ -254,7 +254,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Chủng loài:`,`Leafeon`)
-            .addField(`Tên Facebook:`,`Minh Ánh`)
+            .addField(`Tên Facebook:`,`Decina Denele`)
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`24/12`)
             .addField(`Cấp bậc:`,`Contributor`)
@@ -295,7 +295,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Guild:`,`---`)
         var ACME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7/2017 -> 16/7/2017)`)
+            .addField(`Tổ chức Member Event:`,`Spinda's Cooking Contest (9/7/2017 -> 16/7/2017)`)
             .addField(`Pokémas:`,`Giải ba (Tour SD)`);
             
         message.channel.sendEmbed(ME329);
