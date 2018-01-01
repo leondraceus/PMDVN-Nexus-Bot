@@ -185,7 +185,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Guild:`,`---`);
         var ACME044 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`PokéLand Wonder Library (18/7 -> 1/8)`)
+            .addField(`Tổ chức Member Event:`,`PokéLand Wonder Library (18/7/2017 -> 1/8/2017)`)
             .addField(`Đóng góp truyện tích cực cho The Great Archive`,`___`);
             
         message.channel.sendEmbed(ME044);
@@ -295,7 +295,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Guild:`,`---`)
         var ACME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7 -> 16/7)`)
+            .addField(`Thành tích:`,`Tổ chức Member Event: Spinda's Cooking Contest (9/7/2017 -> 16/7/2017)`)
             .addField(`Pokémas:`,`Giải ba (Tour SD)`);
             
         message.channel.sendEmbed(ME329);
@@ -372,7 +372,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`24/10`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: #teamcạpcạp vs #teambắtcạpcạprong (26/9 -> 5/10)`);
+            .addField(`Thành tích:`,`Tổ chức Member Event: #teamcạpcạp vs #teambắtcạpcạprong (26/9/2017 -> 5/10/2017)`);
             
         message.channel.sendEmbed(ME264);
     }
@@ -635,7 +635,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Ngày sinh:`,`4/11`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Tổ chức Member Event: Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`);
 
         message.channel.sendEmbed(ME411);
     }
@@ -742,7 +742,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Ngày sinh:`,`5/4`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Tổ chức Member Event: Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`);
 
         message.channel.sendEmbed(ME072);
     }
