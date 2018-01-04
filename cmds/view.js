@@ -39,6 +39,10 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Chimchar Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Chimchar.`)
             .addField(`Piplup Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Piplup.`)
             .addField(`Pachirisu Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Pachirisu.`)
+            .addField(`Snivy Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Snivy.`)
+            .addField(`Tepig Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Tepig.`)
+            .addField(`Oshawott Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Oshawott.`)
+            .addField(`Emolga Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Emolga.`)
 
         message.channel.sendEmbed(doll);
     }
