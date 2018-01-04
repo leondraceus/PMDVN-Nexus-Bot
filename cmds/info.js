@@ -71,15 +71,15 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD002** | **(
 
     /// Marshadow (AD004) ///
     if(args[0]==="AD004"| args[0]==="ad004" | args[0]==="Ad004" | args[0]==="Marshadow" | args[0]==="marshadow"){
-        var AD004 = new Discord.RichEmbed().setColor(`#E7462B`)
+        var AD004 = new Discord.RichEmbed().setColor(`#2CE0C0`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/OGTVkzI.gif`)
-            .setAuthor(`Marshadow/Tom A. Reyes`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/dd/Marshadow.png/revision/latest/scale-to-width-down/100?cb=20170616131445`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
+            .setAuthor(`Marshadow/レイズ トム・`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/dd/Marshadow.png/revision/latest/scale-to-width-down/100?cb=20170616131445`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
             .addField(`Chủng loài:`,`Marshadow`)
-            .addField(`Tên Facebook:`,`Tom A. Reyes`)
+            .addField(`Tên Facebook:`,`レイズ トム・`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`6/10`)
-            .addField(`Cấp bậc:`,`Developer`)
+            .addField(`Cấp bậc:`,`Organizer`)
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`Làm Admin Group`);
             

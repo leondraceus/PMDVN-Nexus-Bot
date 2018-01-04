@@ -58,10 +58,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD002** | **(M
 
     /// Marshadow (AD004) ///
     if(args[0]==="AD004"| args[0]==="ad004" | args[0]==="Ad004" | args[0]==="Marshadow" | args[0]==="marshadow"){
-        var AD004 = new Discord.RichEmbed().setColor(`#E7462B`)
+        var AD004 = new Discord.RichEmbed().setColor(`#2CE0C0`)
             .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/OGTVkzI.gif`)
-            .setAuthor(`Marshadow/Tom A. Reyes`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/dd/Marshadow.png/revision/latest/scale-to-width-down/100?cb=20170616131445`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
+            .setAuthor(`Marshadow/レイズ トム・`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/dd/Marshadow.png/revision/latest/scale-to-width-down/100?cb=20170616131445`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Marshadow Doll`,`Một con búp bê hình Pokémon Marshadow.`);
             
@@ -1096,7 +1096,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME640** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`).setImage(`https://i.imgur.com/JYcNKLI.gif`)
             .setAuthor (`Sylveon/Mỹ Duyên Hứa`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/4f/Sylveon1.png/revision/latest/scale-to-width-down/100?cb=20160911131143`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2559`,inline = true)
+            .addField(`Poké:`,`2209`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
@@ -1113,11 +1113,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME640** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`).setImage(`https://i.imgur.com/JYcNKLI.gif`)
             .setAuthor (`Sylveon/Mỹ Duyên Hứa`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/4f/Sylveon1.png/revision/latest/scale-to-width-down/100?cb=20160911131143`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2559`,inline = true)
+            .addField(`Poké:`,`2209`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Pichu Doll`,`Một con búp bê hình Pokémon Pichu.`)
             .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
             .addField(`Ho-Oh Doll`,`Một con búp bê hình Pokémon Ho-Oh.`)
+            .addField(`Pachirisu Doll`,`Một con búp bê hình Pokémon Pachirisu.`)
             .setFooter(`Trang trước (.inv ME011)`);
 
         message.channel.sendEmbed(ME011);
