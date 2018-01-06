@@ -742,10 +742,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`5/4`)
             .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`);
+            .addField(`Guild:`,`---`);
+        var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`)
+            .addField(`Tổ chức Member Event:`,`Time to Explode (1/1/2018 -> 6/1/2018)`);
 
         message.channel.sendEmbed(ME072);
+        message.channel.sendEmbed(ACME072);
     }
 
     // Dewott (ME240) ///
