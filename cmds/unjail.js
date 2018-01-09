@@ -2,7 +2,8 @@ const Discord = module.require("discord.js");
 
 module.exports.run = async (pw, message, args) => {
     var embed = new Discord.RichEmbed()
-        .setTitle(`Magnezone`).setColor(`#546E7A`)
+        .setAuthor(`Magnezone`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5a/Magnezone.png/revision/latest/scale-to-width-down/100?cb=20171203062559`)
+        .setColor(`#d7342a`)
         .setDescription(args[0] +` đã được tự do!`);
 
     if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
