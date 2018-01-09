@@ -2,6 +2,7 @@ const Discord = module.require("discord.js");
 
 module.exports.run = async (pw, message, args) => {
     var embed = new Discord.RichEmbed()
+    .setcolor(`#923200`)
     .setDescription(args[0] +` đã bị ăn!`);
 
     if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
@@ -14,7 +15,7 @@ module.exports.run = async (pw, message, args) => {
         try {
             role = await message.guild.createRole({
                 name:"Eaten",
-                color:"##923200",
+                color:"#923200",
                 permissions: []
             });
 
