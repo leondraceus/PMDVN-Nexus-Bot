@@ -30,7 +30,7 @@ module.exports.run = async (pw, message, args) => {
     if(toJail.roles.has(role.id)) return message.channel.sendMessage("```Pokémon này hiện đã bị ăn!```");
 
     await toJail.addRole(role);
-    message.channel.sendMessage(message.author.username + " đã ăn " + arg[0] + " !!! ");
+    message.channel.sendMessage(message.author.username + ' đã ăn ' + arg[0] + ' !!! ');
 }
 
 module.exports.help = {
