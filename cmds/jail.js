@@ -2,7 +2,7 @@ const Discord = module.require("discord.js");
 
 module.exports.run = async (pw, message, args) => {
     var embed = new Discord.RichEmbed()
-        .setTitle(`Magnezone`).setColor(`#546E7A`)
+        .setTitle(`Magnezone`).setColor(`#d7342a`)
         .setDescription(args[0] +` đã được đưa vào Jail!`);
 
     if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
@@ -15,7 +15,7 @@ module.exports.run = async (pw, message, args) => {
         try {
             role = await message.guild.createRole({
                 name:"Jailed",
-                color:"#546E7A",
+                color:"#d7342a",
                 permissions: []
             });
 
