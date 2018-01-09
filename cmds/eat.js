@@ -1,6 +1,8 @@
 const Discord = module.require("discord.js");
 
 module.exports.run = async (pw, message, args) => {
+    var embed = new Discord.RichEmbed()
+    .setDescription(args[0] +` đã bị ăn!`);
 
     if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
 
@@ -30,7 +32,7 @@ module.exports.run = async (pw, message, args) => {
     if(toBelly.roles.has(role.id)) return message.channel.sendMessage("```Pokémon này hiện đã bị ăn!```");
 
     await toBelly.addRole(role);
-    message.channel.sendMessage(message.author.username + ' đã ăn ' + arg[0] + ' !!! ');
+    message.channel.sendEmbed(embed);
 }
 
 module.exports.help = {
