@@ -2,7 +2,7 @@ const Discord = module.require("discord.js");
 
 module.exports.run = async (pw, message, args) => {
     var embed = new Discord.RichEmbed()
-        .setAuthor(`Magnezone`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5a/Magnezone.png/revision/latest/scale-to-width-down/100?cb=20171203062559`)
+        .setAuthor(`Magnezone`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5c/Magnezone1.png/revision/latest/scale-to-width-down/100?cb=20180109090806`)
         .setColor(`#d7342a`)
         .setDescription(args[0] +` đã được tự do!`);
 
