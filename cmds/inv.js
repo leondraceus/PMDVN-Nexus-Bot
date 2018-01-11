@@ -246,13 +246,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
         message.channel.sendEmbed(ME401);
     }
     
-    /// Torterra (ME563) ///
-    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Torterra" | args[0]==="torterra"){
+    /// Primarina (ME563) ///
+    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Primarina" | args[0]==="primarina"){
         var ME563 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (1/3) -`)
-            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
+            .setTitle(`- KHO ĐỒ (Size 1 | 1/3) -`)
+            .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`3559`,inline = true)
+            .addField(`Poké:`,`284`,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
@@ -266,17 +266,16 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME563--2"| args[0]==="me563--2" | args[0]==="Me563--2"){
         var ME563 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (2/3) -`)
-            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
+            .setTitle(`- KHO ĐỒ (Size 1 | 2/3) -`)
+            .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`3559`,inline = true)
+            .addField(`Poké:`,`284`,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
             .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
-            .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
             .addField(`Turtwig Doll`,`Một con búp bê hình Pokémon Turtwig.`)
             .addField(`Piplup Doll`,`Một con búp bê hình Pokémon Piplup.`)
             .addField(`Pachirisu Doll`,`Một con búp bê hình Pokémon Pachirisu.`)
-            .addField(`Transform Capsule`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác.`)
+            .addField(`Oshawott Doll`,`Một con búp bê hình Pokémon Oshawott.`)
             .setFooter(`Trang trước (.inv ME563) | Trang sau (.inv ME563--3)`);
             
         message.channel.sendEmbed(ME563);
@@ -284,14 +283,16 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
 
     if(args[0]==="ME563--3"| args[0]==="me563--3" | args[0]==="Me563--3"){
         var ME563 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (2/3) -`)
-            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
+            .setTitle(`- KHO ĐỒ (Size 1 | 3/3) -`)
+            .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`3559`,inline = true)
+            .addField(`Poké:`,`284`,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
-            .addField(`Transform Capsule`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác.`)
-            .addField(`Oshawott Doll`,`Một con búp bê hình Pokémon Oshawott.`)
             .addField(`Emolga Doll`,`Một con búp bê hình Pokémon Emolga.`)
+            .addField(`Green Balloon`,`Một quả bóng bay màu xanh lá.`)
+            .addField(`Lum Berry`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`)
+            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
+            .addField(`Miracle Seed`,`Một hạt giống càng tràn sức sống.`)
             .setFooter(`Trang trước (.inv ME563--2)`);
             
         message.channel.sendEmbed(ME563);
