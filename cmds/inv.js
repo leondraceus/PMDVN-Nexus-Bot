@@ -1663,6 +1663,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
         message.channel.sendMessage(`**Hiện tại có 2 Leafeon**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.inv ME878**`)
     }
+
+    /// Flareon (ME618) ///
+    if(args[0]==="ME618"| args[0]==="me618" | args[0]==="Me618" | args[0]==="Flareon" | args[0]==="flareon"){
+        var ME618 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Flareon/Jackson Sturel`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME618);
+    }
 }
 
 module.exports.help = {
