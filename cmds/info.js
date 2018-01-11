@@ -248,7 +248,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     }
 
     /// Leafeon (ME401) ///
-    if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401" | args[0]==="Leafeon" | args[0]==="leafeon"){
+    if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401"){
         var ME401 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
@@ -1487,6 +1487,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME200);
+    }
+
+    /// Leafeon (ME878) ///
+    if(args[0]==="ME878"| args[0]==="me878" | args[0]==="Me878"){
+        var ME878 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Leafeon/Nguyễn Hồ Thư`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Leafeon`)
+            .addField(`Tên Facebook:`,`Nguyễn Hồ Thư`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`20/12`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME878);
+    }
+
+    else if(args[0]==="Leafeon" | args[0]==="leafeon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Leafeon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.info ME878**`)
     }
 }
 
