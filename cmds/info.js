@@ -267,7 +267,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     /// Primarina (ME563) ///
     if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Primarina" | args[0]==="primarina"){
         var ME563 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- THÔNG TIN -`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/gLtjc7b.gif`)
             .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Chủng loài:`,`Primarina`)
