@@ -477,12 +477,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Victini (ME264) ///
     if(args[0]==="ME264"| args[0]==="me264" | args[0]==="Me264"){
         var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (1/2) -`)
-            .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/67/Victini2.png/revision/latest/scale-to-width-down/100?cb=20161119021011`)
+            .setTitle(`- KHO ĐỒ (1/3) -`)
+            .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`585`,inline = true)
-            .addField(`Spooky Token:`,`202`,inline = true)
-            .addField(`Snowflake:`,`6`,inline = true)
+            .addField(`Poké:`,`65`,inline = true)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Heart Scale (x2)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
@@ -496,18 +494,32 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME264--2"| args[0]==="me264--2" | args[0]==="Me264--2"){
         var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (2/2) -`)
-            .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/67/Victini2.png/revision/latest/scale-to-width-down/100?cb=20161119021011`)
+            .setTitle(`- KHO ĐỒ (2/3) -`)
+            .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`585`,inline = true)
-            .addField(`Spooky Token:`,`202`,inline = true)
-            .addField(`Snowflake:`,`6`,inline = true)
+            .addField(`Poké:`,`65`,inline = true)
             .addField(`Minun Doll`,`Một con búp bê hình Pokémon Minun.`)
             .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
             .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
-            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
-            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
-            .setFooter(`Trang trước (.inv ME264)`);
+            .addField(`Never-Melt Ice`,`Một cục băng có thể bật lại sức nóng, khiến cho nó không thể bị tan ra.`)
+            .addField(`Miracle Seed`,`Một hạt giống càng tràn sức sống.`)
+            .setFooter(`Trang trước (.inv ME264) | Trang sau (.inv ME264--3)`);
+            
+        message.channel.sendEmbed(ME264);
+    }
+
+    if(args[0]==="ME264--3"| args[0]==="me264--3" | args[0]==="Me264--3"){
+        var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (3/3) -`)
+            .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`65`,inline = true)
+            .addField(`Big Root`,`Một chiếc rễ to có khả năng tăng lượng HP khi sử dụng những chiêu thức hút HP.`)
+            .addField(`Rose Incense`,`Một hộp hương có mùi thơm ngào ngạt của hoa.`)
+            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
+            .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
+            .addField(`Lum Berry`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`)
+            .setFooter(`Trang trước (.inv ME264--2)`);
             
         message.channel.sendEmbed(ME264);
     }

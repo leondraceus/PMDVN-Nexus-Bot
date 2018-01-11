@@ -365,9 +365,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     if(args[0]==="ME264"| args[0]==="me264" | args[0]==="Me264"){
         var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/67/Victini2.png/revision/latest/scale-to-width-down/100?cb=20161119021011`)
+            .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Victini`)
+            .addField(`Chủng loài:`,`Victini <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Vickyu Nguyễn`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`24/10`)
