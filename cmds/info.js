@@ -1168,7 +1168,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Ngày sinh:`,`14/1`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Tổ chức Member Event: Pokémon Songs Contest (7/1/2017 -> 10/1/2017)`);
 
         message.channel.sendEmbed(ME906);
     }
