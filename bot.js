@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-    bot.user.setGame('send .help')
+    bot.user.setGame('with a special guest')
 });
 
 bot.commands = new Discord.Collection();
