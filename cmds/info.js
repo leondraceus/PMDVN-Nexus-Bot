@@ -1527,6 +1527,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             
         message.channel.sendEmbed(ME618);
     }
+
+    /// Buizel (ME362) ///
+    if(args[0]==="ME362"| args[0]==="me362" | args[0]==="Me362" | args[0]==="Buizel" | args[0]==="buizel"){
+        var ME362 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Buizel/Haku Dương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/ba/Buizel.png/revision/latest/scale-to-width-down/100?cb=20180114094757`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Buizel`)
+            .addField(`Tên Facebook:`,`Haku Dương`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`5/11`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME362);
+    }
 }
 
 module.exports.help = {
