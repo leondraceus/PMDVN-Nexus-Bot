@@ -1561,6 +1561,22 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             
         message.channel.sendEmbed(ME544);
     }
+    /// Gallade (ME014) ///
+    if(args[0]==="ME014"| args[0]==="me014" | args[0]==="Me014" | args[0]==="Gallade" | args[0]==="gallade"){
+        var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Gallade`)
+            .addField(`Tên Facebook:`,`Tuấn Minh Nguyễn`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`13/7`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`Prison Bottle Event: Giải nhì (Game Center)`);
+            
+        message.channel.sendEmbed(ME014);
+    }
 }
 
 module.exports.help = {
