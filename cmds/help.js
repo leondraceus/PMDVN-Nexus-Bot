@@ -16,6 +16,8 @@ module.exports.run = async (pw, message, args) => {
         .addField(`.smash @mention`,`Đập một ai đó =))`)
         .addField(`.poke @mention`,`Chọc một ai đó 👉`)
         .addField(`.hug @mention`,`Ôm một ai đó thật chặt (づ｡◕‿‿◕｡)づ`)
+        .addField(`.kiss @mention`,`Hôn một ai đó :heart:`)
+        .addField(`.lick @mention`,`Liếm một ai đó (๑>◡<๑)`)
         .setColor(`#a366ff`);
    
     message.channel.sendEmbed(embed);
