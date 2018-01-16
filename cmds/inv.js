@@ -330,6 +330,16 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             
         message.channel.sendEmbed(ME329);
     }
+    // Corsola (ME595) ///
+    if(args[0]==="ME595"| args[0]==="Me595" | args[0]==="me595" | args[0]==="Corsola" | args[0]==="corsola"){
+        var ME595 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Corsola/Oo Mốc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Corsola.png/revision/latest/scale-to-width-down/100?cb=20160905044456`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`750`,inline = true);
+            
+        message.channel.sendEmbed(ME595);
+    }
 
 ////////////////   MEMBER   ////////////////
 
