@@ -314,10 +314,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`14/1`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
-        var ME595 = new Discord.RichEmbed().setColor(`#5CE05F`)
+        var ACME595 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Spinda's Cooking Contest (9/7/2017 -> 16/7/2017)`)
-            .addField(`Livestream làm Figure cho Group`);
+            .addField(`Livestream làm Figure cho Group`,`___`);
             
         message.channel.sendEmbed(ME595);
     }
