@@ -302,6 +302,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         message.channel.sendEmbed(ME329);
         message.channel.sendEmbed(ACME329);
     }
+    
 /// Corsola (ME595) ///
     if(args[0]==="ME595"| args[0]==="me595" | args[0]==="Me595" | args[0]==="Corsola" | args[0]==="corsola"){
         var ME595 = new Discord.RichEmbed().setColor(`#5CE05F`)
