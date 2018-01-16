@@ -1,8 +1,5 @@
 module.exports.run = async (pw, message, args) => {
-    function getRandomInt(min, max) {
-       return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-    var roll = Math.floor(Math.random() * 100) +1;
+    
     if (roll == 1 || roll == 2 || roll == 3 || roll == 4 || roll == 5 || roll == 6 || roll == 7 || roll == 8 || roll == 9 || roll == 10 || roll == 11 || roll == 12 || roll == 13 || roll == 14 || roll == 15 || roll == 16 || roll == 17 || roll == 18 || roll == 19 || roll == 20 || roll == 21 || roll == 22 || roll == 23 || roll == 24 || roll == 25)
     message.reply("bạn đã quay trúng 30 <:poke:379535433467428867>, chúc mừng! <:laugh1:374121408759988224>");
     else if (roll == 26 || roll == 27 || roll == 28 || roll == 29 || roll == 30 || roll == 31 || roll == 32 || roll == 33 || roll == 34 || roll == 35 || roll == 36 || roll == 37 || roll == 38 || roll == 39 || roll == 40 || roll == 41 || roll == 42 || roll == 43 || roll == 44 || roll == 45)
