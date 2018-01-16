@@ -1,4 +1,4 @@
-
+module.exports.run = async (pw, message, args) => {
     function getRandomInt(min, max) {
        return Math.floor(Math.random() * (max - min + 1)) + min;
     }
@@ -33,3 +33,8 @@
     message.reply("bạn đã quay trúng Admin Doll (Tùy chọn Pokémon), chúc mừng! <:laugh1:374121408759988224>");
     else if (roll == 99 || roll == 100)
     message.reply("bạn đã quay trúng Victini Doll, chúc mừng! <:laugh1:374121408759988224>");
+}
+
+module.exports.help = {
+    name: "spin"
+}
