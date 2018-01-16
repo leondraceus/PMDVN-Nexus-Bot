@@ -19,5 +19,5 @@ message.channel.sendEmbed(embed);
 }
 
 module.exports.help = {
-    name: "Revive"
+    name: "revive"
 }// JavaScript source code
