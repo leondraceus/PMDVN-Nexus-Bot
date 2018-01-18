@@ -303,7 +303,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         message.channel.sendEmbed(ACME329);
     }
     
-/// Corsola (ME595) ///
+    /// Corsola (ME595) ///
     if(args[0]==="ME595"| args[0]==="me595" | args[0]==="Me595" | args[0]==="Corsola" | args[0]==="corsola"){
         var ME595 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÔNG TIN -`)
@@ -322,6 +322,27 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             
             message.channel.sendEmbed(ME595);
             message.channel.sendEmbed(ACME595);
+    }
+
+    /// Meloetta (ME983) ///
+    if(args[0]==="ME983"| args[0]==="me983" | args[0]==="Me983" | args[0]==="Meloetta" | args[0]==="meloetta"){
+        var ME983 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Meloetta/Robin Nico`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/61/Meloetta_%28aria%29_1.png/revision/latest/scale-to-width-down/100?cb=20160820011552`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Chủng loài:`,`Meloetta`)
+            .addField(`Tên Facebook:`,`Robin Nico`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`15/12`)
+            .addField(`Cấp bậc:`,`Contributor`)
+            .addField(`Guild:`,`---`);
+        var ACME983 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Sky Ruins Expedition:`,`Giải khuyến khích`)
+            .addField(`Pokéween:`,`Giải nhất (Pokékween) & Giải khuyến khích (Lost Library)`);
+            
+            message.channel.sendEmbed(ME983);
+            message.channel.sendEmbed(ACME983);
     }
 
 ////////////////   MEMBER   ////////////////
