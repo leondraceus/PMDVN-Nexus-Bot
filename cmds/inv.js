@@ -357,6 +357,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
         message.channel.sendEmbed(ME983);
     }
 
+    /// Keldeo (ME674) ///
+    if(args[0]==="ME674"| args[0]==="me674" | args[0]==="Me674" | args[0]==="Keldeo" | args[0]==="keldeo"){
+        var ME674 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Keldeo/ペリエ リッチー`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Keldeo_%28resolute%29.png/revision/latest/scale-to-width-down/100?cb=20170618235442`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`700`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME674);
+    }
+
 ////////////////   MEMBER   ////////////////
 
     /// Electivire (ME004) ///

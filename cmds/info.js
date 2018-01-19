@@ -186,7 +186,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         var ACME044 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`PokéLand Wonder Library (18/7/2017 -> 1/8/2017)`)
-            .addField(`Đóng góp truyện tích cực cho The Great Archive`,`___`);
+            .addField(`Đóng góp truyện tích cực cho The Great Archive`,`\u200B`);
             
         message.channel.sendEmbed(ME044);
         message.channel.sendEmbed(ACME044);
@@ -241,7 +241,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         var ACME786 = new Discord.RichEmbed().setColor(`#5CE05F`)
                 .setTitle(`- THÀNH TÍCH -`)
                 .addField(`Sky Ruins Expedition:`,`Giải nhất`)
-                .addField(`Đăng bài, hoạt động tích cực trên Group`,`___`);
+                .addField(`Đăng bài, hoạt động tích cực trên Group`,`\u200B`);
 
         message.channel.sendEmbed(ME786);
         message.channel.sendEmbed(ACME786);
@@ -295,7 +295,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Guild:`,`---`)
         var ACME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Quản lí Spinda's Café`,`___`)
+            .addField(`Quản lí Spinda's Café`,`\u200B`)
             .addField(`Tổ chức Member Event:`,`Spinda's Cooking Contest (9/7/2017 -> 16/7/2017)`)
             .addField(`Pokémas:`,`Giải ba (Tour SD)`);
             
@@ -318,7 +318,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         var ACME595 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Spinda's Cooking Contest (9/7/2017 -> 16/7/2017)`)
-            .addField(`Livestream làm Figure cho Group`,`___`);
+            .addField(`Livestream làm Figure cho Group`,`\u200B`);
             
             message.channel.sendEmbed(ME595);
             message.channel.sendEmbed(ACME595);
@@ -343,6 +343,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             
             message.channel.sendEmbed(ME983);
             message.channel.sendEmbed(ACME983);
+    }
+
+    /// Keldeo (ME674) ///
+    if(args[0]==="ME674"| args[0]==="me674" | args[0]==="Me674" | args[0]==="Keldeo" | args[0]==="keldeo"){
+        var ME674 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Keldeo/ペリエ リッチー`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Keldeo_%28resolute%29.png/revision/latest/scale-to-width-down/100?cb=20170618235442`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Chủng loài:`,`Keldeo (Resolute)`)
+            .addField(`Tên Facebook:`,`ペリエ リッチー`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`6/7`)
+            .addField(`Cấp bậc:`,`Contributor`)
+            .addField(`Guild:`,`---`);
+        var ACME674 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Pokéween:`,`Giải ba (Pokékween)`)
+            .addField(`Vẽ tranh tặng cho Group`,`\u200B`)
+            .addField(`Làm các Avatar PMD cho Gen 7 Pokémon`,`\u200B`);
+            
+            message.channel.sendEmbed(ME674);
+            message.channel.sendEmbed(ACME674);
     }
 
 ////////////////   MEMBER   ////////////////
