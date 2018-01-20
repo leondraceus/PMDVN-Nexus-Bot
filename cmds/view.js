@@ -43,6 +43,10 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Tepig Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Tepig.`)
             .addField(`Oshawott Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Oshawott.`)
             .addField(`Emolga Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Emolga.`)
+            .addField(`Chespin Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Chespin.`)
+            .addField(`Fennekin Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Fennekin.`)
+            .addField(`Froakie Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Froakie.`)
+            .addField(`Dedenne Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Dedenne.`)
 
         message.channel.sendEmbed(doll);
     }
@@ -59,6 +63,7 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Blue Balloon (200 <:poke:379535433467428867>)`,`Một quả bóng bay màu lam.`)
             .addField(`Green Balloon (200 <:poke:379535433467428867>)`,`Một quả bóng bay màu lục.`)
             .addField(`Yellow Balloon (200 <:poke:379535433467428867>)`,`Một quả bóng bay màu vàng.`)
+            .addField(`Lum Berry (150 <:poke:379535433467428867>)`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`)
 
         message.channel.sendEmbed(collect);
     }
@@ -67,7 +72,8 @@ module.exports.run = async (pw, message, args) => {
     if(args[0]==="misc"){
         var misc = new Discord.RichEmbed()
             .setTitle(`- Misc. -`).setColor(`#7FFFD4`).setURL(`http://pmdv-nexus.wikia.com/wiki/Kecleon's_Shop`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/59/Kecleon1.png/revision/latest/scale-to-width-down/56?cb=20170620115423`)
-            .addField(`Salt (50 <:poke:379535433467428867>)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+            .addField(`Salt (25 <:poke:379535433467428867>)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+            .addField(`Corsola Twig (50 <:poke:379535433467428867>)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
 
         message.channel.sendEmbed(misc);
     }
