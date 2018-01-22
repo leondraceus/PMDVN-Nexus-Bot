@@ -275,10 +275,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`12/2`)
             .addField(`Cấp bậc:`,`Contributor`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Tìm kiếm nguồn và nhắc nhở ghi nguồn cho các ảnh đăng trong Group`);
+            .addField(`Guild:`,`---`);
+        var ACME563 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Tìm kiếm nguồn và nhắc nhở ghi nguồn cho các ảnh đăng trong Group`,`\u200B`)
+            .addField(`Tổ chức Member Event:`,`Ai là Poké Phú (13/1/2018 -> 20/1/2018)`);
             
         message.channel.sendEmbed(ME563);
+        message.channel.sendEmbed(ACME563);
     }
     
     /// Spinda (ME329) ///
@@ -810,7 +814,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
         var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`)
-            .addField(`Tổ chức Member Event:`,`Time to Explode (1/1/2018 -> 6/1/2018)`);
+            .addField(`Tổ chức Member Event:`,`Time to Explode (1/1/2018 -> 6/1/2018)`)
+            .addField(`Tổ chức Member Event:`,`Fast and Furious (14/1/2018)`);
 
         message.channel.sendEmbed(ME072);
         message.channel.sendEmbed(ACME072);
@@ -1231,10 +1236,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`14/1`)
             .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: Pokémon Songs Contest (7/1/2017 -> 10/1/2017)`);
+            .addField(`Guild:`,`---`);
+        var ACME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2017 -> 10/1/2017)`)
+            .addField(`Tổ chức Member Event:`,`Pokémon's Werewolf (17/1/2017 -> 18/1/2017)`);
 
         message.channel.sendEmbed(ME906);
+        message.channel.sendEmbed(ACME906);
     }
 
     /// Mega Diancie (ME905) ///
