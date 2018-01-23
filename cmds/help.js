@@ -18,8 +18,8 @@ module.exports.run = async (pw, message, args) => {
         .addField(`.hug @mention`,`Ôm một ai đó thật chặt (づ｡◕‿‿◕｡)づ`)
         .addField(`.kiss @mention`,`Hôn một ai đó :heart:`)
         .addField(`.lick @mention`,`Liếm một ai đó (๑>◡<๑)`)
-        .addField(`.intensify`,`Intensify bản thân (┛ಠ□ಠ)┛︵┻━┻`)
-        .addField(`.trigger`,`Trigger bản thân t(ఠ_ఠ't)`)
+        .addField(`.intensify`,`Intensify bản thân t(ఠ_ఠ't)`)
+        .addField(`.trigger`,`Trigger bản thân (┛ಠ□ಠ)┛︵┻━┻`)
         .setColor(`#a366ff`);
    
     message.channel.sendEmbed(embed);
