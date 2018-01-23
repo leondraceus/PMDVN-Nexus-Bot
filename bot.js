@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-    bot.user.setGame('with Choco-Heart')
+    bot.user.setGame('making Choco-Heart')
 });
 
 bot.commands = new Discord.Collection();
