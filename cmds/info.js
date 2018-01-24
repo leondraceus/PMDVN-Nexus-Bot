@@ -196,10 +196,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     if(args[0]==="ME061"| args[0]==="me061" | args[0]==="Me061" | args[0]==="Pikachu" | args[0]==="pikachu"){
         var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Pikachu/Song Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
+            .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Chủng loài:`,`Pikachu`)
-            .addField(`Tên Facebook:`,`Song Huy`)
+            .addField(`Tên Facebook:`,`Nguyễn Song Hoàng Huy`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`7/7`)
             .addField(`Cấp bậc:`,`Contributor`)
