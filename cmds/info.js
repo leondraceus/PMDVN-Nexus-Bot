@@ -1626,7 +1626,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Glaceon`)
             .addField(`Tên Facebook:`,`Aoi Miyuki`)
-            .addField(`Giới tính:`,`Nam`)
+            .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`17/1`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
