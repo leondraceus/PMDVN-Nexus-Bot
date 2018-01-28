@@ -1091,7 +1091,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Ngày sinh:`,`6/4`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Tổ chức Member Event: Mightyenia (27/1/2017)`);
 
         message.channel.sendEmbed(ME456);
     }
