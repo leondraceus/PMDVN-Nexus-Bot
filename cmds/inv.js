@@ -1768,7 +1768,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
             .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/ixdTEpP.gif`)
             .setAuthor(`Glaceon/Aoi Miyuki`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8a/Glaceon1.png/revision/latest/scale-to-width-down/100?cb=20180115071344`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1245`,inline = true)
+            .addField(`Poké:`,`45`,inline = true)
             .addField(`Pachirisu Doll`,`Một con búp bê hình Pokémon Pachirisu.`);
             
         message.channel.sendEmbed(ME544);
