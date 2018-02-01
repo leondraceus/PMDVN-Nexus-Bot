@@ -56,10 +56,6 @@ bot.on('message', (message) => {
     var args = messageArray.slice(1);
     var channelname = messageArray[1];
     var rep = messageArray[2];
-
-    if(message.content === "Hmm, Nexus sắp cho ra thứ gì đó kìa"){
-        message.channel.sendMessage("<:chocoheart:408520337647730698>")
-    }
 });
 
 bot.on('guildMemberAdd', member => {
