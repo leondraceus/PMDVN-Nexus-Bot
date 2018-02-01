@@ -176,33 +176,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Pikachu (ME061) ///
     if(args[0]==="ME061"| args[0]==="me061" | args[0]==="Me061" | args[0]==="Pikachu" | args[0]==="pikachu"){
         var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (1/2) -`)
+            .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Poké:`,`60`,inline = true)
             .addField(`Snowflake:`,`15`,inline = true)
             .addField(`Salt (x1000)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
-            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
-            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
-            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang sau (.inv ME061--2)`);
-            
-        message.channel.sendEmbed(ME061);
-    }
-
-    if(args[0]==="ME061--2"| args[0]==="me061--2" | args[0]==="Me061--2"){
-        var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (2/2) -`)
-            .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`60`,inline = true)
-            .addField(`Snowflake:`,`15`,inline = true)
-            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
-            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
-            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
-            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
-            .setFooter(`Trang trước (.inv ME061)`);
+            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`);
             
         message.channel.sendEmbed(ME061);
     }
@@ -1712,11 +1692,29 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
     /// Garchomp (ME200) ///
     if(args[0]==="ME200"| args[0]==="me200" | args[0]==="Me200" | args[0]==="Garchomp" | args[0]==="garchomp"){
         var ME200 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
+            .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor(`Garchomp/Minh Nguyenvan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e4/Garchomp.png/revision/latest/scale-to-width-down/100?cb=20180108073309`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`0`,inline = true)
-            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
+            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
+            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
+            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
+            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
+            .setFooter(`Trang sau (.inv ME200--2)`);
+            
+        message.channel.sendEmbed(ME200);
+    }
+
+    if(args[0]==="ME200--2"| args[0]==="me200--2" | args[0]==="Me200--2"){
+        var ME200 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (2/2) -`)
+            .setAuthor(`Garchomp/Minh Nguyenvan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e4/Garchomp.png/revision/latest/scale-to-width-down/100?cb=20180108073309`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
+            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
+            .setFooter(`Trang trước (.inv ME200)`);
             
         message.channel.sendEmbed(ME200);
     }
