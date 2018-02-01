@@ -57,16 +57,8 @@ bot.on('message', (message) => {
     var channelname = messageArray[1];
     var rep = messageArray[2];
 
-    if(message.content === "Tìm một nơi tình yêu đưa lối, buồn làm chi thôi đã hết rồi"){
-        message.channel.sendMessage("O ó o ò\nO ó o ò 🐔")
-    }
-
-    if(message.content === "Sắp đến giờ diễn rồi mà em thấy không muốn diễn, em phải làm gì đây?"){
-        message.channel.sendMessage("Sốt 42 độ, huỷ show! <:fakesmile:387588841332146178>")
-    }
-
-    if(message.content === "Ai là chủ của tiệm bánh tráng trộn ngon nhất vũ trụ?"){
-        message.channel.sendMessage("Bành Thị Bích Nụ ❤")
+    if(message.content === "Hmm, Nexus sắp cho ra thứ gì đó kìa"){
+        message.channel.sendMessage("<:chocoheart:408520337647730698>")
     }
 });
 
