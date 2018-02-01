@@ -1239,9 +1239,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Guild:`,`---`);
         var ACME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2017 -> 10/1/2017)`)
-            .addField(`Tổ chức Member Event:`,`Pokémon's Werewolf (17/1/2017 -> 18/1/2017)`)
-            .addField(`Tổ chức Member Event:`,`Xoắn não cùng Delibird (23/1/2017 -> 25/1/2017)`);
+            .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)`)
+            .addField(`Tổ chức Member Event:`,`Pokémon's Werewolf (17/1/2018 -> 18/1/2018)`)
+            .addField(`Tổ chức Member Event:`,`Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)`);
 
         message.channel.sendEmbed(ME906);
         message.channel.sendEmbed(ACME906);
