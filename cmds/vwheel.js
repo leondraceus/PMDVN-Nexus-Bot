@@ -21,7 +21,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đã quay trúng 500 <:poke:379535433467428867>, chúc mừng! <:laugh1:374121408759988224>");
 
     else if (roll == 53 || roll == 54 || roll == 55 || roll == 56 || roll == 57 || roll == 58 || roll == 59 || roll == 60 || roll == 61 || roll == 62 || roll == 63 || roll == 64 || roll == 65 || roll == 66 || roll == 67)
-    message.reply("bạn đã quay trúng Salt <:salt:380355532168626176>, chúc mừng! <:laugh1:374121408759988224>");
+    message.reply("bạn đã quay trúng Salt/Corsola Twig (Tùy chọn), chúc mừng! <:laugh1:374121408759988224>");
 
     else if (roll == 68 || roll == 69 || roll == 70 || roll == 71 || roll == 72 || roll == 73 || roll == 74 || roll == 75 || roll == 76 || roll == 77)
     message.reply("bạn đã quay trúng Cookie, chúc mừng! <:laugh1:374121408759988224>");
