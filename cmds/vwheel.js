@@ -44,7 +44,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đã quay trúng Admin Doll (Tùy chọn Pokémon), chúc mừng! <:laugh1:374121408759988224>");
 
     else if (roll == 98 || roll == 99)
-    message.reply("bạn đã quay trúng , chúc mừng! <:laugh1:374121408759988224>");
+    message.reply("bạn đã quay trúng Victini Doll, chúc mừng! <:laugh1:374121408759988224>");
 
     else if (roll == 100)
     message.reply("bạn đã quay trúng Gold Ditto, chúc mừng! <:laugh1:374121408759988224>");
