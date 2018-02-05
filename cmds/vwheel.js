@@ -48,7 +48,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đã quay trúng Victini Doll, chúc mừng! <:laugh1:374121408759988224>");
 
     else if (roll == 100)
-    message.reply("bạn đã quay trúng Gold Ditto, chúc mừng! <:laugh1:374121408759988224>");
+    message.reply("bạn đã quay trúng Gold Ditto Doll, chúc mừng! <:laugh1:374121408759988224>");
 }
 
 module.exports.help = {
