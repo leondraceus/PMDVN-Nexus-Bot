@@ -760,9 +760,26 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
         message.channel.sendEmbed(ME459);
     }
 
+    /// Mudkip (ME684) ///
+    if(args[0]==="ME684"| args[0]==="me684" | args[0]==="Me684"){
+        var ME684 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Mudkip/Tùng Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Mudkip`)
+            .addField(`Tên Facebook:`,`Tùng Neko`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`17/10`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME684);
+    }
+
     else if(args[0]==="Mudkip" | args[0]==="mudkip"){
-        message.channel.sendMessage(`**Hiện tại có 2 Mudkip**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.info ME725**`)
+        message.channel.sendMessage(`**Hiện tại có 3 Mudkip**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.info ME684** | **.info ME725**`)
     }
 
     // Togekiss (ME892) ///
@@ -1702,6 +1719,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME030);
+    }
+    
+    /// Charmeleon (ME613) ///
+    if(args[0]==="ME613"| args[0]==="me613" | args[0]==="Me613" | args[0]==="Charmeleon" | args[0]==="charmeleon"){
+        var ME613 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Charmeleon/Propiete la Reputation`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fb/Charmeleon.png/revision/latest/scale-to-width-down/100?cb=20180206110802`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Charmeleon`)
+            .addField(`Tên Facebook:`,`Propiete la Reputation`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`20/12`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME613);
     }
 }
 
