@@ -1482,10 +1482,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
     if(args[0]==="ME566"| args[0]==="me566" | args[0]==="Me566" | args[0]==="Cutiefly" | args[0]==="cutiefly"){
         var ME566 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Cutiefly/Bùi Nhật Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/76/Cutiefly.png/revision/latest/scale-to-width-down/100?cb=20170904043748`)
+            .setAuthor(`Cutiefly/Hồ Hoàng Nhật Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/76/Cutiefly.png/revision/latest/scale-to-width-down/100?cb=20170904043748`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Cutiefly`)
-            .addField(`Tên Facebook:`,`Bùi Nhật Huy`)
+            .addField(`Tên Facebook:`,`Hồ Hoàng Nhật Huy`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`24/9`)
             .addField(`Cấp bậc:`,`Member`)
@@ -1737,6 +1737,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             
         message.channel.sendEmbed(ME613);
     }
+
     /// Giratina (ME751) ///
     if(args[0]==="ME751"| args[0]==="me751" | args[0]==="Me751" | args[0]==="Giratina" | args[0]==="giratina"){
         var ME751 = new Discord.RichEmbed().setColor(`#3A77E6`)
