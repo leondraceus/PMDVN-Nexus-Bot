@@ -1754,6 +1754,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             
         message.channel.sendEmbed(ME751);
     }
+
+    /// Volcarona (ME701) ///
+    if(args[0]==="ME701"| args[0]==="me701" | args[0]==="Me701" | args[0]==="Volcarona" | args[0]==="volcarona"){
+        var ME701 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Volcarona/Hải Võ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Volcarona.png/revision/latest/scale-to-width-down/100?cb=20160818084751`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Volcarona`)
+            .addField(`Tên Facebook:`,`Hải Võ`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`29/1`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME701);
+    }
 }
 
 module.exports.help = {
