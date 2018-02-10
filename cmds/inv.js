@@ -1462,7 +1462,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .addField(`Snivy Doll`,`Một con búp bê hình Pokémon Snivy.`)
             .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
             .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-            .setFooter(`Trang trước (.inv ME906) | Trang sau (.inv ME906--3`);
+            .setFooter(`Trang trước (.inv ME906) | Trang sau (.inv ME906--3)`);
 
         message.channel.sendEmbed(ME906);
     }
