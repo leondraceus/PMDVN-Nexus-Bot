@@ -535,7 +535,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Choco-Heart:`,`10`,inline = true)
             .addField(`Lum Berry`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`)
             .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
-            .addField(`Green Balloon`,`Một quả bóng bay hình trái tim.`)
+            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
             .addField(`Plain Seed (x1)`,`Một hạt giống hết sức bình thường. Khi ăn vào thì cũng không có gì đặc biệt xảy ra cả.`)
             .setFooter(`Trang trước (.inv ME509--6)`);
             
