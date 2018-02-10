@@ -1634,7 +1634,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
             .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
             .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
-            .addField(`Snivy Doll`,`Một con búp bê hình Pokémon Snivy.`);
+            .addField(`Snivy Doll`,`Một con búp bê hình Pokémon Snivy.`)
+            .addField(`Furfrou Doll`,`Một con búp bê hình Pokémon Furfrou.`);
             
         message.channel.sendEmbed(ME868);
     }
