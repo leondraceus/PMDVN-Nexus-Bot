@@ -325,13 +325,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`1780`,inline = true)
+            .addField(`Poké:`,`1980`,inline = true)
             .addField(`Spooky Token:`,`67`,inline = true)
             .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
             .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
             .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`)
             .addField(`Tiny Mushroom`,`Một chiếc nấm nhỏ và hiếm, có thể dùng để chế biến thức ăn.`)
-            .addField(`Salt (x1000)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .setFooter(`Trang sau (.inv ME329--2)`);
             
         message.channel.sendEmbed(ME329);
@@ -342,13 +342,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`1780`,inline = true)
+            .addField(`Poké:`,`1980`,inline = true)
             .addField(`Spooky Token:`,`67`,inline = true)
-            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Frozen Apple`,`Một quả táo được ướp lạnh hoàn toàn rất hiếm và đặc biệt. Ăn quả táo này vào sẽ có cảm giác buốt lạnh toàn thân.`)
             .addField(`Deerling Doll (Autumn)`,`Một con búp bê hình Pokémon Deerling (Autumn Form).`)
             .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
-            .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`)
             .setFooter(`Trang trước (.inv ME329)`);
             
         message.channel.sendEmbed(ME329);
@@ -1476,6 +1474,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Choco-Heart:`,`5`,inline = true)
             .addField(`Furfrou Doll (Pharaoh)`,`Một con búp bê hình Pokémon Furfrou (Pharaoh Trim).`)
+            .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`)
             .setFooter(`Trang trước (.inv ME906--2)`);
 
         message.channel.sendEmbed(ME906);
