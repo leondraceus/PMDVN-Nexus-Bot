@@ -696,10 +696,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
     if(args[0]==="ME411"| args[0]==="me411" | args[0]==="Me411" | args[0]==="Silvally" | args[0]==="silvally"){
         var ME411 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor (`Silvally/Daigo Metagurosu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Silvally.png/revision/latest/scale-to-width-down/100?cb=20171230061609`)
+            .setAuthor (`Silvally/Bờ Lách`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Silvally.png/revision/latest/scale-to-width-down/100?cb=20171230061609`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Silvally`)
-            .addField(`Tên Facebook:`,`Daigo Metagurosu`)
+            .addField(`Tên Facebook:`,`Bờ Lách`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`4/11`)
             .addField(`Cấp bậc:`,`Member`)
