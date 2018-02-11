@@ -1079,7 +1079,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`530`,inline = true)
+            .addField(`Poké:`,`180`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
             .addField(`Snowflake:`,`63`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
@@ -1097,12 +1097,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`530`,inline = true)
+            .addField(`Poké:`,`180`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
             .addField(`Snowflake:`,`63`,inline = true)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
             .addField(`Vanillite Cone (x1)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`)
             .addField(`Gold Ditto Doll`,`Một con búp bê hình Pokémon Ditto màu vàng kim cực kì quý hiếm và đặc biệt. Nó có thể biến đổi thành bất cứ búp bê hình Pokémon nào khác tuỳ theo ý chủ sở hữu.`)
+            .addField(`Riolu Doll`,`Một con búp bê hình Pokémon Riolu.`)
             .setFooter(`Trang trước (.inv ME240--2)`);
             
         message.channel.sendEmbed(ME240);
@@ -1276,7 +1277,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME011** | **.i
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Salt (x1)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Totodile Doll`,`Một con búp bê hình Pokémon Totodile.`)
-            .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`);
+            .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
+            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`);
 
         message.channel.sendEmbed(ME099);
     }
@@ -1899,7 +1901,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Shinx/Hải Thanh Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Shinx.png/revision/latest/scale-to-width-down/100?cb=20160908081524`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1000`,inline = true)
+            .addField(`Poké:`,`1015`,inline = true)
             .addField(`Choco-Heart:`,`9`,inline = true)
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
