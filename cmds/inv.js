@@ -272,7 +272,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 1/3) -`).setImage(`https://i.imgur.com/gLtjc7b.gif`)
             .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`484`,inline = true)
+            .addField(`Poké:`,`334`,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
@@ -290,7 +290,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 2/3) -`).setImage(`https://i.imgur.com/gLtjc7b.gif`)
             .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`484`,inline = true)
+            .addField(`Poké:`,`334`,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
@@ -308,7 +308,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 3/3) -`).setImage(`https://i.imgur.com/gLtjc7b.gif`)
             .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`484`,inline = true)
+            .addField(`Poké:`,`334`,inline = true)
             .addField(`Spooky Token:`,`60`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Emolga Doll`,`Một con búp bê hình Pokémon Emolga.`)
@@ -508,8 +508,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Green Balloon`,`Một quả bóng bay màu xanh lá.`)
             .addField(`Blue Balloon`,`Một quả bóng bay màu xanh xanh dương.`)
             .addField(`Yellow Balloon`,`Một quả bóng bay màu xanh vàng.`)
-            .addField(`Snivy Doll`,`Một con búp bê hình Pokémon Snivy.`)
             .addField(`Rose Incense`,`Một hộp hương có mùi thơm ngào ngạt của hoa.`)
+            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
             .setFooter(`Trang trước (.inv ME509--4) | Trang sau (.inv ME509--6)`);
             
         message.channel.sendEmbed(ME509);
@@ -523,11 +523,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Poké:`,`1655`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`16`,inline = true)
-            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
             .addField(`Miracle Seed`,`Một hạt giống càng tràn sức sống.`)
             .addField(`Big Root`,`Một chiếc rễ to có khả năng tăng lượng HP khi sử dụng những chiêu thức hút HP.`)
             .addField(`Lum Berry`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`)
             .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
+            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
             .setFooter(`Trang trước (.inv ME509--5) | Trang sau (.inv ME509--7)`);
             
         message.channel.sendEmbed(ME509);
@@ -541,7 +541,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Poké:`,`1655`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`16`,inline = true)
-            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
             .addField(`Plain Seed (x1)`,`Một hạt giống hết sức bình thường. Khi ăn vào thì cũng không có gì đặc biệt xảy ra cả.`)
             .setFooter(`Trang trước (.inv ME509--6)`);
             
