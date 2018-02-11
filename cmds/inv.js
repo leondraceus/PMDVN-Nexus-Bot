@@ -905,7 +905,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Silvally/Daigo Metagurosu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Silvally.png/revision/latest/scale-to-width-down/100?cb=20171230061609`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1175`,inline = true)
+            .addField(`Poké:`,`1250`,inline = true)
             .addField(`Snowflake:`,`10`,inline = true)
             .addField(`Choco-Heart:`,`10`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
