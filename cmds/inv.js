@@ -1702,7 +1702,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .addField(`Snowflake:`,`33`,inline = true)
             .addField(`Vanillite Cone (x1)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`)
             .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
-            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`);
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
+            .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`);
             
         message.channel.sendEmbed(ME566);
     }
