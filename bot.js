@@ -56,10 +56,6 @@ bot.on('message', (message) => {
     var args = messageArray.slice(1);
     var channelname = messageArray[1];
     var rep = messageArray[2];
-
-    if(message.content === "Con De" | message.content === "con de" | message.content === "Con de" | message.content === "con De"){
-        message.channel.sendMessage("kém sang <:fakesmile:387588841332146178>")
-    }
 });
 
 bot.on('guildMemberAdd', member => {
