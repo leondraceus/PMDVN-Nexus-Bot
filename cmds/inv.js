@@ -1658,10 +1658,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
     /// Serperior (ME868) ///
     if(args[0]==="ME868"| args[0]==="me868" | args[0]==="Me868" | args[0]==="Serperior" | args[0]==="serperior"){
         var ME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (1/2) -`)
+            .setTitle(`- KHO ĐỒ (1/3) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2330`,inline = true)
+            .addField(`Poké:`,`580`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`12`,inline = true)
@@ -1677,10 +1677,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
 
     if(args[0]==="ME868--2"| args[0]==="me868--2" | args[0]==="Me868--2"){
         var ME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (2/2) -`)
+            .setTitle(`- KHO ĐỒ (2/3) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2330`,inline = true)
+            .addField(`Poké:`,`580`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`12`,inline = true)
@@ -1688,7 +1688,26 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .addField(`Destiny Knot`,`Một cuộn chỉ màu đỏ dài, mảnh và không có gì đặc biệt khi nhìn qua. Tuy nhiên, có thể nó sẽ đem lại một điều gì đó đặc biệt nếu bạn được người mình yêu thương nhất hồi đáp.`)
             .addField(`Happiny Doll`,`Một con búp bê hình Pokémon Happiny.`)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
-            .setFooter(`Trang trước (.inv ME868)`);
+            .addField(`Growlithe Doll`,`Một con búp bê hình Pokémon Growlithe.`)
+            .setFooter(`Trang trước (.inv ME868) | Trang sau (.inv ME868--3)`);
+            
+        message.channel.sendEmbed(ME868);
+    }
+
+    if(args[0]==="ME868--3"| args[0]==="me868--3" | args[0]==="Me868--3"){
+        var ME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (3/3) -`)
+            .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`580`,inline = true)
+            .addField(`Spooky Token:`,`1`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Choco-Heart:`,`12`,inline = true)
+            .addField(`Houndour Doll`,`Một con búp bê hình Pokémon Houndour.`)
+            .addField(`Poochyena Doll`,`Một con búp bê hình Pokémon Poochyena.`)
+            .addField(`Rockruff Doll`,`Một con búp bê hình Pokémon Rockruff.`)
+            .addField(`Lillipup Doll`,`Một con búp bê hình Pokémon Lillipup.`)
+            .setFooter(`Trang trước (.inv ME868--2)`);
             
         message.channel.sendEmbed(ME868);
     }
