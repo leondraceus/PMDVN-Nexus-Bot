@@ -164,6 +164,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Piplup Doll`,`Một con búp bê hình Pokémon Piplup.`)
+            .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`)
             .setFooter(`Trang trước (.inv AD008)`);
             
         message.channel.sendEmbed(AD008);
