@@ -409,7 +409,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
 
     /// Victini (ME509) ///
     if(args[0]==="ME509"| args[0]==="me509" | args[0]==="Me509"){
-        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -419,7 +419,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`17/4`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ACME509 = new Discord.RichEmbed().setColor(`#F08120`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Underwater Expedition:`,`Giải nhất (Thi bơi), Đạt điểm cao nhất (Thi vẽ)`)
             .addField(`Pokéween 2 - Lost in the Woods:`,`Giải ba (Tour SD)`)

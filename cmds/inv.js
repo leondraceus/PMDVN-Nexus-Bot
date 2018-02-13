@@ -193,7 +193,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Poké:`,`250`,inline = true)
             .addField(`Snowflake:`,`15`,inline = true)
             .addField(`Choco-Heart:`,`5`,inline = true)
             .addField(`Salt (x1000)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
@@ -208,7 +208,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`615`,inline = true)
+            .addField(`Poké:`,`865`,inline = true)
             .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
             .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
             .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`)
@@ -270,7 +270,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 1/3) -`).setImage(`https://i.imgur.com/gLtjc7b.gif`)
             .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`104`,inline = true)
+            .addField(`Poké:`,`354`,inline = true)
             .addField(`Choco-Heart:`,`2`,inline = true)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
@@ -287,7 +287,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 2/3) -`).setImage(`https://i.imgur.com/gLtjc7b.gif`)
             .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`104`,inline = true)
+            .addField(`Poké:`,`354`,inline = true)
             .addField(`Choco-Heart:`,`2`,inline = true)
             .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
             .addField(`Turtwig Doll`,`Một con búp bê hình Pokémon Turtwig.`)
@@ -304,7 +304,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 3/3) -`).setImage(`https://i.imgur.com/gLtjc7b.gif`)
             .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`104`,inline = true)
+            .addField(`Poké:`,`354`,inline = true)
             .addField(`Choco-Heart:`,`2`,inline = true)
             .addField(`Emolga Doll`,`Một con búp bê hình Pokémon Emolga.`)
             .addField(`Green Balloon`,`Một quả bóng bay màu xanh lá.`)
@@ -369,13 +369,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Meloetta/Robin Nico`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/61/Meloetta_%28aria%29_1.png/revision/latest/scale-to-width-down/100?cb=20160820011552`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`2655`,inline = true)
+            .addField(`Poké:`,`3155`,inline = true)
             .addField(`Snowflake:`,`27`,inline = true)
-            .addField(`Choco-Heart:`,`21`,inline = true)
+            .addField(`Choco-Heart:`,`28`,inline = true)
             .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
             .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
             .addField(`Heart Scale (x1)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
-            .addField(`Cleffa Doll`,`Một con búp bê hình Pokémon Cleffa.`);
+            .addField(`Cleffa Doll`,`Một con búp bê hình Pokémon Cleffa.`)
+            .addField(`Meowth Doll`,`Một con búp bê hình Pokémon Meowth.`);
             
         message.channel.sendEmbed(ME983);
     }
@@ -387,8 +388,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setAuthor(`Keldeo/ペリエ リッチー`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Keldeo_%28resolute%29.png/revision/latest/scale-to-width-down/100?cb=20170618235442`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Poké:`,`1130`,inline = true)
-            .addField(`Choco-Heart:`,`3`,inline = true)
-            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            .addField(`Choco-Heart:`,`13`,inline = true)
+            .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
+            .addField(`Nugget`,`Một cục vàng nguyên chất sáng bóng. Nó có thể được bán lại với giá cao ở cửa hàng.`);
             
         message.channel.sendEmbed(ME674);
     }
@@ -421,7 +423,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     /// Victini (ME509) ///
     if(args[0]==="ME509"| args[0]==="me509" | args[0]==="Me509"){
-        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
             .setTitle(`- KHO ĐỒ (Size 2 | 1/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -439,7 +441,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     }
     
     if(args[0]==="ME509--2"| args[0]==="me509--2" | args[0]==="Me509--2"){
-        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
             .setTitle(`- KHO ĐỒ (Size 2 | 2/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -457,7 +459,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     }
     
     if(args[0]==="ME509--3"| args[0]==="me509--3" | args[0]==="Me509--3"){
-        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
             .setTitle(`- KHO ĐỒ (Size 2 | 3/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -475,7 +477,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     }
     
     if(args[0]==="ME509--4"| args[0]==="me509--4" | args[0]==="Me509--4"){
-        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
             .setTitle(`- KHO ĐỒ (Size 2 | 4/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -493,7 +495,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     }
     
     if(args[0]==="ME509--5"| args[0]==="me509--5" | args[0]==="Me509--5"){
-        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
             .setTitle(`- KHO ĐỒ (Size 2 | 5/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -511,7 +513,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     }
     
     if(args[0]==="ME509--6"| args[0]==="me509--6" | args[0]==="Me509--6"){
-        var ME509 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
             .setTitle(`- KHO ĐỒ (Size 2 | 6/6) -`).setImage(`https://i.imgur.com/jXu9snA.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -584,16 +586,15 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
     /// Fennekin (ME185) ///
     if(args[0]==="ME185"| args[0]==="me185" | args[0]==="Me185" | args[0]==="Fennekin" | args[0]==="fennekin"){
         var ME185 = new Discord.RichEmbed().setColor(`#CD90BF`)
-            .setTitle(`- KHO ĐỒ (1/2) -`).setImage(`https://i.imgur.com/T47qRfC.gif`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/T47qRfC.gif`)
             .setAuthor(`Fennekin/Quang Phú`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e1/Fennekin1.png/revision/latest/scale-to-width-down/100?cb=20170617053156`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2265`,inline = true)
+            .addField(`Poké:`,`2515`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Treecko Doll`,`Một con búp bê hình Pokémon Treecko.`)
             .addField(`Torchic Doll`,`Một con búp bê hình Pokémon Torchic.`)
             .addField(`Mudkip Doll`,`Một con búp bê hình Pokémon Mudkip.`)
-            .addField(`Jirachi Doll`,`Một con búp bê hình Pokémon Jirachi.`)
-            .setFooter(`Trang sau (.inv ME185--2)`);
+            .addField(`Jirachi Doll`,`Một con búp bê hình Pokémon Jirachi.`);
             
         message.channel.sendEmbed(ME185);
     }
@@ -703,7 +704,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME028** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`).setImage(`https://i.imgur.com/kT71Iwl.gif`)
             .setAuthor(`Lilligant/Lein Cương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Lilligant_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171029142911`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`170`,inline = true)
+            .addField(`Poké:`,`420`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
@@ -720,7 +721,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME028** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`).setImage(`https://i.imgur.com/kT71Iwl.gif`)
             .setAuthor(`Lilligant/Lein Cương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Lilligant_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171029142911`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`170`,inline = true)
+            .addField(`Poké:`,`420`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Deerling Doll (Summer)`,`Một con búp bê hình Pokémon Deerling (Summer Form).`)
             .addField(`Deerling Doll (Autumn)`,`Một con búp bê hình Pokémon Deerling (Autumn  Form).`)
@@ -995,8 +996,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 1/3) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0e/702.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3`,inline = true)
-            .addField(`Snowflake:`,`6`,inline = true)
+            .addField(`Poké:`,`23`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Choco-Heart:`,`5`,inline = true)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
@@ -1012,8 +1014,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 2/3) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0e/702.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3`,inline = true)
-            .addField(`Snowflake:`,`6`,inline = true)
+            .addField(`Poké:`,`23`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Choco-Heart:`,`5`,inline = true)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
@@ -1029,8 +1032,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 3/3) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0e/702.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3`,inline = true)
-            .addField(`Snowflake:`,`6`,inline = true)
+            .addField(`Poké:`,`23`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Choco-Heart:`,`5`,inline = true)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
@@ -1047,9 +1051,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`180`,inline = true)
+            .addField(`Poké:`,`1210`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
             .addField(`Snowflake:`,`63`,inline = true)
+            .addField(`Choco-Heart:`,`5`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Mudkip Doll`,`Một con búp bê hình Pokémon Mudkip.`)
             .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
@@ -1065,9 +1070,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`180`,inline = true)
+            .addField(`Poké:`,`1210`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
             .addField(`Snowflake:`,`63`,inline = true)
+            .addField(`Choco-Heart:`,`5`,inline = true)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
             .addField(`Vanillite Cone (x1)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`)
             .addField(`Gold Ditto Doll`,`Một con búp bê hình Pokémon Ditto màu vàng kim cực kì quý hiếm và đặc biệt. Nó có thể biến đổi thành bất cứ búp bê hình Pokémon nào khác tuỳ theo ý chủ sở hữu.`)
@@ -1096,7 +1102,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Lucario/Đạt Quốc Trương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d0/Lucario.png/revision/latest/scale-to-width-down/100?cb=20171028171549`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`360`,inline = true)
+            .addField(`Poké:`,`610`,inline = true)
             .addField(`Spooky Token:`,`107`,inline = true)
             .addField(`Snowflake:`,`38`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
@@ -1143,7 +1149,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME300** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Mega Charizard Y/Thu Phương Đỗ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/c8/Megacharizardy.png/revision/latest/scale-to-width-down/100?cb=20160821135727`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1374`,inline = true)
+            .addField(`Poké:`,`1624`,inline = true)
             .addField(`Snowflake:`,`35`,inline = true)
             .addField(`Choco-Heart:`,`9`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`);
@@ -1222,7 +1228,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME640** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Sylveon/Nguyễn Hà`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/63/Sylveon.png/revision/latest/scale-to-width-down/100?cb=20170618140044`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`770`,inline = true)
+            .addField(`Poké:`,`1020`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`);
 
@@ -1240,7 +1246,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME011** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Talonflame/Justin Vader`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0b/Talonflame_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180128152130`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`66`,inline = true)
+            .addField(`Poké:`,`316`,inline = true)
             .addField(`Snowflake:`,`3`,inline = true)
             .addField(`Choco-Heart:`,`2`,inline = true)
             .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
@@ -1276,7 +1282,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Decidueye/Nguyễn Tiến Gia Nguyên`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Decidueye.png/revision/latest/scale-to-width-down/100?cb=20170621040327`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`560`,inline = true)
+            .addField(`Poké:`,`810`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
             .addField(`Snowflake:`,`142`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
@@ -1294,10 +1300,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Purrloin/Đoàn Anh Đức`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0f/Purrloin.png/revision/latest/scale-to-width-down/100?cb=20160821010754`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1475`,inline = true)
-            .addField(`Choco-Heart:`,`21`,inline = true)
+            .addField(`Poké:`,`1200`,inline = true)
+            .addField(`Choco-Heart:`,`48`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
-            .addField(`Cleffa Doll`,`Một con búp bê hình Pokémon Cleffa.`);
+            .addField(`Cleffa Doll`,`Một con búp bê hình Pokémon Cleffa.`)
+            .addField(`Meowth Doll`,`Một con búp bê hình Pokémon Meowth.`);
 
         message.channel.sendEmbed(ME716);
     }
@@ -1320,7 +1327,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Sableye/Le Ba Tuan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/99/Sableye.png/revision/latest/scale-to-width-down/100?cb=20160908081725`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1820`,inline = true)
+            .addField(`Poké:`,`2070`,inline = true)
             .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
             .addField(`Salt (x1)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`);
 
@@ -1345,7 +1352,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1150`,inline = true)
+            .addField(`Poké:`,`1400`,inline = true)
             .addField(`Choco-Heart:`,`25`,inline = true)
             .addField(`Audino Doll`,`Một con búp bê hình Pokémon Audino.`)
             .addField(`Destiny Knot`,`Một cuộn chỉ màu đỏ dài, mảnh và không có gì đặc biệt khi nhìn qua. Tuy nhiên, có thể nó sẽ đem lại một điều gì đó đặc biệt nếu bạn được người mình yêu thương nhất hồi đáp.`)
@@ -1362,7 +1369,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1150`,inline = true)
+            .addField(`Poké:`,`1400`,inline = true)
             .addField(`Choco-Heart:`,`25`,inline = true)
             .addField(`Poochyena Doll`,`Một con búp bê hình Pokémon Poochyena.`)
             .addField(`Rockruff Doll`,`Một con búp bê hình Pokémon Rockruff.`)
@@ -1439,7 +1446,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .setTitle(`- KHO ĐỒ (1/3) -`)
             .setAuthor (`Dratini/Gia Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/eb/Smile147.png/revision/latest/scale-to-width-down/100?cb=20180206155803`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1090`,inline = true)
+            .addField(`Poké:`,`1340`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Choco-Heart:`,`10`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
@@ -1457,7 +1464,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .setTitle(`- KHO ĐỒ (2/3) -`)
             .setAuthor (`Dratini/Gia Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/eb/Smile147.png/revision/latest/scale-to-width-down/100?cb=20180206155803`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1090`,inline = true)
+            .addField(`Poké:`,`1340`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Choco-Heart:`,`10`,inline = true)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
@@ -1475,7 +1482,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .setTitle(`- KHO ĐỒ (3/3) -`)
             .setAuthor (`Dratini/Gia Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/eb/Smile147.png/revision/latest/scale-to-width-down/100?cb=20180206155803`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1090`,inline = true)
+            .addField(`Poké:`,`1340`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Choco-Heart:`,`10`,inline = true)
             .addField(`Furfrou Doll (Pharaoh)`,`Một con búp bê hình Pokémon Furfrou (Pharaoh Trim).`)
@@ -1491,7 +1498,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Mega Diancie/Nguyễn Diancie`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/31/Megadiancie.png/revision/latest/scale-to-width-down/100?cb=20160815093508`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`699`,inline = true)
+            .addField(`Poké:`,`949`,inline = true)
             .addField(`Snowflake:`,`80`,inline = true)
             .addField(`Choco-Heart:`,`2`,inline = true)
             .addField(`Deerling Doll (Winter)`,`Một con búp bê hình Pokémon Deerling Doll (Winter Form).`)
@@ -1506,7 +1513,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Mega Lucario/Luke Stelard`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/dd/Megalucario.png/revision/latest/scale-to-width-down/100?cb=20160817072416`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`374`,inline = true)
+            .addField(`Poké:`,`624`,inline = true)
             .addField(`Snowflake:`,`21`,inline = true)
             .addField(`Choco-Heart:`,`2`,inline = true)
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
@@ -1662,7 +1669,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`330`,inline = true)
+            .addField(`Poké:`,`580`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`12`,inline = true)
@@ -1681,7 +1688,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`330`,inline = true)
+            .addField(`Poké:`,`580`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`12`,inline = true)
@@ -1701,7 +1708,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Cutiefly/Hồ Hoàng Nhật Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/76/Cutiefly.png/revision/latest/scale-to-width-down/100?cb=20170904043748`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`200`,inline = true)
+            .addField(`Poké:`,`450`,inline = true)
             .addField(`Snowflake:`,`33`,inline = true)
             .addField(`Vanillite Cone (x1)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`)
             .addField(`Cubchoo Doll`,`Một con búp bê hình Pokémon Cubchoo.`)
@@ -1719,7 +1726,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor(`Chandelure/Phạm Đức Nam Phương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/90/Chandelure.png/revision/latest/scale-to-width-down/100?cb=20160818065924`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`430`,inline = true)
+            .addField(`Poké:`,`680`,inline = true)
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
             .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`)
             .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
@@ -1735,7 +1742,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor(`Chandelure/Phạm Đức Nam Phương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/90/Chandelure.png/revision/latest/scale-to-width-down/100?cb=20160818065924`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`430`,inline = true)
+            .addField(`Poké:`,`680`,inline = true)
             .addField(`Snivy Doll`,`Một con búp bê hình Pokémon Snivy.`)
             .addField(`Riolu Doll`,`Một con búp bê hình Pokémon Riolu.`)
             .setFooter(`Trang trước (.inv ME819)`);
@@ -1787,7 +1794,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (1/2) -`)
             .setAuthor(`Garchomp/Minh Nguyenvan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e4/Garchomp.png/revision/latest/scale-to-width-down/100?cb=20180108073309`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`100`,inline = true)
+            .addField(`Poké:`,`350`,inline = true)
             .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
             .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
             .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
@@ -1803,7 +1810,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (2/2) -`)
             .setAuthor(`Garchomp/Minh Nguyenvan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e4/Garchomp.png/revision/latest/scale-to-width-down/100?cb=20180108073309`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`100`,inline = true)
+            .addField(`Poké:`,`350`,inline = true)
             .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
             .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
             .setFooter(`Trang trước (.inv ME200)`);
@@ -1909,7 +1916,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Shinx/Hải Thanh Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Shinx.png/revision/latest/scale-to-width-down/100?cb=20160908081524`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1015`,inline = true)
+            .addField(`Poké:`,`1265`,inline = true)
             .addField(`Choco-Heart:`,`9`,inline = true)
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
@@ -1934,7 +1941,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Giratina/Kha Louis`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a8/Giratina_%28origin%292.png/revision/latest/scale-to-width-down/100?cb=20160918154048`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`200`,inline = true)
+            .addField(`Poké:`,`450`,inline = true)
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME751);
