@@ -12,15 +12,7 @@ module.exports.run = async (pw, message, args) => {
         .addField(`2. TIỆN ÍCH`,`---------------`)
         .addField(`.shop`,`Xem các mặt hàng trên Kecleon's Shop.`)
         .addField(`3. GIẢI TRÍ`,`---------------`)
-        .addField(`.bite @mention`,`\u200B`,inline = true)
-        .addField(`.slap @mention`,`\u200B`,inline = true)
-        .addField(`.smash @mention`,`\u200B`,inline = true)
-        .addField(`.poke @mention`,`\u200B`,inline = true)
-        .addField(`.hug @mention`,`\u200B`,inline = true)
-        .addField(`.kiss @mention`,`\u200B`,inline = true)
-        .addField(`.lick @mention`,`\u200B`,inline = true)
-        .addField(`.intensify`,`\u200B`,inline = true)
-        .addField(`.trigger`,`\u200B`,inline = true)
+        .addField(`.bite / .slap / .smash / .poke / .hug / .kiss / .lick / .intensify / .trigger`,`\u200B`,inline = true)
         .setColor(`#a366ff`);
    
     message.channel.sendEmbed(embed);
