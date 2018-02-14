@@ -209,8 +209,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`915`,inline = true)
-            .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
+            .addField(`Poké:`,`1140`,inline = true)
             .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`);
         
@@ -1673,10 +1672,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
     /// Serperior (ME868) ///
     if(args[0]==="ME868"| args[0]==="me868" | args[0]==="Me868" | args[0]==="Serperior" | args[0]==="serperior"){
         var ME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (1/2) -`)
+            .setTitle(`- KHO ĐỒ (1/3) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`580`,inline = true)
+            .addField(`Poké:`,`355`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`12`,inline = true)
@@ -1692,10 +1691,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
 
     if(args[0]==="ME868--2"| args[0]==="me868--2" | args[0]==="Me868--2"){
         var ME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (2/2) -`)
+            .setTitle(`- KHO ĐỒ (2/3) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`580`,inline = true)
+            .addField(`Poké:`,`355`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`12`,inline = true)
@@ -1704,7 +1703,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .addField(`Happiny Doll`,`Một con búp bê hình Pokémon Happiny.`)
             .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
             .addField(`Meowth Doll`,`Một con búp bê hình Pokémon Meowth.`)
-            .setFooter(`Trang trước (.inv ME868)`);
+            .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
+            .setFooter(`Trang trước (.inv ME868) | Trang sau (.inv ME868--3)`);
+            
+        message.channel.sendEmbed(ME868);
+    }
+
+    if(args[0]==="ME868--3"| args[0]==="me868--3" | args[0]==="Me868--3"){
+        var ME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (3/3) -`)
+            .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`355`,inline = true)
+            .addField(`Spooky Token:`,`1`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Choco-Heart:`,`12`,inline = true)
+            .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
+            .setFooter(`Trang trước (.inv ME868--2)`);
             
         message.channel.sendEmbed(ME868);
     }
