@@ -172,8 +172,8 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`997/1200`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ
-            Bán đồ được 75% số tiền mua
-            Kho đồ được mở rộng một chút`);
+Bán đồ được 75% số tiền mua
+Kho đồ được mở rộng một chút`);
             
         message.channel.sendEmbed(ME509);
     }
