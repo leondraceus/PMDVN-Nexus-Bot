@@ -1355,7 +1355,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Mega Metagross/Duy Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Megametagross_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171213093652`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Metagross (Mega)`)
+            .addField(`Chủng loài:`,`Metagross (Mega) <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Duy Tran`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`19/9`)
