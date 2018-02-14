@@ -1376,7 +1376,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .addField(`Poochyena Doll`,`Một con búp bê hình Pokémon Poochyena.`)
             .addField(`Rockruff Doll`,`Một con búp bê hình Pokémon Rockruff.`)
             .addField(`Lillipup Doll`,`Một con búp bê hình Pokémon Lillipup.`)
-            .addField(`Furfrou Doll (Kabuki)`,`Một con búp bê hình Pokémon Furfrou (Kabuki Form).`)
+            .addField(`Furfrou Doll (Kabuki)`,`Một con búp bê hình Pokémon Furfrou (Kabuki Trim).`)
             .addField(`Furfrou Doll`,`Một con búp bê hình Pokémon Furfrou.`)
             .setFooter(`Trang trước (.inv ME014) | Trang sau (.inv ME014--3)`);
 
@@ -1761,7 +1761,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`430`,inline = true)
             .addField(`Marshadow Doll`,`Một con búp bê hình Pokémon Marshadow.`)
-            .addField(`Furfrou Doll`,`Một con búp bê hình Pokémon Furfrou.`)
+            .addField(`Furfrou Doll (Deputante)`,`Một con búp bê hình Pokémon Furfrou (Deputante Trim).`)
             .setFooter(`Trang trước (.inv ME566)`);
             
         message.channel.sendEmbed(ME566);
