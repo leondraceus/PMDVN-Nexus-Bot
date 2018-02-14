@@ -296,7 +296,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`12/12`)
             .addField(`Cấp bậc:`,`Contributor`)
-            .addField(`Guild:`,`---`)
+            .addField(`Guild:`,`---`);
         var ACME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Quản lí Spinda's Café`,`\u200B`)
