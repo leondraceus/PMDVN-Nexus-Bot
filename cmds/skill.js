@@ -241,10 +241,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME509** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Hawlucha/Đinh Hoàng Việt`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/82/Hawlucha.png/revision/latest/scale-to-width-down/100?cb=20160817081722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Hawlucha`)
-            .addField(`Số điểm (Points):`,`Đinh Hoàng Việt`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`19/6`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME320);
     }
@@ -260,10 +259,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME028** | **
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/kT71Iwl.gif`)
             .setAuthor(`Lilligant/Lein Cương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Lilligant_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171029142911`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Lilligant <:shiny:385079020158451722>`)
-            .addField(`Số điểm (Points):`,`Lein Cương`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`---`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`106/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME571);
     }
@@ -274,10 +272,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME028** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Mega Rayquaza/Lưu Mạnh Hà`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/44/Megarayquaza.png/revision/latest/scale-to-width-down/100?cb=20160816075307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Rayquaza (Mega)`)
-            .addField(`Số điểm (Points):`,`Lưu Mạnh Hà`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`15/9`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME697);
     }
@@ -293,18 +290,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME642** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Suicune/Syu Nub`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/c3/Suicune.png/revision/latest/scale-to-width-down/100?cb=20160827153416`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Suicune`)
-            .addField(`Số điểm (Points):`,`Syu Nub`)
-            .addField(`Kỹ năng (Skills):`,`Bisexual`)
-            .addField(`Ngày sinh:`,`20/7`);
-        var ACME818 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Sky Peak Conquest:`,`Giải nhì`)
-            .addField(`Underwater Expedition:`,`Giải ba (Thi bơi)`)
-            .addField(`Pokéween 2 - Lost in the Woods:`,`Giải nhất (Tour SD)`);
+            .addField(`Cấp bậc (Rank):`,`⭐`)
+            .addField(`Số điểm (Points):`,`275/300`)
+            .addField(`Kỹ năng (Skills):`,`Bisexual`);
             
         message.channel.sendEmbed(ME818);
-        message.channel.sendEmbed(ACME818);
     }
 
     // Mimikyu (ME319) ///
