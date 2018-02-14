@@ -12,7 +12,8 @@ module.exports.run = async (pw, message, args) => {
         .addField(`2. TIỆN ÍCH`,`---------------`)
         .addField(`.shop`,`Xem các mặt hàng trên Kecleon's Shop.`)
         .addField(`3. GIẢI TRÍ`,`---------------`)
-        .addField(`.bite | .slap | .smash | .poke | .hug |\n\n.kiss | .lick | .intensify | .trigger`,`\u200B`,inline = true)
+        .addField(`\u200B`,`.bite | .slap | .smash | .poke | .hug | 
+.kiss | .lick | .intensify | .trigger`,inline = true)
         .setColor(`#a366ff`);
    
     message.channel.sendEmbed(embed);
