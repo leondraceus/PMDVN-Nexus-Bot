@@ -1173,10 +1173,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.
     if(args[0]==="ME062"| args[0]==="Me062" | args[0]==="me062"| args[0]==="Brionne" | args[0]==="brionne"){
         var ME062 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor (`Brionne/Đặng Lê Bảo Linh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Brionne.png/revision/latest/scale-to-width-down/100?cb=20170618091552`)
+            .setAuthor (`Brionne/Shiiri Ether`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Brionne.png/revision/latest/scale-to-width-down/100?cb=20170618091552`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Brionne`)
-            .addField(`Tên Facebook:`,`Đặng Lê Bảo Linh`)
+            .addField(`Tên Facebook:`,`Shiiri Ether`)
             .addField(`Giới tính:`,`---`)
             .addField(`Ngày sinh:`,`8/8`)
             .addField(`Cấp bậc:`,`Member`)
