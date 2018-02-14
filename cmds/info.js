@@ -640,10 +640,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.
     if(args[0]==="ME338"| args[0]==="me3384" | args[0]==="Me338"){
         var ME338 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor (`Mimikyu/Le Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/ab/Mimikyu1.png/revision/latest/scale-to-width-down/100?cb=20170617060854`)
+            .setAuthor (`Mimikyu/Le Duy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/ab/Mimikyu1.png/revision/latest/scale-to-width-down/100?cb=20170617060854`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Mimikyu`)
-            .addField(`Tên Facebook:`,`Le Tran`)
+            .addField(`Tên Facebook:`,`Le Duy`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`24/5`)
             .addField(`Cấp bậc:`,`Member`)
