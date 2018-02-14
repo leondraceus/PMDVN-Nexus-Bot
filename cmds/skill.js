@@ -184,19 +184,16 @@ Kho đồ được mở rộng một chút`);
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Victini <:shiny:385079020158451722>`)
-            .addField(`Số điểm (Points):`,`Vickyu Nguyễn`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`24/10`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: #teamcạpcạp vs #teambắtcạpcạprong (26/9/2017 -> 5/10/2017)`);
+            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
+            .addField(`Số điểm (Points):`,`335/525`)
+            .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME264);
     }
     
     else if(args[0]==="Victini" | args[0]==="victini"){
         message.channel.sendMessage(`**Hiện tại có 2 Victini**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.info ME264**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME509** | **.skill ME264**`)
     }
     
     /// Fennekin (ME185) ///
@@ -205,11 +202,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/T47qRfC.gif`)
             .setAuthor(`Fennekin/Quang Phú`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e1/Fennekin1.png/revision/latest/scale-to-width-down/100?cb=20170617053156`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Fennekin`)
-            .addField(`Số điểm (Points):`,`Quang Phú`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`4/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`63/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME185);
     }
@@ -220,11 +215,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Bisharp/Rayen Sylvia`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3c/Bisharp.png/revision/latest/scale-to-width-down/100?cb=20160821125340`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Bisharp`)
-            .addField(`Số điểm (Points):`,`Rayen Sylvia`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`26/3`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
+            .addField(`Số điểm (Points):`,`320/525`)
+            .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME392);
     }
@@ -235,11 +228,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Hawlucha/Nguyễn Tấn Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/82/Hawlucha.png/revision/latest/scale-to-width-down/100?cb=20160817081722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Hawlucha`)
-            .addField(`Số điểm (Points):`,`Nguyễn Tấn Phát`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`1/8`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`95/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME028);
     }
@@ -253,15 +244,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.
             .addField(`Cấp bậc (Rank):`,`Hawlucha`)
             .addField(`Số điểm (Points):`,`Đinh Hoàng Việt`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`19/6`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`19/6`);
             
         message.channel.sendEmbed(ME320);
     }
 
     else if(args[0]==="Hawlucha" | args[0]==="hawlucha"){
         message.channel.sendMessage(`**Hiện tại có 2 Hawlucha**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME028** | **.info ME320**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME028** | **.skill ME320**`)
     }
 
     /// Lilligant (ME571) ///
@@ -273,8 +263,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME028** | **.
             .addField(`Cấp bậc (Rank):`,`Lilligant <:shiny:385079020158451722>`)
             .addField(`Số điểm (Points):`,`Lein Cương`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`---`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`---`);
             
         message.channel.sendEmbed(ME571);
     }
@@ -288,15 +277,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME028** | **.
             .addField(`Cấp bậc (Rank):`,`Rayquaza (Mega)`)
             .addField(`Số điểm (Points):`,`Lưu Mạnh Hà`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`15/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`15/9`);
 
         message.channel.sendEmbed(ME697);
     }
 
     else if(args[0]==="MegaRayquaza" | args[0]==="Megarayquaza" | args[0]==="megarayquaza"){
         message.channel.sendMessage(`**Hiện tại có 2 Mega Rayquaza**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.info ME697**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME642** | **.skill ME697**`)
     }
 
     /// Suicune (ME818) ///
@@ -308,8 +296,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.
             .addField(`Cấp bậc (Rank):`,`Suicune`)
             .addField(`Số điểm (Points):`,`Syu Nub`)
             .addField(`Kỹ năng (Skills):`,`Bisexual`)
-            .addField(`Ngày sinh:`,`20/7`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`20/7`);
         var ACME818 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Sky Peak Conquest:`,`Giải nhì`)
@@ -329,8 +316,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.
             .addField(`Cấp bậc (Rank):`,`Mimikyu`)
             .addField(`Số điểm (Points):`,`Nagisa Shiota`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`29/5`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`29/5`);
 
         message.channel.sendEmbed(ME319);
     }
@@ -344,8 +330,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.
             .addField(`Cấp bậc (Rank):`,`Mimikyu`)
             .addField(`Số điểm (Points):`,`Thanh Phạm`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`21/2`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`21/2`);
 
         message.channel.sendEmbed(ME982);
     }
@@ -359,8 +344,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.
             .addField(`Cấp bậc (Rank):`,`Mimikyu`)
             .addField(`Số điểm (Points):`,`Hậu Nguyễn`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`---`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`---`);
 
         message.channel.sendEmbed(ME304);
     }
@@ -374,15 +358,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.
             .addField(`Cấp bậc (Rank):`,`Mimikyu`)
             .addField(`Số điểm (Points):`,`Le Tran`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`24/5`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`24/5`);
 
         message.channel.sendEmbed(ME338);
     }
 
     else if(args[0]==="Mimikyu" | args[0]==="mimikyu"){
         message.channel.sendMessage(`**Hiện tại có 4 Mimikyu**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.info ME319** | **.info ME338** | **.info ME982**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **.skill ME319** | **.skill ME338** | **.skill ME982**`)
     }
 
     // Rockruff (ME008) ///
@@ -394,8 +377,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Cấp bậc (Rank):`,`Rockruff`)
             .addField(`Số điểm (Points):`,`Drack Mon`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`27/11`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`27/11`);
 
         message.channel.sendEmbed(ME008);
     }
@@ -410,7 +392,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Số điểm (Points):`,`Mai Thái Hoàng`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`27/6`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Pokéween - Giải ba (Lost Library)`);
 
         message.channel.sendEmbed(ME427);
@@ -426,7 +407,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Số điểm (Points):`,`Bờ Lách`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`4/11`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Tổ chức Member Event: Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`);
 
         message.channel.sendEmbed(ME411);
@@ -441,8 +421,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Cấp bậc (Rank):`,`Sharpedo`)
             .addField(`Số điểm (Points):`,`Vũ Ân Mỹ`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`9/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`9/9`);
 
         message.channel.sendEmbed(ME524);
     }
@@ -456,8 +435,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Cấp bậc (Rank):`,`Mudkip`)
             .addField(`Số điểm (Points):`,`Thanh Ngọc`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`2/7`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`2/7`);
 
         message.channel.sendEmbed(ME725);
     }
@@ -471,8 +449,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Cấp bậc (Rank):`,`Mudkip`)
             .addField(`Số điểm (Points):`,`Nguyễn An`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`28/2`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`28/2`);
 
         message.channel.sendEmbed(ME459);
     }
@@ -486,15 +463,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Cấp bậc (Rank):`,`Mudkip`)
             .addField(`Số điểm (Points):`,`Tùng Neko`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`17/10`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`17/10`);
             
         message.channel.sendEmbed(ME684);
     }
 
     else if(args[0]==="Mudkip" | args[0]==="mudkip"){
         message.channel.sendMessage(`**Hiện tại có 3 Mudkip**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.info ME684** | **.info ME725**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **.skill ME684** | **.skill ME725**`)
     }
 
     // Togekiss (ME892) ///
@@ -507,7 +483,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Số điểm (Points):`,`Dương Anh Văn`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`1/6`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Prison Bottle Event - Giải khuyến khích (Hoopa's House)`);
 
         message.channel.sendEmbed(ME892);
@@ -522,8 +497,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Cấp bậc (Rank):`,`Latias (Mega)`)
             .addField(`Số điểm (Points):`,`Trần Minh Hoàng`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`9/6`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`9/6`);
 
         message.channel.sendEmbed(ME089);
     }
@@ -537,8 +511,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Cấp bậc (Rank):`,`Dedenne`)
             .addField(`Số điểm (Points):`,`Trần Khoa Lộc`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`5/4`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`5/4`);
         var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`)
@@ -558,8 +531,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Cấp bậc (Rank):`,`Dewott <:shiny:385079020158451722>`)
             .addField(`Số điểm (Points):`,`Namhuy Ly`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`6/5`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`6/5`);
 
         message.channel.sendEmbed(ME240);
     }
@@ -573,8 +545,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Cấp bậc (Rank):`,`Jolteon`)
             .addField(`Số điểm (Points):`,`Nguyễn Mai Phương`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`23/2`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`23/2`);
 
         message.channel.sendEmbed(ME219);
     }
@@ -588,8 +559,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Cấp bậc (Rank):`,`Lucario`)
             .addField(`Số điểm (Points):`,`Đạt Quốc Trương`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`12/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`12/9`);
 
         message.channel.sendEmbed(ME300);
     }
@@ -603,15 +573,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Cấp bậc (Rank):`,`Lucario`)
             .addField(`Số điểm (Points):`,`Minh Song Nguyễn Huỳnh`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`15/1`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`15/1`);
 
         message.channel.sendEmbed(ME773);
     }
 
     else if(args[0]==="Lucario" | args[0]==="lucario"){
         message.channel.sendMessage(`**Hiện tại có 2 Lucario**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.info ME773**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME300** | **.skill ME773**`)
     }
 
     // Mega Charizard X (ME209) ///
@@ -623,8 +592,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.
             .addField(`Cấp bậc (Rank):`,`Charizard (Mega) X`)
             .addField(`Số điểm (Points):`,`Dương Võ`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`16/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`16/9`);
 
         message.channel.sendEmbed(ME209);
     }
@@ -638,8 +606,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.
             .addField(`Cấp bậc (Rank):`,`Charizard (Mega) Y`)
             .addField(`Số điểm (Points):`,`Thu Phương Đỗ`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`12/1`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`12/1`);
 
         message.channel.sendEmbed(ME054);
     }
@@ -653,8 +620,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.
             .addField(`Cấp bậc (Rank):`,`Riolu`)
             .addField(`Số điểm (Points):`,`Huỳnh Tiến Phát`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`20/3`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`20/3`);
 
         message.channel.sendEmbed(ME711);
     }
@@ -668,15 +634,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.
             .addField(`Cấp bậc (Rank):`,`Riolu`)
             .addField(`Số điểm (Points):`,`Huyền Rosie`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`21/1`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`21/1`);
 
         message.channel.sendEmbed(ME640);
     }
 
     else if(args[0]==="Riolu" | args[0]==="riolu"){
         message.channel.sendMessage(`**Hiện tại có 2 Riolu**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME640** | **.info ME711**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME640** | **.skill ME711**`)
     }
 
     // Sylveon (ME011) ///
@@ -688,8 +653,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME640** | **.
             .addField(`Cấp bậc (Rank):`,`Sylveon`)
             .addField(`Số điểm (Points):`,`Mỹ Duyên Hứa`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`24/12`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`24/12`);
 
         message.channel.sendEmbed(ME011);
     }
@@ -703,15 +667,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME640** | **.
             .addField(`Cấp bậc (Rank):`,`Sylveon`)
             .addField(`Số điểm (Points):`,`Nguyễn Hà`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`5/8`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`5/8`);
 
         message.channel.sendEmbed(ME884);
     }
 
     else if(args[0]==="Sylveon" | args[0]==="sylveon"){
         message.channel.sendMessage(`**Hiện tại có 2 Sylveon**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME011** | **.info ME884**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME011** | **.skill ME884**`)
     }
 
     // Talonflame (ME099) ///
@@ -723,8 +686,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME011** | **.
             .addField(`Cấp bậc (Rank):`,`Talonflame <:shiny:385079020158451722>`)
             .addField(`Số điểm (Points):`,`Justin Vader`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`16/12`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`16/12`);
 
         message.channel.sendEmbed(ME099);
     }
@@ -738,15 +700,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME011** | **.
             .addField(`Cấp bậc (Rank):`,`Talonflame`)
             .addField(`Số điểm (Points):`,`Koutei Akumei`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`1/8`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`1/8`);
 
         message.channel.sendEmbed(ME381);
     }
 
     else if(args[0]==="Talonflame" | args[0]==="talonflame"){
         message.channel.sendMessage(`**Hiện tại có 2 Talonflame**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.info ME381**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **.skill ME381**`)
     }
 
     // Decidueye (ME330) ///
@@ -758,8 +719,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Cấp bậc (Rank):`,`Decidueye`)
             .addField(`Số điểm (Points):`,`Nguyễn Tiến Gia Nguyên`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`28/4`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`28/4`);
 
         message.channel.sendEmbed(ME330);
     }
@@ -774,7 +734,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Số điểm (Points):`,`Đoàn Anh Đức`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`16/12`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Sky Ruins Expedition: Giải khuyến khích`);
 
         message.channel.sendEmbed(ME716);
@@ -790,7 +749,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Số điểm (Points):`,`Trần Ngọc Phi Long`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`6/4`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Tổ chức Member Event: Mightyenia (27/1/2017)`);
 
         message.channel.sendEmbed(ME456);
@@ -806,7 +764,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Số điểm (Points):`,`Le Ba Tuan`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`25/1`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Pokéween - Giải nhì (Pokékween)`);
 
         message.channel.sendEmbed(ME441);
@@ -821,8 +778,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Cấp bậc (Rank):`,`Gallade`)
             .addField(`Số điểm (Points):`,`Silver Mist`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`26/10`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`26/10`);
 
         message.channel.sendEmbed(ME110);
     }
@@ -837,7 +793,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Số điểm (Points):`,`Tuấn Minh Nguyễn`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`13/7`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Prison Bottle Event: Giải nhì (Game Center)`);
 
         message.channel.sendEmbed(ME014);
@@ -845,7 +800,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
 
     else if(args[0]==="Gallade" | args[0]==="gallade"){
         message.channel.sendMessage(`**Hiện tại có 2 Gallade**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.info ME110**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME014** | **.skill ME110**`)
     }
 
     // Brionne (ME062) ///
@@ -857,8 +812,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.
             .addField(`Cấp bậc (Rank):`,`Brionne`)
             .addField(`Số điểm (Points):`,`Đặng Lê Bảo Linh`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`8/8`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`8/8`);
 
         message.channel.sendEmbed(ME062);
     }
@@ -872,8 +826,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.
             .addField(`Cấp bậc (Rank):`,`Zygarde`)
             .addField(`Số điểm (Points):`,`Ngọc Minh Nguyễn`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`29/4`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`29/4`);
 
         message.channel.sendEmbed(ME607);
     }
@@ -887,8 +840,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.
             .addField(`Cấp bậc (Rank):`,`Cyndaquil`)
             .addField(`Số điểm (Points):`,`Sejuro Akayashi`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`18/2`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`18/2`);
 
         message.channel.sendEmbed(ME867);
     }
@@ -902,15 +854,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.
             .addField(`Cấp bậc (Rank):`,`Cyndaquil`)
             .addField(`Số điểm (Points):`,`Nguyễn Thành Nhân`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`15/5`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`15/5`);
 
         message.channel.sendEmbed(ME662);
     }
 
     else if(args[0]==="Cyndaquil" | args[0]==="cyndaquil"){
         message.channel.sendMessage(`**Hiện tại có 2 Cyndaquil**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.info ME662**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME867** | **.skill ME662**`)
     }
 
     // Dratini (ME906) ///
@@ -922,8 +873,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Cấp bậc (Rank):`,`Dratini`)
             .addField(`Số điểm (Points):`,`Ngọc Bảo`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`14/1`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`14/1`);
         var ACME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)`)
@@ -944,7 +894,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Số điểm (Points):`,`Nguyễn Diancie`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`6/3`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Pokéween: Giải khuyến khích`);
             
         message.channel.sendEmbed(ME905);
@@ -959,8 +908,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Cấp bậc (Rank):`,`Lucario (Mega)`)
             .addField(`Số điểm (Points):`,`Luke Stelard`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`26/1`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`26/1`);
             
         message.channel.sendEmbed(ME923);
     }
@@ -974,8 +922,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Cấp bậc (Rank):`,`Ursaring`)
             .addField(`Số điểm (Points):`,`ゲイル ハワアド`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`12/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`12/9`);
 
         message.channel.sendEmbed(ME857);
     }
@@ -989,8 +936,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Cấp bậc (Rank):`,`Froakie`)
             .addField(`Số điểm (Points):`,`Lê N. G. Bảo`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`26/3`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`26/3`);
 
         message.channel.sendEmbed(ME041);
     }
@@ -1004,8 +950,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Cấp bậc (Rank):`,`Metagross (Mega)`)
             .addField(`Số điểm (Points):`,`Nguyễn Hoàng Lâm`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`9/8`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`9/8`);
 
         message.channel.sendEmbed(ME037);
     }
@@ -1019,15 +964,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Cấp bậc (Rank):`,`Metagross (Mega)`)
             .addField(`Số điểm (Points):`,`Duy Tran`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`19/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`19/9`);
 
         message.channel.sendEmbed(ME813);
     }
 
     else if(args[0]==="Megametagross" | args[0]==="megametagross"){
         message.channel.sendMessage(`**Hiện tại có 2 Mega Metagross**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.info ME813**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME037** | **.skill ME813**`)
     }
 
     // Arcanine (ME503) ///
@@ -1039,8 +983,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.
             .addField(`Cấp bậc (Rank):`,`Arcanine`)
             .addField(`Số điểm (Points):`,`Khương Trần Duy`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`31/1`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`31/1`);
 
         message.channel.sendEmbed(ME503);
     }
@@ -1054,8 +997,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.
             .addField(`Cấp bậc (Rank):`,`Houndour`)
             .addField(`Số điểm (Points):`,`Mạnh Dương`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`15/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`15/9`);
             
             message.channel.sendEmbed(ME078);
     }
@@ -1070,7 +1012,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.
             .addField(`Số điểm (Points):`,`Truong Hung Quan`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`11/9`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Prison Bottle Event: Giải ba (Hoopa's House)`);
             
         message.channel.sendEmbed(ME081);
@@ -1085,8 +1026,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.
             .addField(`Cấp bậc (Rank):`,`Luxray`)
             .addField(`Số điểm (Points):`,`Nguyễn Hiền`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`14/5`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`14/5`);
 
         message.channel.sendEmbed(ME978);
     }
@@ -1100,15 +1040,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.
             .addField(`Cấp bậc (Rank):`,`Luxray`)
             .addField(`Số điểm (Points):`,`Hunter Knight`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`24/8`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`24/8`);
 
         message.channel.sendEmbed(ME514);
     }
 
     else if(args[0]==="Luxray" | args[0]==="luxray"){
         message.channel.sendMessage(`**Hiện tại có 2 Luxray**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.info ME978**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME514** | **.skill ME978**`)
     }
 
     /// Serperior (ME868) ///
@@ -1121,7 +1060,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Số điểm (Points):`,`Nguyễn Hoài Thu`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`11/6`)
-            .addField(`Cấp bậc:`,`Member`)
             .addField(`Thành tích:`,`Pokéween 2 - Lost in the Woods: Giải nhì (Tour SD)`);
             
         message.channel.sendEmbed(ME868);
@@ -1136,8 +1074,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Cấp bậc (Rank):`,`Cutiefly`)
             .addField(`Số điểm (Points):`,`Hồ Hoàng Nhật Huy`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`24/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`24/9`);
             
         message.channel.sendEmbed(ME566);
     }
@@ -1151,8 +1088,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Cấp bậc (Rank):`,`Chandelure`)
             .addField(`Số điểm (Points):`,`Phạm Đức Nam Phương`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`2/4`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`2/4`);
             
         message.channel.sendEmbed(ME819);
     }
@@ -1166,8 +1102,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Cấp bậc (Rank):`,`Girafarig`)
             .addField(`Số điểm (Points):`,`Hươu Phế Liệu`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`27/12`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`27/12`);
             
         message.channel.sendEmbed(ME460);
     }
@@ -1181,8 +1116,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Cấp bậc (Rank):`,`Ampharos`)
             .addField(`Số điểm (Points):`,`Phạm Nguyên`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`29/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`29/9`);
             
         message.channel.sendEmbed(ME053);
     }
@@ -1196,8 +1130,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Cấp bậc (Rank):`,`Zorua`)
             .addField(`Số điểm (Points):`,`Quỷ Lệ`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`2/12`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`2/12`);
             
         message.channel.sendEmbed(ME134);
     }
@@ -1211,8 +1144,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Cấp bậc (Rank):`,`Garchomp`)
             .addField(`Số điểm (Points):`,`Minh Nguyenvan`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`20/12`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`20/12`);
             
         message.channel.sendEmbed(ME200);
     }
@@ -1226,15 +1158,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Cấp bậc (Rank):`,`Leafeon`)
             .addField(`Số điểm (Points):`,`Nguyễn Hồ Thư`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`20/12`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`20/12`);
             
         message.channel.sendEmbed(ME878);
     }
 
     else if(args[0]==="Leafeon" | args[0]==="leafeon"){
         message.channel.sendMessage(`**Hiện tại có 2 Leafeon**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.info ME878**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME401** | **.skill ME878**`)
     }
 
     /// Flareon (ME618) ///
@@ -1246,8 +1177,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Flareon`)
             .addField(`Số điểm (Points):`,`Jackson Sturel`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`19/2`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`19/2`);
             
         message.channel.sendEmbed(ME618);
     }
@@ -1261,8 +1191,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Buizel`)
             .addField(`Số điểm (Points):`,`Haku Dương`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`5/11`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`5/11`);
             
         message.channel.sendEmbed(ME362);
     }
@@ -1276,8 +1205,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Glaceon`)
             .addField(`Số điểm (Points):`,`Aoi Miyuki`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`17/1`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`17/1`);
             
         message.channel.sendEmbed(ME544);
     }
@@ -1291,8 +1219,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Floette (Eternal Flower)`)
             .addField(`Số điểm (Points):`,`Nguyễn Nhật Uy`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`26/9`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`26/9`);
             
         message.channel.sendEmbed(ME968);
     }
@@ -1306,8 +1233,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Tepig`)
             .addField(`Số điểm (Points):`,`Helena Nguyễn`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`19/7`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`19/7`);
             
         message.channel.sendEmbed(ME703);
     }
@@ -1321,8 +1247,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Empoleon`)
             .addField(`Số điểm (Points):`,`Nguyễn Jim`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`25/8`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`25/8`);
             
         message.channel.sendEmbed(ME689);
     }
@@ -1336,8 +1261,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Shinx`)
             .addField(`Số điểm (Points):`,`Hải Thanh Lê`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`20/10`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`20/10`);
             
         message.channel.sendEmbed(ME030);
     }
@@ -1351,8 +1275,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Charmeleon`)
             .addField(`Số điểm (Points):`,`Propiete la Reputation`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`20/12`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`20/12`);
             
         message.channel.sendEmbed(ME613);
     }
@@ -1366,8 +1289,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Giratina (Origin)`)
             .addField(`Số điểm (Points):`,`Kha Louis`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`28/4`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`28/4`);
             
         message.channel.sendEmbed(ME751);
     }
@@ -1381,8 +1303,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Cấp bậc (Rank):`,`Volcarona`)
             .addField(`Số điểm (Points):`,`Hải Võ`)
             .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`29/1`)
-            .addField(`Cấp bậc:`,`Member`);
+            .addField(`Ngày sinh:`,`29/1`);
             
         message.channel.sendEmbed(ME701);
     }
