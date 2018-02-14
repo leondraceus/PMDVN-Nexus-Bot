@@ -1351,7 +1351,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
     // Gallade (ME014) ///
     if(args[0]==="ME014"| args[0]==="Me014" | args[0]==="me014"){
         var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (1/2) -`)
+            .setTitle(`- KHO ĐỒ (1/3) -`)
             .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`600`,inline = true)
@@ -1368,7 +1368,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
 
     if(args[0]==="ME014--2"| args[0]==="Me014--2" | args[0]==="me014--2"){
         var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (2/2) -`)
+            .setTitle(`- KHO ĐỒ (2/3) -`)
             .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`600`,inline = true)
@@ -1378,7 +1378,20 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .addField(`Lillipup Doll`,`Một con búp bê hình Pokémon Lillipup.`)
             .addField(`Furfrou Doll`,`Một con búp bê hình Pokémon Furfrou.`)
             .addField(`Furfrou Doll`,`Một con búp bê hình Pokémon Furfrou.`)
-            .setFooter(`Trang trước (.inv ME014)`);
+            .setFooter(`Trang trước (.inv ME014) | Trang sau (.inv ME014--3)`);
+
+        message.channel.sendEmbed(ME014);
+    }
+
+    if(args[0]==="ME014--3"| args[0]==="Me014--3" | args[0]==="me014--3"){
+        var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (3/3) -`)
+            .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`600`,inline = true)
+            .addField(`Choco-Heart:`,`25`,inline = true)
+            .addField(`Furfrou Doll`,`Một con búp bê hình Pokémon Furfrou.`)
+            .setFooter(`Trang trước (.inv ME014--2)`);
 
         message.channel.sendEmbed(ME014);
     }
