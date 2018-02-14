@@ -1101,7 +1101,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Lucario/Đạt Quốc Trương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d0/Lucario.png/revision/latest/scale-to-width-down/100?cb=20171028171549`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`610`,inline = true)
+            .addField(`Poké:`,`460`,inline = true)
             .addField(`Spooky Token:`,`107`,inline = true)
             .addField(`Snowflake:`,`38`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
@@ -1188,10 +1188,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME640** | **.i
     // Sylveon (ME011) ///
     if(args[0]==="ME011"| args[0]==="Me011" | args[0]==="me011"){
         var ME011 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (1/2) -`).setImage(`https://i.imgur.com/JYcNKLI.gif`)
+            .setTitle(`- KHO ĐỒ (1/3) -`).setImage(`https://i.imgur.com/JYcNKLI.gif`)
             .setAuthor (`Sylveon/Mỹ Duyên Hứa`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/4f/Sylveon1.png/revision/latest/scale-to-width-down/100?cb=20160911131143`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2444`,inline = true)
+            .addField(`Poké:`,`1094`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
@@ -1205,18 +1205,31 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME640** | **.i
     
     if(args[0]==="ME011--2"| args[0]==="Me011--2" | args[0]==="me011--2"){
         var ME011 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (2/2) -`).setImage(`https://i.imgur.com/JYcNKLI.gif`)
+            .setTitle(`- KHO ĐỒ (2/3) -`).setImage(`https://i.imgur.com/JYcNKLI.gif`)
             .setAuthor (`Sylveon/Mỹ Duyên Hứa`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/4f/Sylveon1.png/revision/latest/scale-to-width-down/100?cb=20160911131143`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2444`,inline = true)
+            .addField(`Poké:`,`1094`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Pichu Doll`,`Một con búp bê hình Pokémon Pichu.`)
             .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
             .addField(`Ho-Oh Doll`,`Một con búp bê hình Pokémon Ho-Oh.`)
             .addField(`Pachirisu Doll`,`Một con búp bê hình Pokémon Pachirisu.`)
             .addField(`Emolga Doll`,`Một con búp bê hình Pokémon Emolga.`)
+            .setFooter(`Trang trước (.inv ME011) | Trang sau (.inv ME011--3)`);
+
+        message.channel.sendEmbed(ME011);
+    }
+
+    if(args[0]==="ME011--3"| args[0]==="Me011--3" | args[0]==="me011--3"){
+        var ME011 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (3/3) -`).setImage(`https://i.imgur.com/JYcNKLI.gif`)
+            .setAuthor (`Sylveon/Mỹ Duyên Hứa`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/4f/Sylveon1.png/revision/latest/scale-to-width-down/100?cb=20160911131143`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`1094`,inline = true)
+            .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME011)`);
+            .addField(`Rockruff Doll`,`Một con búp bê hình Pokémon Rockruff.`)
+            .setFooter(`Trang trước (.inv ME011--2)`);
 
         message.channel.sendEmbed(ME011);
     }
