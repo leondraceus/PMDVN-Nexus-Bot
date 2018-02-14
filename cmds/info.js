@@ -1771,6 +1771,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             
         message.channel.sendEmbed(ME701);
     }
+
+    /// Umbreon (ME069) ///
+    if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069" | args[0]==="Umbreon" | args[0]==="umbreon"){
+        var ME069 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Umbreon/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Umbreon`)
+            .addField(`Tên Facebook:`,`Nguyễn Minh Triết`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`24/10`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME069);
+    }
 }
 
 module.exports.help = {

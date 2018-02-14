@@ -2018,6 +2018,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
             
         message.channel.sendEmbed(ME701);
     }
+
+    /// Umbreon (ME069) ///
+    if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069" | args[0]==="Umbreon" | args[0]==="umbreon"){
+        var ME069 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Umbreon/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME069);
+    }
 }
 
 module.exports.help = {
