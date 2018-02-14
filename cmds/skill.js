@@ -386,11 +386,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Silvally/Bờ Lách`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Silvally.png/revision/latest/scale-to-width-down/100?cb=20171230061609`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Silvally`)
-            .addField(`Số điểm (Points):`,`Bờ Lách`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`4/11`)
-            .addField(`Thành tích:`,`Tổ chức Member Event: Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`60/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME411);
     }
@@ -401,10 +399,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Sharpedo/Vũ Ân Mỹ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fc/Sharpedo1.png/revision/latest/scale-to-width-down/100?cb=20171119024849`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Sharpedo`)
-            .addField(`Số điểm (Points):`,`Vũ Ân Mỹ`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`9/9`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`38/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME524);
     }
@@ -415,10 +412,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Mudkip/Thanh Ngọc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Mudkip`)
-            .addField(`Số điểm (Points):`,`Thanh Ngọc`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`2/7`);
+            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
+            .addField(`Số điểm (Points):`,`334/525`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME725);
     }
@@ -429,10 +425,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Mudkip/Nguyễn An`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/ae/Mudkip.png/revision/latest/scale-to-width-down/100?cb=20160905044511`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Mudkip`)
-            .addField(`Số điểm (Points):`,`Nguyễn An`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`28/2`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`20/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME459);
     }
@@ -443,10 +438,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Mudkip/Tùng Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Mudkip`)
-            .addField(`Số điểm (Points):`,`Tùng Neko`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`17/10`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME684);
     }
@@ -462,11 +456,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Togekiss/Dương Anh Văn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7b/Togekiss.png/revision/latest/scale-to-width-down/100?cb=20160817083806`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Togekiss`)
-            .addField(`Số điểm (Points):`,`Dương Anh Văn`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`1/6`)
-            .addField(`Thành tích:`,`Prison Bottle Event - Giải khuyến khích (Hoopa's House)`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`30/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME892);
     }
@@ -477,10 +469,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Mega Latias/Trần Minh Hoàng`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/30/Megalatias.png/revision/latest/scale-to-width-down/100?cb=20160823063629`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Latias (Mega)`)
-            .addField(`Số điểm (Points):`,`Trần Minh Hoàng`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`9/6`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`25/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME089);
     }
@@ -491,18 +482,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0e/702.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Dedenne`)
-            .addField(`Số điểm (Points):`,`Trần Khoa Lộc`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`5/4`);
-        var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`)
-            .addField(`Tổ chức Member Event:`,`Time to Explode (1/1/2018 -> 6/1/2018)`)
-            .addField(`Tổ chức Member Event:`,`Fast and Furious (14/1/2018)`);
+            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
+            .addField(`Số điểm (Points):`,`423/525`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME072);
-        message.channel.sendEmbed(ACME072);
     }
 
     // Dewott (ME240) ///
@@ -511,8 +495,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Dewott <:shiny:385079020158451722>`)
-            .addField(`Số điểm (Points):`,`Namhuy Ly`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`92/150`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`6/5`);
 
@@ -525,10 +509,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Jolteon/Nguyễn Mai Phương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/49/Jolteon1.png/revision/latest/scale-to-width-down/100?cb=20170622091121`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Jolteon`)
-            .addField(`Số điểm (Points):`,`Nguyễn Mai Phương`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`23/2`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`10/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME219);
     }
@@ -539,10 +522,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Lucario/Đạt Quốc Trương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d0/Lucario.png/revision/latest/scale-to-width-down/100?cb=20171028171549`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Lucario`)
-            .addField(`Số điểm (Points):`,`Đạt Quốc Trương`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`12/9`);
+            .addField(`Cấp bậc (Rank):`,`⭐`)
+            .addField(`Số điểm (Points):`,`173/300`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME300);
     }
@@ -553,10 +535,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Lucario/Minh Song Nguyễn Huỳnh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/27/Lucario1.png/revision/latest/scale-to-width-down/100?cb=20171108133953`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Lucario`)
-            .addField(`Số điểm (Points):`,`Minh Song Nguyễn Huỳnh`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`15/1`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME773);
     }
@@ -572,8 +553,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME300** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Mega Charizard X/Dương Võ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/de/Megacharizardx.png/revision/latest/scale-to-width-down/100?cb=20160818075829`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Charizard (Mega) X`)
-            .addField(`Số điểm (Points):`,`Dương Võ`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`20/150`)
             .addField(`Kỹ năng (Skills):`,`---`)
             .addField(`Ngày sinh:`,`16/9`);
 
@@ -586,10 +567,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME300** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Mega Charizard Y/Thu Phương Đỗ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/c8/Megacharizardy.png/revision/latest/scale-to-width-down/100?cb=20160821135727`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`Charizard (Mega) Y`)
-            .addField(`Số điểm (Points):`,`Thu Phương Đỗ`)
-            .addField(`Kỹ năng (Skills):`,`---`)
-            .addField(`Ngày sinh:`,`12/1`);
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`15/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME054);
     }
