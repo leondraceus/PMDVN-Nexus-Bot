@@ -8,6 +8,7 @@ module.exports.run = async (pw, message, args) => {
         .addField(`1. THÔNG TIN CÁ NHÂN`,`---------------`)
         .addField(`.info <member code/pokemon>`,`Xem thông tin cơ bản`)
         .addField(`.inv <member code/pokemon>`,`Xem tiền và Items trong vỏ đồ`)
+        .addField(`.skill <member code/pokemon>`,`Xem Pokémon Skill`)
         .addField(`2. TIỆN ÍCH`,`---------------`)
         .addField(`.shop`,`Xem các mặt hàng trên Kecleon's Shop.`)
         .addField(`3. GIẢI TRÍ`,`---------------`)
