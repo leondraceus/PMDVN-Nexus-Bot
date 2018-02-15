@@ -56,6 +56,10 @@ bot.on('message', (message) => {
     var args = messageArray.slice(1);
     var channelname = messageArray[1];
     var rep = messageArray[2];
+
+    if(message.content === "2018 2018 2018"){
+        message.channel.sendMessage("🎉🎉🎉 CHÚC MỪNG NĂM MẬU TUẤT 2018 🎉🎉🎉")
+    }
 });
 
 bot.on('guildMemberAdd', member => {
