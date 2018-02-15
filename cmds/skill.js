@@ -170,8 +170,8 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1007/1200`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ
+            .addField(`Số điểm (Points):`,`1027/1200`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng một chút`);
             
         message.channel.sendEmbed(ME509);
