@@ -77,7 +77,7 @@ module.exports.run = async (pw, message, args) => {
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`634/750`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ`);
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
             
         message.channel.sendEmbed(ME563);
     }
@@ -813,7 +813,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME867** | **
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`538/750`)
-            .addField(`Kỹ năng (Skills):`,`---`);
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
 
         message.channel.sendEmbed(ME906);
     }
