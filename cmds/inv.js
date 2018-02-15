@@ -747,9 +747,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME028** | **.i
         message.channel.sendEmbed(ME571);
     }
     
-    if(args[0]==="ME571--2"| args[0]==="me571--2" | args[0]==="Me571--2"){
+    if(args[0]==="ME571--3"| args[0]==="me571--2" | args[0]==="Me571--3"){
         var ME571 = new Discord.RichEmbed().setColor(`#FDFD9C`)
-            .setTitle(`- KHO ĐỒ (2/3) -`).setImage(`https://i.imgur.com/kT71Iwl.gif`)
+            .setTitle(`- KHO ĐỒ (3/3) -`).setImage(`https://i.imgur.com/kT71Iwl.gif`)
             .setAuthor(`Lilligant/Lein Cương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Lilligant_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171029142911`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`1507`,inline = true)
