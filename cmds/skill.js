@@ -110,7 +110,7 @@ module.exports.run = async (pw, message, args) => {
     }
 
     /// Meloetta (ME983) ///
-    if(args[0]==="ME983"| args[0]==="me983" | args[0]==="Me983" | args[0]==="Meloetta" | args[0]==="meloetta"){
+    if(args[0]==="ME983"| args[0]==="me983" | args[0]==="Me983"){
         var ME983 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Meloetta/Robin Nico`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/61/Meloetta_%28aria%29_1.png/revision/latest/scale-to-width-down/100?cb=20160820011552`)
@@ -1208,6 +1208,24 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME401** | **
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME701);
+    }
+
+    /// Meloetta (ME452) ///
+    if(args[0]==="ME452"| args[0]==="me452" | args[0]==="Me452"){
+        var ME452 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Meloetta/Đỗ Nam`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f3/Meloetta_%28pirouette%29.png/revision/latest/scale-to-width-down/100?cb=20161009170125`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME452);
+    }
+
+    else if(args[0]==="Meloetta" | args[0]==="meloetta"){
+        message.channel.sendMessage(`**Hiện tại có 2 Meloetta**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **.skill ME452**`)
     }
 }
 

@@ -2094,7 +2094,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
     /// Volcarona (ME701) ///
     if(args[0]==="ME701"| args[0]==="me701" | args[0]==="Me701" | args[0]==="Volcarona" | args[0]==="volcarona"){
         var ME701 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
+            .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Volcarona/Hải Võ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Volcarona.png/revision/latest/scale-to-width-down/100?cb=20160818084751`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`0`,inline = true)
@@ -2106,13 +2106,30 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
     /// Umbreon (ME069) ///
     if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069" | args[0]==="Umbreon" | args[0]==="umbreon"){
         var ME069 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
+            .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Umbreon/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`0`,inline = true)
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME069);
+    }
+
+    /// Meloetta (ME452) ///
+    if(args[0]==="ME452"| args[0]==="me452" | args[0]==="Me452"){
+        var ME452 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Meloetta/Đỗ Nam`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f3/Meloetta_%28pirouette%29.png/revision/latest/scale-to-width-down/100?cb=20161009170125`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`100`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME452);
+    }
+
+    else if(args[0]==="Meloetta" | args[0]==="meloetta"){
+        message.channel.sendMessage(`**Hiện tại có 2 Meloetta**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.inv ME452**`)
     }
 }
 

@@ -329,12 +329,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     }
 
     /// Meloetta (ME983) ///
-    if(args[0]==="ME983"| args[0]==="me983" | args[0]==="Me983" | args[0]==="Meloetta" | args[0]==="meloetta"){
+    if(args[0]==="ME983"| args[0]==="me983" | args[0]==="Me983"){
         var ME983 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Meloetta/Robin Nico`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/61/Meloetta_%28aria%29_1.png/revision/latest/scale-to-width-down/100?cb=20160820011552`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Chủng loài:`,`Meloetta`)
+            .addField(`Chủng loài:`,`Meloetta (Aria)`)
             .addField(`Tên Facebook:`,`Robin Nico`)
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`15/12`)
@@ -1787,6 +1787,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME069);
+    }
+
+    /// Meloetta (ME452) ///
+    if(args[0]==="ME452"| args[0]==="me452" | args[0]==="Me452"){
+        var ME452 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Meloetta/Đỗ Nam`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f3/Meloetta_%28pirouette%29.png/revision/latest/scale-to-width-down/100?cb=20161009170125`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Meloetta (Pirouette)`)
+            .addField(`Tên Facebook:`,`Đỗ Nam`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`25/4`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME452);
+    }
+
+    else if(args[0]==="Meloetta" | args[0]==="meloetta"){
+        message.channel.sendMessage(`**Hiện tại có 2 Meloetta**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.info ME452**`)
     }
 }
 
