@@ -368,7 +368,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     }
 
     /// Meloetta (ME983) ///
-    if(args[0]==="ME983"| args[0]==="me983" | args[0]==="Me983" | args[0]==="Meloetta" | args[0]==="meloetta"){
+    if(args[0]==="ME983"| args[0]==="me983" | args[0]==="Me983"){
         var ME983 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Meloetta/Robin Nico`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/61/Meloetta_%28aria%29_1.png/revision/latest/scale-to-width-down/100?cb=20160820011552`)
