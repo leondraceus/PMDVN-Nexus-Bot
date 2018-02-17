@@ -1834,7 +1834,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
     }
 
     /// Comfey (ME457) ///
-    if(args[0]==="ME457"| args[0]==="me457" | args[0]==="Me457" | args[0]==="Comfey" | args[0]==="Comfey"){
+    if(args[0]==="ME457"| args[0]==="me457" | args[0]==="Me457" | args[0]==="Comfey" | args[0]==="comfey"){
         var ME457 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Comfey/Thuỳ Nhã`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/37/Comfey.png/revision/latest/scale-to-width-down/100?cb=20180217014140`)
