@@ -1163,7 +1163,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME401** | **
     }
 
     /// Empoleon (ME689) ///
-    if(args[0]==="ME689"| args[0]==="me689" | args[0]==="Me689" | args[0]==="Empoleon" | args[0]==="empoleon"){
+    if(args[0]==="ME689"| args[0]==="me689" | args[0]==="Me689"){
         var ME689 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Empoleon/Nguyễn Jim`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/bb/Empoleon.png/revision/latest/scale-to-width-down/100?cb=20160929072201`)
