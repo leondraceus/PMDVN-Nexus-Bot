@@ -1710,7 +1710,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
     }
 
     /// Empoleon (ME689) ///
-    if(args[0]==="ME689"| args[0]==="me689" | args[0]==="Me689" | args[0]==="Empoleon" | args[0]==="empoleon"){
+    if(args[0]==="ME689"| args[0]==="me689" | args[0]==="Me689"){
         var ME689 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Empoleon/Nguyễn Jim`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/bb/Empoleon.png/revision/latest/scale-to-width-down/100?cb=20160929072201`)
@@ -1724,6 +1724,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME689);
+    }
+
+    /// Empoleon (ME590) ///
+    if(args[0]==="ME590"| args[0]==="me590" | args[0]==="Me590"){
+        var ME590 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Empoleon/Thủy Đặng`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/bb/Empoleon.png/revision/latest/scale-to-width-down/100?cb=20160929072201`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Empoleon`)
+            .addField(`Tên Facebook:`,`Thủy Đặng`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`4/4`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME590);
+    }
+
+    else if(args[0]==="Empoleon" | args[0]==="empoleon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Empoleon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME590** | **.info ME689**`)
     }
 
     /// Shinx (ME030) ///

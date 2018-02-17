@@ -2096,6 +2096,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
         message.channel.sendEmbed(ME689);
     }
 
+    /// Empoleon (ME590) ///
+    if(args[0]==="ME590"| args[0]==="me590" | args[0]==="Me590"){
+        var ME590 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Empoleon/Thủy Đặng`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/bb/Empoleon.png/revision/latest/scale-to-width-down/100?cb=20160929072201`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME590);
+    }
+
+    else if(args[0]==="Empoleon" | args[0]==="empoleon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Empoleon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME590** | **.inv ME689**`)
+    }
+
     /// Shinx (ME030) ///
     if(args[0]==="ME030"| args[0]==="me030" | args[0]==="Me030" | args[0]==="Shinx" | args[0]==="shinx"){
         var ME030 = new Discord.RichEmbed().setColor(`#3A77E6`)
