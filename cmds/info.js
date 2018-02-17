@@ -912,7 +912,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.
     }
 
     // Mega Charizard X (ME209) ///
-    if(args[0]==="ME209"| args[0]==="Me209" | args[0]==="me209"| args[0]==="MegaCharizardX" | args[0]==="Megacharizardx" | args[0]==="megacharizardx" | args[0]==="MegacharizardX" | args[0]==="megacharizardX"){
+    if(args[0]==="ME209"| args[0]==="Me209" | args[0]==="me209"){
         var ME209 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Mega Charizard X/Dương Võ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/de/Megacharizardx.png/revision/latest/scale-to-width-down/100?cb=20160818075829`)
@@ -926,6 +926,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME300** | **.
             .addField(`Thành tích:`,`---`);
 
         message.channel.sendEmbed(ME209);
+    }
+
+    // Mega Charizard X (ME685) ///
+    if(args[0]==="ME685"| args[0]==="Me685" | args[0]==="me685"){
+        var ME685 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Mega Charizard X/Kan Meketo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/de/Megacharizardx.png/revision/latest/scale-to-width-down/100?cb=20160818075829`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Charizard (Mega) X`)
+            .addField(`Tên Facebook:`,`Kan Mekato`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`19/3`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+
+        message.channel.sendEmbed(ME685);
+    }
+
+    else if(args[0]==="MegaCharizardX" | args[0]==="Megacharizardx" | args[0]==="megacharizardx" | args[0]==="MegacharizardX" | args[0]==="megacharizardX"){
+        message.channel.sendMessage(`**Hiện tại có 2 Mega Charizard X**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME209** | **.info ME685**`)
     }
 
     // Mega Charizard Y (ME054) ///
@@ -1809,6 +1831,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
     else if(args[0]==="Meloetta" | args[0]==="meloetta"){
         message.channel.sendMessage(`**Hiện tại có 2 Meloetta**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.info ME452**`)
+    }
+
+    /// Comfey (ME457) ///
+    if(args[0]==="ME457"| args[0]==="me457" | args[0]==="Me457" | args[0]==="Comfey" | args[0]==="Comfey"){
+        var ME457 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Comfey/Thuỳ Nhã`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/37/Comfey.png/revision/latest/scale-to-width-down/100?cb=20180217014140`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Comfey`)
+            .addField(`Tên Facebook:`,`Thuỳ Nhã`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`12/9`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME457);
     }
 }
 

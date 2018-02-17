@@ -1061,7 +1061,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 2/4) -`).setImage(`https://i.imgur.com/zJWCkpn.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1917`,inline = true)
+            .addField(`Poké:`,`2417`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
@@ -1078,7 +1078,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 3/4) -`).setImage(`https://i.imgur.com/zJWCkpn.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1917`,inline = true)
+            .addField(`Poké:`,`2417`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
@@ -1095,7 +1095,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | 4/4) -`).setImage(`https://i.imgur.com/zJWCkpn.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1917`,inline = true)
+            .addField(`Poké:`,`2417`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Igglybuff Doll`,`Một con búp bê hình Pokémon Igglybuff.`)
             .setFooter(`Trang trước (.inv ME072--3)`);
@@ -1200,6 +1200,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME300** | **.i
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`);
 
         message.channel.sendEmbed(ME209);
+    }
+
+    // Mega Charizard X (ME685) ///
+    if(args[0]==="ME685"| args[0]==="Me685" | args[0]==="me685"){
+        var ME685 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor (`Mega Charizard X/Kan Meketo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/de/Megacharizardx.png/revision/latest/scale-to-width-down/100?cb=20160818075829`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+
+        message.channel.sendEmbed(ME685);
+    }
+
+    else if(args[0]==="MegaCharizardX" | args[0]==="Megacharizardx" | args[0]==="megacharizardx" | args[0]==="MegacharizardX" | args[0]==="megacharizardX"){
+        message.channel.sendMessage(`**Hiện tại có 2 Mega Charizard X**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.inv ME685**`)
     }
 
     // Mega Charizard Y (ME054) ///
@@ -2155,6 +2172,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
     else if(args[0]==="Meloetta" | args[0]==="meloetta"){
         message.channel.sendMessage(`**Hiện tại có 2 Meloetta**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.inv ME452**`)
+    }
+
+    /// Comfey (ME457) ///
+    if(args[0]==="ME457"| args[0]==="me457" | args[0]==="Me457" | args[0]==="Comfey" | args[0]==="Comfey"){
+        var ME457 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Comfey/Thuỳ Nhã`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/37/Comfey.png/revision/latest/scale-to-width-down/100?cb=20180217014140`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME457);
     }
 }
 
