@@ -51,6 +51,6 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đã quay trúng Gold Ditto Doll, chúc mừng!");
 }
 
-///module.exports.help = {
-///    name: "vwheel"
-///}
+module.exports.help = {
+    name: "vwheel"
+}
