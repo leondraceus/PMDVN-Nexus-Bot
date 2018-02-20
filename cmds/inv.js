@@ -1148,7 +1148,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`);
+            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
             .setFooter(`Trang trước (.inv ME072--4)`);
 
         message.channel.sendEmbed(ME072);
