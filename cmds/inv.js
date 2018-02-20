@@ -1625,7 +1625,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
     // Cherrim (ME906) ///
     if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Cherrim" | args[0]==="cherrim"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- (Size 1 | 1/4) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
+            .setTitle(`- (Size 1 | 1/3) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
             .setAuthor (`Cherrim/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Cherrim_%28sunshine%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180219103651`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`355`,inline = true)
@@ -1643,7 +1643,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
     
     if(args[0]==="ME906--2"| args[0]==="Me906--2" | args[0]==="me906--2"| args[0]==="Cherrim" | args[0]==="cherrim"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- (Size 1 | 2/4) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
+            .setTitle(`- (Size 1 | 2/3) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
             .setAuthor (`Cherrim/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Cherrim_%28sunshine%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180219103651`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`355`,inline = true)
@@ -1661,7 +1661,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
 
     if(args[0]==="ME906--3"| args[0]==="Me906--3" | args[0]==="me906--3"| args[0]==="Cherrim" | args[0]==="cherrim"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- (Size 1 | 3/4) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
+            .setTitle(`- (Size 1 | 3/3) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
             .setAuthor (`Cherrim/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Cherrim_%28sunshine%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180219103651`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`355`,inline = true)
@@ -1672,23 +1672,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
             .addField(`Plain Seed (x2)`,`Một hạt giống hết sức bình thường. Khi ăn vào thì cũng không có gì đặc biệt xảy ra cả.`)
             .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
-            .setFooter(`Trang trước (.inv ME906--2) | Trang sau (.inv ME906--4)`);
+            .setFooter(`Trang trước (.inv ME906--2)`);
 
             message.channel.sendEmbed(ME906);
-    }
-
-    if(args[0]==="ME906--4"| args[0]==="Me906--4" | args[0]==="me906--4"| args[0]==="Cherrim" | args[0]==="cherrim"){
-        var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- (Size 1 | 4/4) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
-            .setAuthor (`Cherrim/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Cherrim_%28sunshine%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180219103651`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`355`,inline = true)
-            .addField(`Snowflake:`,`20`,inline = true)
-            .addField(`Choco-Heart:`,`6`,inline = true)
-            .setFooter(`Trang trước (.inv ME906--3)`);
-
-            message.channel.sendEmbed(ME906);
-
     }
 
     /// Mega Diancie (ME905) ///
