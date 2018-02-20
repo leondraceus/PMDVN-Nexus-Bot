@@ -1270,7 +1270,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
             .setAuthor (`Cherrim/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Cherrim_%28sunshine%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180219103651`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Dratini <:shiny:385079020158451722>`)
+            .addField(`Chủng loài:`,`Cherrim <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Ngọc Bảo`)
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`14/1`)
