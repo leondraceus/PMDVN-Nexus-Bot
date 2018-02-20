@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-    bot.user.setGame('💖🌸Heart Festival🌸💖')
+    bot.user.setGame('😭 Hết Tết 😭')
 });
 
 bot.commands = new Discord.Collection();
