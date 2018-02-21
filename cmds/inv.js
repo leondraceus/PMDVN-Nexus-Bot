@@ -1850,7 +1850,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (1/3) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1477`,inline = true)
+            .addField(`Poké:`,`597`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
@@ -1874,11 +1874,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Audino Doll`,`Một con búp bê hình Pokémon Audino.`)
-            .addField(`Destiny Knot`,`Một cuộn chỉ màu đỏ dài, mảnh và không có gì đặc biệt khi nhìn qua. Tuy nhiên, có thể nó sẽ đem lại một điều gì đó đặc biệt nếu bạn được người mình yêu thương nhất hồi đáp.`)
-            .addField(`Happiny Doll`,`Một con búp bê hình Pokémon Happiny.`)
-            .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
-            .addField(`Meowth Doll`,`Một con búp bê hình Pokémon Meowth.`)
+            .addField(`Destiny Knot`,`Một cuộn chỉ màu đỏ dài, mảnh và không có gì đặc biệt khi nhìn qua. Tuy nhiên, có thể nó sẽ đem lại một điều gì đó đặc biệt nếu bạn được người mình yêu thương nhất hồi đáp.`)           
+            .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)           
             .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
+            .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
+            .addField(`Minun Doll`,`Một con búp bê hình Pokémon Minun.`)
             .setFooter(`Trang trước (.inv ME868) | Trang sau (.inv ME868--3)`);
             
         message.channel.sendEmbed(ME868);
@@ -1893,11 +1893,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
-            .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
-            .addField(`Deerling Doll (Spring)`,`Một con búp bê hình Pokémon Deerling (Spring Form).`)
-            .addField(`Woobat Doll`,`Một con búp bê hình Pokémon Woobat.`)
-            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
-            .addField(`Rose Thorn (x1)`,`Một nhánh gai hoa hồng không có giá trị đặc biệt gì, chỉ để sưu tầm. Đầu của nó rất nhọn và sẽ rất đau nếu chạm vào đó.`)
+            .addField(`Minun Doll`,`Một con búp bê hình Pokémon Minun.`)
+            .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
             .setFooter(`Trang trước (.inv ME868--2)`);
             
         message.channel.sendEmbed(ME868);
