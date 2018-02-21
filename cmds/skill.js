@@ -172,7 +172,7 @@ module.exports.run = async (pw, message, args) => {
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1113/1300`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
+            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng`)
             .addField(`Kỹ năng (Skills):`,`Kho đồ được mở rộng`);
             
         message.channel.sendEmbed(ME509);
