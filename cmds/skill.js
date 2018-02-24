@@ -484,8 +484,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`768/980`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`)
-            .addField(`Kỹ năng (Skills):`,`Kho đồ được mở rộng`);
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
+Kho đồ được mở rộng`);
 
         message.channel.sendEmbed(ME072);
     }
