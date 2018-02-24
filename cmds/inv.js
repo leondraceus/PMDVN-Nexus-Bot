@@ -460,16 +460,17 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Victini (ME509) ///
     if(args[0]==="ME509"| args[0]==="me509" | args[0]==="Me509"){
         var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 1/6) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 1/7) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2320`,inline = true)
+            .addField(`Poké:`,`390`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Sea Dew`,`Một loại nước đặc biệt được lấy từ loài Pokémon Phione sống sâu dưới đại dương. Nó có tác dụng chữa bệnh và làm giảm cơn sốt cho Pokémon.`)
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
             .addField(`Salt (x4)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`)
-            
+            .addField(`Heart Scale`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
             .setFooter(`Trang sau (.inv ME509--2)`);
             
         message.channel.sendEmbed(ME509);
@@ -477,16 +478,17 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--2"| args[0]==="me509--2" | args[0]==="Me509--2"){
         var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 2/6) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 2/7) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2320`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)         
-            .addField(`Heart Scale`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
+            .addField(`Poké:`,`390`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Choco-Heart:`,`1`,inline = true)         
             .addField(`Rainbow Wing`,`Một chiếc lông vũ bảy sắc cầu vồng lấp lánh.`)
             .addField(`Red Balloon`,`Một quả bóng bay màu đỏ.`)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
             .addField(`Frozen Wand`,`Một chiếc gậy làm từ băng ẩn chứa một sức mạnh bí ẩn có khả năng tạo ra Snowflake.`)
+            .addField(`Gible Fang`,`Một chiếc răng của Pokémon Gible.`)
             .setFooter(`Trang trước (.inv ME509) | Trang sau (.inv ME509--3)`);
             
         message.channel.sendEmbed(ME509);
@@ -494,16 +496,17 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--3"| args[0]==="me509--3" | args[0]==="Me509--3"){
         var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 3/6) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 3/7) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2320`,inline = true)
+            .addField(`Poké:`,`390`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Gible Fang`,`Một chiếc răng của Pokémon Gible.`)
+            .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Never-Melt Ice`,`Một cục băng có thể bật lại sức nóng, khiến cho nó không thể bị tan ra.`)
             .addField(`Vanillite Cone (x1)`,`Một cây kem cực kì ngon được thiết kế giống với Pokémon Vanillite.`)
             .addField(`Ice Diamond`,`Một viên kim cương lấp lánh có lớp băng phủ bên ngoài.`)
             .addField(`Frozen Apple`,`Một quả táo được ướp lạnh hoàn toàn rất hiếm và đặc biệt. Ăn quả táo này vào sẽ có cảm giác buốt lạnh toàn thân.`)
+            .addField(`Green Balloon`,`Một quả bóng bay màu xanh lá.`)
             .setFooter(`Trang trước (.inv ME509--2) | Trang sau (.inv ME509--4)`);
             
         message.channel.sendEmbed(ME509);
@@ -511,16 +514,17 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--4"| args[0]==="me509--4" | args[0]==="Me509--4"){
         var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 4/6) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 4/7) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2320`,inline = true)
+            .addField(`Poké:`,`390`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Green Balloon`,`Một quả bóng bay màu xanh lá.`)
+            .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Blue Balloon`,`Một quả bóng bay màu xanh xanh dương.`)
             .addField(`Yellow Balloon`,`Một quả bóng bay màu xanh vàng.`)
             .addField(`Rose Incense`,`Một hộp hương có mùi thơm ngào ngạt của hoa.`)
             .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
+            .addField(`Miracle Seed`,`Một hạt giống càng tràn sức sống.`)
             .setFooter(`Trang trước (.inv ME509--3) | Trang sau (.inv ME509--5)`);
             
         message.channel.sendEmbed(ME509);
@@ -528,16 +532,17 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--5"| args[0]==="me509--5" | args[0]==="Me509--5"){
         var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 5/6) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 5/7) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2320`,inline = true)
+            .addField(`Poké:`,`390`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Miracle Seed`,`Một hạt giống càng tràn sức sống.`)
+            .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Big Root`,`Một chiếc rễ to có khả năng tăng lượng HP khi sử dụng những chiêu thức hút HP.`)
             .addField(`Lum Berry`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`)
             .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
-            .addField(`Heart Balloon (x3) `,`Một quả bóng bay hình trái tim.`)
+            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
+            .addField(`Plain Seed (x1)`,`Một hạt giống hết sức bình thường. Khi ăn vào thì cũng không có gì đặc biệt xảy ra cả.`)
             .setFooter(`Trang trước (.inv ME509--4) | Trang sau (.inv ME509--6)`);
             
         message.channel.sendEmbed(ME509);
@@ -545,17 +550,35 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="ME509--6"| args[0]==="me509--6" | args[0]==="Me509--6"){
         var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
-            .setTitle(`- KHO ĐỒ (Size 2 | 6/6) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 6/7) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2320`,inline = true)
+            .addField(`Poké:`,`390`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Plain Seed (x1)`,`Một hạt giống hết sức bình thường. Khi ăn vào thì cũng không có gì đặc biệt xảy ra cả.`)
+            .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`)
             .addField(`Lovely Note (x1)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
             .addField(`Lucky Note (x1)`,`Một bức thư màu vàng rực rỡ, được dùng để gửi lời chúc phúc và cầu mong cho những điều tốt đẹp và may mắn xảy đến với người nhận.`)
             .addField(`Destiny Knot`,`Một cuộn chỉ màu đỏ dài, mảnh và không có gì đặc biệt khi nhìn qua. Tuy nhiên, có thể nó sẽ đem lại một điều gì đó đặc biệt nếu bạn được người mình yêu thương nhất hồi đáp.`)
-            .setFooter(`Trang trước (.inv ME509--5)`);
+            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
+            .setFooter(`Trang trước (.inv ME509--5) | Trang sau (.inv ME509--7)`);
+            
+        message.channel.sendEmbed(ME509);
+    }
+
+    if(args[0]==="ME509--7"| args[0]==="me509--7" | args[0]==="Me509--7"){
+        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
+            .setTitle(`- KHO ĐỒ (Size 2 | 7/7) -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`390`,inline = true)
+            .addField(`Snowflake:`,`1`,inline = true)
+            .addField(`Choco-Heart:`,`1`,inline = true)
+            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
+            .addField(`Harmony Box`,`Một chiếc hộp chơi nhạc có thể phát ra tiếng nhạc nghe rất trong và hài hòa.`)
+            .addField(`Luck Incense`,`Một hộp hương ánh vàng có cảm giác đem lại sự may mắn và phát tài.`)
+            .addField(`Pure Dewdrop`,`Một lọ chứa đựng nước sương thuần khiết thu được vào buổi sáng sớm. Uống nó vào sẽ làm cơ thể cảm thấy khoan khoái và thoải mái.`)
+            .setFooter(`Trang trước (.inv ME509--6)`);
             
         message.channel.sendEmbed(ME509);
     }
@@ -1147,6 +1170,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
 
             message.channel.sendEmbed(ME572);
     }
+
     else if(args[0]==="Dedenne" | args[0]==="dedenne"){
         message.channel.sendMessage(`**Hiện tại có 2 Dedenne**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME072** | **.inv ME572**`)

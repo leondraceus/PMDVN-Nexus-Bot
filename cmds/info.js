@@ -837,6 +837,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
         message.channel.sendEmbed(ME072);
         message.channel.sendEmbed(ACME072);
     }
+
     // Dedenne (ME572) ///
     if(args[0]==="ME572"| args[0]==="Me572" | args[0]==="me572"){
         var ME572 = new Discord.RichEmbed().setColor(`#3A77E6`)
@@ -845,13 +846,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Dedenne`)
             .addField(`Tên Facebook:`,`Yuuki Yuuna`)
-            .addField(`Giới tính:`,`---`)
-            .addField(`Ngày sinh:`,`---`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`5/6`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
 
         message.channel.sendEmbed(ME572);
     }
+    
     else if(args[0]==="Dedenne" | args[0]==="dedenne"){
         message.channel.sendMessage(`**Hiện tại có 2 Dedenne**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME072** | **.info ME572**`)

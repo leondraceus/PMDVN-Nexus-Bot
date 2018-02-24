@@ -171,9 +171,9 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1113/1300`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)`)
-            .addField(`Kỹ năng (Skills):`,`Kho đồ được mở rộng`);
+            .addField(`Số điểm (Points):`,`1228/1300`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
+Kho đồ được mở rộng`);
             
         message.channel.sendEmbed(ME509);
     }
@@ -489,6 +489,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
 
         message.channel.sendEmbed(ME072);
     }
+
     // Dedenne (ME572) ///
     if(args[0]==="ME572"| args[0]==="Me572" | args[0]==="me572"){
         var ME572 = new Discord.RichEmbed().setColor(`#3A77E6`)
@@ -501,6 +502,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
 
         message.channel.sendEmbed(ME572);
     }
+
     else if(args[0]==="Dedenne" | args[0]==="dedenne"){
         message.channel.sendMessage(`**Hiện tại có 2 Dedenne**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME072** | **.skill ME572**`)
