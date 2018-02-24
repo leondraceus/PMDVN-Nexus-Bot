@@ -1370,10 +1370,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME011** | **.i
     // Talonflame (ME099) ///
     if(args[0]==="ME099"| args[0]==="Me099" | args[0]==="me099"){
         var ME099 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png/revision/latest?cb=20180212012553`)
             .setAuthor (`Talonflame/Justin Vader`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0b/Talonflame_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180128152130`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1016`,inline = true)
+            .addField(`Poké:`,`566`,inline = true)
             .addField(`Snowflake:`,`3`,inline = true)
             .addField(`Choco-Heart:`,`19`,inline = true)
             .addField(`Poké Doll`,`Một con búp bê hình Clefairy thường được dùng làm mồi nhử để đánh lạc hướng.`)
@@ -1388,14 +1388,15 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME011** | **.i
 
     if(args[0]==="ME099--2"| args[0]==="Me099--2" | args[0]==="me099--2"){
         var ME099 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png/revision/latest?cb=20180212012553`)
             .setAuthor (`Talonflame/Justin Vader`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0b/Talonflame_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180128152130`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1016`,inline = true)
+            .addField(`Poké:`,`566`,inline = true)
             .addField(`Snowflake:`,`3`,inline = true)
             .addField(`Choco-Heart:`,`19`,inline = true)
             .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
             .addField(`Plain Seed (x10)`,`Một hạt giống hết sức bình thường. Khi ăn vào thì cũng không có gì đặc biệt xảy ra cả.`)
+            .addField(`Furfrou Doll (Kabuki)`,`Một con búp bê hình Pokémon Furfrou (Kabuki Trim).`)
             .setFooter(`Trang trước (.inv ME099)`);
 
         message.channel.sendEmbed(ME099);

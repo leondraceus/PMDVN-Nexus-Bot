@@ -1048,7 +1048,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME011** | **.
     // Talonflame (ME099) ///
     if(args[0]==="ME099"| args[0]==="Me099" | args[0]==="me099"){
         var ME099 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png/revision/latest?cb=20180212012553`)
             .setAuthor (`Talonflame/Justin Vader`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0b/Talonflame_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180128152130`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Talonflame <:shiny:385079020158451722>`)
