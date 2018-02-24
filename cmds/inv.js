@@ -1138,7 +1138,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
 
     // Dedenne (ME572) ///
     if(args[0]==="ME572"| args[0]==="Me572" | args[0]==="me572"){
-        var ME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME572 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Dedenne/Yuuki Yuuna`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
