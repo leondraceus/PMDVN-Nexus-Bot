@@ -343,10 +343,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         var ACME983 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Sky Ruins Expedition:`,`Giải khuyến khích`)
-            .addField(`Pokéween:`,`Giải nhất (Pokékween) & Giải khuyến khích (Lost Library)`);
+            .addField(`Pokéween:`,`Giải nhất (Pokékween) & Giải khuyến khích (Lost Library)`)
+            .addField(`Heart Festival:`,`Giải nhì (Congenial Duo), Giải nhì (Meowth Theater)`);
             
-            message.channel.sendEmbed(ME983);
-            message.channel.sendEmbed(ACME983);
+        message.channel.sendEmbed(ME983);
+        message.channel.sendEmbed(ACME983);
     }
 
     /// Keldeo (ME674) ///
@@ -365,7 +366,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Pokéween:`,`Giải ba (Pokékween)`)
             .addField(`Vẽ tranh tặng cho Group`,`\u200B`)
-            .addField(`Làm các Avatar PMD cho Gen 7 Pokémon`,`\u200B`);
+            .addField(`Làm các Avatar PMD cho Gen 7 Pokémon`,`\u200B`)
+            .addField(`Heart Festival:`,`Giải nhất (Meowth Theater)`);
             
             message.channel.sendEmbed(ME674);
             message.channel.sendEmbed(ACME674);
@@ -832,7 +834,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`)
             .addField(`Tổ chức Member Event:`,`Time to Explode (1/1/2018 -> 6/1/2018)`)
-            .addField(`Tổ chức Member Event:`,`Fast and Furious (14/1/2018)`);
+            .addField(`Tổ chức Member Event:`,`Fast and Furious (14/1/2018)`)
+            .addField(`Heart Festival:`,`Giải ba (Meowth Theater)`);
 
         message.channel.sendEmbed(ME072);
         message.channel.sendEmbed(ACME072);
@@ -871,7 +874,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME072** | **.
             .addField(`Ngày sinh:`,`6/5`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Heart Festival: Giải ba (Meowth Theater)`);
 
         message.channel.sendEmbed(ME240);
     }
@@ -982,10 +985,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME209** | **.
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`12/1`)
             .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
-
+            .addField(`Guild:`,`---`);
+        var ACME054 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Pokémas:`,`Giải ba (Cuộc thi Vẽ tranh)`)
+            .addField(`Heart Festival:`,`Giải ba (Congenial Duo)`);
+            
         message.channel.sendEmbed(ME054);
+        message.channel.sendEmbed(ACME054);
     }
 
     // Riolu (ME711) ///
@@ -1133,10 +1140,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`16/12`)
             .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Sky Ruins Expedition: Giải khuyến khích`);
-
+            .addField(`Guild:`,`---`);
+        var ACME716 = new Discord.RichEmbed().setColor(`#F08120`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Sky Ruins Expedition:`,`Giải khuyến khích`)
+            .addField(`Heart Festival:`,`Giải nhì (Congenial Duo), Giải nhì (Meowth Theater)`);
+            
         message.channel.sendEmbed(ME716);
+        message.channel.sendEmbed(ACME716);
     }
 
     // Mega Sableye (ME456) ///
@@ -1201,10 +1212,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`13/7`)
             .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Prison Bottle Event: Giải nhì (Game Center)`);
-
+            .addField(`Guild:`,`---`);
+        var ACME014 = new Discord.RichEmbed().setColor(`#F08120`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Prison Bottle Event:`,`Giải nhì (Game Center)`)
+            .addField(`Heart Festival:`,`Giải nhất (Congenial Duo)`);
+            
         message.channel.sendEmbed(ME014);
+        message.channel.sendEmbed(ACME014);
     }
 
     else if(args[0]==="Gallade" | args[0]==="gallade"){
@@ -1515,10 +1530,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`11/6`)
             .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Pokéween 2 - Lost in the Woods: Giải nhì (Tour SD)`);
+            .addField(`Guild:`,`---`);
+        var ACME868 = new Discord.RichEmbed().setColor(`#F08120`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Pokéween 2 - Lost in the Woods:`,`Giải nhì (Tour SD)`)
+            .addField(`Heart Festival:`,`Giải nhất (Congenial Duo)`);
             
         message.channel.sendEmbed(ME868);
+        message.channel.sendEmbed(ACME868);
     }
 
     /// Cutiefly (ME566) ///
@@ -1781,7 +1800,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME590** | **.
             .addField(`Ngày sinh:`,`20/10`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Heart Festival: Giải ba (Congenial Duo)`);
             
         message.channel.sendEmbed(ME030);
     }
