@@ -849,7 +849,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME867** | **
             .setAuthor (`Dratini/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e6/Dratini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073319`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`692/750`)
+            .addField(`Số điểm (Points):`,`722/750`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
 
         message.channel.sendEmbed(ME906);
