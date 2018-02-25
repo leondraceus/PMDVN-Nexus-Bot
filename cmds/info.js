@@ -986,7 +986,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME209** | **.
             .addField(`Ngày sinh:`,`12/1`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME054 = new Discord.RichEmbed().setColor(`#5CE05F`)
+        var ACME054 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Pokémas:`,`Giải ba (Cuộc thi Vẽ tranh)`)
             .addField(`Heart Festival:`,`Giải ba (Congenial Duo)`);
@@ -1141,7 +1141,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Ngày sinh:`,`16/12`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME716 = new Discord.RichEmbed().setColor(`#F08120`)
+        var ACME716 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Sky Ruins Expedition:`,`Giải khuyến khích`)
             .addField(`Heart Festival:`,`Giải nhì (Congenial Duo), Giải nhì (Meowth Theater)`);
@@ -1213,7 +1213,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Ngày sinh:`,`13/7`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME014 = new Discord.RichEmbed().setColor(`#F08120`)
+        var ACME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Prison Bottle Event:`,`Giải nhì (Game Center)`)
             .addField(`Heart Festival:`,`Giải nhất (Congenial Duo)`);
@@ -1531,7 +1531,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Ngày sinh:`,`11/6`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME868 = new Discord.RichEmbed().setColor(`#F08120`)
+        var ACME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Pokéween 2 - Lost in the Woods:`,`Giải nhì (Tour SD)`)
             .addField(`Heart Festival:`,`Giải nhất (Congenial Duo)`);
