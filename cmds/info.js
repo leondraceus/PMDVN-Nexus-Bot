@@ -425,7 +425,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Underwater Expedition:`,`Giải nhất (Thi bơi), Đạt điểm cao nhất (Thi vẽ)`)
             .addField(`Pokéween 2 - Lost in the Woods:`,`Giải ba (Tour SD)`)
-            .addField(`Pokémas:`,`Giải nhất (Tour SD)`);
+            .addField(`Pokémas:`,`Giải nhất (Tour SD)`)
+            .addField(`Tổ chức Member Event:`,`When the Wolves Howl (24/2/2018 -> 25/2/2018)`);
             
         message.channel.sendEmbed(ME509);
         message.channel.sendEmbed(ACME509);
@@ -835,7 +836,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)`)
             .addField(`Tổ chức Member Event:`,`Time to Explode (1/1/2018 -> 6/1/2018)`)
             .addField(`Tổ chức Member Event:`,`Fast and Furious (14/1/2018)`)
-            .addField(`Heart Festival:`,`Giải ba (Meowth Theater)`);
+            .addField(`Heart Festival:`,`Giải ba (Meowth Theater)`)
+            .addField(`Tổ chức Member Event:`,`Berry Collector (25/2/2018 -> 25/2/2018)`);
 
         message.channel.sendEmbed(ME072);
         message.channel.sendEmbed(ACME072);
@@ -1316,7 +1318,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)`)
             .addField(`Tổ chức Member Event:`,`Pokémon's Werewolf (17/1/2018 -> 18/1/2018)`)
-            .addField(`Tổ chức Member Event:`,`Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)`);
+            .addField(`Tổ chức Member Event:`,`Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)`)
+            .addField(`Tổ chức Member Event:`,`Lucky Room (20/2/2018 -> 22/2/2018)`);
 
         message.channel.sendEmbed(ME906);
         message.channel.sendEmbed(ACME906);
