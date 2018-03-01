@@ -46,7 +46,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD002** | **(M
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Grand_Administrator_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
-            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`);
+            .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
+            .addField(`Gold Ditto Doll`,`Một con búp bê hình Pokémon Ditto màu vàng kim cực kì quý hiếm và đặc biệt. Nó có thể biến đổi thành bất cứ búp bê hình Pokémon nào khác tuỳ theo ý chủ sở hữu.`)
+            .addField(`Togedemaru Doll`,`Một con búp bê hình Pokémon Togedemaru.`)
+            .addField(`Rowlet Doll`,`Một con búp bê hình Pokémon Rowlet.`);
             
         message.channel.sendEmbed(AD003);
     }
