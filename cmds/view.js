@@ -27,7 +27,8 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Gen 3 Starters & Electric Rodent Set`,`.view pack003`)
             .addField(`Gen 4 Starters & Electric Rodent Set`,`.view pack004`)
             .addField(`Gen 5 Starters & Electric Rodent Set`,`.view pack005`)
-            .addField(`Gen 6 Starters & Electric Rodent Set`,`.view pack006`);
+            .addField(`Gen 6 Starters & Electric Rodent Set`,`.view pack006`)
+            .addField(`Gen 7 Starters & Electric Rodent Set`,`.view pack007`);
 
         message.channel.sendEmbed(doll);
     }
@@ -97,6 +98,17 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Dedenne Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Dedenne.`);
 
         message.channel.sendEmbed(pack006);
+    }
+
+    if(args[0]==="pack007"){
+        var pack007 = new Discord.RichEmbed()
+            .setTitle(`- Collectible Dolls -`).setColor(`#7FFFD4`).setURL(`http://pmdv-nexus.wikia.com/wiki/Kecleon's_Shop`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/59/Kecleon1.png/revision/latest/scale-to-width-down/56?cb=20170620115423`)
+            .addField(`Rowlet Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Rowlet.`)
+            .addField(`Litten Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Litten.`)
+            .addField(`Popplio Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Popplio.`)
+            .addField(`Togedemaru Doll (350 <:poke:379535433467428867>)`,`Một con búp bê hình Pokémon Togedemaru.`);
+
+        message.channel.sendEmbed(pack007);
     }
 
     // Collectible Items //
