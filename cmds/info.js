@@ -1965,6 +1965,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             
         message.channel.sendEmbed(ME394);
     }
+
+    /// Pancham (ME969) ///
+    if(args[0]==="ME969"| args[0]==="me969" | args[0]==="Me969" | args[0]==="Pancham" | args[0]==="pancham"){
+        var ME969 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Pancham/Tuệ Minh Tuệ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/53/Pancham1.png/revision/latest/scale-to-width-down/100?cb=20160824085003`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Pancham`)
+            .addField(`Tên Facebook:`,`Tuệ Minh Tuệ`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`13/9`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME969);
+    }
 }
 
 module.exports.help = {

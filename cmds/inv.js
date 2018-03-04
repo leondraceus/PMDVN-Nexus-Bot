@@ -86,7 +86,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD002** | **(M
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
             .addField(`Marshadow Doll`,`Một con búp bê hình Pokémon Marshadow.`)
             .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
-            .addField(`Solgaleo Doll`,`Một con búp bê hình Pokémon Solgaleo.`);
+            .addField(`Solgaleo Doll`,`Một con búp bê hình Pokémon Solgaleo.`)
+            .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`);
             
         message.channel.sendEmbed(AD005);
     }
@@ -2337,6 +2338,21 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME394);
+    }
+
+    /// Pancham (ME969) ///
+    if(args[0]==="ME969"| args[0]==="me969" | args[0]==="Me969" | args[0]==="Pancham" | args[0]==="pancham"){
+        var ME969 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Pancham/Tuệ Minh Tuệ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/53/Pancham1.png/revision/latest/scale-to-width-down/100?cb=20160824085003`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`320`,inline = true)
+            .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
+            .addField(`Heart Scale (x1)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
+            .addField(`Solgaleo Doll`,`Một con búp bê hình Pokémon Solgaleo.`)
+            .addField(`Salt (x969)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`);
+            
+        message.channel.sendEmbed(ME969);
     }
 }
 
