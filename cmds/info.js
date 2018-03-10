@@ -466,7 +466,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.
             .addField(`Ngày sinh:`,`4/9`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            .addField(`Thành tích:`,`Pokémas: Giải ba (Cuộc thi Vẽ tranh)`);
             
         message.channel.sendEmbed(ME185);
     }
