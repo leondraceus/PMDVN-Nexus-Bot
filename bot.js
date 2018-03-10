@@ -8,7 +8,6 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-    bot.user.setGame('nothing!!!')
 });
 
 bot.commands = new Discord.Collection();
