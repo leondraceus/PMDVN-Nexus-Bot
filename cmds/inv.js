@@ -1050,10 +1050,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Mudkip/Tùng Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`445`,inline = true)
+            .addField(`Poké:`,`95`,inline = true)
             .addField(`Choco-Heart:`,`5`,inline = true)
             .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-            .addField(`Cyndaquil Doll`,`Một con búp bê hình Pokémon Cyndaquil.`);
+            .addField(`Cyndaquil Doll`,`Một con búp bê hình Pokémon Cyndaquil.`)
+            .addField(`Treecko Doll`,`Một con búp bê hình Pokémon Treecko.`);
             
         message.channel.sendEmbed(ME684);
     }
