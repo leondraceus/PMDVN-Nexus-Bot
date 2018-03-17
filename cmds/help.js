@@ -13,7 +13,7 @@ module.exports.run = async (pw, message, args) => {
         .addField(`.shop`,`Xem các mặt hàng trên Kecleon's Shop.`)
         .addField(`3. GIẢI TRÍ`,`---------------`)
         .addField(`\u200B`,`.bite | .slap | .smash | .poke | .hug | 
-.kiss | .lick | .intensify | .trigger`,inline = true)
+.kiss | .lick | .intensify | .trigger | .explode`,inline = true)
         .setColor(`#a366ff`);
    
     message.channel.sendEmbed(embed);
