@@ -662,7 +662,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
     }
 
     // Rockruff (ME008) ///
-    if(args[0]==="ME008"| args[0]==="me008" | args[0]==="Me008"| args[0]==="Rockruff" | args[0]==="rockruff"){
+    if(args[0]==="ME008"| args[0]==="me008" | args[0]==="Me008"){
         var ME008 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/26/744.gif`)
             .setAuthor (`Rockruff/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
@@ -676,6 +676,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
             .addField(`Thành tích:`,`---`);
 
         message.channel.sendEmbed(ME008);
+    }
+
+    // Rockruff (ME121) ///
+    if(args[0]==="ME121"| args[0]==="me121" | args[0]==="Me121"){
+        var ME121 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor (`Rockruff/Ngân Ngô`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Rockruff`)
+            .addField(`Tên Facebook:`,`Ngân Ngô`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`8/8`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+
+        message.channel.sendEmbed(ME121);
+    }
+
+    else if(args[0]==="Rockruff" | args[0]==="rockruff"){
+        message.channel.sendMessage(`**Hiện tại có 2 Rockruff**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.info ME121**`)
     }
 
     // Rhyperior (ME427) ///
@@ -800,23 +822,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Thành tích:`,`Prison Bottle Event - Giải khuyến khích (Hoopa's House)`);
 
         message.channel.sendEmbed(ME892);
-    }
-
-    // Mega Latias (ME089) ///
-    if(args[0]==="ME089"| args[0]==="Me089" | args[0]==="me089" | args[0]==="MegaLatias" | args[0]==="Megalatias" | args[0]==="megalatias"){
-        var ME089 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
-            .setAuthor (`Mega Latias/Trần Minh Hoàng`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/30/Megalatias.png/revision/latest/scale-to-width-down/100?cb=20160823063629`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Latias (Mega)`)
-            .addField(`Tên Facebook:`,`Trần Minh Hoàng`)
-            .addField(`Giới tính:`,`Nữ`)
-            .addField(`Ngày sinh:`,`9/6`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
-
-        message.channel.sendEmbed(ME089);
     }
 
     // Dedenne (ME072) ///
