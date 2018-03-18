@@ -56,13 +56,6 @@ bot.on('message', (message) => {
     var channelname = messageArray[1];
     var rep = messageArray[2];
 
-    if(message.content === "Con de" | message.content === "con de" | message.content === "Con De" | message.content === "con De"){
-        message.channel.sendMessage("kém sang")
-    }
-
-    if(message.content === "CON DE"){
-        message.channel.sendMessage("KÉM SANG")
-    }
 });
 
 bot.on('guildMemberAdd', member => {
