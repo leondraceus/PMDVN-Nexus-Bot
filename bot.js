@@ -61,7 +61,7 @@ bot.on('message', (message) => {
     }
 
     if(message.content === "CON DE"){
-        message.channel.sendMessage("kém sang")
+        message.channel.sendMessage("KÉM SANG")
     }
 });
 
