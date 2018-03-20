@@ -220,10 +220,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`25/6`)
             .addField(`Cấp bậc:`,`Contributor`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Đăng bài, hoạt động tích cực trên Group`);
-        
+            .addField(`Guild:`,`---`);
+        var ACME642 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Đăng bài, hoạt động tích cực trên Group`,`\u200B`)
+            .addField(`Tổ chức Member Event:`,`Nhìn hình kiếm Poké (17/3/2018)`);
+    
         message.channel.sendEmbed(ME642);
+        message.channel.sendEmbed(ACME642);
     }
 
     // Alolan Vulpix (ME786) ///
@@ -842,7 +846,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Tổ chức Member Event:`,`Time to Explode (1/1/2018 -> 6/1/2018)`)
             .addField(`Tổ chức Member Event:`,`Fast and Furious (14/1/2018)`)
             .addField(`Heart Festival:`,`Giải ba (Meowth Theater)`)
-            .addField(`Tổ chức Member Event:`,`Berry Collector (25/2/2018 -> 25/2/2018)`);
+            .addField(`Tổ chức Member Event:`,`Berry Collector (25/2/2018 -> 25/2/2018)`)
+            .addField(`Tổ chức Member Event:`,`Couple Race (18/3/2018)`);
 
         message.channel.sendEmbed(ME072);
         message.channel.sendEmbed(ACME072);
