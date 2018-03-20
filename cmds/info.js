@@ -221,7 +221,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`25/6`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`);
-        var ACME642 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ACME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Đăng bài, hoạt động tích cực trên Group`,`\u200B`)
             .addField(`Tổ chức Member Event:`,`Nhìn hình kiếm Poké (17/3/2018)`);
