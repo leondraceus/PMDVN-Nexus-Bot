@@ -134,7 +134,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
 
     /// Altaria (AD007) ///
     if(args[0]==="AD007"| args[0]==="ad007" | args[0]==="Ad007" | args[0]==="MegaAltaria" | args[0]==="Megaaltaria" | args[0]==="megaaltaria"){
-        var AD007 = new Discord.RichEmbed().setColor(`#2CE0C0`)
+        var AD007 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/uIFZZbL.gif`)
             .setAuthor(`Mega Altaria/Nguyễn Mạnh Kha`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/73/Megaaltaria.png/revision/latest/scale-to-width-down/100?cb=20160822063724`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
