@@ -2414,6 +2414,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
             
         message.channel.sendEmbed(ME969);
     }
+
+    /// Zoroark (ME540) ///
+    if(args[0]==="ME540"| args[0]==="me540" | args[0]==="Me540" | args[0]==="Zoroark" | args[0]==="zoroark"){
+        var ME540 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Zoroark/Hà My`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d7/Zoroark.png/revision/latest/scale-to-width-down/100?cb=20160918090127`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME540);
+    }
 }
 
 module.exports.help = {
