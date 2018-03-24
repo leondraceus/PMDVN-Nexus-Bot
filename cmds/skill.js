@@ -1306,7 +1306,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
     /// Bewear (ME303) ///
     if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303" | args[0]==="Bewear" | args[0]==="bewear"){
         var ME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/kt7G3Br.gif`)
             .setAuthor(`Bewear/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/04/Bewear.png/revision/latest/scale-to-width-down/100?cb=20170617111639`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
