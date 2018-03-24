@@ -399,11 +399,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **
         message.channel.sendEmbed(ME427);
     }
 
-    // Silvally (ME411) ///
-    if(args[0]==="ME411"| args[0]==="me411" | args[0]==="Me411" | args[0]==="Silvally" | args[0]==="silvally"){
+    // Totodile (ME411) ///
+    if(args[0]==="ME411"| args[0]==="me411" | args[0]==="Me411" | args[0]==="Totodile" | args[0]==="totodile"){
         var ME411 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`)
-            .setAuthor (`Silvally/Bờ Lách`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Silvally.png/revision/latest/scale-to-width-down/100?cb=20171230061609`)
+            .setAuthor (`Totodile/Bờ Lách`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b7/Totodile1.png/revision/latest/scale-to-width-down/100?cb=20180324062331`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
             .addField(`Số điểm (Points):`,`47/150`)
