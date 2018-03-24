@@ -988,7 +988,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME008** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Totodile/Bờ Lách`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b7/Totodile1.png/revision/latest/scale-to-width-down/100?cb=20180324062331`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2549`,inline = true)
+            .addField(`Poké:`,`49`,inline = true)
             .addField(`Snowflake:`,`10`,inline = true)
             .addField(`Choco-Heart:`,`10`,inline = true)
             .addField(`Salt (x50)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
