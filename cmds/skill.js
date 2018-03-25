@@ -61,7 +61,7 @@ module.exports.run = async (pw, message, args) => {
         var ME401 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
             .addField(`Số điểm (Points):`,`323/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
@@ -169,7 +169,7 @@ Kho đồ được mở rộng`);
         var ME509 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1325/1750`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
@@ -202,7 +202,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME509** | **
         var ME185 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Fennekin%28Banner%2BGIF%29.gif`)
             .setAuthor(`Fennekin/Quang Phú`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e1/Fennekin1.png/revision/latest/scale-to-width-down/100?cb=20170617053156`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
             .addField(`Cấp bậc (Rank):`,`⭐`)
             .addField(`Số điểm (Points):`,`154/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
@@ -739,7 +739,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
         var ME456 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/IRASI39.gif`)
             .setAuthor (`Mega Sableye/Trần Ngọc Phi Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Megasableye_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171214121620`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
             .addField(`Số điểm (Points):`,`450/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
@@ -1155,7 +1155,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME401** | **
         var ME544 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/ixdTEpP.gif`)
             .setAuthor(`Glaceon/Aoi Miyuki`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8a/Glaceon1.png/revision/latest/scale-to-width-down/100?cb=20180115071344`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
             .addField(`Cấp bậc (Rank):`,`⭐`)
             .addField(`Số điểm (Points):`,`230/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
