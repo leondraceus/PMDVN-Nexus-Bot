@@ -672,6 +672,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME509** | **.i
             .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
             .addField(`Blissey Doll`,`Một con búp bê hình Pokémon Blissey.`)
             .addField(`Forgotten Badge`,`Một chiếc huy hiệu cũ kĩ đã rỉ sét. Bây giờ họ không sản xuất thứ này nữa...`)
+            .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
             .setFooter(`Trang trước (.inv ME185)`);
             
         message.channel.sendEmbed(ME185);
@@ -943,6 +944,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
             .addField(`Rockruff Doll`,`Một con búp bê hình Pokémon Rockruff.`)
             .addField(`Heart Scale (x1)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
+            .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`)
             .setFooter(`Trang trước (.inv ME008)`);
 
         message.channel.sendEmbed(ME008);
@@ -1659,9 +1661,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME014** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`496`,inline = true)
             .addField(`Snowflake:`,`7`,inline = true)
-            .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
-            .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`)
             .addField(`Heart Scale (x1)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`);
 
         message.channel.sendEmbed(ME607);
