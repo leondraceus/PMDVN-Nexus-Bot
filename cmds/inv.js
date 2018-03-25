@@ -567,8 +567,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
             .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`)
-            .addField(`Lovely Note (x1)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
-            .addField(`Lucky Note (x1)`,`Một bức thư màu vàng rực rỡ, được dùng để gửi lời chúc phúc và cầu mong cho những điều tốt đẹp và may mắn xảy đến với người nhận.`)
             .addField(`Destiny Knot`,`Một cuộn chỉ màu đỏ dài, mảnh và không có gì đặc biệt khi nhìn qua. Tuy nhiên, có thể nó sẽ đem lại một điều gì đó đặc biệt nếu bạn được người mình yêu thương nhất hồi đáp.`)
             .addField(`Harmony Box`,`Một chiếc hộp chơi nhạc có thể phát ra tiếng nhạc nghe rất trong và hài hòa.`)
             .setFooter(`Trang trước (.inv ME509--5) | Trang sau (.inv ME509--7)`);
