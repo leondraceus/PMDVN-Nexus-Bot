@@ -468,7 +468,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.
             .addField(`Tên Facebook:`,`Quang Phú`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`4/9`)
-            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Cấp bậc:`,`Apprentice`)
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`Pokémas: Giải ba (Cuộc thi Vẽ tranh)`);
             
@@ -1172,7 +1172,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Tên Facebook:`,`Trần Ngọc Phi Long`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`6/4`)
-            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Cấp bậc:`,`Apprentice`)
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`Tổ chức Member Event: Mightyenia (27/1/2017)`);
 
@@ -1721,7 +1721,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Tên Facebook:`,`Aoi Miyuki`)
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`17/1`)
-            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Cấp bậc:`,`Apprentice`)
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`---`);
             
