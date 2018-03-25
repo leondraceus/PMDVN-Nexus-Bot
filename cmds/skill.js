@@ -58,7 +58,7 @@ module.exports.run = async (pw, message, args) => {
 
     /// Leafeon (ME401) ///
     if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401"){
-        var ME401 = new Discord.RichEmbed().setColor(`#5CE05F`)
+        var ME401 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
@@ -166,7 +166,7 @@ Kho đồ được mở rộng`);
 
     /// Victini (ME509) ///
     if(args[0]==="ME509"| args[0]==="me509" | args[0]==="Me509"){
-        var ME509 = new Discord.RichEmbed().setColor(`#F08120`)
+        var ME509 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -199,7 +199,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME509** | **
     
     /// Fennekin (ME185) ///
     if(args[0]==="ME185"| args[0]==="me185" | args[0]==="Me185" | args[0]==="Fennekin" | args[0]==="fennekin"){
-        var ME185 = new Discord.RichEmbed().setColor(`#CD90BF`)
+        var ME185 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Fennekin%28Banner%2BGIF%29.gif`)
             .setAuthor(`Fennekin/Quang Phú`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e1/Fennekin1.png/revision/latest/scale-to-width-down/100?cb=20170617053156`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -736,7 +736,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
 
     // Mega Sableye (ME456) ///
     if(args[0]==="ME456"| args[0]==="Me456" | args[0]==="me456" | args[0]==="Megasableye" | args[0]==="megasableye"){
-        var ME456 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME456 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/IRASI39.gif`)
             .setAuthor (`Mega Sableye/Trần Ngọc Phi Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Megasableye_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171214121620`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
@@ -1152,7 +1152,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME401** | **
 
     /// Glaceon (ME544) ///
     if(args[0]==="ME544"| args[0]==="me544" | args[0]==="Me544" | args[0]==="Glaceon" | args[0]==="glaceon"){
-        var ME544 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME544 = new Discord.RichEmbed().setColor(`#7A4AE6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/ixdTEpP.gif`)
             .setAuthor(`Glaceon/Aoi Miyuki`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8a/Glaceon1.png/revision/latest/scale-to-width-down/100?cb=20180115071344`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
