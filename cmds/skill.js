@@ -37,7 +37,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`332/525`)
+            .addField(`Số điểm (Points):`,`377/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
         
         message.channel.sendEmbed(ME642);
@@ -63,7 +63,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`323/525`)
+            .addField(`Số điểm (Points):`,`345/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME401);
@@ -76,7 +76,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`812/980`)
+            .addField(`Số điểm (Points):`,`832/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng`);
             
@@ -90,7 +90,7 @@ Kho đồ được mở rộng`);
             .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`456/525`)
+            .addField(`Số điểm (Points):`,`476/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME329);
@@ -406,7 +406,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **
             .setAuthor (`Totodile/Bờ Lách`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b7/Totodile1.png/revision/latest/scale-to-width-down/100?cb=20180324062331`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`47/150`)
+            .addField(`Số điểm (Points):`,`49/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME411);
@@ -458,7 +458,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **
             .setAuthor(`Mudkip/Tùng Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`7/150`)
+            .addField(`Số điểm (Points):`,`9/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME684);
@@ -489,7 +489,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`904/980`)
+            .addField(`Số điểm (Points):`,`934/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng`);
 
@@ -622,7 +622,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME209** | **
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`60/150`)
+            .addField(`Số điểm (Points):`,`95/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME711);
@@ -741,7 +741,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
             .setAuthor (`Mega Sableye/Trần Ngọc Phi Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Megasableye_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171214121620`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`450/525`)
+            .addField(`Số điểm (Points):`,`510/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME456);
@@ -780,7 +780,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
             .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ee/Gallade_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180216032242`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`310/525`)
+            .addField(`Số điểm (Points):`,`355/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME014);
@@ -811,7 +811,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME014** | **
             .setAuthor (`Zygarde/Ngọc Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Zygarde.png/revision/latest/scale-to-width-down/100?cb=20160819085135`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`140/150`)
+            .addField(`Số điểm (Points):`,`146/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME607);
@@ -855,7 +855,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME867** | **
             .setAuthor (`Cherrim/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Cherrim_%28sunshine%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180219103651`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`797/980`)
+            .addField(`Số điểm (Points):`,`817/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng`);
 
@@ -869,7 +869,7 @@ Kho đồ được mở rộng`);
             .setAuthor(`Mega Diancie/Nguyễn Diancie`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/31/Megadiancie.png/revision/latest/scale-to-width-down/100?cb=20160815093508`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`95/150`)
+            .addField(`Số điểm (Points):`,`140/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME905);
@@ -1035,7 +1035,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME514** | **
             .setAuthor(`Cutiefly/Hồ Hoàng Nhật Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/76/Cutiefly.png/revision/latest/scale-to-width-down/100?cb=20170904043748`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐`)
-            .addField(`Số điểm (Points):`,`222F/300`)
+            .addField(`Số điểm (Points):`,`222/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME566);
@@ -1310,7 +1310,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .setAuthor(`Bewear/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/04/Bewear.png/revision/latest/scale-to-width-down/100?cb=20170617111639`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Số điểm (Points):`,`15/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME303);
@@ -1362,7 +1362,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .setAuthor(`Zoroark/Hà My`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d7/Zoroark.png/revision/latest/scale-to-width-down/100?cb=20160918090127`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Số điểm (Points):`,`20/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME540);
