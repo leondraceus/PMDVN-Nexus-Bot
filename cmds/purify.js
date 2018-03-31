@@ -5,7 +5,7 @@ module.exports.run = async (pw, message, args) => {
     .setColor(`#556a74`)
     .setDescription(args[0] +` đã được hoá giải khỏi sự hoá đá!`);
 
-    if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
+    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
 
     var toPurify = message.mentions.members.first() || message.guild.members.get(args[0]);
     if(!toPurify) return message.channel.sendMessage("```Hãy Mention một ai đó!```");

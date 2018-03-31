@@ -5,7 +5,7 @@ module.exports.run = async (pw, message, args) => {
     .setColor(`#676666`)
     .setDescription(args[0] +` đã bị xử tử sml!`);
 
-if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
+if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
 
 var toHeaven = message.mentions.members.first() || message.guild.members.get(args[0]);
 if(!toHeaven) return message.channel.sendMessage("```Hãy Mention một ai đó!```");
