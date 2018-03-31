@@ -6,7 +6,6 @@ module.exports.run = async (pw, message, args) => {
         var customize = new Discord.RichEmbed()
             .setTitle(`- Customization Items -`).setColor(`#7FFFD4`).setURL(`http://pmdv-nexus.wikia.com/wiki/Kecleon's_Shop`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/59/Kecleon1.png/revision/latest/scale-to-width-down/56?cb=20170620115423`)
             .addField(`Animated Images (1200 <:poke:379535433467428867>)`,`Một vật phẩm có thể giúp cho người dùng thêm ảnh .gif vào trang thông tin của mình.`)
-            .addField(`Profile Customization (1000 <:poke:379535433467428867>)`,`Một vật phẩm có thể giúp cho người dùng chỉnh sửa, thay đổi giao diện trang thông tin của mình theo sở thích. **(Chỉ dùng được 1 lần)**`)
             .addField(`Shiny Charm (1500 <:poke:379535433467428867>)`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
             .addField(`Transform Capsule (2500 <:poke:379535433467428867>)`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác. **(Chỉ dùng được 1 lần)**`)
             .addField(`Inventory Enlarger 1 (1500 <:poke:379535433467428867>)`,`Một vật phẩm có thể nâng cấp kho đồ của người dùng lên mức chứa là 30 vật phẩm.`)
