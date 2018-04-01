@@ -30,7 +30,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn rất là đẹp.... có cl nha :heart:");
 
     else if (roll < 91)
-    message.reply("chào mừng đến với thế giới xạo lone.s");
+    message.reply("chào mừng đến với thế giới xạo lone.");
 
     else
     message.reply("mình yêu bạn :heart:");
