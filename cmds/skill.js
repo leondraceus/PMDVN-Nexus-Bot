@@ -779,8 +779,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/db/475_%28shiny%29.gif`)
             .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ee/Gallade_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180216032242`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`355/525`)
+            .addField(`Cấp bậc (Rank):`,`⭐`)
+            .addField(`Số điểm (Points):`,`280/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME014);
@@ -1022,7 +1022,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME514** | **
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐`)
-            .addField(`Số điểm (Points):`,`247/300`)
+            .addField(`Số điểm (Points):`,`292s/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME868);
@@ -1310,7 +1310,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .setAuthor(`Bewear/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/04/Bewear.png/revision/latest/scale-to-width-down/100?cb=20170617111639`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`15/150`)
+            .addField(`Số điểm (Points):`,`8/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME303);
@@ -1332,7 +1332,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
     /// Pichu (ME394) ///
     if(args[0]==="ME394"| args[0]==="me394" | args[0]==="Me394" | args[0]==="Pichu" | args[0]==="pichu"){
         var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/k5ryiPP.gif`)
             .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
