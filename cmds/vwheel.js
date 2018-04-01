@@ -12,7 +12,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đoé được cái gì hết, tiếc quá ~ :heart:");
 
     else if (roll < 31)
-    message.reply("xin chúc mừng, bạn đã được 1 triệu :poke:.... có cl í :fakesmile:");
+    message.reply("xin chúc mừng, bạn đã được 1 triệu <:poke:379535433467428867>.... có cl í <:fakesmile:387588841332146178>");
 
     else if (roll < 41)
     message.reply("tặng bạn 1 random fact: Con De kém sang");
