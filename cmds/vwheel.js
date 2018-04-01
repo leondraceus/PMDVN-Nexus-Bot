@@ -6,7 +6,7 @@ module.exports.run = async (pw, message, args) => {
 
     message.channel.send("<@&374117121745223680>");
     if (1 < roll < 10)
-    message.reply("chúc mừng ngày quốc tế xộn lào :heart:");
+    message.reply("chúc mừng ngày quốc tế xạo lone :heart:");
 
     else if (11 < roll < 20)
     message.reply("bạn đoé được cái gì hết, tiếc quá ~ :heart:");
@@ -18,7 +18,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("tặng bạn 1 random fact: Con De kém sang");
 
     else if (41 < roll < 50)
-    message.reply("bạn không được làm thế. Bạn làm thế là bạn xộn lào.");
+    message.reply("bạn không được làm thế. Bạn làm thế là bạn xạo lone.");
 
     else if (51 < roll < 60)
     message.reply("tặng bạn 1 random fact: Admin Zekrom Đen Hôi đẹp trai 6 múi khoai to soái ca");
@@ -30,7 +30,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn rất là đẹp.... có cl nha :heart:");
 
     else if (81 < roll < 90)
-    message.reply("chào mừng đến với thế giới xộn lào");
+    message.reply("chào mừng đến với thế giới xạo lone");
 
     else if (91 < roll < 100)
     message.reply("mình yêu bạn");
