@@ -4,7 +4,6 @@ module.exports.run = async (pw, message, args) => {
     }
     var roll = Math.floor(Math.random() * 100) +1;
 
-    message.channel.send("<@&374117121745223680>");
     if (roll < 11)
     message.reply("chúc mừng ngày quốc tế xạo lone :heart:");
 
