@@ -8,6 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
+    bot.user.setGame('xạo lone')
 });
 
 bot.commands = new Discord.Collection();
