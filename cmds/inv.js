@@ -2424,6 +2424,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
             
         message.channel.sendEmbed(ME540);
     }
+
+    /// Primal Kyogre (ME637) ///
+    if(args[0]==="ME637"| args[0]==="me637" | args[0]==="Me637" | args[0]==="Primalkyogre" | args[0]==="primalkyogre" | args[0]==="primalKyogre" | args[0]==="PrimalKyogre"){
+        var ME637 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Primal Kyogre/Phuoc Phan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/86/Kyogre_%28primal%29.png/revision/latest/scale-to-width-down/100?cb=20180403071157`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME637);
+    }
 }
 
 module.exports.help = {

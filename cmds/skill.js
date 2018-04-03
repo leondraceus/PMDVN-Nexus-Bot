@@ -1362,10 +1362,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .setAuthor(`Zoroark/Hà My`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d7/Zoroark.png/revision/latest/scale-to-width-down/100?cb=20160918090127`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`20/150`)
+            .addField(`Số điểm (Points):`,`0/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME540);
+    }
+
+    /// Primal Kyogre (ME637) ///
+    if(args[0]==="ME637"| args[0]==="me637" | args[0]==="Me637" | args[0]==="Primalkyogre" | args[0]==="primalkyogre" | args[0]==="primalKyogre" | args[0]==="PrimalKyogre"){
+        var ME637 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Primal Kyogre/Phuoc Phan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/86/Kyogre_%28primal%29.png/revision/latest/scale-to-width-down/100?cb=20180403071157`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME637);
     }
 }
 
