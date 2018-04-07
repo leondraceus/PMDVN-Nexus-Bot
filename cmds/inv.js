@@ -1093,7 +1093,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
     }
 
     // Dedenne (ME072) ///
-    if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072"){
+    if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
         var ME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ (Size 2 | Page 1) -`).setImage(`https://i.imgur.com/zJWCkpn.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
@@ -1191,23 +1191,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setFooter(`Trang trước (.inv ME072--5)`);
 
         message.channel.sendEmbed(ME072);
-    }
-
-    // Dedenne (ME572) ///
-    if(args[0]==="ME572"| args[0]==="Me572" | args[0]==="me572"){
-        var ME572 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
-            .setAuthor (`Dedenne/Yuuki Yuuna`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`0`,inline = true)
-            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
-
-            message.channel.sendEmbed(ME572);
-    }
-
-    else if(args[0]==="Dedenne" | args[0]==="dedenne"){
-        message.channel.sendMessage(`**Hiện tại có 2 Dedenne**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME072** | **.inv ME572**`)
     }
 
     // Dewott (ME240) ///
@@ -1569,7 +1552,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
     // Sableye (ME441) ///
     if(args[0]==="ME441"| args[0]==="Me441" | args[0]==="me441" | args[0]==="Sableye" | args[0]==="sableye"){
         var ME441 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/QdFUiY7.gif`)
             .setAuthor (`Sableye/Le Ba Tuan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/99/Sableye.png/revision/latest/scale-to-width-down/100?cb=20160908081725`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`2554`,inline = true)
