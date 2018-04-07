@@ -2419,6 +2419,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
             
         message.channel.sendEmbed(ME637);
     }
+
+    /// Wurmple (ME019) ///
+    if(args[0]==="ME019"| args[0]==="me019" | args[0]==="Me019" | args[0]==="Wurmple" | args[0]==="wurmple"){
+        var ME019 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Wurmple/Henry Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/52/Wurmple.png/revision/latest/scale-to-width-down/100?cb=20180407060259`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME019);
+    }
 }
 
 module.exports.help = {

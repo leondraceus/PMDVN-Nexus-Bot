@@ -2006,6 +2006,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             
         message.channel.sendEmbed(ME637);
     }
+
+    /// Wurmple (ME019) ///
+    if(args[0]==="ME019"| args[0]==="me019" | args[0]==="Me019" | args[0]==="Wurmple" | args[0]==="wurmple"){
+        var ME019 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Wurmple/Henry Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/52/Wurmple.png/revision/latest/scale-to-width-down/100?cb=20180407060259`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Wurmple`)
+            .addField(`Tên Facebook:`,`Henry Tran`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`28/10`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME019);
+    }
 }
 
 module.exports.help = {
