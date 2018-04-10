@@ -122,6 +122,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Fennekin Doll`,`Một con búp bê hình Pokémon Fennekin.`)
             .addField(`Growlithe Doll`,`Một con búp bê hình Pokémon Growlithe.`)
+            .addField(`Rowlet Doll`,`Một con búp bê hình Pokémon Rowlet.`)
             .setFooter(`Trang trước (.inv AD006)`);
             
         message.channel.sendEmbed(AD006);
