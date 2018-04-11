@@ -1379,7 +1379,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
 
     //// Rayquaza (ME123) ///
     if(args[0]==="ME123"| args[0]==="me123" | args[0]==="Me123" | args[0]==="Rayquaza" | args[0]==="rayquaza"){
-        var ME019 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ME123 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Rayquaza/Triệu Khang`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Rayquaza0.png/revision/latest/scale-to-width-down/100?cb=20161009063816`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
