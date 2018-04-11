@@ -1388,8 +1388,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME123);
+    }
 }
-
+    
 module.exports.help = {
     name: "skill"
 }
