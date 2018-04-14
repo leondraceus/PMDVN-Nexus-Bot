@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-    bot.user.setGame('Big Event 11')
+    bot.user.setGame('The Sky Challenges')
 });
 
 bot.commands = new Discord.Collection();
