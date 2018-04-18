@@ -213,7 +213,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Mega Rayquaza (ME642) ///
     if(args[0]==="ME642"| args[0]==="me642" | args[0]==="Me642"){
         var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 1/3) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
+            .setTitle(`- KHO ĐỒ (Page 1/2) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
             .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Poké:`,`0`,inline = true)
@@ -229,7 +229,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
 
     if(args[0]==="ME642--2"| args[0]==="me642--2" | args[0]==="Me642--2"){
         var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 2/3) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
+            .setTitle(`- KHO ĐỒ (Page 2/2) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
             .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Poké:`,`0`,inline = true)
@@ -238,20 +238,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Deerling Doll (Spring)`,`Một con búp bê hình Pokémon Deerling (Spring Form).`)
             .addField(`Woobat Doll`,`Một con búp bê hình Pokémon Woobat.`)
             .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-            .setFooter(`Trang trước (.inv ME642) | Trang sau (.inv ME642--3)`);
-        
-        message.channel.sendEmbed(ME642);
-    }
-
-    if(args[0]==="ME642--3"| args[0]==="me642--3" | args[0]==="Me642--3"){
-        var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 3/3) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
-            .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`0`,inline = true)
-            .addField(`Không có Item nào trong trang này...`,`\u200B`);
-            
-            .setFooter(`Trang trước (.inv ME642--2)`);
+            .setFooter(`Trang trước (.inv ME642)`);
         
         message.channel.sendEmbed(ME642);
     }
@@ -1291,7 +1278,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .addField(`Deerling Doll (Winter)`,`Một con búp bê hình Pokémon Deerling (Winter Form).`)
             .addField(`Riolu Doll`,`Một con búp bê hình Pokémon Riolu.`)
             .addField(`Mew Doll`,`Một con búp bê hình Pokémon Mew.`)
-            .setFooter(`Trang sau (.inv ME072--2)`);
+            .setFooter(`Trang sau (.inv ME300--2)`);
 
         message.channel.sendEmbed(ME300);
     }
