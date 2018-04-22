@@ -115,15 +115,15 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
 
     /// Yveltal (AD006) ///
     if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006" | args[0]==="Yveltal" | args[0]==="yveltal"){
-        var AD006 = new Discord.RichEmbed().setColor(`#2CE0C0`)
+        var AD006 = new Discord.RichEmbed().setColor(`#E7462B`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/ogbvJhH.gif`)
             .setAuthor(`Yveltal/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b6/Yveltal.png/revision/latest/scale-to-width-down/100?cb=20160821130113`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
             .addField(`Chủng loài:`,`Yveltal`)
             .addField(`Tên Facebook:`,`Nguyễn Nhật`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`12/12`)
-            .addField(`Cấp bậc:`,`Organizer`)
+            .addField(`Cấp bậc:`,`Developer`)
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`Làm Admin Group`);
             
@@ -140,7 +140,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         var AD007 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/uIFZZbL.gif`)
             .setAuthor(`Mega Altaria/Nguyễn Mạnh Kha`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/73/Megaaltaria.png/revision/latest/scale-to-width-down/100?cb=20160822063724`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Chủng loài:`,`Altaria (Mega)`)
             .addField(`Tên Facebook:`,`Nguyễn Mạnh Kha`)
             .addField(`Giới tính:`,`Nam`)
@@ -162,11 +162,73 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Tên Facebook:`,`Leon Draceus`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`4/12`)
-            .addField(`Cấp bậc:`,`Organizer`)
+            .addField(`Cấp bậc:`,`Developer`)
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`Làm Admin Group`);
             
         message.channel.sendEmbed(AD008);
+    }
+
+    /// Fennekin (AD009) ///
+    if(args[0]==="AD009"| args[0]==="ad009" | args[0]==="Ad009" | args[0]==="Fennekin" | args[0]==="fennekin"){
+        var AD009 = new Discord.RichEmbed().setColor(`#2CE0C0`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Fennekin%28Banner%2BGIF%29.gif`)
+            .setAuthor(`Fennekin/Quang Phú`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e1/Fennekin1.png/revision/latest/scale-to-width-down/100?cb=20170617053156`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
+            .addField(`Chủng loài:`,`Fennekin`)
+            .addField(`Tên Facebook:`,`Quang Phú`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`4/9`)
+            .addField(`Cấp bậc:`,`Organizer`)
+            .addField(`Guild:`,`---`);
+        var ACAD009 = new Discord.RichEmbed().setColor(`#2CE0C0`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Thành tích:`,`Pokémas: Giải nhất (Cuộc thi Vẽ tranh)`)
+            .addField(`Làm Admin Group`,`\u200B`);
+
+        message.channel.sendEmbed(AD009);
+        message.channel.sendEmbed(ACAD009);
+    }
+
+    /// Glaceon (AD010) ///
+    if(args[0]==="AD010"| args[0]==="ad010" | args[0]==="Ad010" | args[0]==="Glaceon" | args[0]==="glaceon"){
+        var AD010 = new Discord.RichEmbed().setColor(`#7A4AE6`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/ixdTEpP.gif`)
+            .setAuthor(`Glaceon/Aoi Miyuki`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8a/Glaceon1.png/revision/latest/scale-to-width-down/100?cb=20180115071344`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
+            .addField(`Chủng loài:`,`Glaceon`)
+            .addField(`Tên Facebook:`,`Aoi Miyuki`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`17/1`)
+            .addField(`Cấp bậc:`,`Organizer`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`Làm Admin Group`);
+            
+        message.channel.sendEmbed(AD010);
+    }
+
+    /// Victini (AD011) ///
+    if(args[0]==="AD011"| args[0]==="ad011" | args[0]==="Ad011"){
+        var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
+            .addField(`Chủng loài:`,`Victini <:shiny:385079020158451722>`)
+            .addField(`Tên Facebook:`,`Đỗ Khắc Hiệp`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`17/4`)
+            .addField(`Cấp bậc:`,`Moderator`)
+            .addField(`Guild:`,`---`);
+        var ACAD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Underwater Expedition:`,`Giải nhất (Thi bơi), Đạt điểm cao nhất (Thi vẽ)`)
+            .addField(`Pokéween 2 - Lost in the Woods:`,`Giải ba (Tour SD)`)
+            .addField(`Pokémas:`,`Giải nhất (Tour SD)`)
+            .addField(`Tổ chức Member Event:`,`When the Wolves Howl (24/2/2018 -> 25/2/2018)`)
+            .addField(`Làm Admin Group`,`\u200B`);
+            
+        message.channel.sendEmbed(AD011);
+        message.channel.sendEmbed(ACAD011);
     }
 
 ///////////////   CONTRIBUTOR   ///////////////
@@ -412,29 +474,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             
         message.channel.sendEmbed(ME007);
     }
-
-    /// Victini (ME509) ///
-    if(args[0]==="ME509"| args[0]==="me509" | args[0]==="Me509"){
-        var ME509 = new Discord.RichEmbed().setColor(`#7A4AE6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
-            .addField(`Chủng loài:`,`Victini <:shiny:385079020158451722>`)
-            .addField(`Tên Facebook:`,`Đỗ Khắc Hiệp`)
-            .addField(`Giới tính:`,`Nam`)
-            .addField(`Ngày sinh:`,`17/4`)
-            .addField(`Cấp bậc:`,`Apprentice`)
-            .addField(`Guild:`,`---`);
-        var ACME509 = new Discord.RichEmbed().setColor(`#7A4AE6`)
-            .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Underwater Expedition:`,`Giải nhất (Thi bơi), Đạt điểm cao nhất (Thi vẽ)`)
-            .addField(`Pokéween 2 - Lost in the Woods:`,`Giải ba (Tour SD)`)
-            .addField(`Pokémas:`,`Giải nhất (Tour SD)`)
-            .addField(`Tổ chức Member Event:`,`When the Wolves Howl (24/2/2018 -> 25/2/2018)`);
-            
-        message.channel.sendEmbed(ME509);
-        message.channel.sendEmbed(ACME509);
-    }
     
     /// Victini (ME264) ///
     if(args[0]==="ME264"| args[0]==="me264" | args[0]==="Me264"){
@@ -455,24 +494,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     
     else if(args[0]==="Victini" | args[0]==="victini"){
         message.channel.sendMessage(`**Hiện tại có 2 Victini**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME509** | **.info ME264**`)
-    }
-    
-    /// Fennekin (ME185) ///
-    if(args[0]==="ME185"| args[0]==="me185" | args[0]==="Me185" | args[0]==="Fennekin" | args[0]==="fennekin"){
-        var ME185 = new Discord.RichEmbed().setColor(`#7A4AE6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Fennekin%28Banner%2BGIF%29.gif`)
-            .setAuthor(`Fennekin/Quang Phú`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e1/Fennekin1.png/revision/latest/scale-to-width-down/100?cb=20170617053156`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
-            .addField(`Chủng loài:`,`Fennekin`)
-            .addField(`Tên Facebook:`,`Quang Phú`)
-            .addField(`Giới tính:`,`Nam`)
-            .addField(`Ngày sinh:`,`4/9`)
-            .addField(`Cấp bậc:`,`Apprentice`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Pokémas: Giải nhất (Cuộc thi Vẽ tranh)`);
-            
-        message.channel.sendEmbed(ME185);
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD011** | **.info ME264**`)
     }
     
     /// Bisharp (ME392) ///
@@ -1689,23 +1711,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME362);
-    }
-
-    /// Glaceon (ME544) ///
-    if(args[0]==="ME544"| args[0]==="me544" | args[0]==="Me544" | args[0]==="Glaceon" | args[0]==="glaceon"){
-        var ME544 = new Discord.RichEmbed().setColor(`#7A4AE6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/ixdTEpP.gif`)
-            .setAuthor(`Glaceon/Aoi Miyuki`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8a/Glaceon1.png/revision/latest/scale-to-width-down/100?cb=20180115071344`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/64/Apprentice_Logo.png/revision/latest?cb=20170613043957`)
-            .addField(`Chủng loài:`,`Glaceon`)
-            .addField(`Tên Facebook:`,`Aoi Miyuki`)
-            .addField(`Giới tính:`,`Nữ`)
-            .addField(`Ngày sinh:`,`17/1`)
-            .addField(`Cấp bậc:`,`Apprentice`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
-            
-        message.channel.sendEmbed(ME544);
     }
 
     /// Floette (ME968) ///
