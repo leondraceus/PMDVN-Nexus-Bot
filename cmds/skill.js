@@ -58,7 +58,7 @@ module.exports.run = async (pw, message, args) => {
 
     /// Leafeon (ME401) ///
     if(args[0]==="ME401"| args[0]==="me401" | args[0]==="Me401"){
-        var ME401 = new Discord.RichEmbed().setColor(`#7A4AE6`)
+        var ME401 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Leafeon/Decina Denele`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/100?cb=20171029143458`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
