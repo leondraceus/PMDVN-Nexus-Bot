@@ -1290,7 +1290,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`316`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Shiny Victini Doll`,`Một con búp bê hình Pokémon Shiny Victini.`)
+            .addField(`Shiny Victini Doll`,`Một con búp bê hình Shiny Pokémon Victini.`)
             .setFooter(`Trang trước (.inv ME072--6)`);
 
         message.channel.sendEmbed(ME072);
