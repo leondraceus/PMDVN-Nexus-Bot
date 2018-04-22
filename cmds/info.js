@@ -1910,13 +1910,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
         message.channel.sendEmbed(ME457);
     }
 
-    /// Bewear (ME303) ///
-    if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303" | args[0]==="Bewear" | args[0]==="bewear"){
+    /// Black Kyurem (ME303) ///
+    if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303"){
         var ME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/jZE0T8G.gif`)
-            .setAuthor(`Bewear/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/04/Bewear.png/revision/latest/scale-to-width-down/100?cb=20170617111639`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d0/Kyurem_Black_XY.gif/revision/latest?cb=20180422102329`)
+            .setAuthor(`Black Kyurem/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a4/Black_Kyurem.png/revision/latest?cb=20180422102023`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Bewear`)
+            .addField(`Chủng loài:`,`Kyurem (Black)`)
             .addField(`Tên Facebook:`,`Bảo Nguyễn`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`20/12`)
