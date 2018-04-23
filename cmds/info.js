@@ -215,7 +215,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Chủng loài:`,`Victini <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Đỗ Khắc Hiệp`)
-            .addField(`Giới tính:`,`Trap`)
+            .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`17/4`)
             .addField(`Cấp bậc:`,`Moderator`)
             .addField(`Guild:`,`---`);
