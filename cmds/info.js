@@ -1143,11 +1143,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
         message.channel.sendEmbed(ME330);
     }
 
-    // Purrloin (ME716) ///
-    if(args[0]==="ME716"| args[0]==="Me716" | args[0]==="me716"| args[0]==="Purrloin" | args[0]==="purrloin"){
+    // Skitty (ME716) ///
+    if(args[0]==="ME716"| args[0]==="Me716" | args[0]==="me716"| args[0]==="Skitty" | args[0]==="skitty"){
         var ME716 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/c3/Ribbon_Banner.png/revision/latest?cb=20180215033233`)
-            .setAuthor (`Purrloin/Đoàn Anh Đức`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0f/Purrloin.png/revision/latest/scale-to-width-down/100?cb=20160821010754`)
+            .setAuthor (`Skitty/Đoàn Thị Thanh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Skitty.png/revision/latest/scale-to-width-down/100?cb=20180423051337`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Purrloin`)
             .addField(`Tên Facebook:`,`Đoàn Anh Đức`)
