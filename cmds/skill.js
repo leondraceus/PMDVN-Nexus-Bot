@@ -1241,7 +1241,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
     }
 
     /// Black Kyurem (ME303) ///
-    if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303"){
+    if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303" | args[0]==="Blackkyurem" | args[0]==="blackkyurem" | args[0]==="BlackKyurem"){
         var ME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d0/Kyurem_Black_XY.gif`)
             .setAuthor(`Black Kyurem/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a4/Black_Kyurem.png/revision/latest?cb=20180422102023`)
