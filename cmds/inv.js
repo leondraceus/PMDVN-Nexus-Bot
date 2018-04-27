@@ -426,35 +426,29 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Mega Rayquaza (ME642) ///
     if(args[0]==="ME642"| args[0]==="me642" | args[0]==="Me642"){
         var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 1/2) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
+            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
             .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Poké:`,`214`,inline = true)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
-            .addField(`Lovely Note (x2)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
             .addField(`Heart Balloon (x2) `,`Một quả bóng bay hình trái tim.`)
             .addField(`Rose Thorn (x3)`,`Một nhánh gai hoa hồng không có giá trị đặc biệt gì, chỉ để sưu tầm. Đầu của nó rất nhọn và sẽ rất đau nếu chạm vào đó.`)
-            .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
-            .setFooter(`Trang sau (.inv ME642--2)`);
+            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`);
         
         message.channel.sendEmbed(ME642);
     }
 
-    if(args[0]==="ME642--2"| args[0]==="me642--2" | args[0]==="Me642--2"){
-        var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 2/2) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
-            .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`0`,inline = true)
-            .addField(`Happiny Doll`,`Một con búp bê hình Pokémon Happiny.`)
-            .addField(`Meowth Doll`,`Một con búp bê hình Pokémon Meowth.`)
-            .addField(`Deerling Doll (Spring)`,`Một con búp bê hình Pokémon Deerling (Spring Form).`)
-            .addField(`Woobat Doll`,`Một con búp bê hình Pokémon Woobat.`)
-            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-            .setFooter(`Trang trước (.inv ME642)`);
+    //if(args[0]==="ME642--2"| args[0]==="me642--2" | args[0]==="Me642--2"){
+    //    var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Page 2/2) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
+    //        .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`0`,inline = true)
+    //        .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
+    //        .setFooter(`Trang trước (.inv ME642)`);
         
-        message.channel.sendEmbed(ME642);
-    }
+    //    message.channel.sendEmbed(ME642);
+    //}
 
     //if(args[0]==="ME642--3"| args[0]==="me642--3" | args[0]==="Me642--3"){
     //    var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
@@ -475,7 +469,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setAuthor(`Alolan Vulpix/Ka Lê Quốc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/c5/Vulpix_%28alolan%29.png/revision/latest/scale-to-width-down/100?cb=20170910131902`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Poké:`,`0`,inline = true)
-            .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`)
+            .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`);
             
         message.channel.sendEmbed(ME786);
     }
@@ -1465,10 +1459,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2619`,inline = true)
+            .addField(`Poké:`,`2569`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
-            .addField(`Lovely Note (x1)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
+            .addField(`Lovely Note (x2)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
             .addField(`Lum Berry (x2)`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`);
 
         message.channel.sendEmbed(ME711);
@@ -2078,7 +2072,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | Page 1) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`165`,inline = true)
+            .addField(`Poké:`,`1`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
@@ -2097,7 +2091,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | Page 2) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`165`,inline = true)
+            .addField(`Poké:`,`1`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
@@ -2117,7 +2111,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | Page 3) -`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`165`,inline = true)
+            .addField(`Poké:`,`1`,inline = true)
             .addField(`Spooky Token:`,`1`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Choco-Heart:`,`1`,inline = true)
@@ -2126,7 +2120,26 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
             .addField(`Houndour Doll`,`Một con búp bê hình Pokémon Houndour.`)
             .addField(`Poochyena Doll`,`Một con búp bê hình Pokémon Poochyena.`)
             .addField(`Rockruff Doll`,`Một con búp bê hình Pokémon Rockruff.`)
-            .setFooter(`Trang trước (.inv ME868--2)`);
+            .setFooter(`Trang trước (.inv ME868--2) | Trang sau (.inv ME868--4)`);
+            
+        message.channel.sendEmbed(ME868);
+    }
+
+    if(args[0]==="ME868--4"| args[0]==="me868--4" | args[0]==="Me868--4"){
+        var ME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (Size 1 | Page 4) -`)
+            .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
+                .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+                .addField(`Poké:`,`1`,inline = true)
+                .addField(`Spooky Token:`,`1`,inline = true)
+                .addField(`Snowflake:`,`1`,inline = true)
+                .addField(`Choco-Heart:`,`1`,inline = true)
+                .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
+                .addField(`Happiny Doll`,`Một con búp bê hình Pokémon Happiny.`)
+                .addField(`Deerling (Spring) Doll`,`Một con búp bê hình Pokémon Deerling (Spring).`)
+                .addField(`Meowth Doll`,`Một con búp bê hình Pokémon Meowth.`)
+                .addField(`Woobat Doll`,`Một con búp bê hình Pokémon Woobat.`)
+                .setFooter(`Trang trước (.inv ME868--3)`);
             
         message.channel.sendEmbed(ME868);
     }
