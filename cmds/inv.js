@@ -178,7 +178,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Fennekin (AD009) ///
     if(args[0]==="AD009"| args[0]==="ad009" | args[0]==="Ad009" | args[0]==="Fennekin" | args[0]==="fennekin"){
         var AD009 = new Discord.RichEmbed().setColor(`#2CE0C0`)
-            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a5/Fennekin%28Banner%2BGIF%29.gif`)
+            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/26iM80ArO8rdEQFQL8/giphy.gif`)
             .setAuthor(`Fennekin/Quang Phú`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e1/Fennekin1.png/revision/latest/scale-to-width-down/100?cb=20170617053156`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
             .addField(`Poké:`,`∞`,inline = true)
