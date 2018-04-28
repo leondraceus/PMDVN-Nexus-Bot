@@ -2062,6 +2062,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             
         message.channel.sendEmbed(ME529);
     }
+
+    // Poochyena (ME781) ///
+    if(args[0]==="ME781"| args[0]==="me781" | args[0]==="Me781" | args[0]==="Poochyena" | args[0]==="poochyena"){
+        var ME781 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Poochyena/Zucakovs Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d4/Poochyena.png/revision/latest/scale-to-width-down/100?cb=20161210030847`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Poochyena`)
+            .addField(`Tên Facebook:`,`Zucakovs Tran`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`28/12`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME781);
+    }
 }
 
 module.exports.help = {
