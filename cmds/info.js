@@ -690,7 +690,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
     // Rockruff (ME008) ///
     if(args[0]==="ME008"| args[0]==="me008" | args[0]==="Me008"){
         var ME008 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/26/744.gif`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/5Yqxkske9bnd8R12pz/giphy.gif`)
             .setAuthor (`Rockruff/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Rockruff`)
@@ -815,10 +815,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.
     if(args[0]==="ME684"| args[0]==="me684" | args[0]==="Me684"){
         var ME684 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Mudkip/Tùng Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
+            .setAuthor(`Mudkip/Bakutaku Shizurou`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Mudkip`)
-            .addField(`Tên Facebook:`,`Tùng Neko`)
+            .addField(`Tên Facebook:`,`Bakutaku Shizurou`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`17/10`)
             .addField(`Cấp bậc:`,`Member`)
@@ -1357,7 +1357,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
     /// Mega Lucario (ME923) ///
     if(args[0]==="ME923"| args[0]==="me923" | args[0]==="Me923" | args[0]==="MegaLucario" | args[0]==="Megalucario" | args[0]==="megalucario"){
         var ME923 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/73/Lucky_Wheel_Banner.png/revision/latest?cb=20180211043205`)
             .setAuthor(`Mega Lucario/Luke Stelard`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/dd/Megalucario.png/revision/latest/scale-to-width-down/100?cb=20160817072416`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Lucario (Mega)`)
