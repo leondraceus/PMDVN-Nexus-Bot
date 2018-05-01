@@ -452,7 +452,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
     // Dedenne (ME072) ///
     if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
         var ME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/328EvfXWMMfz1eeW4l/giphy.gif`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
@@ -801,7 +801,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME867** | **
     // Cherrim (ME906) ///
     if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Cherrim" | args[0]==="cherrim"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Spring_Banner.png`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/dejpVFKGtUqoJ8tctu/giphy.gif`)
             .setAuthor (`Cherrim/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Cherrim_%28sunshine%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180219103651`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
@@ -1243,7 +1243,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
     /// Black Kyurem (ME303) ///
     if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303" | args[0]==="Blackkyurem" | args[0]==="blackkyurem" | args[0]==="BlackKyurem"){
         var ME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d0/Kyurem_Black_XY.gif`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/3d9nR3k5Jvk7NT9zw8/giphy.gif`)
             .setAuthor(`Black Kyurem/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a4/Black_Kyurem.png/revision/latest?cb=20180422102023`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
@@ -1269,7 +1269,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
     /// Pichu (ME394) ///
     if(args[0]==="ME394"| args[0]==="me394" | args[0]==="Me394" | args[0]==="Pichu" | args[0]==="pichu"){
         var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/k5ryiPP.gif`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/1kJyJu2Q0j6lvClwjD/giphy.gif`)
             .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
