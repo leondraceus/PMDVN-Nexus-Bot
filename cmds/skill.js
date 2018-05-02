@@ -1269,7 +1269,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
     /// Pichu (ME394) ///
     if(args[0]==="ME394"| args[0]==="me394" | args[0]==="Me394" | args[0]==="Pichu" | args[0]==="pichu"){
         var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/1kJyJu2Q0j6lvClwjD/giphy.gif`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/OqJly8SkrQqplc6qB5/giphy.gif`)
             .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
