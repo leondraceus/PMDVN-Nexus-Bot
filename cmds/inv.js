@@ -1114,7 +1114,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME008** | **.i
             .setTitle(`- KHO ĐỒ (Page 1) -`)
             .setAuthor (`Mudkip/Thanh Ngọc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1629`,inline = true)
+            .addField(`Poké:`,`1929`,inline = true)
             .addField(`Snowflake:`,`31`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Bulbasaur Doll`,`Một con búp bê hình Pokémon Bulbasaur.`)
@@ -1131,11 +1131,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME008** | **.i
             .setTitle(`- KHO ĐỒ (Page 2) -`)
             .setAuthor (`Mudkip/Thanh Ngọc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1629`,inline = true)
+            .addField(`Poké:`,`1929`,inline = true)
             .addField(`Snowflake:`,`31`,inline = true)
             .addField(`Mudkip Doll`,`Một con búp bê hình Pokémon Mudkip.`)
             .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
             .addField(`Litten Doll`,`Một con búp bê hình Pokémon Litten.`)
+            .addField(`Big Mushroom`,`Một chiếc nấm to và hiếm, có thể dùng để chế biến thức ăn.`)
             .setFooter(`Trang trước (.inv ME725)`);
 
         message.channel.sendEmbed(ME725);
