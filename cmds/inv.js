@@ -1297,6 +1297,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .addField(`Poké:`,`1746`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
             .addField(`Shiny Victini Doll`,`Một con búp bê hình Shiny Pokémon Victini.`)
+            .addField(`Electabuzz Doll`,`Một con búp bê hình Pokémon Electabuzz.`)
+            .addField(`Magnet`,`Một chiếc nam châm có từ tính cực mạnh.`)
+            .addField(`Yellow Crystal`,`No templates available yet!`)
             .setFooter(`Trang trước (.inv ME072--6)`);
 
         message.channel.sendEmbed(ME072);
@@ -2484,8 +2487,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
             .setAuthor(`Black Kyurem/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a4/Black_Kyurem.png/revision/latest?cb=20180422102023`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`1315`,inline = true)
-            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`);
-            
+            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
+            .addField(`Magnemite Doll`,`Một con búp bê hình Pokémon Magnemite.`)
+            .addField(`Wacan Berry`,`Một loại Berry có thể làm giảm sát thương nhận được từ đòn đánh hệ Electric mà hiệu quả cao lên người dùng.`)
+            .addField(`Yellow Crystal`,`No templates available yet!`);
+    
         message.channel.sendEmbed(ME303);
     }
 
@@ -2509,7 +2515,24 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`1676`,inline = true)
             .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
-            .addField(`Salt (x1)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`);
+            .addField(`Zapdos Doll`,`Một con búp bê hình Pokémon Zapdos.`)
+            .addField(`Salt (x1)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+            .addField(`Electric Diamond`,`Một viên kim cương lấp lánh phát ra năng lượng điện.`)
+            .addField(`Sparkling Trumpet`,`No templates available yet!`)
+            .setFooter(`Trang sau (.inv ME394--2)`);
+            
+        message.channel.sendEmbed(ME394);
+    }
+
+    /// Pichu (ME394) ///
+    if(args[0]==="ME394--2"| args[0]==="me394--2" | args[0]==="Me394--2" | args[0]==="Pichu--2" | args[0]==="pichu--2"){
+        var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://media.giphy.com/media/OqJly8SkrQqplc6qB5/giphy.gif`)
+            .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`1676`,inline = true)
+            .addField(`Yellow Crystal`,`No templates available yet!`)
+            .setFooter(`Trang trước (.inv ME394)`);
             
         message.channel.sendEmbed(ME394);
     }
