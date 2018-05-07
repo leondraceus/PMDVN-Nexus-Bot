@@ -210,7 +210,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     /// Victini (AD011) ///
     if(args[0]==="AD011"| args[0]==="ad011" | args[0]==="Ad011"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/3e6Q9vx.gif`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
             .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Chủng loài:`,`Victini <:shiny:385079020158451722>`)
@@ -777,13 +777,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.
         message.channel.sendEmbed(ME524);
     }
 
-    // Mudkip (ME725) ///
+    // Alolan Meowth (ME725) ///
     if(args[0]==="ME725"| args[0]==="Me725" | args[0]==="me725"){
         var ME725 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor (`Mudkip/Thanh Ngọc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
+            .setAuthor (`Alolan Meowth/Thanh Ngọc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/96/Meowth_%28alolan%29.png/revision/latest/scale-to-width-down/100?cb=20180506085338`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Mudkip`)
+            .addField(`Chủng loài:`,`Alolan Meowth`)
             .addField(`Tên Facebook:`,`Thanh Ngọc`)
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`2/7`)
