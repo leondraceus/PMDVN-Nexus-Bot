@@ -2611,7 +2611,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
             .addField(`Zapdos Doll`,`Một con búp bê hình Pokémon Zapdos.`)
             .addField(`Electric Diamond`,`Một viên kim cương lấp lánh phát ra năng lượng điện.`)
             .addField(`Sparkling Trumpet`,`Một chiếc kèn màu vàng kim lấp lánh rất phù hợp với những giai điệu mạnh mẽ xuyên qua bầu trời đen.`)
-            .addField(`Mystic Water`,`Một dây chuyền đá trang sức hình giọt nước.`);
+            .addField(`Mystic Water`,`Một dây chuyền đá trang sức hình giọt nước.`)
+            .setFooter(`Trang sau (.inv ME394--2)`);
             
         message.channel.sendEmbed(ME394);
     }
