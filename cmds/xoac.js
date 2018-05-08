@@ -5,5 +5,5 @@
 }
 
 module.exports.help = {
-    name: "xoạc"
+    name: "xoac"
 }
