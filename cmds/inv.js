@@ -261,11 +261,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     if(args[0]==="AD010--3"| args[0]==="ad010--3" | args[0]==="Ad010--3"){
         var AD010 = new Discord.RichEmbed().setColor(`#2CE0C0`)
             .setTitle(`- KHO ĐỒ (Page 3) -`).setImage(`https://media.giphy.com/media/oynutRQhc70kOG0CYs/giphy.gif`)
-                .setAuthor(`Glaceon/Aoi Miyuki`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8a/Glaceon1.png/revision/latest/scale-to-width-down/100?cb=20180115071344`)
-                .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
-                .addField(`Poké:`,`∞`,inline = true)
-                .addField(`Glacier Key`,`Một chiếc khoá được làm từ băng được tìm thấy ở một nơi có bão tuyết dữ dội, lãnh lẽo. Có vẻ như nó có thể được dùng để mở một thứ gì đó.`)
-                .setFooter(`Trang trước (.inv AD010--2)`);
+            .setAuthor(`Glaceon/Aoi Miyuki`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8a/Glaceon1.png/revision/latest/scale-to-width-down/100?cb=20180115071344`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/51/Organizer_Logo.png/revision/latest?cb=20170613044004`)
+            .addField(`Poké:`,`∞`,inline = true)
+            .addField(`Glacier Key`,`Một chiếc khoá được làm từ băng được tìm thấy ở một nơi có bão tuyết dữ dội, lãnh lẽo. Có vẻ như nó có thể được dùng để mở một thứ gì đó.`)
+            .setFooter(`Trang trước (.inv AD010--2)`);
             
         message.channel.sendEmbed(AD010);
     }
