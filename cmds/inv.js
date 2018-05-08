@@ -1415,7 +1415,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
                .addField(`Snowflake:`,`63`,inline = true)
                .addField(`Choco-Heart:`,`22`,inline = true)
                .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
-               .setFooter(`Trang sau (.inv ME240--2)`);
+               .setFooter(`Trang trước (.inv ME240--2)`);
             
         message.channel.sendEmbed(ME240);
     }
@@ -2613,18 +2613,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
         message.channel.sendEmbed(ME394);
     }
 
-    ///// Pichu (ME394) ///
-    //if(args[0]==="ME394--2"| args[0]==="me394--2" | args[0]==="Me394--2" | args[0]==="Pichu--2" | args[0]==="pichu--2"){
-    //    var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
-    //        .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/OqJly8SkrQqplc6qB5/giphy.gif`)
-    //        .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
-    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-    //        .addField(`Poké:`,`1676`,inline = true)
-    //        .addField(`Mystic Water`,`Một dây chuyền đá trang sức hình giọt nước.`)
-    //        .setFooter(`Trang trước (.inv ME394)`);
+    /// Pichu (ME394) ///
+    if(args[0]==="ME394--2"| args[0]==="me394--2" | args[0]==="Me394--2" | args[0]==="Pichu--2" | args[0]==="pichu--2"){
+        var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/OqJly8SkrQqplc6qB5/giphy.gif`)
+            .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`1776`,inline = true)
+            .addField(`Jynx Doll`,`Một con búp bê hình Pokémon Jynx.`)
+            .setFooter(`Trang trước (.inv ME394)`);
             
-    //    message.channel.sendEmbed(ME394);
-    //}
+        message.channel.sendEmbed(ME394);
+    }
 
     /// Pancham (ME969) ///
     if(args[0]==="ME969"| args[0]==="me969" | args[0]==="Me969" | args[0]==="Pancham" | args[0]==="pancham"){
