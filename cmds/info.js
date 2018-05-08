@@ -116,7 +116,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     /// Yveltal (AD006) ///
     if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006" | args[0]==="Yveltal" | args[0]==="yveltal"){
         var AD006 = new Discord.RichEmbed().setColor(`#E7462B`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/24pcHAa42nCglEA0Lw/giphy.gif`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/QJsQ06bwNBTBwuJks4/giphy.gif`)
             .setAuthor(`Yveltal/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b6/Yveltal.png/revision/latest/scale-to-width-down/100?cb=20160821130113`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
             .addField(`Chủng loài:`,`Yveltal`)

@@ -115,7 +115,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Yveltal (AD006) ///
     if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006" | args[0]==="Yveltal" | args[0]==="yveltal"){
         var AD006 = new Discord.RichEmbed().setColor(`#E7462B`)
-            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/24pcHAa42nCglEA0Lw/giphy.gif`)
+            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/QJsQ06bwNBTBwuJks4/giphy.gif`)
             .setAuthor(`Yveltal/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b6/Yveltal.png/revision/latest/scale-to-width-down/100?cb=20160821130113`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
             .addField(`Poké:`,`∞`,inline = true)
@@ -131,13 +131,15 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
 
     if(args[0]==="AD006--2"| args[0]==="ad006--2" | args[0]==="Ad006--2"){
         var AD006 = new Discord.RichEmbed().setColor(`#E7462B`)
-            .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/24pcHAa42nCglEA0Lw/giphy.gif`)
+            .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/QJsQ06bwNBTBwuJks4/giphy.gif`)
             .setAuthor(`Yveltal/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b6/Yveltal.png/revision/latest/scale-to-width-down/100?cb=20160821130113`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Fennekin Doll`,`Một con búp bê hình Pokémon Fennekin.`)
             .addField(`Growlithe Doll`,`Một con búp bê hình Pokémon Growlithe.`)
             .addField(`Rowlet Doll`,`Một con búp bê hình Pokémon Rowlet.`)
+            .addField(`Popplio Doll`,`Một con búp bê hình Pokémon Popplio.`)
+            .addField(`Transform Capsule`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác.`)
             .setFooter(`Trang trước (.inv AD006)`);
             
         message.channel.sendEmbed(AD006);
