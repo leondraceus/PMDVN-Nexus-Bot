@@ -1363,6 +1363,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .addField(`Magnet`,`Một chiếc nam châm có từ tính cực mạnh.`)
             .addField(`Passho Berry`,`Một loại Berry có thể làm giảm sát thương nhận được từ đòn đánh hệ Water mà hiệu quả cao lên người dùng.`)
             .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
+            .addField(`Shellder Doll`,`Một con búp bê hình Shiny Pokémon Shellder.`)
             .setFooter(`Trang trước (.inv ME072--6)`);
 
         message.channel.sendEmbed(ME072);
