@@ -1913,7 +1913,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
     /// Black Kyurem (ME303) ///
     if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303" | args[0]==="Blackkyurem" | args[0]==="blackkyurem" | args[0]==="BlackKyurem"){
         var ME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/3d9nR3k5Jvk7NT9zw8/giphy.gif`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/1iUOJsUwoGQXo9bqXW/giphy.gif`)
             .setAuthor(`Black Kyurem/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a4/Black_Kyurem.png/revision/latest?cb=20180422102023`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Kyurem (Black)`)
@@ -1922,9 +1922,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             .addField(`Ngày sinh:`,`20/12`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+           var ACME303 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Zapdos Challenge: Giải ba`,`\u200B`)
+            .addField(`Moltres Challenge: Giải nhất`,`\u200B`);
             
-        message.channel.sendEmbed(ME303);
+            message.channel.sendEmbed(ME303);
+            message.channel.sendEmbed(ACME303);
+        }
     }
 
     /// Feraligatr (ME199) ///
