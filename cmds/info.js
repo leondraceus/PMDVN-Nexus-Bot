@@ -1922,15 +1922,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             .addField(`Ngày sinh:`,`20/12`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-           var ACME303 = new Discord.RichEmbed().setColor(`#5CE05F`)
+          var ACME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Zapdos Challenge: Giải ba`,`\u200B`)
-            .addField(`Moltres Challenge: Giải nhất`,`\u200B`);
-            
+            .addField(`Thành tích:`,`Moltres Challenge: Giải nhất`)
+            .addField(`Zapdos Challenge: Giải ba`,`\u200B`);
+
             message.channel.sendEmbed(ME303);
             message.channel.sendEmbed(ACME303);
         }
-    }
 
     /// Feraligatr (ME199) ///
     if(args[0]==="ME199"| args[0]==="me199" | args[0]==="Me199" | args[0]==="Feraligatr" | args[0]==="feraligatr"){
