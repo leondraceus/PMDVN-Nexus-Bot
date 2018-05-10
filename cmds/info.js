@@ -1552,8 +1552,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Guild:`,`---`);
         var ACME868 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Pokéween 2 - Lost in the Woods:`,`Giải nhì (Tour SD)`)
-            .addField(`Heart Festival:`,`Giải nhất (Congenial Duo)`);
+            .addField(`Giải nhì:`,`Pokéween 2 - Lost in the Woods (Tour SD)`)
+            .addField(`Giải nhất:`,` Heart Festival (Congenial Duo)`)
+            .addField(`Giải ba:`,` The Sky Challenges (Moltres Challenge)`);
             
         message.channel.sendEmbed(ME868);
         message.channel.sendEmbed(ACME868);
