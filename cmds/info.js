@@ -330,13 +330,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         message.channel.sendEmbed(ME401);
     }
     
-    /// Primarina (ME563) ///
-    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Primarina" | args[0]==="primarina"){
+    /// Torterra (ME563) ///
+    if(args[0]==="ME563"| args[0]==="me563" | args[0]==="Me563" | args[0]==="Torterra" | args[0]==="torterra"){
         var ME563 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/W1CMwcD.gif`)
-            .setAuthor(`Primarina/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/14/Primarina.png/revision/latest/scale-to-width-down/100?cb=20180108143722`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/1ncU3iSlF12dAxmPtT/giphy.gif`)
+            .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Chủng loài:`,`Primarina`)
+            .addField(`Chủng loài:`,`Torterra`)
             .addField(`Tên Facebook:`,`Chương Lê`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`12/2`)
@@ -345,7 +345,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         var ACME563 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tìm kiếm nguồn và nhắc nhở ghi nguồn cho các ảnh đăng trong Group`,`\u200B`)
-            .addField(`Tổ chức Member Event:`,`Ai là Poké Phú (13/1/2018 -> 20/1/2018)`);
+            .addField(`Tổ chức Member Event:`,`Ai là Poké Phú (13/1/2018 -> 20/1/2018)`)
+            .addField(`Giải nhất:`,`The Sky Challenges (Articuno Challenge)`);
             
         message.channel.sendEmbed(ME563);
         message.channel.sendEmbed(ACME563);
