@@ -1760,12 +1760,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
     // Sableye (ME441) ///
     if(args[0]==="ME441"| args[0]==="Me441" | args[0]==="me441" | args[0]==="Sableye" | args[0]==="sableye"){
         var ME441 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/QdFUiY7.gif`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://media.giphy.com/media/jVTuMnOmxaAEGidJzS/giphy.gif`)
             .setAuthor (`Sableye/Le Ba Tuan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/99/Sableye.png/revision/latest/scale-to-width-down/100?cb=20160908081725`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1354`,inline = true)
+            .addField(`Poké:`,`304`,inline = true)
             .addField(`Salt (x1)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
-            .addField(`Shellder Doll`,`Một con búp bê hình Pokémon Shellder.`);
+            .addField(`Shellder Doll`,`Một con búp bê hình Pokémon Shellder.`)
+            .addField(`Charcoal`,`Một loại nhiên liệu có thể đốt cháy được.`)
+            .addField(`Transform Capsule`,`Một vật phẩm có thể giúp cho người dùng biến hoá thành Pokémon khác.`);
          
         message.channel.sendEmbed(ME441);
     }
