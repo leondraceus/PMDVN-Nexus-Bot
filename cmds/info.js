@@ -1924,8 +1924,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             .addField(`Guild:`,`---`)
           var ACME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Thành tích:`,`Moltres Challenge: Giải nhất
-             Zapdos Challenge: Giải ba`);
+            .addField(`Giải nhất:`,`Moltres Challenge`)
+            .addField(`Giải ba:`,`Moltres Challenge`)
 
          message.channel.sendEmbed(ME303);
          message.channel.sendEmbed(ACME303);
