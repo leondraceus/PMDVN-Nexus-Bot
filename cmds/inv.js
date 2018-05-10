@@ -1545,10 +1545,25 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
             .addField(`Lovely Note (x2)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
             .addField(`Lum Berry (x2)`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`)
-            .addField(`Salt (x3)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`);
+            .addField(`Salt (x3)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+            .setFooter(`Trang sau (.inv ME711--2)`);
 
         message.channel.sendEmbed(ME711);
     }
+
+    if(args[0]==="ME711--2"| args[0]==="Me711--2" | args[0]==="me711--2"){
+        var ME711 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`3269`,inline = true)
+            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
+            .addField(`Mystic Water`,`Một dây chuyền đá trang sức hình giọt nước.`)
+            .setFooter(`Trang trước (.inv ME711)`);
+
+        message.channel.sendEmbed(ME711);
+    }
+
 
     // Riolu (ME640) ///
     if(args[0]==="ME640"| args[0]==="Me640" | args[0]==="me640"){
@@ -2641,7 +2656,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
     /// Pichu (ME394) ///
     if(args[0]==="ME394"| args[0]==="me394" | args[0]==="Me394" | args[0]==="Pichu" | args[0]==="pichu"){
         var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/OqJly8SkrQqplc6qB5/giphy.gif`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://media.giphy.com/media/OqJly8SkrQqplc6qB5/giphy.gif`)
             .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`2647`,inline = true)
@@ -2649,24 +2664,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
             .addField(`Zapdos Doll`,`Một con búp bê hình Pokémon Zapdos.`)
             .addField(`Electric Diamond`,`Một viên kim cương lấp lánh phát ra năng lượng điện.`)
             .addField(`Sparkling Trumpet`,`Một chiếc kèn màu vàng kim lấp lánh rất phù hợp với những giai điệu mạnh mẽ xuyên qua bầu trời đen.`)
-            .addField(`Mystic Water`,`Một dây chuyền đá trang sức hình giọt nước.`)
-            .setFooter(`Trang sau (.inv ME394--2)`);
+            .addField(`Jynx Doll`,`Một con búp bê hình Pokémon Jynx.`);
             
         message.channel.sendEmbed(ME394);
     }
 
-    /// Pichu (ME394) ///
-    if(args[0]==="ME394--2"| args[0]==="me394--2" | args[0]==="Me394--2" | args[0]==="Pichu--2" | args[0]==="pichu--2"){
-        var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/OqJly8SkrQqplc6qB5/giphy.gif`)
-            .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2647`,inline = true)
-            .addField(`Jynx Doll`,`Một con búp bê hình Pokémon Jynx.`)
-            .setFooter(`Trang trước (.inv ME394)`);
+    ///// Pichu (ME394) ///
+    //if(args[0]==="ME394--2"| args[0]==="me394--2" | args[0]==="Me394--2" | args[0]==="Pichu--2" | args[0]==="pichu--2"){
+    //    var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
+    //        .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/OqJly8SkrQqplc6qB5/giphy.gif`)
+    //        .setAuthor(`Pichu/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9d/Pichu.png/revision/latest/scale-to-width-down/100?cb=20161004073859`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+    //        .addField(`Poké:`,`2647`,inline = true)
+    //        .addField(`Jynx Doll`,`Một con búp bê hình Pokémon Jynx.`)
+    //        .setFooter(`Trang trước (.inv ME394)`);
             
-        message.channel.sendEmbed(ME394);
-    }
+    //    message.channel.sendEmbed(ME394);
+    //}
 
     /// Pancham (ME969) ///
     if(args[0]==="ME969"| args[0]==="me969" | args[0]==="Me969" | args[0]==="Pancham" | args[0]==="pancham"){
