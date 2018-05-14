@@ -75,11 +75,10 @@ module.exports.run = async (pw, message, args) => {
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/1ncU3iSlF12dAxmPtT/giphy.gif`)
             .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
+            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1018/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
-            Kho đồ được mở rộng
-            Không bị trừ Point khi bán đồ`);
+            Kho đồ được mở rộng`);
             
         message.channel.sendEmbed(ME563);
     }
@@ -459,8 +458,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1256/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
-            Kho đồ được mở rộng
-            Không bị trừ Point khi bán đồ`);
+            Kho đồ được mở rộng`);
+    
 
         message.channel.sendEmbed(ME072);
     }
