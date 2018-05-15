@@ -135,7 +135,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
          var AD006x = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
             .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
-            .setThumbnail(`(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Chủng loài:`,`Yveltal`)
             .addField(`Tên Facebook:`,`Nguyễn Nhật`)
             .addField(`Giới tính:`,`Nam`)
