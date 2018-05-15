@@ -130,22 +130,22 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         message.channel.sendEmbed(AD006);
     }
 
-    /// Honchkrow (AD006x) ///
-    if(args[0]==="AD006x"| args[0]==="ad006x" | args[0]==="Ad006x" | args[0]==="Honchkrow" | args[0]==="honchkrow"){
-         var AD006x = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
-            .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Chủng loài:`,`Yveltal`)
-            .addField(`Tên Facebook:`,`Nguyễn Nhật`)
-            .addField(`Giới tính:`,`Nam`)
-            .addField(`Ngày sinh:`,`12/12`)
-            .addField(`Cấp bậc:`,`Contributor`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Làm Admin Group`);
+    ///// Honchkrow (AD006x) ///
+    //if(args[0]==="AD006x"| args[0]==="ad006x" | args[0]==="Ad006x" | args[0]==="Honchkrow" | args[0]==="honchkrow"){
+    //     var AD006x = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
+    //        .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Chủng loài:`,`Yveltal`)
+    //        .addField(`Tên Facebook:`,`Nguyễn Nhật`)
+    //        .addField(`Giới tính:`,`Nam`)
+    //        .addField(`Ngày sinh:`,`12/12`)
+    //        .addField(`Cấp bậc:`,`Contributor`)
+    //        .addField(`Guild:`,`---`)
+    //        .addField(`Thành tích:`,`Làm Admin Group`);
             
-        message.channel.sendEmbed(AD006x);
-    }
+    //    message.channel.sendEmbed(AD006x);
+    //}
 //    else if(args[0]==="Honchkrow" | args[0]==="honchkrow"){
 //        message.channel.sendMessage(`**Hiện tại có 2 Honchkrow**
 //Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD006** | **?**`)
