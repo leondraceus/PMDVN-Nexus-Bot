@@ -2606,7 +2606,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME590** | **.i
     }
 
     /// Umbreon (ME069) ///
-    if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069" | args[0]==="Umbreon" | args[0]==="umbreon"){
+    if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069"){
         var ME069 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Umbreon/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
@@ -2615,6 +2615,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME590** | **.i
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME069);
+    }
+
+    else if(args[0]==="Umbreon" | args[0]==="Umbreon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Umbreon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME069** | **.inv ME720**`)
+
     }
 
     /// Meloetta (ME452) ///
@@ -2792,17 +2798,16 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME983** | **.i
         message.channel.sendEmbed(ME529);
     }
 
-    //// Poochyena (ME781) ///
-    if(args[0]==="ME781"| args[0]==="me781" | args[0]==="Me781" | args[0]==="Poochyena" | args[0]==="poochyena"){
-        var ME781 = new Discord.RichEmbed().setColor(`#3A77E6`)
+    //// Umbreon (ME720) ///
+    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"){
+        var ME720 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
-            .setAuthor(`Poochyena/Zucakovs Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d4/Poochyena.png/revision/latest/scale-to-width-down/100?cb=20161210030847`)
+            .setAuthor(`Umbreon/Võ Tiến`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`80`,inline = true)
-            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-            .addField(`Solgaleo Doll`,`Một con búp bê hình Pokémon Solgaleo.`);
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Shiny Victini Doll`,`Một con búp bê hình Shiny Pokémon Victini.`);
             
-        message.channel.sendEmbed(ME781);
+        message.channel.sendEmbed(ME720);
     }
 }
 

@@ -1369,6 +1369,36 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             
         message.channel.sendEmbed(ME781);
     }
+
+    /// Poochyena (ME781) ///
+    if(args[0]==="ME781"| args[0]==="me781" | args[0]==="Me781" | args[0]==="Poochyena" | args[0]==="poochyena"){
+        var ME781 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Poochyena/Zucakovs Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d4/Poochyena.png/revision/latest/scale-to-width-down/100?cb=20161210030847`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`13/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME781);
+    }
+    /// Umbreon (ME720) ///
+    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"){
+        var ME720 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Umbreon/Võ Tiến`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`1/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME720);
+    }
+    else if(args[0]==="Umbreon" | args[0]==="Umbreon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Umbreon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME069** | **.skill ME720**`)
+
+    }
 }
     
 module.exports.help = {
