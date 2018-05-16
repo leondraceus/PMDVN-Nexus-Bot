@@ -2617,7 +2617,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME590** | **.i
         message.channel.sendEmbed(ME069);
     }
 
-    else if(args[0]==="Umbreon" | args[0]==="Umbreon"){
+    else if(args[0]==="Umbreon" | args[0]==="umbreon"){
         message.channel.sendMessage(`**Hiện tại có 2 Umbreon**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME069** | **.inv ME720**`)
 

@@ -1394,7 +1394,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             
         message.channel.sendEmbed(ME720);
     }
-    else if(args[0]==="Umbreon" | args[0]==="Umbreon"){
+    else if(args[0]==="Umbreon" | args[0]==="umbreon"){
         message.channel.sendMessage(`**Hiện tại có 2 Umbreon**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME069** | **.skill ME720**`)
 
