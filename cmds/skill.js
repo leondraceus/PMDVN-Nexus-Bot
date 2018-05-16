@@ -342,7 +342,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setAuthor (`Rockruff/Ngân Ngô`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Số điểm (Points):`,`55/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME121);
@@ -399,7 +399,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **
             .setAuthor (`Alolan Meowth/Thanh Ngọc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/96/Meowth_%28alolan%29.png/revision/latest/scale-to-width-down/100?cb=20180506085338`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`313/525`)
+            .addField(`Số điểm (Points):`,`356/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME725);
@@ -690,9 +690,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/IRASI39.gif`)
             .setAuthor (`Mega Sableye/Trần Ngọc Phi Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/69/Megasableye_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171214121620`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`508/525`)
-            .addField(`Kỹ năng (Skills):`,`---`);
+            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
+            .addField(`Số điểm (Points):`,`528/750`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
 
         message.channel.sendEmbed(ME456);
     }
@@ -819,7 +819,7 @@ Kho đồ được mở rộng`);
             .setAuthor(`Mega Diancie/Nguyễn Diancie`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/31/Megadiancie.png/revision/latest/scale-to-width-down/100?cb=20160815093508`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐`)
-            .addField(`Số điểm (Points):`,`205/300`)
+            .addField(`Số điểm (Points):`,`250/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME905);
@@ -902,7 +902,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME037** | **
             .setAuthor (`Arcanine/Khương Trần Duy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/50/Arcanine.png/revision/latest/scale-to-width-down/100?cb=20171202161640`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐`)
-            .addField(`Số điểm (Points):`,`202/300`)
+            .addField(`Số điểm (Points):`,`222/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME503);
@@ -985,7 +985,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME514** | **
             .setAuthor(`Cutiefly/Hồ Hoàng Nhật Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/76/Cutiefly.png/revision/latest/scale-to-width-down/100?cb=20170904043748`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐`)
-            .addField(`Số điểm (Points):`,`242/300`)
+            .addField(`Số điểm (Points):`,`243/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME566);
@@ -1360,28 +1360,16 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
     /// Poochyena (ME781) ///
     if(args[0]==="ME781"| args[0]==="me781" | args[0]==="Me781" | args[0]==="Poochyena" | args[0]==="poochyena"){
         var ME781 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/73/Lucky_Wheel_Banner.png/revision/latest?cb=20180211043205`)
             .setAuthor(`Poochyena/Zucakovs Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d4/Poochyena.png/revision/latest/scale-to-width-down/100?cb=20161210030847`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`13/150`)
+            .addField(`Số điểm (Points):`,`48/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME781);
     }
 
-    /// Poochyena (ME781) ///
-    if(args[0]==="ME781"| args[0]==="me781" | args[0]==="Me781" | args[0]==="Poochyena" | args[0]==="poochyena"){
-        var ME781 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`)
-            .setAuthor(`Poochyena/Zucakovs Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d4/Poochyena.png/revision/latest/scale-to-width-down/100?cb=20161210030847`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`13/150`)
-            .addField(`Kỹ năng (Skills):`,`---`);
-            
-        message.channel.sendEmbed(ME781);
-    }
     /// Umbreon (ME720) ///
     if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"){
         var ME720 = new Discord.RichEmbed().setColor(`#3A77E6`)
