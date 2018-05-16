@@ -1204,7 +1204,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
     if(args[0]==="ME441"| args[0]==="Me441" | args[0]==="me441" | args[0]==="Absol" | args[0]==="absol"){
         var ME441 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/96/359.gif`)
-            .setAuthor (`Absol/Le Ba Tuan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/99/Sableye.png/revision/latest/scale-to-width-down/100?cb=20160908081725`)
+            .setAuthor (`Absol/Le Ba Tuan`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7d/Absol.png/revision/latest/scale-to-width-down/100?cb=20180514053755`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Absol`)
             .addField(`Tên Facebook:`,`Le Ba Tuan`)
