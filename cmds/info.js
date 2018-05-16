@@ -48,7 +48,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD002** | **(
     }
 
     /// Zekrom (AD003) ///
-    if(args[0]==="AD003"| args[0]==="ad003" | args[0]==="Ad003" | args[0]==="Zekrom" | args[0]==="zekrom"){
+    if(args[0]==="AD003"| args[0]==="ad003" | args[0]==="Ad003"){
         var AD003 = new Discord.RichEmbed().setColor(`#EA2FC0`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/qcWppUj.gif`)
             .setAuthor(`Zekrom/Cao Minh Trí`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/68/Zekrom.png/revision/latest?cb=20160814002800`)
