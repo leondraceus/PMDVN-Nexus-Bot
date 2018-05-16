@@ -707,7 +707,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
     // Rockruff (ME008) ///
     if(args[0]==="ME008"| args[0]==="me008" | args[0]==="Me008"){
         var ME008 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/5Yqxkske9bnd8R12pz/giphy.gif`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/bSJ5QeWhS4kmbD1lO4/giphy.gif`)
             .setAuthor (`Rockruff/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Rockruff`)
