@@ -1399,6 +1399,23 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME069** | **.skill ME720**`)
 
     }
+    else if(args[0]==="Zekrom" | args[0]==="zekrom"){
+        message.channel.sendMessage(`**Hiện tại có 2 Zekrom**
+Vui lòng dùng code để tra cứu theo lệnh sau: **.info ME644**`)
+    
+    }
+    /// Zekrom (ME644) ///
+    if(args[0]==="ME644"| args[0]==="me644" | args[0]==="Me644"){
+        var ME644 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Zekrom/Vũ Hoàng`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/62/Zekrom2.png/revision/latest/scale-to-width-down/100?cb=20180303071246`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME644);
+    }
 }
     
 module.exports.help = {

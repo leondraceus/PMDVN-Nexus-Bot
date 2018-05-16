@@ -2134,6 +2134,27 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME069** | **.info ME720**`)
 
     }
+    else if(args[0]==="Zekrom" | args[0]==="zekrom"){
+        message.channel.sendMessage(`**Hiện tại có 2 Zekrom**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.info ME644**`)
+    
+    }
+    //// Zekrom (ME644) ///
+    if(args[0]==="ME644"| args[0]==="me644" | args[0]==="Me644"){
+        var ME644 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Zekrom/Vũ Hoàng`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/62/Zekrom2.png/revision/latest/scale-to-width-down/100?cb=20180303071246`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Zekrom`)
+            .addField(`Tên Facebook:`,`Vũ Hoàng`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`17/8`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME644);
+    }
 }
 
 module.exports.help = {
