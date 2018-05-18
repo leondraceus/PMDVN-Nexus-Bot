@@ -223,13 +223,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         message.channel.sendEmbed(AD010);
     }
 
-    /// Victini (AD011) ///
-    if(args[0]==="AD011"| args[0]==="ad011" | args[0]==="Ad011"){
+    /// Xerneas (AD011) ///
+    if(args[0]==="AD011"| args[0]==="ad011" | args[0]==="Ad011" | args[0]==="Xerneas" | args[0]==="xerneas"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/C3bAYSP.gif`)
+            .setAuthor(`Xerneas/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Xerneas_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180518074821`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
-            .addField(`Chủng loài:`,`Victini <:shiny:385079020158451722>`)
+            .addField(`Chủng loài:`,`Xerneas <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Đỗ Khắc Hiệp`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`17/4`)
@@ -493,7 +493,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     }
     
     /// Victini (ME264) ///
-    if(args[0]==="ME264"| args[0]==="me264" | args[0]==="Me264"){
+    if(args[0]==="ME264"| args[0]==="me264" | args[0]==="Me264" | args[0]==="Victini" | args[0]==="victini"){
         var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)

@@ -304,10 +304,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     }
 
     /// Victini (AD011) ///
-    if(args[0]==="AD011"| args[0]==="ad011" | args[0]==="Ad011"){
+    if(args[0]==="AD011"| args[0]==="ad011" | args[0]==="Ad011" | args[0]==="Xerneas" | args[0]==="xerneas"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- KHO ĐỒ (Size 2 | Page 1) -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setTitle(`- KHO ĐỒ (Size 2 | Page 1) -`).setImage(`https://i.imgur.com/C3bAYSP.gif`)
+            .setAuthor(`Xerneas/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Xerneas_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180518074821`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
@@ -324,8 +324,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="AD011--2"| args[0]==="ad011--2" | args[0]==="Ad011--2"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- KHO ĐỒ (Size 2 | Page 2) -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setTitle(`- KHO ĐỒ (Size 2 | Page 2) -`).setImage(`https://i.imgur.com/C3bAYSP.gif`)
+            .setAuthor(`Xerneas/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Xerneas_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180518074821`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
@@ -342,8 +342,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="AD011--3"| args[0]==="ad011--3" | args[0]==="Ad011--3"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- KHO ĐỒ (Size 2 | Page 3) -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setTitle(`- KHO ĐỒ (Size 2 | Page 3) -`).setImage(`https://i.imgur.com/C3bAYSP.gif`)
+            .setAuthor(`Xerneas/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Xerneas_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180518074821`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
@@ -360,8 +360,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="AD011--4"| args[0]==="ad011--4" | args[0]==="Ad011--4"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- KHO ĐỒ (Size 2 | Page 4) -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setTitle(`- KHO ĐỒ (Size 2 | Page 4) -`).setImage(`https://i.imgur.com/C3bAYSP.gif`)
+            .setAuthor(`Xerneas/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Xerneas_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180518074821`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
@@ -378,8 +378,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="AD011--5"| args[0]==="ad011--5" | args[0]==="Ad011--5"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- KHO ĐỒ (Size 2 | Page 5) -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setTitle(`- KHO ĐỒ (Size 2 | Page 5) -`).setImage(`https://i.imgur.com/C3bAYSP.gif`)
+            .setAuthor(`Xerneas/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Xerneas_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180518074821`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
@@ -396,8 +396,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     
     if(args[0]==="AD011--6"| args[0]==="ad011--6" | args[0]==="Ad011--6"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- KHO ĐỒ (Size 2 | Page 6) -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setTitle(`- KHO ĐỒ (Size 2 | Page 6) -`).setImage(`https://i.imgur.com/C3bAYSP.gif`)
+            .setAuthor(`Xerneas/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Xerneas_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180518074821`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
@@ -411,8 +411,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
 
     if(args[0]==="AD011--7"| args[0]==="ad011--7" | args[0]==="Ad011--7"){
         var AD011 = new Discord.RichEmbed().setColor(`#E6A94A`)
-            .setTitle(`- KHO ĐỒ (Size 2 | Page 7) -`).setImage(`https://media.giphy.com/media/BCdTXkTONTuLJf21q3/giphy.gif`)
-            .setAuthor(`Victini/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
+            .setTitle(`- KHO ĐỒ (Size 2 | Page 7) -`).setImage(`https://i.imgur.com/C3bAYSP.gif`)
+            .setAuthor(`Xerneas/Đỗ Khắc Hiệp`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Xerneas_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180518074821`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/22/Moderator_Logo.png/revision/latest?cb=20170613044003`)
             .addField(`Poké:`,`∞`,inline = true)
             .addField(`Snowflake:`,`1`,inline = true)
@@ -801,7 +801,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     }
 
     /// Victini (ME264) ///
-    if(args[0]==="ME264"| args[0]==="me264" | args[0]==="Me264"){
+    if(args[0]==="ME264"| args[0]==="me264" | args[0]==="Me264" | args[0]==="Victini" | args[0]==="victini"){
         var ME264 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ (Page 1) -`)
             .setAuthor(`Victini/Vickyu Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Victini_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20160910151404`)
