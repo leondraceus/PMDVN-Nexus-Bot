@@ -41,10 +41,10 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đã quay trúng Victory Bell, chúc mừng!");
 
     else if (roll == 95 || roll == 96 || roll == 97)
-    message.reply("bạn đã quay trúng Admin Doll (Tùy chọn Pokémon), chúc mừng!\n```Zekrom / Marshadow / Solgaleo / Yveltal / Gible / Fennekin (Shiny/Non-Shiny) / Glaceon / Victini```");
+    message.reply("bạn đã quay trúng Admin Doll (Tùy chọn Pokémon), chúc mừng!\n```Zekrom / Marshadow / Solgaleo / Yveltal / Gible / Fennekin (Shiny/Non-Shiny) / Glaceon / Xerneas```");
 
     else if (roll == 98 || roll == 99)
-    message.reply("bạn đã quay trúng Shiny Victini Doll, chúc mừng!");
+    message.reply("bạn đã quay trúng Victini Doll/Shiny Victini Doll (Tuỳ chọn), chúc mừng!");
 
     else if (roll == 100)
     message.reply("bạn đã quay trúng Gold Ditto Doll, chúc mừng!");
