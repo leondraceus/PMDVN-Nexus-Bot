@@ -850,11 +850,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
         message.channel.sendEmbed(ME264);
     }
     
-    else if(args[0]==="Victini" | args[0]==="victini"){
-        message.channel.sendMessage(`**Hiện tại có 2 Victini**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD011** | **.inv ME264**`)
-    }
-    
     /// Bisharp (ME392) ///
     if(args[0]==="ME392"| args[0]==="me392" | args[0]==="Me392" | args[0]==="Bisharp" | args[0]==="bisharp"){
         var ME392 = new Discord.RichEmbed().setColor(`#3A77E6`)
