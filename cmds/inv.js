@@ -1771,7 +1771,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .addField(`Meowth Doll`,`Một con búp bê hình Pokémon Meowth.`)
             .addField(`Destiny Knot`,`Một cuộn chỉ màu đỏ dài, mảnh và không có gì đặc biệt khi nhìn qua. Tuy nhiên, có thể nó sẽ đem lại một điều gì đó đặc biệt nếu bạn được người mình yêu thương nhất hồi đáp.`)
             .addField(`Riolu Doll`,`Một con búp bê hình Pokémon Riolu.`)
-            .setFooter(`Trang sau (.inv ME0716--2)`);
+            .setFooter(`Trang sau (.inv ME716--2)`);
 
         message.channel.sendEmbed(ME716);
     }
