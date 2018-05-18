@@ -184,7 +184,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor(`Bisharp/Rayen Sylvia`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3c/Bisharp.png/revision/latest/scale-to-width-down/100?cb=20160821125340`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`322/525`)
+            .addField(`Số điểm (Points):`,`402/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME392);
@@ -456,7 +456,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1260/1300`)
+            .addField(`Số điểm (Points):`,`1288/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
             Kho đồ được mở rộng`);
     
@@ -678,7 +678,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
             .setAuthor (`Skitty/Đoàn Thị Thanh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Skitty.png/revision/latest/scale-to-width-down/100?cb=20180423051337`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐`)
-            .addField(`Số điểm (Points):`,`279/300`)
+            .addField(`Số điểm (Points):`,`277/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME716);
