@@ -1574,7 +1574,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3439`,inline = true)
+            .addField(`Poké:`,`3739`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
             .addField(`Lovely Note (x2)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
@@ -1590,9 +1590,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3439`,inline = true)
+            .addField(`Poké:`,`3739`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Mystic Water`,`Một dây chuyền đá trang sức hình giọt nước.`)
+            .addField(`Big Mushroom`,`Một chiếc nấm to và hiếm, có thể dùng để chế biến thức ăn.`)
             .setFooter(`Trang trước (.inv ME711)`);
 
         message.channel.sendEmbed(ME711);
