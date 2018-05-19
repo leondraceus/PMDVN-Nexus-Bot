@@ -113,39 +113,22 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD002** | **(
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.info ME191**`)
    }
 
-    /// Yveltal (AD006) ///
-    if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006" | args[0]==="Yveltal" | args[0]==="yveltal"){
-        var AD006 = new Discord.RichEmbed().setColor(`#E7462B`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/QJsQ06bwNBTBwuJks4/giphy.gif`)
-            .setAuthor(`Yveltal/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b6/Yveltal.png/revision/latest/scale-to-width-down/100?cb=20160821130113`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
+    /// Honchkrow (AD006) ///
+    if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006" | args[0]==="Honchkrow" | args[0]==="honchkrow"){
+         var AD006 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
+            .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Chủng loài:`,`Yveltal`)
             .addField(`Tên Facebook:`,`Nguyễn Nhật`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`12/12`)
-            .addField(`Cấp bậc:`,`Developer`)
+            .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`Làm Admin Group`);
             
         message.channel.sendEmbed(AD006);
     }
-
-    ///// Honchkrow (AD006x) ///
-    //if(args[0]==="AD006x"| args[0]==="ad006x" | args[0]==="Ad006x" | args[0]==="Honchkrow" | args[0]==="honchkrow"){
-    //     var AD006x = new Discord.RichEmbed().setColor(`#5CE05F`)
-    //        .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
-    //        .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
-    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-    //        .addField(`Chủng loài:`,`Yveltal`)
-    //        .addField(`Tên Facebook:`,`Nguyễn Nhật`)
-    //        .addField(`Giới tính:`,`Nam`)
-    //        .addField(`Ngày sinh:`,`12/12`)
-    //        .addField(`Cấp bậc:`,`Contributor`)
-    //        .addField(`Guild:`,`---`)
-    //        .addField(`Thành tích:`,`Làm Admin Group`);
-            
-    //    message.channel.sendEmbed(AD006x);
-    //}
 //    else if(args[0]==="Honchkrow" | args[0]==="honchkrow"){
 //        message.channel.sendMessage(`**Hiện tại có 2 Honchkrow**
 //Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD006** | **?**`)
