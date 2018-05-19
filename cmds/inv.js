@@ -444,7 +444,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
     /// Mega Rayquaza (ME642) ///
     if(args[0]==="ME642"| args[0]==="me642" | args[0]==="Me642"){
         var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
             .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Poké:`,`2114`,inline = true)
@@ -452,30 +452,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
         
         message.channel.sendEmbed(ME642);
     }
-
-    //if(args[0]==="ME642--2"| args[0]==="me642--2" | args[0]==="Me642--2"){
-    //    var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-    //        .setTitle(`- KHO ĐỒ (Page 2/2) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
-    //        .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
-    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-    //        .addField(`Poké:`,`0`,inline = true)
-    //        .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-    //        .setFooter(`Trang trước (.inv ME642)`);
-        
-    //    message.channel.sendEmbed(ME642);
-    //}
-
-    //if(args[0]==="ME642--3"| args[0]==="me642--3" | args[0]==="Me642--3"){
-    //    var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-    //        .setTitle(`- KHO ĐỒ (Page 3/3) -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
-    //         .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
-    //         .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-    //         .addField(`Poké:`,`0`,inline = true)
-    //         .addField(`Marshadow Doll`,`Một con búp bê hình Pokémon Marshadow.`)
-    //         .setFooter(`Trang trước (.inv ME642--2)`);
-        
-    //    message.channel.sendEmbed(ME642);
-    //}
 
     // Alolan Vulpix (ME786) ///
     if(args[0]==="ME786"| args[0]==="Me786" | args[0]==="me786" | args[0]==="Alolanvulpix" | args[0]==="alolanvulpix"){
