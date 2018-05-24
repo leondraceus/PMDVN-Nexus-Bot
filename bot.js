@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-bot.user.setGame('6 days (づ｡◕‿‿◕｡)づ')
+bot.user.setGame('5 days (づ｡◕‿‿◕｡)づ')
 });
 
 bot.commands = new Discord.Collection();
