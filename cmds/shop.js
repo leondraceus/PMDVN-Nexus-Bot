@@ -7,6 +7,7 @@ module.exports.run = async (pw, message, args) => {
         .addField(`Customization Items`,`.view custom`)
         .addField(`Collectible Dolls`,`.view doll`)
         .addField(`Collectible Items`,`.view collect`)
+        .addField(`Banners`,`.view banner`)
         .addField(`Misc.`,`.view misc`)
         .setFooter(`Mua sắm tại: http://bit.ly/2i7YOOn`);
    

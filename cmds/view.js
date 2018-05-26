@@ -127,6 +127,18 @@ module.exports.run = async (pw, message, args) => {
         message.channel.sendEmbed(collect);
     }
 
+    // Banners //
+    if(args[0]==="banner"){
+        var banner = new Discord.RichEmbed()
+            .setTitle(`- Banners -`).setColor(`#7FFFD4`).setURL(`http://pmdv-nexus.wikia.com/wiki/Kecleon's_Shop`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/59/Kecleon1.png/revision/latest/scale-to-width-down/56?cb=20170620115423`)
+            .addField(`Spring Deerling Banner (700 <:poke:379535433467428867>)`,`Preview: <https://goo.gl/apNPN2>`)
+            .addField(`Summer Deerling Banner (700 <:poke:379535433467428867>)`,`Preview: <https://goo.gl/iWBXLh>`)
+            .addField(`Fall Deerling Banner (700 <:poke:379535433467428867>)`,`Preview: <https://goo.gl/k8jCBm>`)
+            .addField(`Winter Deerling Banner (700 <:poke:379535433467428867>)`,`Preview: <https://goo.gl/4GoUDy>`);
+
+        message.channel.sendEmbed(banner);
+    }
+
     // Misc. //
     if(args[0]==="misc"){
         var misc = new Discord.RichEmbed()
