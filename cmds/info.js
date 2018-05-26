@@ -2027,7 +2027,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
     /// Wurmple (ME019) ///
     if(args[0]==="ME019"| args[0]==="me019" | args[0]==="Me019" | args[0]==="Wurmple" | args[0]==="wurmple"){
         var ME019 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7f/265.gif/revision/latest?cb=20180525065330`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7f/265.gif`)
             .setAuthor(`Wurmple/Henry Tran`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/52/Wurmple.png/revision/latest/scale-to-width-down/100?cb=20180407060259`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Wurmple`)
