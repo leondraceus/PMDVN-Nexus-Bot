@@ -1404,6 +1404,19 @@ Vui lòng dùng code để tra cứu theo lệnh sau: **.info ME644**`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME644);
+
+    }
+    /// Mightyena (ME873) ///
+    if(args[0]==="ME873"| args[0]==="me873" | args[0]==="Me873"| args[0]==="Mightyena"| args[0]==="mightyena"){
+        var ME873 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Mightyena/Lưu Quốc Trung`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Mightyena.png/revision/latest/scale-to-width-down/100?cb=20170624095743`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`50/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME873);
     }
 }
     

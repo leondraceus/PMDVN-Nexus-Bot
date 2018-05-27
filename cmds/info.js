@@ -2132,7 +2132,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`---`);
             
-        message.channel.sendEmbed(ME644);
+         message.channel.sendEmbed(ME644);
+
+    }
+    /// Mightyena (ME873) ///
+    if(args[0]==="ME873"| args[0]==="me873" | args[0]==="Me873"| args[0]==="Mightyena"| args[0]==="mightyena"){
+        var ME873 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Mightyena/Lưu Quốc Trung`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Mightyena.png/revision/latest/scale-to-width-down/100?cb=20170624095743`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Mightyena`)
+            .addField(`Tên Facebook:`,`Lưu Quốc Trung`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`23/11`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`);
+             var ACME873 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Giải ba:`,`Sky Ruins Expedition`)
+            .addField(`Giải nhì: (Thi bơi)`,`Underwater Expedition`);
+            
+        message.channel.sendEmbed(ME873);
+        message.channel.sendEmbed(ACME873);
     }
 }
 

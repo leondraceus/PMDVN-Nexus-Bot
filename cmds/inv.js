@@ -2786,6 +2786,19 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD003** | **.i
             
         message.channel.sendEmbed(ME644);
     }
+
+    /// Mightyena (ME873) ///
+    if(args[0]==="ME873"| args[0]==="me873" | args[0]==="Me873"| args[0]==="Mightyena"| args[0]==="mightyena"){
+        var ME873 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Mightyena/Lưu Quốc Trung`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7c/Mightyena.png/revision/latest/scale-to-width-down/100?cb=20170624095743`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`1040`,inline = true)
+            .addField(`Gracidea`,`Một loài hoa thường được dùng để bày tỏ lòng biết ơn vào những dịp lễ đặc biệt.`);
+            .addField(`Heart Scale`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`);
+            
+        message.channel.sendEmbed(ME873);
+    }
 }
 
 module.exports.help = {
