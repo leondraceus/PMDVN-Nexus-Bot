@@ -2146,7 +2146,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`23/11`)
             .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`);
+            .addField(`Guild:`,`---`)
              var ACME873 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Giải ba:`,`Sky Ruins Expedition`)
