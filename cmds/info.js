@@ -1206,7 +1206,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
     }
 
     // Gallade (ME110) ///
-    if(args[0]==="ME110"| args[0]==="Me110" | args[0]==="me110"| args[0]==="Gallade"| args[0]==="Gallade"){
+    if(args[0]==="ME110"| args[0]==="Me110" | args[0]==="me110"| args[0]==="Gallade"| args[0]==="gallade"){
         var ME110 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Gallade/Silver Mist`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
