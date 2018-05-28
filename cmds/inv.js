@@ -448,8 +448,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setTitle(`- KHO ĐỒ -`).setImage(`https://i.imgur.com/vUvhNLf.gif`)
             .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`2124`,inline = true)
-            .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`);
+            .addField(`Poké:`,`2524`,inline = true)
+            .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
+            .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
+            .addField(`Treecko Doll`,`Một con búp bê hình Pokémon Treecko.`);
         
         message.channel.sendEmbed(ME642);
     }
@@ -1037,13 +1039,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME642** | **.i
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.inv ME319** | **.inv ME338** | **.inv ME982**`)
     }
 
-    // Rockruff (ME008) ///
+    // Flareon (ME008) ///
     if(args[0]==="ME008"| args[0]==="me008" | args[0]==="Me008"){
         var ME008 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Page 1/3) -`).setImage(`https://media.giphy.com/media/bSJ5QeWhS4kmbD1lO4/giphy.gif`)
-            .setAuthor (`Rockruff/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
+            .setTitle(`- KHO ĐỒ (Page 1/3) -`).setImage(`https://media.giphy.com/media/5nueNKRsuVEl9tz5k8/giphy.gif`)
+            .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2526`,inline = true)
+            .addField(`Poké:`,`186`,inline = true)
             .addField(`Snowflake:`,`6`,inline = true)
             .addField(`Choco-Heart:`,`15`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
@@ -1058,10 +1060,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
     
     if(args[0]==="ME008--2"| args[0]==="me008--2" | args[0]==="Me008--2"){
         var ME008 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Page 2/3) -`).setImage(`https://media.giphy.com/media/bSJ5QeWhS4kmbD1lO4/giphy.gif`)
-            .setAuthor (`Rockruff/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
+            .setTitle(`- KHO ĐỒ (Page 2/3) -`).setImage(`https://media.giphy.com/media/5nueNKRsuVEl9tz5k8/giphy.gif`)
+            .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2526`,inline = true)
+            .addField(`Poké:`,`186`,inline = true)
             .addField(`Snowflake:`,`6`,inline = true)
             .addField(`Choco-Heart:`,`15`,inline = true)
             .addField(`Mega Altaria Doll`,`Một con búp bê hình Pokémon Mega Altaria.`)
@@ -1076,10 +1078,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
 
     if(args[0]==="ME008--3"| args[0]==="me008--3" | args[0]==="Me008--3"){
         var ME008 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Page 3/3) -`).setImage(`https://media.giphy.com/media/bSJ5QeWhS4kmbD1lO4/giphy.gif`)
-            .setAuthor (`Rockruff/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
+            .setTitle(`- KHO ĐỒ (Page 3/3) -`).setImage(`https://media.giphy.com/media/5nueNKRsuVEl9tz5k8/giphy.gif`)
+            .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2526`,inline = true)
+            .addField(`Poké:`,`186`,inline = true)
             .addField(`Snowflake:`,`6`,inline = true)
             .addField(`Choco-Heart:`,`15`,inline = true)
             .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
@@ -1088,9 +1090,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
 
         message.channel.sendEmbed(ME008);
     }
+    else if(args[0]==="Flareon" | args[0]==="flareon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Flareon**
+    Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME008** | **.inv ME618**`)
+
+    }
 
     // Rockruff (ME121) ///
-    if(args[0]==="ME121"| args[0]==="me121" | args[0]==="Me121"){
+    if(args[0]==="ME121"| args[0]==="me121" | args[0]==="Me121"| args[0]==="Rockruff"| args[0]==="rockruff"){
         var ME121 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Rockruff/Ngân Ngô`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
@@ -1102,10 +1109,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
         message.channel.sendEmbed(ME121);
     }
 
-    else if(args[0]==="Rockruff" | args[0]==="rockruff"){
-        message.channel.sendMessage(`**Hiện tại có 2 Rockruff**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME008** | **.inv ME121**`)
-    }
+//    else if(args[0]==="Rockruff" | args[0]==="rockruff"){
+//        message.channel.sendMessage(`**Hiện tại có 2 Rockruff**
+//Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME008** | **.inv ME121**`)
+//    }
 
     // Rhyperior (ME427) ///
     if(args[0]==="ME427"| args[0]==="me427" | args[0]==="Me427"| args[0]==="Rhyperior" | args[0]==="rhyperior"){
@@ -2440,7 +2447,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME401** | **.i
     }
 
     /// Flareon (ME618) ///
-    if(args[0]==="ME618"| args[0]==="me618" | args[0]==="Me618" | args[0]==="Flareon" | args[0]==="flareon"){
+    if(args[0]==="ME618"| args[0]==="me618" | args[0]==="Me618"){
         var ME618 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Flareon/Jackson Sturel`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)

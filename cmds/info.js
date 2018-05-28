@@ -683,13 +683,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.info ME319** | **.info ME338** | **.info ME982**`)
     }
 
-    // Rockruff (ME008) ///
+    // Flareon (ME008) ///
     if(args[0]==="ME008"| args[0]==="me008" | args[0]==="Me008"){
         var ME008 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/bSJ5QeWhS4kmbD1lO4/giphy.gif`)
-            .setAuthor (`Rockruff/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/5nueNKRsuVEl9tz5k8/giphy.gif`)
+            .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Rockruff`)
+            .addField(`Chủng loài:`,`Flareon`)
             .addField(`Tên Facebook:`,`Drack Mon`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`27/11`)
@@ -699,9 +699,14 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
 
         message.channel.sendEmbed(ME008);
     }
+    else if(args[0]==="Flareon" | args[0]==="flareon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Flareon**
+    Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.info ME618**`)
+
+    }
 
     // Rockruff (ME121) ///
-    if(args[0]==="ME121"| args[0]==="me121" | args[0]==="Me121"){
+    if(args[0]==="ME121"| args[0]==="me121" | args[0]==="Me121"| args[0]==="Rockruff"| args[0]==="rockruff"){
         var ME121 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Rockruff/Ngân Ngô`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
@@ -717,10 +722,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
         message.channel.sendEmbed(ME121);
     }
 
-    else if(args[0]==="Rockruff" | args[0]==="rockruff"){
-        message.channel.sendMessage(`**Hiện tại có 2 Rockruff**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.info ME121**`)
-    }
+//    else if(args[0]==="Rockruff" | args[0]==="rockruff"){
+//        message.channel.sendMessage(`**Hiện tại có 2 Rockruff**
+//Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.info ME121**`)
+//    }
 
     // Rhyperior (ME427) ///
     if(args[0]==="ME427"| args[0]==="me427" | args[0]==="Me427"| args[0]==="Rhyperior" | args[0]==="rhyperior"){
@@ -1684,7 +1689,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME401** | **.
     }
 
     /// Flareon (ME618) ///
-    if(args[0]==="ME618"| args[0]==="me618" | args[0]==="Me618" | args[0]==="Flareon" | args[0]==="flareon"){
+    if(args[0]==="ME618"| args[0]==="me618" | args[0]==="Me618"){
         var ME618 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Flareon/Jackson Sturel`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
