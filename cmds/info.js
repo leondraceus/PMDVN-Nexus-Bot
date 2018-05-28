@@ -701,7 +701,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME304** | **.
     }
     else if(args[0]==="Flareon" | args[0]==="flareon"){
         message.channel.sendMessage(`**Hiện tại có 2 Flareon**
-    Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.info ME618**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.info ME618**`)
 
     }
 

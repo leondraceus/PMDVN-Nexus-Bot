@@ -336,7 +336,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
     }
     else if(args[0]==="Flareon" | args[0]==="flareon"){
         message.channel.sendMessage(`**Hiện tại có 2 Flareon**
-    Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **.skill ME618**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **.skill ME618**`)
 
     }
 
