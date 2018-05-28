@@ -1231,8 +1231,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Guild:`,`---`);
         var ACME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Prison Bottle Event:`,`Giải nhì (Game Center)`)
-            .addField(`Heart Festival:`,`Giải nhất (Congenial Duo)`);
+            .addField(`Giải nhì:`,`Prison Bottle Event (Game Center)`)
+            .addField(`Giải nhất:`,`Heart Festival (Congenial Duo)`)
+            .addField(`Tổ chức Event:`,`Poké-Quiz (27/5/2018)`);
             
         message.channel.sendEmbed(ME014);
         message.channel.sendEmbed(ACME014);
