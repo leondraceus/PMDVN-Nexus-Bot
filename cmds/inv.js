@@ -450,7 +450,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Poké:`,`2524`,inline = true)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
-            .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
             .addField(`Treecko Doll`,`Một con búp bê hình Pokémon Treecko.`);
         
         message.channel.sendEmbed(ME642);
@@ -1789,7 +1788,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
     }
 
     // Gallade (ME110) ///
-    if(args[0]==="ME110"| args[0]==="Me110" | args[0]==="me110"){
+    if(args[0]==="ME110"| args[0]==="Me110" | args[0]==="me110"| args[0]==="Gallade"| args[0]==="gallade"){
         var ME110 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Gallade/Silver Mist`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
@@ -1800,13 +1799,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
         message.channel.sendEmbed(ME110);
     }
 
-    // Gallade (ME014) ///
-    if(args[0]==="ME014"| args[0]==="Me014" | args[0]==="me014"){
+    // Vaporeon (ME014) ///
+    if(args[0]==="ME014"| args[0]==="Me014" | args[0]==="me014"| args[0]==="Vaporeon"| args[0]==="vaporeon"){
         var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/db/475_%28shiny%29.gif`)
-            .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ee/Gallade_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180216032242`)
+            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/2UKwRypk99BrwtHoI1/giphy.gif`)
+            .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e5/Vaporeon2.png/revision/latest/scale-to-width-down/100?cb=20180528165725`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3110`,inline = true)
+            .addField(`Poké:`,`610`,inline = true)
             .addField(`Audino Doll`,`Một con búp bê hình Pokémon Audino.`)
             .addField(`Destiny Knot`,`Một cuộn chỉ màu đỏ dài, mảnh và không có gì đặc biệt khi nhìn qua. Tuy nhiên, có thể nó sẽ đem lại một điều gì đó đặc biệt nếu bạn được người mình yêu thương nhất hồi đáp.`)
             .addField(`Lillipup Doll`,`Một con búp bê hình Pokémon Lillipup.`)
@@ -1817,12 +1816,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
         message.channel.sendEmbed(ME014);
     }
 
-    if(args[0]==="ME014--2"| args[0]==="Me014--2" | args[0]==="me014--2"){
+    if(args[0]==="ME014--2"| args[0]==="Me014--2" | args[0]==="me014--2"| args[0]==="Vaporeon"| args[0]==="vaporeon"){
         var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/db/475_%28shiny%29.gif`)
-            .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ee/Gallade_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180216032242`)
+            .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/2UKwRypk99BrwtHoI1/giphy.gif`)
+            .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e5/Vaporeon2.png/revision/latest/scale-to-width-down/100?cb=20180528165725`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3110`,inline = true)
+            .addField(`Poké:`,`610`,inline = true)
             .addField(`Lucky Note (x1)`,`Một bức thư màu vàng rực rỡ, được dùng để gửi lời chúc phúc và cầu mong cho những điều tốt đẹp và may mắn xảy đến với người nhận.`)
             .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
@@ -1833,22 +1832,22 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
         message.channel.sendEmbed(ME014);
     }
 
-    if(args[0]==="ME014--3"| args[0]==="Me014--3" | args[0]==="me014--3"){
+    if(args[0]==="ME014--3"| args[0]==="Me014--3" | args[0]==="me014--3"| args[0]==="Vaporeon"| args[0]==="vaporeon"){
         var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Page 3) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/db/475_%28shiny%29.gif`)
-            .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ee/Gallade_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180216032242`)
+            .setTitle(`- KHO ĐỒ (Page 3) -`).setImage(`https://media.giphy.com/media/2UKwRypk99BrwtHoI1/giphy.gif`)
+            .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e5/Vaporeon2.png/revision/latest/scale-to-width-down/100?cb=20180528165725`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3110`,inline = true)
+            .addField(`Poké:`,`610`,inline = true)
             .addField(`Corsola Twig (x3)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-            .setFooter(`Trang trước (.inv ME014--4)`);
+            .setFooter(`Trang trước (.inv ME014--2)`);
 
         message.channel.sendEmbed(ME014);
     }
 
-    else if(args[0]==="Gallade" | args[0]==="gallade"){
-        message.channel.sendMessage(`**Hiện tại có 2 Gallade**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME014** | **.inv ME110**`)
-    }
+//    else if(args[0]==="Gallade" | args[0]==="gallade"){
+//        message.channel.sendMessage(`**Hiện tại có 2 Gallade**
+//Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME014** | **.inv ME110**`)
+//    }
 
     // Brionne (ME062) ///
     if(args[0]==="ME062"| args[0]==="Me062" | args[0]==="me062"| args[0]==="Brionne" | args[0]==="brionne"){
@@ -2277,6 +2276,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME514** | **.i
                 .addField(`Voltorb Doll`,`Một con búp bê hình Pokémon Voltorb.`)
                 .addField(`Magmar Doll`,`Một con búp bê hình Pokémon Magmar.`)
                 .addField(`Shiny Victini Doll`,`Một con búp bê hình Shiny Pokémon Victini.`)
+                .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
                 .setFooter(`Trang trước (.inv ME868--5)`);
             
         message.channel.sendEmbed(ME868);

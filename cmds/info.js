@@ -1206,7 +1206,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
     }
 
     // Gallade (ME110) ///
-    if(args[0]==="ME110"| args[0]==="Me110" | args[0]==="me110"){
+    if(args[0]==="ME110"| args[0]==="Me110" | args[0]==="me110"| args[0]==="Gallade"| args[0]==="Gallade"){
         var ME110 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Gallade/Silver Mist`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/2/2d/Gallade.png/revision/latest/scale-to-width-down/100?cb=20160817090558`)
@@ -1222,13 +1222,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
         message.channel.sendEmbed(ME110);
     }
 
-    // Gallade (ME014) ///
-    if(args[0]==="ME014"| args[0]==="Me014" | args[0]==="me014"){
+    // Vaporeon (ME014) ///
+    if(args[0]==="ME014"| args[0]==="Me014" | args[0]==="me014"| args[0]==="Vaporeon"| args[0]==="vaporeon"){
         var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/db/475_%28shiny%29.gif`)
-            .setAuthor (`Gallade/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ee/Gallade_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180216032242`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/2UKwRypk99BrwtHoI1/giphy.gif`)
+            .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e5/Vaporeon2.png/revision/latest/scale-to-width-down/100?cb=20180528165725`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Gallade <:shiny:385079020158451722>`)
+            .addField(`Chủng loài:`,`Vaporeon <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Tuấn Minh Nguyễn`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`13/7`)
@@ -1244,10 +1244,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
         message.channel.sendEmbed(ACME014);
     }
 
-    else if(args[0]==="Gallade" | args[0]==="gallade"){
-        message.channel.sendMessage(`**Hiện tại có 2 Gallade**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.info ME110**`)
-    }
+//    else if(args[0]==="Gallade" | args[0]==="gallade"){
+//        message.channel.sendMessage(`**Hiện tại có 2 Gallade**
+//Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME014** | **.info ME110**`)
+//    }
 
     // Brionne (ME062) ///
     if(args[0]==="ME062"| args[0]==="Me062" | args[0]==="me062"| args[0]==="Brionne" | args[0]==="brionne"){
