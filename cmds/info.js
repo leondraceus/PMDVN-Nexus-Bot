@@ -1627,9 +1627,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Ngày sinh:`,`29/9`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
+            var ACME053 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Tổ chức Member Event:`,`What's That Pokémon? (26/5/2018)`);
             
         message.channel.sendEmbed(ME053);
+        message.channel.sendEmbed(ACME053);
     }
 
     /// Zorua (ME134) ///
