@@ -812,30 +812,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME008** | **.
         message.channel.sendEmbed(ME459);
     }
 
-    /// Mudkip (ME684) ///
-    if(args[0]==="ME684"| args[0]==="me684" | args[0]==="Me684"){
-        var ME684 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Mudkip/Bakutaku Shizurou`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/54/Mudkip2.png/revision/latest/scale-to-width-down/100?cb=20161008084148`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Mudkip`)
-            .addField(`Tên Facebook:`,`Bakutaku Shizurou`)
-            .addField(`Giới tính:`,`Nam`)
-            .addField(`Ngày sinh:`,`17/10`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`---`);
-            
-        message.channel.sendEmbed(ME684);
-    }
-
     else if(args[0]==="Mudkip" | args[0]==="mudkip"){
-        message.channel.sendMessage(`**Hiện tại có 3 Mudkip**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.info ME684** | **.info ME725**`)
+        message.channel.sendMessage(`**Hiện tại có 2 Mudkip**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.info ME725**`)
     }
 
     // Togekiss (ME892) ///
-    if(args[0]==="ME892"| args[0]==="Me892" | args[0]==="me892"| args[0]==="Togekiss" | args[0]==="togekiss"){
+    if(args[0]==="ME892"| args[0]==="Me892" | args[0]==="me892" | args[0]==="Togekiss" | args[0]==="togekiss"){
         var ME892 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Togekiss/Dương Anh Văn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/7b/Togekiss.png/revision/latest/scale-to-width-down/100?cb=20160817083806`)
@@ -897,7 +880,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
     }
 
     // Jolteon (ME219) ///
-    if(args[0]==="ME219"| args[0]==="Me219" | args[0]==="me219"| args[0]==="Jolteon" | args[0]==="jolteon"){
+    if(args[0]==="ME219"| args[0]==="Me219" | args[0]==="me219"){
         var ME219 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor (`Jolteon/Nguyễn Mai Phương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/49/Jolteon1.png/revision/latest/scale-to-width-down/100?cb=20170622091121`)
@@ -911,6 +894,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Thành tích:`,`---`);
 
         message.channel.sendEmbed(ME219);
+    }
+
+    /// Jolteon (ME684) ///
+    if(args[0]==="ME684"| args[0]==="me684" | args[0]==="Me684"){
+        var ME684 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Jolteon/Bakutaku Shizurou`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1e/Jolteon.png/revision/latest/scale-to-width-down/100?cb=20160908095143`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Jolteon`)
+            .addField(`Tên Facebook:`,`Bakutaku Shizurou`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`17/10`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME684);
+    }
+
+    else if(args[0]==="Jolteon" | args[0]==="jolteon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Jolteon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME219** | **.info ME684**`)
     }
 
     // Lucario (ME300) ///
@@ -1226,9 +1231,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
     if(args[0]==="ME014"| args[0]==="Me014" | args[0]==="me014"| args[0]==="Vaporeon"| args[0]==="vaporeon"){
         var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/2UKwRypk99BrwtHoI1/giphy.gif`)
-            .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e5/Vaporeon2.png/revision/latest/scale-to-width-down/100?cb=20180528165725`)
+            .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fc/Vaporeon.png/revision/latest/scale-to-width-down/100?cb=20160910143926`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Vaporeon <:shiny:385079020158451722>`)
+            .addField(`Chủng loài:`,`Vaporeon`)
             .addField(`Tên Facebook:`,`Tuấn Minh Nguyễn`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`13/7`)
