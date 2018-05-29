@@ -738,7 +738,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
     if(args[0]==="ME014"| args[0]==="Me014" | args[0]==="me014"| args[0]==="Vaporeon"| args[0]==="vaporeon"){
         var ME014 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/2UKwRypk99BrwtHoI1/giphy.gif`)
-            .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/83/Vaporeon_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180529080924`)
+            .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fc/Vaporeon.png/revision/latest/scale-to-width-down/100?cb=20160910143926`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
             .addField(`Số điểm (Points):`,`335/525`)
