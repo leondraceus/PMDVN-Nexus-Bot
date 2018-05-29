@@ -424,7 +424,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **
     }
 
     else if(args[0]==="Mudkip" | args[0]==="mudkip"){
-        message.channel.sendMessage(`**Hiện tại có 3 Mudkip**
+        message.channel.sendMessage(`**Hiện tại có 2 Mudkip**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **.skill ME725**`)
     }
     
