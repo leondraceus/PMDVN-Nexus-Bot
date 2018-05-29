@@ -427,19 +427,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **
         message.channel.sendMessage(`**Hiện tại có 2 Mudkip**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **.skill ME725**`)
     }
-    
-    /// Jolteon (ME684) ///
-    if(args[0]==="ME684"| args[0]==="me684" | args[0]==="Me684" | args[0]==="Jolteon" | args[0]==="jolteon"){
-        var ME684 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`)
-            .setAuthor(`Jolteon/Bakutaku Shizurou`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1e/Jolteon.png/revision/latest/scale-to-width-down/100?cb=20160908095143`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`112/150`)
-            .addField(`Kỹ năng (Skills):`,`---`);
-            
-        message.channel.sendEmbed(ME684);
-    }
 
     // Togekiss (ME892) ///
     if(args[0]==="ME892"| args[0]==="Me892" | args[0]==="me892"| args[0]==="Togekiss" | args[0]==="togekiss"){
@@ -484,7 +471,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
     }
 
     // Jolteon (ME219) ///
-    if(args[0]==="ME219"| args[0]==="Me219" | args[0]==="me219"| args[0]==="Jolteon" | args[0]==="jolteon"){
+    if(args[0]==="ME219"| args[0]==="Me219" | args[0]==="me219"){
         var ME219 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor (`Jolteon/Nguyễn Mai Phương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/49/Jolteon1.png/revision/latest/scale-to-width-down/100?cb=20170622091121`)
@@ -494,6 +481,24 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME219);
+    }
+
+    /// Jolteon (ME684) ///
+    if(args[0]==="ME684"| args[0]==="me684" | args[0]==="Me684"){
+        var ME684 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Jolteon/Bakutaku Shizurou`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1e/Jolteon.png/revision/latest/scale-to-width-down/100?cb=20160908095143`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`112/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME684);
+    }
+
+    else if(args[0]==="Jolteon" | args[0]==="jolteon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Jolteon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME219** | **.skill ME684**`)
     }
 
     // Lucario (ME300) ///

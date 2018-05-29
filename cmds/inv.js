@@ -1226,23 +1226,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME008** | **.i
         message.channel.sendMessage(`**Hiện tại có 2 Mudkip**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.inv ME725**`)
     }
-
-    /// Jolteon (ME684) ///
-    if(args[0]==="ME684"| args[0]==="me684" | args[0]==="Me684" | args[0]==="Jolteon" | args[0]==="jolteon"){
-        var ME684 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
-            .setAuthor(`Jolteon/Bakutaku Shizurou`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1e/Jolteon.png/revision/latest/scale-to-width-down/100?cb=20160908095143`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`260`,inline = true)
-            .addField(`Choco-Heart:`,`5`,inline = true)
-            .addField(`Corsola Twig (x2)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-            .addField(`Cyndaquil Doll`,`Một con búp bê hình Pokémon Cyndaquil.`)
-            .addField(`Treecko Doll`,`Một con búp bê hình Pokémon Treecko.`)
-            .addField(`Mudkip Doll`,`Một con búp bê hình Pokémon Mudkip.`)
-            .addField(`Salt (x2)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`);
-            
-        message.channel.sendEmbed(ME684);
-    }
     
     // Togekiss (ME892) ///
     if(args[0]==="ME892"| args[0]==="Me892" | args[0]==="me892"| args[0]==="Togekiss" | args[0]==="togekiss"){
@@ -1445,7 +1428,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
     }
 
     // Jolteon (ME219) ///
-    if(args[0]==="ME219"| args[0]==="Me219" | args[0]==="me219"| args[0]==="Jolteon" | args[0]==="jolteon"){
+    if(args[0]==="ME219"| args[0]==="Me219" | args[0]==="me219"){
         var ME219 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Jolteon/Nguyễn Mai Phương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/49/Jolteon1.png/revision/latest/scale-to-width-down/100?cb=20170622091121`)
@@ -1456,6 +1439,28 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .addField(`Corsola Twig (x2)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`);
                 
         message.channel.sendEmbed(ME219);
+    }
+
+    /// Jolteon (ME684) ///
+    if(args[0]==="ME684"| args[0]==="me684" | args[0]==="Me684"){
+        var ME684 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Jolteon/Bakutaku Shizurou`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1e/Jolteon.png/revision/latest/scale-to-width-down/100?cb=20160908095143`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`260`,inline = true)
+            .addField(`Choco-Heart:`,`5`,inline = true)
+            .addField(`Corsola Twig (x2)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
+            .addField(`Cyndaquil Doll`,`Một con búp bê hình Pokémon Cyndaquil.`)
+            .addField(`Treecko Doll`,`Một con búp bê hình Pokémon Treecko.`)
+            .addField(`Mudkip Doll`,`Một con búp bê hình Pokémon Mudkip.`)
+            .addField(`Salt (x2)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`);
+            
+        message.channel.sendEmbed(ME684);
+    }
+
+    else if(args[0]==="Jolteon" | args[0]==="jolteon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Jolteon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME219** | **.inv ME684**`)
     }
 
     // Lucario (ME300) ///
