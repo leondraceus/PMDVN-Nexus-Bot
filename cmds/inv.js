@@ -1420,6 +1420,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
                .addField(`Spooky Token:`,`10`,inline = true)
                .addField(`Snowflake:`,`63`,inline = true)
                .addField(`Choco-Heart:`,`22`,inline = true)
+               .addField(`Corsola Twig (x2)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
                .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
                .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`)
                .addField(`Big Mushroom`,`Một chiếc nấm to và hiếm, có thể dùng để chế biến thức ăn.`)
@@ -1436,8 +1437,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Poké:`,`300`,inline = true)
             .addField(`Snowflake:`,`5`,inline = true)
-            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
-            .addField(`Corsola Twig (x2)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`);
+            .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`);
                 
         message.channel.sendEmbed(ME219);
     }
