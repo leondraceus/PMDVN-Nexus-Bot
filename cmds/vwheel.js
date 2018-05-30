@@ -23,13 +23,13 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đã quay trúng Salt/Corsola Twig (Tùy chọn), chúc mừng!");
 
     else if (roll == 68 || roll == 69 || roll == 70 || roll == 71 || roll == 72 || roll == 73 || roll == 74 || roll == 75 || roll == 76 || roll == 77)
-    message.reply("bạn đã quay trúng Cookie, chúc mừng!");
+    message.reply("bạn đã quay trúng Cream Puff, chúc mừng!");
 
     else if (roll == 78 || roll == 79 || roll == 80 || roll == 81 || roll == 82)
-    message.reply("bạn đã quay trúng Energy Juice, chúc mừng!");
+    message.reply("bạn đã quay trúng Coconut Water, chúc mừng!");
 
     else if (roll == 83)
-    message.reply("bạn đã quay trúng Sweet Donut, chúc mừng!");
+    message.reply("bạn đã quay trúng Cheesecake, chúc mừng!");
 
     else if (roll == 84 || roll == 85 || roll == 86 || roll == 87 || roll == 88)
     message.reply("bạn đã quay trúng Heart Scale, chúc mừng!");
@@ -41,10 +41,10 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đã quay trúng Victory Bell, chúc mừng!");
 
     else if (roll == 95 || roll == 96 || roll == 97)
-    message.reply("bạn đã quay trúng Admin Doll (Tùy chọn Pokémon), chúc mừng!\n```Zekrom / Marshadow / Solgaleo / Yveltal / Gible / Fennekin (Shiny/Non-Shiny) / Glaceon / Xerneas```");
+    message.reply("bạn đã quay trúng Jukebox, chúc mừng!");
 
     else if (roll == 98 || roll == 99)
-    message.reply("bạn đã quay trúng Victini Doll/Shiny Victini Doll (Tuỳ chọn), chúc mừng!");
+    message.reply("bạn đã quay trúng Victini Doll, chúc mừng!");
 
     else if (roll == 100)
     message.reply("bạn đã quay trúng Gold Ditto Doll, chúc mừng!");
