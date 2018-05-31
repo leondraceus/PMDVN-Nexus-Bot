@@ -848,11 +848,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
             .addField(`Guild:`,`---`);
         var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)
-Time to Explode (1/1/2018 -> 6/1/2018)
-Fast and Furious (14/1/2018)
-Berry Collector (25/2/2018 -> 25/2/2018)
-Couple Race (18/3/2018)`)
+            .addField(`Tổ chức Member Event:`,`
+            Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)
+            Time to Explode (1/1/2018 -> 6/1/2018)
+            Fast and Furious (14/1/2018)
+            Berry Collector (25/2/2018 -> 25/2/2018)
+            Couple Race (18/3/2018)`)
             .addField(`Giải nhì:`,`The Sky Challenges (Zapdos Challenge)`)
             .addField(`Giải ba:`,`Heart Festival (Meowth Theater)`)
             .addField(`Giải ba:`,`The Sky Challenges (Articuno Challenge)`);
