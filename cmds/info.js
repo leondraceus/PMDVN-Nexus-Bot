@@ -1327,13 +1327,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.info ME662**`)
     }
 
-    // Cherrim (ME906) ///
-    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Cherrim" | args[0]==="cherrim"){
+    // Espeon (ME906) ///
+    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/dejpVFKGtUqoJ8tctu/giphy.gif`)
-            .setAuthor (`Cherrim/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b1/Cherrim_%28sunshine%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180219103651`)
+            .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Cherrim <:shiny:385079020158451722>`)
+            .addField(`Chủng loài:`,`Espeon <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Ngọc Bảo`)
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`14/1`)
@@ -1341,10 +1341,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.
             .addField(`Guild:`,`---`);
         var ACME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)`)
-            .addField(`Tổ chức Member Event:`,`Pokémon's Werewolf (17/1/2018 -> 18/1/2018)`)
-            .addField(`Tổ chức Member Event:`,`Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)`)
-            .addField(`Tổ chức Member Event:`,`Lucky Room (20/2/2018 -> 22/2/2018)`);
+            .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)
+Pokémon's Werewolf (17/1/2018 -> 18/1/2018)
+Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)
+Lucky Room (20/2/2018 -> 22/2/2018)`);
 
         message.channel.sendEmbed(ME906);
         message.channel.sendEmbed(ACME906);
