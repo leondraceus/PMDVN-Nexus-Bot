@@ -1568,7 +1568,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ (Page 1) -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3403`,inline = true)
+            .addField(`Poké:`,`3653`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
             .addField(`Lovely Note (x2)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
@@ -1584,7 +1584,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ (Page 2) -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3403`,inline = true)
+            .addField(`Poké:`,`3653`,inline = true)
             .addField(`Houndour Doll`,`Một con búp bê hình Pokémon Houndour.`)
             .addField(`Poochyena Doll`,`Một con búp bê hình Pokémon Poochyena.`)
             .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
@@ -1600,7 +1600,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ (Page 3) -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3403`,inline = true)
+            .addField(`Poké:`,`3653`,inline = true)
             .addField(`Vulpix Doll`,`Một con búp bê hình Pokémon Vulpix.`)
             .addField(`Shellder Doll`,`Một con búp bê hình Pokémon Shellder.`)
             .addField(`Ponyta Doll`,`Một con búp bê hình Pokémon Ponyta.`)
@@ -2857,6 +2857,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD003** | **.i
             .addField(`Heart Scale`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`);
             
         message.channel.sendEmbed(ME873);
+
+    }
+    //// Meowstic (ME501) ///
+    if(args[0]==="ME501"| args[0]==="me501" | args[0]==="Me501"| args[0]==="Meowstic"| args[0]==="meowstic"){
+        var ME501 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Meowstic/Akino Haruko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/46/Meowstic_%28male%29.png/revision/latest/scale-to-width-down/100?cb=20180531064208`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME501);
     }
 }
 
