@@ -8,6 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
+//bot.user.setGame('🎂HAPPY 2ND BIRTHDAY🎂')
 });
 
 bot.commands = new Discord.Collection();
