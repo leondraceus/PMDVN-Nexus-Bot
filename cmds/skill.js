@@ -812,7 +812,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME867** | **
     // Espeon (ME906) ///
     if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/dejpVFKGtUqoJ8tctu/giphy.gif`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)

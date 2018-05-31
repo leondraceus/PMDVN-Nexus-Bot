@@ -1952,10 +1952,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
     // Espeon (ME906) ///
     if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 1 | Page 1) -`).setImage(`https://media.giphy.com/media/dejpVFKGtUqoJ8tctu/giphy.gif`)
+            .setTitle(`- KHO ĐỒ (Size 1 | Page 1) -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2538`,inline = true)
+            .addField(`Poké:`,`1238`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
             .addField(`Gible Doll`,`Một con búp bê hình Pokémon Gible.`)
@@ -1969,10 +1969,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
     
     if(args[0]==="ME906--2"| args[0]==="Me906--2" | args[0]==="me906--2"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 1 | Page 2) -`).setImage(`https://media.giphy.com/media/dejpVFKGtUqoJ8tctu/giphy.gif`)
+            .setTitle(`- KHO ĐỒ (Size 1 | Page 2) -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2538`,inline = true)
+            .addField(`Poké:`,`1238`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Shiny Charm`,`Một vật phẩm có thể giúp cho người dùng thay đổi Avatar thành Avatar Shiny Pokémon.`)
             .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
@@ -1986,10 +1986,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
 
     if(args[0]==="ME906--3"| args[0]==="Me906--3" | args[0]==="me906--3"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 1 | Page 3) -`).setImage(`https://media.giphy.com/media/dejpVFKGtUqoJ8tctu/giphy.gif`)
+            .setTitle(`- KHO ĐỒ (Size 1 | Page 3) -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2538`,inline = true)
+            .addField(`Poké:`,`1238`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Furfrou Doll (Pharaoh)`,`Một con búp bê hình Pokémon Furfrou (Pharaoh Trim).`)
             .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`)
@@ -2003,10 +2003,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
 
     if(args[0]==="ME906--4"| args[0]==="Me906--4" | args[0]==="me906--4"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 1 | Page 4) -`).setImage(`https://media.giphy.com/media/dejpVFKGtUqoJ8tctu/giphy.gif`)
+            .setTitle(`- KHO ĐỒ (Size 1 | Page 4) -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2538`,inline = true)
+            .addField(`Poké:`,`1238`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Happiness Tune`,`Một bản nhạc đem lại niềm vui và hạnh phúc! ~ 🎵`)
             .addField(`Golden Apple`,`Một quả táo đặc biệt có ánh hào quang vàng kim chói lọi. Nó quý hiếm và đẹp đến nỗi không nỡ ăn được!`)
@@ -2020,10 +2020,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
 
     if(args[0]==="ME906--5"| args[0]==="Me906--5" | args[0]==="me906--5"){
         var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ (Size 1 | Page 5) -`).setImage(`https://media.giphy.com/media/dejpVFKGtUqoJ8tctu/giphy.gif`)
+            .setTitle(`- KHO ĐỒ (Size 1 | Page 5) -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2538`,inline = true)
+            .addField(`Poké:`,`1238`,inline = true)
             .addField(`Snowflake:`,`20`,inline = true)
             .addField(`Heart Scale (x1)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
             .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`)
