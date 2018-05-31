@@ -1442,6 +1442,34 @@ Vui lòng dùng code để tra cứu theo lệnh sau: **.info ME644**`)
         message.channel.sendEmbed(ME501);
 
     }
+
+    //// Mawile (ME920) ///
+    if(args[0]==="ME920"| args[0]==="me920" | args[0]==="Me920"| args[0]==="Mawile"| args[0]==="mawile"){
+        var ME920 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Mawile/Quỳnh Karani`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/bd/Mawile.png/revision/latest/scale-to-width-down/100?cb=20180531064233`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME920);
+
+    }
+
+    //// Mega Blaziken (ME298) ///
+    if(args[0]==="ME298"| args[0]==="me298" | args[0]==="Me298"| args[0]==="MegaBlaziken"| args[0]==="megablaziken"){
+        var ME298 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Mega Blaziken/Lý Quang Long`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/c/cb/Megablaziken.png/revision/latest/scale-to-width-down/100?cb=20180531064220`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME298);
+
+    }
 }
     
 module.exports.help = {
