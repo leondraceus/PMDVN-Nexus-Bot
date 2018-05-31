@@ -854,7 +854,7 @@ Fast and Furious (14/1/2018)
 Berry Collector (25/2/2018 -> 25/2/2018)
 Couple Race (18/3/2018)`)
             .addField(`Giải nhì:`,`The Sky Challenges (Zapdos Challenge)`)
-            .addField(`Giải ba:`,`Heart Festival (Meowth Theater)`
+            .addField(`Giải ba:`,`Heart Festival (Meowth Theater)`)
             .addField(`Giải ba:`,`The Sky Challenges (Articuno Challenge)`);
 
         message.channel.sendEmbed(ME072);
