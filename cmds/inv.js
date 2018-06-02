@@ -115,35 +115,31 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
 /// Honchkrow (AD006) ///
     if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006" | args[0]==="Honchkrow" | args[0]==="honchkrow"){
         var AD006 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
             .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Poké:`,`2000`,inline = true)
             .addField(`Yveltal Doll`,`Một con búp bê hình Pokémon Yveltal.`)
-            .addField(`Salt (x1)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
-            .addField(`Rainbow Wing`,`Một chiếc lông vũ bảy sắc cầu vồng lấp lánh.`)
-            .addField(`Shaymin Doll`,`Một con búp bê hình Pokémon Shaymin.`)
-            .addField(`Cyndaquil Doll`,`Một con búp bê hình Pokémon Cyndaquil.`)
-            .setFooter(`Trang sau (.inv AD006--2)`);
+            .addField(`Forgotten Badge`,`Một chiếc huy hiệu cũ kĩ đã rỉ sét. Bây giờ họ không sản xuất thứ này nữa...`);
             
         message.channel.sendEmbed(AD006);
     }
 
-    if(args[0]==="AD006--2"| args[0]==="ad006--2" | args[0]==="Ad006--2"){
-        var AD006 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
-            .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`0`,inline = true)
-            .addField(`Fennekin Doll`,`Một con búp bê hình Pokémon Fennekin.`)
-            .addField(`Growlithe Doll`,`Một con búp bê hình Pokémon Growlithe.`)
-            .addField(`Rowlet Doll`,`Một con búp bê hình Pokémon Rowlet.`)
-            .addField(`Popplio Doll`,`Một con búp bê hình Pokémon Popplio.`)
-            .addField(`Charmander Doll`,`Một con búp bê hình Pokémon Charmander.`)
-            .setFooter(`Trang trước (.inv AD006)`);
+    //if(args[0]==="AD006--2"| args[0]==="ad006--2" | args[0]==="Ad006--2"){
+    //    var AD006 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
+    //        .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`0`,inline = true)
+    //        .addField(`Fennekin Doll`,`Một con búp bê hình Pokémon Fennekin.`)
+    //        .addField(`Growlithe Doll`,`Một con búp bê hình Pokémon Growlithe.`)
+    //        .addField(`Rowlet Doll`,`Một con búp bê hình Pokémon Rowlet.`)
+    //        .addField(`Popplio Doll`,`Một con búp bê hình Pokémon Popplio.`)
+    //        .addField(`Charmander Doll`,`Một con búp bê hình Pokémon Charmander.`)
+    //        .setFooter(`Trang trước (.inv AD006)`);
             
-        message.channel.sendEmbed(AD006);
-    }
+    //    message.channel.sendEmbed(AD006);
+    //}
 
 //    else if(args[0]==="Honchkrow" | args[0]==="honchkrow"){
 //        message.channel.sendMessage(`**Hiện tại có 2 Honchkrow**

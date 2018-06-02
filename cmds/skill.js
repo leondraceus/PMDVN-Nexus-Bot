@@ -166,6 +166,19 @@ Kho đồ được mở rộng`);
         message.channel.sendEmbed(ME906);
     }
 
+    /// Honchkrow (AD006) ///
+    if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006" | args[0]==="Honchkrow" | args[0]==="honchkrow"){
+        var AD006 = new Discord.RichEmbed().setColor(`#5CE05F`)
+           .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
+            .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`125/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(AD006);
+    }
+
 ////////////////   MEMBER   ////////////////
 
     /// Electivire (ME004) ///
