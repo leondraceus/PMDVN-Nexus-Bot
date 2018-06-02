@@ -136,6 +136,36 @@ module.exports.run = async (pw, message, args) => {
             message.channel.sendEmbed(ME674);
     }
 
+    // Dedenne (ME072) ///
+    if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
+        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐⭐`)
+            .addField(`Số điểm (Points):`,`1458/1750`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
+        Kho đồ được mở rộng
+        Không bị trừ Pts khi bán đồ`);
+    
+
+        message.channel.sendEmbed(ME072);
+    }
+
+    // Espeon (ME906) ///
+    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
+        var ME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
+            .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
+            .addField(`Số điểm (Points):`,`1053/1300`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
+        Kho đồ được mở rộng`);
+
+        message.channel.sendEmbed(ME906);
+    }
+
 ////////////////   MEMBER   ////////////////
 
     /// Electivire (ME004) ///
@@ -439,22 +469,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME892);
-    }
-
-    // Dedenne (ME072) ///
-    if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
-        var ME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1378/1750`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
-            Kho đồ được mở rộng
-            Không bị trừ Pts khi bán đồ`);
-    
-
-        message.channel.sendEmbed(ME072);
     }
 
     // Dewott (ME240) ///
@@ -807,20 +821,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
     else if(args[0]==="Cyndaquil" | args[0]==="cyndaquil"){
         message.channel.sendMessage(`**Hiện tại có 2 Cyndaquil**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME867** | **.skill ME662**`)
-    }
-
-    // Espeon (ME906) ///
-    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
-        var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
-            .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`943/980`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
-Kho đồ được mở rộng`);
-
-        message.channel.sendEmbed(ME906);
     }
 
     /// Mega Diancie (ME905) ///
