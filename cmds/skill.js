@@ -145,8 +145,8 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1458/1750`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
-        Kho đồ được mở rộng
-        Không bị trừ Pts khi bán đồ`);
+Kho đồ được mở rộng
+Không bị trừ Pts khi bán đồ`);
     
 
         message.channel.sendEmbed(ME072);
@@ -161,7 +161,7 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1053/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
-        Kho đồ được mở rộng`);
+Kho đồ được mở rộng`);
 
         message.channel.sendEmbed(ME906);
     }
