@@ -285,8 +285,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         var ACME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Đăng bài, hoạt động tích cực trên Group`,`\u200B`)
-            .addField(`Tổ chức Member Event:`,`Nhìn hình kiếm Poké (17/3/2018)`)
-            .addField(`Tổ chức Member Event:`,`Tinh mắt và nhanh tay (22/5/2018)`);
+            .addField(`Tổ chức Member Event:`,`Nhìn hình kiếm Poké (17/3/2018)
+Tinh mắt và nhanh tay (22/5/2018)`);
     
         message.channel.sendEmbed(ME642);
         message.channel.sendEmbed(ACME642);
