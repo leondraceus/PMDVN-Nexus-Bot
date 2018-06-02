@@ -440,6 +440,57 @@ Tinh mắt và nhanh tay (22/5/2018)`);
             message.channel.sendEmbed(ACME674);
     }
 
+    // Dedenne (ME072) ///
+    if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
+        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Chủng loài:`,`Dedenne`)
+            .addField(`Tên Facebook:`,`Trần Khoa Lộc`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`5/4`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`);
+        var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)
+Time to Explode (1/1/2018 -> 6/1/2018)
+Fast and Furious (14/1/2018)
+Berry Collector (25/2/2018 -> 25/2/2018)
+Couple Race (18/3/2018)`)
+            .addField(`Giải nhì:`,`The Sky Challenges (Zapdos Challenge)`)
+            .addField(`Giải ba:`,`Heart Festival (Meowth Theater)`)
+            .addField(`Giải ba:`,`The Sky Challenges (Articuno Challenge)`);
+
+        message.channel.sendEmbed(ME072);
+        message.channel.sendEmbed(ACME072);
+    }
+
+    // Espeon (ME906) ///
+    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
+        var ME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
+            .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Chủng loài:`,`Espeon <:shiny:385079020158451722>`)
+            .addField(`Tên Facebook:`,`Ngọc Bảo`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`14/1`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`);
+        var ACME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)
+Pokémon's Werewolf (17/1/2018 -> 18/1/2018)
+Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)
+Lucky Room (20/2/2018 -> 22/2/2018)`);
+
+        message.channel.sendEmbed(ME906);
+        message.channel.sendEmbed(ACME906);
+    }
+
+
 ////////////////   MEMBER   ////////////////
 
     /// Electivire (ME004) ///
@@ -833,34 +884,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME459** | **.
 
         message.channel.sendEmbed(ME892);
     }
-
-    // Dedenne (ME072) ///
-    if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
-        var ME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Dedenne`)
-            .addField(`Tên Facebook:`,`Trần Khoa Lộc`)
-            .addField(`Giới tính:`,`Nam`)
-            .addField(`Ngày sinh:`,`5/4`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`);
-        var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)
-Time to Explode (1/1/2018 -> 6/1/2018)
-Fast and Furious (14/1/2018)
-Berry Collector (25/2/2018 -> 25/2/2018)
-Couple Race (18/3/2018)`)
-            .addField(`Giải nhì:`,`The Sky Challenges (Zapdos Challenge)`)
-            .addField(`Giải ba:`,`Heart Festival (Meowth Theater)`)
-            .addField(`Giải ba:`,`The Sky Challenges (Articuno Challenge)`);
-
-        message.channel.sendEmbed(ME072);
-        message.channel.sendEmbed(ACME072);
-    }
-
 
     // Dewott (ME240) ///
     if(args[0]==="ME240"| args[0]==="Me240" | args[0]==="me240"| args[0]==="Dewott" | args[0]==="dewott"){
@@ -1325,29 +1348,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
     else if(args[0]==="Cyndaquil" | args[0]==="cyndaquil"){
         message.channel.sendMessage(`**Hiện tại có 2 Cyndaquil**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME867** | **.info ME662**`)
-    }
-
-    // Espeon (ME906) ///
-    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
-        var ME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
-            .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Espeon <:shiny:385079020158451722>`)
-            .addField(`Tên Facebook:`,`Ngọc Bảo`)
-            .addField(`Giới tính:`,`Nữ`)
-            .addField(`Ngày sinh:`,`14/1`)
-            .addField(`Cấp bậc:`,`Member`)
-            .addField(`Guild:`,`---`);
-        var ACME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)
-Pokémon's Werewolf (17/1/2018 -> 18/1/2018)
-Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)
-Lucky Room (20/2/2018 -> 22/2/2018)`);
-
-        message.channel.sendEmbed(ME906);
-        message.channel.sendEmbed(ACME906);
     }
 
     /// Mega Diancie (ME905) ///
