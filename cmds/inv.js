@@ -2077,7 +2077,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME099** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Brionne/Shiiri Ether`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Brionne.png/revision/latest/scale-to-width-down/100?cb=20170618091552`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`400`,inline = true)
+            .addField(`Poké:`,`110`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`);
 
         message.channel.sendEmbed(ME062);
@@ -2282,8 +2282,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME037** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor (`Luxray/Nguyễn Hiền`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/ad/Luxray1.png/revision/latest/scale-to-width-down/100?cb=20170710064348`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`620`,inline = true)
-            .addField(`Igglybuff Doll`,`Một con búp bê hình Pokémon Igglybuff.`);
+            .addField(`Poké:`,`420`,inline = true)
+            .addField(`Igglybuff Doll`,`Một con búp bê hình Pokémon Igglybuff.`)
+            .addField(`Heart Scale`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`);
 
         message.channel.sendEmbed(ME978);
     }
