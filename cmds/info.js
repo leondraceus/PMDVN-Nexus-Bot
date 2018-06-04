@@ -547,7 +547,7 @@ Lucky Room (20/2/2018 -> 22/2/2018)`);
     /// Bisharp (ME392) ///
     if(args[0]==="ME392"| args[0]==="me392" | args[0]==="Me392" | args[0]==="Bisharp" | args[0]==="bisharp"){
         var ME392 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/73/Lucky_Wheel_Banner.png/revision/latest?cb=20180211043205`)
             .setAuthor(`Bisharp/Rayen Sylvia`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3c/Bisharp.png/revision/latest/scale-to-width-down/100?cb=20160821125340`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Bisharp`)
