@@ -420,57 +420,67 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
         message.channel.sendEmbed(ME044);
     }
 
-
     /// Pikachu (ME061) ///
     if(args[0]==="ME061"| args[0]==="me061" | args[0]==="Me061"){
         var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/TFedDQxfqIXIF1fsL3/giphy.gif`)
+            .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`875`,inline = true)
-            .addField(`Snowflake:`,`15`,inline = true)
-            .addField(`Choco-Heart:`,`20`,inline = true)
-            .addField(`Salt (x2)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
-            .addField(`Corsola Twig (x4)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
-            .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
-            .addField(`Electabuzz Doll`,`Một con búp bê hình Pokémon Electabuzz.`)
-            .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`)
-            .setFooter(`Trang sau (.inv ME061--2)`);
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            message.channel.sendEmbed(ME061);
+    }
+
+    ///// Pikachu (ME061) ///
+    //if(args[0]==="ME061"| args[0]==="me061" | args[0]==="Me061"){
+    //    var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/TFedDQxfqIXIF1fsL3/giphy.gif`)
+    //        .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`875`,inline = true)
+    //        .addField(`Snowflake:`,`15`,inline = true)
+    //        .addField(`Choco-Heart:`,`20`,inline = true)
+    //        .addField(`Salt (x2)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
+    //        .addField(`Corsola Twig (x4)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`)
+    //        .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
+    //        .addField(`Electabuzz Doll`,`Một con búp bê hình Pokémon Electabuzz.`)
+    //        .addField(`Victini Doll`,`Một con búp bê hình Pokémon Victini.`)
+    //        .setFooter(`Trang sau (.inv ME061--2)`);
             
-        message.channel.sendEmbed(ME061);
-    }
+    //    message.channel.sendEmbed(ME061);
+    //}
 
-    if(args[0]==="ME061--2"| args[0]==="me061--2" | args[0]==="Me061--2"){
-        var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/TFedDQxfqIXIF1fsL3/giphy.gif`)
-            .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`875`,inline = true)
-            .addField(`Snowflake:`,`15`,inline = true)
-            .addField(`Choco-Heart:`,`20`,inline = true)
-            .addField(`Chikorita Doll`,`Một con búp bê hình Pokémon Chikorita.`)
-            .addField(`Bayleef Doll`,`Một con búp bê hình Pokémon Bayleef.`)
-            .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
-            .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
-            .addField(`Lapras Doll`,`Một con búp bê hình Pokémon Lapras.`)
-            .setFooter(`Trang trước (.inv ME061) | Trang sau (.inv ME061--3)`);
+    //if(args[0]==="ME061--2"| args[0]==="me061--2" | args[0]==="Me061--2"){
+    //    var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/TFedDQxfqIXIF1fsL3/giphy.gif`)
+    //        .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`875`,inline = true)
+    //        .addField(`Snowflake:`,`15`,inline = true)
+    //        .addField(`Choco-Heart:`,`20`,inline = true)
+    //        .addField(`Chikorita Doll`,`Một con búp bê hình Pokémon Chikorita.`)
+    //        .addField(`Bayleef Doll`,`Một con búp bê hình Pokémon Bayleef.`)
+    //        .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
+    //        .addField(`Mimikyu Doll`,`Một con búp bê hình Pokémon Mimikyu.`)
+    //        .addField(`Lapras Doll`,`Một con búp bê hình Pokémon Lapras.`)
+    //        .setFooter(`Trang trước (.inv ME061) | Trang sau (.inv ME061--3)`);
               
-        message.channel.sendEmbed(ME061);
-    }
+    //    message.channel.sendEmbed(ME061);
+    //}
 
-    if(args[0]==="ME061--3"| args[0]==="me061--3" | args[0]==="Me061--3"){
-        var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Page 3) -`).setImage(`https://media.giphy.com/media/TFedDQxfqIXIF1fsL3/giphy.gif`)
-            .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`875`,inline = true)
-            .addField(`Snowflake:`,`15`,inline = true)
-            .addField(`Choco-Heart:`,`20`,inline = true)
-            .addField(`Snivy Doll`,`Một con búp bê hình Pokémon Snivy.`)
-            .setFooter(`Trang trước (.inv ME061--2)`);
+    //if(args[0]==="ME061--3"| args[0]==="me061--3" | args[0]==="Me061--3"){
+    //    var ME061 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Page 3) -`).setImage(`https://media.giphy.com/media/TFedDQxfqIXIF1fsL3/giphy.gif`)
+    //        .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`875`,inline = true)
+    //        .addField(`Snowflake:`,`15`,inline = true)
+    //        .addField(`Choco-Heart:`,`20`,inline = true)
+    //        .addField(`Snivy Doll`,`Một con búp bê hình Pokémon Snivy.`)
+    //        .setFooter(`Trang trước (.inv ME061--2)`);
               
-        message.channel.sendEmbed(ME061);
-    }
+    //    message.channel.sendEmbed(ME061);
+    //}
 
     /// Mega Rayquaza (ME642) ///
     if(args[0]==="ME642"| args[0]==="me642" | args[0]==="Me642"){
