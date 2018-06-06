@@ -1,10 +1,14 @@
-﻿module.exports.run = (pw, message, args) => {
-    var toMention = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0])
-    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì ! Xóe !```");
-    message.channel.sendMessage(message.author.username + ' đã xóa sạch item của ' + args[0]);
-console.log(`${message.author.username}#${message.author.discriminator} used clearinventory!`);
+﻿const Discord = module.require("discord.js");
+
+module.exports.run = async (pw, message, args) => {
+    var embed = new Discord.RichEmbed()
+    //.setColor(`#556a74`)
+    .setDescription(`inventory của`+ args[0] +` đã bị xóa sạch!`);
+
+if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì mà đòi xóa ! Xóe !```");
+
 }
 
 module.exports.help = {
     name: "clearinventory"
-
+}
