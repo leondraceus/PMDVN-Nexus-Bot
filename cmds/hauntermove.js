@@ -50,7 +50,7 @@ else if (roll == 56 || roll == 57 || roll == 58 || roll == 59)
     message.channel.sendMessage("Haunter2 đi 3 bước, Haunter4 đi 3 bước, Haunter1 đi 3 bước");
 
 else if (roll == 60 || roll == 61 || roll == 62 || roll == 63)
-    message.channel.sendMessage("Haunter1 đi 3 bước, Haunter3 đi 3 bước, Haunter5 đi 3 bước");
+    message.channel.sendMessage("Haunter2 đi 3 bước, Haunter3 đi 3 bước, Haunter5 đi 3 bước");
 
 else if (roll == 64 || roll == 65 || roll == 66 || roll == 67)
     message.channel.sendMessage("Haunter1 đi 3 bước, Haunter2 đi 3 bước, Haunter5 đi 3 bước");
@@ -59,7 +59,7 @@ else if (roll == 68 || roll == 69 || roll == 70 || roll == 71)
     message.channel.sendMessage("Haunter1 đi 2 bước, Haunter3 đi 2 bước, Haunter5 đi 2 bước");
 
 else if (roll == 72 || roll == 73 || roll == 74 || roll == 75)
-    message.channel.sendMessage("Haunter1 đi 1 bước, Haunter3 đi 1 bước, Haunter5 đi 1 bước");
+    message.channel.sendMessage("Haunter2 đi 1 bước, Haunter3 đi 1 bước, Haunter5 đi 1 bước");
 
 else if (roll == 76 || roll == 77 || roll == 78 || roll == 79)
     message.channel.sendMessage("Haunter1 đi 3 bước, Haunter2 đi 3 bước, Haunter5 đi 3 bước");
@@ -77,7 +77,7 @@ else if (roll == 93 || roll == 94 || roll == 95 || roll == 96)
     message.channel.sendMessage("Haunter4 đi 3 bước, Haunter5 đi 3 bước");
 
 else if (roll == 97 || roll == 98 || roll == 99 || roll == 100)
-    message.channel.sendMessage("Haunter1 đi 2 bước, Haunter5 đi 2 bước");
+    message.channel.sendMessage("Haunter3 đi 2 bước, Haunter5 đi 2 bước");
 
 }
 
