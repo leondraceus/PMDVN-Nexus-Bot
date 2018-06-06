@@ -5,10 +5,10 @@ module.exports.run = async (pw, message, args) => {
     .setColor(`#676666`)
     .setDescription(args[0] +` đã bị xử tử sml!`);
 
-if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
+if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Xóe ! Có cái lone ý, chỉ có tư sản mới được ức hiếp dân nghèo thôi !```");
 
 var toHeaven = message.mentions.members.first() || message.guild.members.get(args[0]);
-if(!toHeaven) return message.channel.sendMessage("```Hãy Mention một ai đó!```");
+if(!toHeaven) return message.channel.sendMessage("```Hãy Mention nạn nhân của bạn!```");
 
 var role = message.guild.roles.find(r => r.name === "Died");
 if(!role) {

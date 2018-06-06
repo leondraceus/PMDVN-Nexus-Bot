@@ -5,10 +5,10 @@ module.exports.run = async (pw, message, args) => {
     .setColor(`#923200`)
     .setDescription(args[0] +` đã bị ăn!`);
 
-    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Bạn không đủ quyền hành để thực hiện việc này!```");
+    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì mà đòi ăn ! Nhịn đi !```");
 
     var toBelly = message.mentions.members.first() || message.guild.members.get(args[0]);
-    if(!toBelly) return message.channel.sendMessage("```Hãy Mention một ai đó!```");
+    if(!toBelly) return message.channel.sendMessage("```Hãy Mention bữa tối của bạn!```");
 
     var role = message.guild.roles.find(r => r.name === "Eaten");
     if(!role) {
