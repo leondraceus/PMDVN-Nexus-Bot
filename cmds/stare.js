@@ -5,7 +5,7 @@ module.exports.run = async (pw, message, args) => {
     .setColor(`#556a74`)
     .setDescription(args[0] +` đã bị hoá đá!`);
 
-    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì mà đòi hóa đá Pokémon khác ! Xóe !```");
+    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì mà đòi hóa đá Pokémon khác ! Thứ kém sang !```");
 
     var toVoid = message.mentions.members.first() || message.guild.members.get(args[0]);
     if(!toVoid) return message.channel.sendMessage("```Hãy chọn nạn nhân của bạn!```");
