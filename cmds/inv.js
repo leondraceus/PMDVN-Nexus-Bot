@@ -1483,10 +1483,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME008** | **.i
     // Alolan Meowth (ME725) ///
     if(args[0]==="ME725"| args[0]==="Me725" | args[0]==="me725"){
         var ME725 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- KHO ĐỒ -`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/0d/052-alola.gif/revision/latest?cb=20180605134719`)
             .setAuthor (`Alolan Meowth/Thanh Ngọc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/96/Meowth_%28alolan%29.png/revision/latest/scale-to-width-down/100?cb=20180506085338`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`1800`,inline = true)
+            .addField(`Poké:`,`900`,inline = true)
             .addField(`Snowflake:`,`31`,inline = true)
             .addField(`Salt (x1)`,`Chỉ đơn thuần là một bịch muối trắng. Feeling salty? =))`)
             .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
@@ -1775,12 +1775,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ (Page 1) -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3663`,inline = true)
+            .addField(`Poké:`,`3493`,inline = true)
             .addField(`Togepi Doll`,`Một con búp bê hình Pokémon Togepi.`)
-            .addField(`Cherrim Doll`,`Một con búp bê hình Pokémon Cherrim.`)
             .addField(`Lovely Note (x2)`,`Một bức thư có bìa ngoài được trang trí hường phấn lãng mạn, được dùng để gửi đi những lời chúc đến người mình yêu thương nhất.`)
             .addField(`Lum Berry`,`Một loại Berry có khả năng chữa lành mọi trạng thái bất lợi khi ăn vào.`)
             .addField(`Growlithe Doll`,`Một con búp bê hình Pokémon Growlithe.`)
+            .addField(`Houndour Doll`,`Một con búp bê hình Pokémon Houndour.`)
             .setFooter(`Trang sau (.inv ME711--2)`);
 
         message.channel.sendEmbed(ME711);
@@ -1791,12 +1791,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ (Page 2) -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3663`,inline = true)
-            .addField(`Houndour Doll`,`Một con búp bê hình Pokémon Houndour.`)
+            .addField(`Poké:`,`3493`,inline = true)
             .addField(`Poochyena Doll`,`Một con búp bê hình Pokémon Poochyena.`)
             .addField(`Snover Doll`,`Một con búp bê hình Pokémon Snover.`)
             .addField(`Happiny Doll`,`Một con búp bê hình Pokémon Happiny.`)
             .addField(`Woobat Doll`,`Một con búp bê hình Pokémon Woobat.`)
+            .addField(`Vulpix Doll`,`Một con búp bê hình Pokémon Vulpix.`)
             .setFooter(`Trang trước (.inv ME711) | Trang sau (.inv ME711--3)`);
 
         message.channel.sendEmbed(ME711);
@@ -1807,8 +1807,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME209** | **.i
             .setTitle(`- KHO ĐỒ (Page 3) -`)
             .setAuthor (`Riolu/Huỳnh Tiến Phát`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f0/Riolu.png/revision/latest/scale-to-width-down/100?cb=20160816072138`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3663`,inline = true)
-            .addField(`Vulpix Doll`,`Một con búp bê hình Pokémon Vulpix.`)
+            .addField(`Poké:`,`3493`,inline = true)
             .addField(`Shellder Doll`,`Một con búp bê hình Pokémon Shellder.`)
             .addField(`Ponyta Doll`,`Một con búp bê hình Pokémon Ponyta.`)
             .addField(`Seel Doll`,`Một con búp bê hình Pokémon Seel.`)
