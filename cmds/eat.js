@@ -5,7 +5,7 @@ module.exports.run = async (pw, message, args) => {
     .setColor(`#923200`)
     .setDescription(args[0] +` đã bị ăn!`);
 
-    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì mà đòi ăn ! Nhịn đi !```");
+    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì mà đòi ăn ! Thứ kém sang !```");
 
     var toBelly = message.mentions.members.first() || message.guild.members.get(args[0]);
     if(!toBelly) return message.channel.sendMessage("```Hãy Mention bữa tối của bạn!```");
