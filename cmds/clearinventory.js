@@ -5,8 +5,8 @@ module.exports.run = async (pw, message, args) => {
     //.setColor(`#556a74`)
     .setDescription(`Inventory của`+ args[0] +` đã bị xóa sạch!`);
 
-if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì mà đòi xóa ! Xóe !```");
-
+    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("```Tuổi lone gì mà đòi xóa ! Xóe !```");
+    message.channel.sendEmbed(embed);
 }
 
 module.exports.help = {
