@@ -23,10 +23,10 @@ module.exports.run = async (pw, message, args) => {
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/TFedDQxfqIXIF1fsL3/giphy.gif`)
             .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`732/750`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
-            
+            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
+            .addField(`Số điểm (Points):`,`762/980`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
+ Kho đồ được mở rộng`);
         message.channel.sendEmbed(ME061);
     }
 
@@ -76,7 +76,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor(`Torterra/Chương Lê`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/100?cb=20171128145511`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1070/1300`)
+            .addField(`Số điểm (Points):`,`1142/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
             Kho đồ được mở rộng`);
             
@@ -143,7 +143,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1547/1750`)
+            .addField(`Số điểm (Points):`,`1697/1750`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng
 Không bị trừ Pts khi bán đồ`);
@@ -159,7 +159,7 @@ Không bị trừ Pts khi bán đồ`);
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1105/1300`)
+            .addField(`Số điểm (Points):`,`1115/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng`);
 
@@ -173,7 +173,7 @@ Kho đồ được mở rộng`);
             .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`314/525`)
+            .addField(`Số điểm (Points):`,`459/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(AD006);
@@ -372,7 +372,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`535/750`)
+            .addField(`Số điểm (Points):`,`587/750`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
 
         message.channel.sendEmbed(ME008);
@@ -491,7 +491,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME459** | **
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`381/525`)
+            .addField(`Số điểm (Points):`,`404/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME240);
@@ -535,7 +535,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME219** | **
             .setAuthor (`Lucario/Đạt Quốc Trương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d0/Lucario.png/revision/latest/scale-to-width-down/100?cb=20171028171549`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`324/525`)
+            .addField(`Số điểm (Points):`,`396/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME300);
@@ -768,7 +768,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
             .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fc/Vaporeon.png/revision/latest/scale-to-width-down/100?cb=20160910143926`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`345/525`)
+            .addField(`Số điểm (Points):`,`328/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME014);
@@ -939,7 +939,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME037** | **
             .setAuthor(`Houndour/Mạnh Dương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/ba/Houndour.png/revision/latest/scale-to-width-down/100?cb=20170618081347`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`25/150`)
+            .addField(`Số điểm (Points):`,`41/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
             message.channel.sendEmbed(ME078);
@@ -996,7 +996,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME514** | **
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`385/525`)
+            .addField(`Số điểm (Points):`,`495/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME868);
@@ -1271,7 +1271,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .setAuthor(`Black Kyurem/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Kyurem_%28black%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180524073731`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`369/525`)
+            .addField(`Số điểm (Points):`,`397/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME303);
@@ -1297,7 +1297,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .setAuthor(`Jirachi/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/60/Jirachi.png/revision/latest/scale-to-width-down/100?cb=20160820071654`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`312/525`)
+            .addField(`Số điểm (Points):`,`446/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME394);
@@ -1401,7 +1401,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .setAuthor(`Umbreon/Võ Tiến`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`1/150`)
+            .addField(`Số điểm (Points):`,`31/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME720);
