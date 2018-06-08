@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-//bot.user.setGame('Đen hôi kém sang <OwO<')
+bot.user.setGame('con De kém sang <OwO<')
 });
 
 bot.commands = new Discord.Collection();
