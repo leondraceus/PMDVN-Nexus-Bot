@@ -61,6 +61,10 @@ bot.on('message', (message) => {
         message.channel.sendMessage("Nứng lone hả?\nDICHOZZZ!!!!!")
     }
 
+    if(message.content === "Ngộ nghĩnh nhỉ?" | message.content === "ngộ nghĩnh nhỉ?" | message.content === "Ngộ nghĩnh nhỉ" | message.content === "ngộ nghĩnh nhỉ"){
+        message.channel.sendMessage("Lạ lùng nhỉ?")
+    }
+
 });
 
 bot.on('guildMemberAdd', member => {
