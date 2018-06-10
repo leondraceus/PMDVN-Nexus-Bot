@@ -59,6 +59,10 @@ bot.on('message', (message) => {
 
 });
 
+   if(message.content === "Dzô dziên" | message.content === "dzô dziên"){
+    message.channel.sendMessage("Nứng lone hả?\nDICHOZZZ!!!!!")
+}
+
 bot.on('guildMemberAdd', member => {
     member.send(":door: **__CHÀO MỪNG BẠN GIA NHẬP SERVER PMDVN WORLD__** :door:\n\n**__PMDVN-Nexus__**: *Xin tự giới thiệu, tôi là PMDVN Nexus - BOT quản lí Server này. Đây là Server Chat chính thức của Pokémon Mystery Dungeon Vietnam. Trước khi được Chat trên Server, bạn cần phải làm một số việc như sau:*\n\n-Vui lòng khai báo **Tên Facebook**, **Pokémon bạn hoá thân trên Group** tại <#388210942908956682> để Admin xác nhận danh tính.\n-Đọc kĩ <#388258800697737216> trước khi tham gia chat.\n\n*Mong bạn sẽ có khoảng thời gian vui vẻ tại nơi này!*");
 });
