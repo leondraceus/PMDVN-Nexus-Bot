@@ -143,7 +143,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1697/1750`)
+            .addField(`Số điểm (Points):`,`1735/1750`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng
 Không bị trừ Pts khi bán đồ`);
@@ -153,13 +153,13 @@ Không bị trừ Pts khi bán đồ`);
     }
 
     // Espeon (ME906) ///
-    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
+    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"){
         var ME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`1115/1300`)
+            .addField(`Số điểm (Points):`,`1252/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng`);
 
@@ -995,9 +995,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME514** | **
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/4/40/Blaze_Banner.png/revision/latest?cb=20180510151521`)
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`495/525`)
-            .addField(`Kỹ năng (Skills):`,`---`);
+            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
+            .addField(`Số điểm (Points):`,`611/750`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
             
         message.channel.sendEmbed(ME868);
     }
@@ -1233,6 +1233,20 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME590** | **
         message.channel.sendEmbed(ME701);
     }
 
+    /// Espeon (ME069) ///
+    if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069"){
+        var ME069 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Espeon/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`20/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME069);
+    }
+
+
     /// Meloetta (ME452) ///
     if(args[0]==="ME452"| args[0]==="me452" | args[0]==="Me452"){
         var ME452 = new Discord.RichEmbed().setColor(`#3A77E6`)
@@ -1297,8 +1311,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             .setAuthor(`Jirachi/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/60/Jirachi.png/revision/latest/scale-to-width-down/100?cb=20160820071654`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`446/525`)
-            .addField(`Kỹ năng (Skills):`,`---`);
+            .addField(`Số điểm (Points):`,`647/750`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
             
         message.channel.sendEmbed(ME394);
     }
@@ -1395,7 +1409,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
     }
 
     /// Umbreon (ME720) ///
-    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"){
+    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"| args[0]==="Umbreon" | args[0]==="umbreon"){
         var ME720 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Umbreon/Võ Tiến`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
@@ -1406,9 +1420,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
             
         message.channel.sendEmbed(ME720);
     }
-    else if(args[0]==="Umbreon" | args[0]==="umbreon"){
-        message.channel.sendMessage(`**Hiện tại có 2 Umbreon**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME069** | **.skill ME720**`)
+    else if(args[0]==="Espeon" | args[0]==="espeon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Espeon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME069** | **.skill ME906**`)
 
     }
     else if(args[0]==="Zekrom" | args[0]==="zekrom"){

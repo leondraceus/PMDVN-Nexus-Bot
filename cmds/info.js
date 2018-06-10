@@ -468,7 +468,7 @@ Couple Race (18/3/2018)`)
     }
 
     // Espeon (ME906) ///
-    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon" | args[0]==="espeon"){
+    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"){
         var ME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
@@ -1871,13 +1871,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME590** | **.
         message.channel.sendEmbed(ME701);
     }
 
-    /// Umbreon (ME069) ///
+    /// Espeon (ME069) ///
     if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069"){
         var ME069 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Umbreon/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
+            .setAuthor(`Espeon/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Umbreon`)
+            .addField(`Chủng loài:`,`Espeon`)
             .addField(`Tên Facebook:`,`Nguyễn Minh Triết`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`24/10`)
@@ -2107,7 +2107,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
     }
 
     // Umbreon (ME720) ///
-    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"){
+    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"| args[0]==="Espeon"| args[0]==="espeon"){
         var ME720 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Umbreon/Võ Tiến`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
@@ -2122,9 +2122,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             
         message.channel.sendEmbed(ME720);
     }
-    else if(args[0]==="Umbreon" | args[0]==="umbreon"){
-        message.channel.sendMessage(`**Hiện tại có 2 Umbreon**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME069** | **.info ME720**`)
+    else if(args[0]==="Espeon" | args[0]==="espeon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Espeon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME069** | **.info ME906**`)
 
     }
     else if(args[0]==="Zekrom" | args[0]==="zekrom"){
