@@ -2107,7 +2107,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
     }
 
     // Umbreon (ME720) ///
-    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"| args[0]==="Espeon"| args[0]==="espeon"){
+    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"| args[0]==="Umbreon"| args[0]==="Umbreon"){
         var ME720 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Umbreon/Võ Tiến`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
