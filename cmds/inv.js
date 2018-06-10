@@ -715,24 +715,25 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
             .addField(`Pichu Doll`,`Một con búp bê hình Pokémon Pichu.`)
             .addField(`Pikachu Doll`,`Một con búp bê hình Pokémon Pikachu.`)
             .addField(`Ice Diamond`,`Một viên kim cương lấp lánh có lớp băng phủ bên ngoài.`)
-            .setFooter(`Trang trước (.inv ME329--2)`);
+            .setFooter(`Trang trước (.inv ME329--2) | Trang sau (.inv ME329--4)`);
             
         message.channel.sendEmbed(ME329);
     }
 
-    //if(args[0]==="ME329--4"| args[0]==="me329--4" | args[0]==="Me329--4"){
-    //    var ME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
-    //        .setTitle(`- KHO ĐỒ (Page 3) -`)
-    //        .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
-    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-    //        .addField(`Poké:`,`155`,inline = true)
-    //        .addField(`Spooky Token:`,`67`,inline = true)
-    //        .addField(`Choco-Heart:`,`1`,inline = true)
-    //        .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
-    //        .setFooter(`Trang trước (.inv ME329--3)`);
+    if(args[0]==="ME329--4"| args[0]==="me329--4" | args[0]==="Me329--4"){
+        var ME329 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ (Page 3) -`)
+            .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`155`,inline = true)
+            .addField(`Spooky Token:`,`67`,inline = true)
+            .addField(`Choco-Heart:`,`1`,inline = true)
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
+            .setFooter(`Trang trước (.inv ME329--3)`);
             
-    //    message.channel.sendEmbed(ME329);
-    //}
+        message.channel.sendEmbed(ME329);
+    }
+
     // Corsola (ME595) ///
     if(args[0]==="ME595"| args[0]==="Me595" | args[0]==="me595" | args[0]==="Corsola" | args[0]==="corsola"){
         var ME595 = new Discord.RichEmbed().setColor(`#5CE05F`)
@@ -1069,18 +1070,18 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
         message.channel.sendEmbed(ME906);
     }
 
-    //if(args[0]==="ME906--7"| args[0]==="Me906--7" | args[0]==="me906--7"){
-    //    var ME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
-    //        .setTitle(`- KHO ĐỒ (Size 1 | Page 6) -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
-    //        .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
-    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-    //        .addField(`Poké:`,`1558`,inline = true)
-    //        .addField(`Snowflake:`,`20`,inline = true)
-    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-    //        .setFooter(`Trang trước (.inv ME906--6)`);
+    if(args[0]==="ME906--7"| args[0]==="Me906--7" | args[0]==="me906--7"){
+        var ME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- KHO ĐỒ (Size 1 | Page 6) -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
+            .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Poké:`,`1558`,inline = true)
+            .addField(`Snowflake:`,`20`,inline = true)
+            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+            .setFooter(`Trang trước (.inv ME906--6)`);
 
-    //    message.channel.sendEmbed(ME906);
-    //}
+        message.channel.sendEmbed(ME906);
+    }
 
 
 ////////////////   MEMBER   ////////////////
