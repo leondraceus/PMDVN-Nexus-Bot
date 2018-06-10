@@ -2240,6 +2240,24 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
         message.channel.sendEmbed(ME889);
 
     }
+
+    //// Muk (ME724) ///
+    if(args[0]==="ME724"| args[0]==="me724" | args[0]==="Me724"| args[0]==="Muk"| args[0]==="muk"){
+        var ME724 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Muk/Karry Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8e/Muk.png/revision/latest/scale-to-width-down/100?cb=20180608082703`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Muk`)
+            .addField(`Tên Facebook:`,`Karry Nguyễn`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`26/4`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME724);
+
+    }
 }
 
 module.exports.help = {
