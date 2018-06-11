@@ -26,7 +26,7 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`784/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
- Kho đồ được mở rộng`);
+ Kho đồ được mở rộng (+5 Slot)`);
         message.channel.sendEmbed(ME061);
     }
 
@@ -78,7 +78,7 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1217/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
-            Kho đồ được mở rộng`);
+            Kho đồ được mở rộng (+5 Slot)`);
             
         message.channel.sendEmbed(ME563);
     }
@@ -92,7 +92,7 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`884/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
-Kho đồ được mở rộng`);
+Kho đồ được mở rộng (+5 Slot)`);
             
         message.channel.sendEmbed(ME329);
     }
@@ -145,9 +145,8 @@ Kho đồ được mở rộng`);
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1735/1750`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (2 lần/tháng)
-Kho đồ được mở rộng
-Không bị trừ Pts khi bán đồ`);
+            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (4 lần/tháng)
+Kho đồ được mở rộng (+5 Slot)`);
     
 
         message.channel.sendEmbed(ME072);
@@ -162,7 +161,7 @@ Không bị trừ Pts khi bán đồ`);
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐`)
             .addField(`Số điểm (Points):`,`1252/1300`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
-Kho đồ được mở rộng`);
+Kho đồ được mở rộng (+5 Slot)`);
 
         message.channel.sendEmbed(ME906);
     }
