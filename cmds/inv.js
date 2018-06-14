@@ -2221,12 +2221,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME867** | **.i
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Mega Diancie/Nguyễn Diancie`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/31/Megadiancie.png/revision/latest/scale-to-width-down/100?cb=20160815093508`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`3556`,inline = true)
+            .addField(`Poké:`,`4306`,inline = true)
             .addField(`Snowflake:`,`80`,inline = true)
             .addField(`Choco-Heart:`,`17`,inline = true)
             .addField(`Deerling Doll (Winter)`,`Một con búp bê hình Pokémon Deerling Doll (Winter Form).`)
             .addField(`Ice Diamond`,`Một viên kim cương lấp lánh có lớp băng phủ bên ngoài.`)
-            .addField(`Heart Scale (x1)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`);
+            .addField(`Heart Scale (x1)`,`Một miếng vảy hình trái tim tuyệt đẹp và rất quý hiếm. Nó phát sáng nhẹ với đủ 7 màu sắc của cầu vồng.`)
+            .addField(`Corsola Twig (x1)`,`Một nhánh sừng của Pokémon Corsola, được dùng để ném gây sát thương.`);
             
         message.channel.sendEmbed(ME905);
     }
