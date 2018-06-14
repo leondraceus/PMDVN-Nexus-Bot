@@ -90,7 +90,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor(`Spinda/Bihaicau Neko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Spinda.png/revision/latest/scale-to-width-down/100?cb=20160904162441`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`884/980`)
+            .addField(`Số điểm (Points):`,`829/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng (+5 Slot)`);
             
@@ -768,7 +768,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME099** | **
             .setAuthor (`Vaporeon/Tuấn Minh Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fc/Vaporeon.png/revision/latest/scale-to-width-down/100?cb=20160910143926`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`576/750`)
+            .addField(`Số điểm (Points):`,`598/750`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
 
         message.channel.sendEmbed(ME014);
@@ -996,7 +996,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME514** | **
             .setAuthor(`Serperior/Nguyễn Hoài Thu`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/6a/Serperior.png/revision/latest/scale-to-width-down/100?cb=20160904162403`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`611/750`)
+            .addField(`Số điểm (Points):`,`639/750`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
             
         message.channel.sendEmbed(ME868);
@@ -1518,8 +1518,8 @@ Vui lòng dùng code để tra cứu theo lệnh sau: **.info ME644**`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Muk/Karry Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8e/Muk.png/revision/latest/scale-to-width-down/100?cb=20180608082703`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`101/150`)
+            .addField(`Cấp bậc (Rank):`,`⭐`)
+            .addField(`Số điểm (Points):`,`226/300`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME724);
