@@ -1589,7 +1589,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | Page 1) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1b/Sentiment_Banner.png/revision/latest?cb=20180215033217`)
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2900`,inline = true)
+            .addField(`Poké:`,`770`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
             .addField(`Snowflake:`,`63`,inline = true)
             .addField(`Choco-Heart:`,`22`,inline = true)
@@ -1608,7 +1608,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | Page 2) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1b/Sentiment_Banner.png/revision/latest?cb=20180215033217`)
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2900`,inline = true)
+            .addField(`Poké:`,`770`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
             .addField(`Snowflake:`,`63`,inline = true)
             .addField(`Choco-Heart:`,`22`,inline = true)
@@ -1627,7 +1627,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .setTitle(`- KHO ĐỒ (Size 1 | Page 3) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1b/Sentiment_Banner.png/revision/latest?cb=20180215033217`)
             .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`2900`,inline = true)
+            .addField(`Poké:`,`770`,inline = true)
             .addField(`Spooky Token:`,`10`,inline = true)
             .addField(`Snowflake:`,`63`,inline = true)
             .addField(`Choco-Heart:`,`22`,inline = true)
@@ -1636,7 +1636,25 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
             .addField(`Totodile Doll`,`Một con búp bê hình Pokémon Totodile.`)
             .addField(`Heart Balloon`,`Một quả bóng bay hình trái tim.`)
             .addField(`Croconaw Doll`,`Một con búp bê hình Pokémon Croconaw.`)
-            .setFooter(`Trang trước (.inv ME240--2)`);
+            .setFooter(`Trang trước (.inv ME240--2) | Trang sau (.inv ME240--4)`);
+            
+        message.channel.sendEmbed(ME240);
+    }
+
+    if(args[0]==="ME240--3"| args[0]==="Me240--3" | args[0]==="me240--3"){
+        var ME240 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ (Size 1 | Page 4) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1b/Sentiment_Banner.png/revision/latest?cb=20180215033217`)
+            .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`770`,inline = true)
+            .addField(`Spooky Token:`,`10`,inline = true)
+            .addField(`Snowflake:`,`63`,inline = true)
+            .addField(`Choco-Heart:`,`22`,inline = true)
+            .addField(`Ice Diamond`,`Một viên kim cương lấp lánh có lớp băng phủ bên ngoài.`)
+            .addField(`Delibird Doll`,`Một con búp bê hình Pokémon Delibird.`)
+            .addField(`Discount Voucher 50%`,`Một chiếc vé giảm giá nhận được tại cửa hàng Glaceon's Chilling Stand. Bạn có thể sử dụng chiếc vé này để giảm giá 50% cho đơn đặt hàng tiếp theo.`)
+            .addField(`Discount Voucher 100%`,`Một chiếc vé giảm giá nhận được tại cửa hàng Glaceon's Chilling Stand. Bạn có thể sử dụng chiếc vé này để giảm giá 100% cho đơn đặt hàng tiếp theo.`)
+            .setFooter(`Trang trước (.inv ME240--3)`);
             
         message.channel.sendEmbed(ME240);
     }
@@ -1646,7 +1664,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME459** | **.i
     //        .setTitle(`- KHO ĐỒ (Size 1 | Page 4) -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/1b/Sentiment_Banner.png/revision/latest?cb=20180215033217`)
     //        .setAuthor (`Dewott/Namhuy Ly`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/85/Dewott_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20171227073307`)
     //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-    //        .addField(`Poké:`,`2900`,inline = true)
+    //        .addField(`Poké:`,`770`,inline = true)
     //        .addField(`Spooky Token:`,`10`,inline = true)
     //        .addField(`Snowflake:`,`63`,inline = true)
     //        .addField(`Choco-Heart:`,`22`,inline = true)
