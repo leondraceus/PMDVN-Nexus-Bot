@@ -180,6 +180,19 @@ Kho đồ được mở rộng (+5 Slot)`);
         message.channel.sendEmbed(AD006);
     }
 
+    /// Gible (AD008) ///
+    if(args[0]==="AD008"| args[0]==="ad008" | args[0]==="Ad008" | args[0]==="Gible" | args[0]==="gible"){
+        var AD008 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/xadjdAw.gif`)
+            .setAuthor(`Gible/Leon Draceus`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/37/Gible.png/revision/latest/scale-to-width-down/100?cb=20160827072330`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`80/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(AD008);
+    }
+
 ////////////////   MEMBER   ////////////////
 
     /// Electivire (ME004) ///
