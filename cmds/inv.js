@@ -127,22 +127,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
         message.channel.sendEmbed(AD006);
     }
 
-    //if(args[0]==="AD006--2"| args[0]==="ad006--2" | args[0]==="Ad006--2"){
-    //    var AD006 = new Discord.RichEmbed().setColor(`#5CE05F`)
-    //        .setTitle(`- KHO ĐỒ -`).setImage(`https://media.giphy.com/media/WwP8MgzB08PMyxUsMX/giphy.gif`)
-    //        .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
-    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-    //        .addField(`Poké:`,`0`,inline = true)
-    //        .addField(`Fennekin Doll`,`Một con búp bê hình Pokémon Fennekin.`)
-    //        .addField(`Growlithe Doll`,`Một con búp bê hình Pokémon Growlithe.`)
-    //        .addField(`Rowlet Doll`,`Một con búp bê hình Pokémon Rowlet.`)
-    //        .addField(`Popplio Doll`,`Một con búp bê hình Pokémon Popplio.`)
-    //        .addField(`Charmander Doll`,`Một con búp bê hình Pokémon Charmander.`)
-    //        .setFooter(`Trang trước (.inv AD006)`);
-            
-    //    message.channel.sendEmbed(AD006);
-    //}
-
 //    else if(args[0]==="Honchkrow" | args[0]==="honchkrow"){
 //        message.channel.sendMessage(`**Hiện tại có 2 Honchkrow**
 //Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD006** | **?**`)
@@ -3213,7 +3197,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD003** | **.i
     }
 
     //// Eevee (ME889) ///
-    if(args[0]==="ME889"| args[0]==="me889" | args[0]==="Me889"| args[0]==="Eevee"| args[0]==="eevee"){
+    if(args[0]==="ME889"| args[0]==="me889" | args[0]==="Me889"){
         var ME889 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- KHO ĐỒ -`)
             .setAuthor(`Eevee/Usagi Nymphia`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f2/Eevee.png/revision/latest/scale-to-width-down/100?cb=20161005092447`)
@@ -3224,6 +3208,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD003** | **.i
             
         message.channel.sendEmbed(ME889);
     }
+
+    else if(args[0]==="Eevee" | args[0]==="eevee"){
+        message.channel.sendMessage(`**Hiện tại có 2 Eevee**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME889** | **.inv ME635**`)
+
+}
 
     //// Muk (ME724) ///
     if(args[0]==="ME724"| args[0]==="me724" | args[0]==="Me724"| args[0]==="Muk"| args[0]==="muk"){
@@ -3254,6 +3244,19 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD003** | **.i
             .setFooter(`Trang trước (.inv ME724)`);
             
         message.channel.sendEmbed(ME724);
+    }
+
+    //// Eevee (ME635) ///
+    if(args[0]==="ME635"| args[0]==="me635" | args[0]==="Me635"){
+        var ME635 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Eevee/Trường Long Kurai`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f2/Eevee.png/revision/latest/scale-to-width-down/100?cb=20161005092447`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME635);
+
     }
 }
 

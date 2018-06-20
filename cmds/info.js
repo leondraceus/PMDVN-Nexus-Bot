@@ -2224,7 +2224,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
 
     }
     //// Eevee (ME889) ///
-    if(args[0]==="ME889"| args[0]==="me889" | args[0]==="Me889"| args[0]==="Eevee"| args[0]==="eevee"){
+    if(args[0]==="ME889"| args[0]==="me889" | args[0]==="Me889"){
         var ME889 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Eevee/Usagi Nymphia`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f2/Eevee.png/revision/latest/scale-to-width-down/100?cb=20161005092447`)
@@ -2241,6 +2241,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
 
     }
 
+    else if(args[0]==="Eevee" | args[0]==="eevee"){
+        message.channel.sendMessage(`**Hiện tại có 2 Eevee**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME889** | **.info ME635**`)
+
+}
+
     //// Muk (ME724) ///
     if(args[0]==="ME724"| args[0]==="me724" | args[0]==="Me724"| args[0]==="Muk"| args[0]==="muk"){
         var ME724 = new Discord.RichEmbed().setColor(`#3A77E6`)
@@ -2256,6 +2262,24 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME724);
+
+    }
+
+    //// Eevee (ME635) ///
+    if(args[0]==="ME635"| args[0]==="me635" | args[0]==="Me635"){
+        var ME635 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Eevee/Trường Long Kurai`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f2/Eevee.png/revision/latest/scale-to-width-down/100?cb=20161005092447`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Eevee`)
+            .addField(`Tên Facebook:`,`Trường Long Kurai`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`5/6`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME635);
 
     }
 }
