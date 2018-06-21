@@ -781,172 +781,184 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv AD005** | **.i
         message.channel.sendEmbed(ME674);
     }
 
-    // Dedenne (ME072) ///
-    if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
+   if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
         var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 1) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+            .setTitle(`- KHO ĐỒ -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
             .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang sau (.inv ME072--2)`);
-
+            .addField(`Poké:`,`0`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
         message.channel.sendEmbed(ME072);
+
     }
+
+    //// Dedenne (ME072) ///
+    //if(args[0]==="ME072"| args[0]==="Me072" | args[0]==="me072" | args[0]==="Dedenne" | args[0]==="dedenne"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 1) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang sau (.inv ME072--2)`);
+
+    //    message.channel.sendEmbed(ME072);
+    //}
     
-    if(args[0]==="ME072--2"| args[0]==="Me072--2" | args[0]==="me072--2"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 2) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME072) | Trang sau (.inv ME072--3)`);
+    //if(args[0]==="ME072--2"| args[0]==="Me072--2" | args[0]==="me072--2"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 2) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang trước (.inv ME072) | Trang sau (.inv ME072--3)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
-    if(args[0]==="ME072--3"| args[0]==="Me072--3" | args[0]==="me072--3"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 3) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME072--2) | Trang sau (.inv ME072--4)`);
+    //if(args[0]==="ME072--3"| args[0]==="Me072--3" | args[0]==="me072--3"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 3) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang trước (.inv ME072--2) | Trang sau (.inv ME072--4)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
-    if(args[0]==="ME072--4"| args[0]==="Me072--4" | args[0]==="me072--4"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 4) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME072--3) | Trang sau (.inv ME072--5)`);
+    //if(args[0]==="ME072--4"| args[0]==="Me072--4" | args[0]==="me072--4"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 4) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang trước (.inv ME072--3) | Trang sau (.inv ME072--5)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
-    if(args[0]==="ME072--5"| args[0]==="Me072--5" | args[0]==="me072--5"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 5) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME072--4) | Trang sau (.inv ME072--6)`);
+    //if(args[0]==="ME072--5"| args[0]==="Me072--5" | args[0]==="me072--5"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 5) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang trước (.inv ME072--4) | Trang sau (.inv ME072--6)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
-    if(args[0]==="ME072--6"| args[0]==="Me072--6" | args[0]==="me072--6"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 6) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME072--5) | Trang sau (.inv ME072--7)`);
+    //if(args[0]==="ME072--6"| args[0]==="Me072--6" | args[0]==="me072--6"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 6) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang trước (.inv ME072--5) | Trang sau (.inv ME072--7)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
-    if(args[0]==="ME072--7"| args[0]==="Me072--7" | args[0]==="me072--7"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 7) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME072--6) | Trang sau (.inv ME072--8)`);
+    //if(args[0]==="ME072--7"| args[0]==="Me072--7" | args[0]==="me072--7"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 7) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang trước (.inv ME072--6) | Trang sau (.inv ME072--8)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
-    if(args[0]==="ME072--8"| args[0]==="Me072--8" | args[0]==="me072--8"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 8) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME072--7) | Trang sau (.inv ME072--9)`);
+    //if(args[0]==="ME072--8"| args[0]==="Me072--8" | args[0]==="me072--8"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 8) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang trước (.inv ME072--7) | Trang sau (.inv ME072--9)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
-    if(args[0]==="ME072--9"| args[0]==="Me072--9" | args[0]==="me072--9"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 9) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
-            .setFooter(`Trang trước (.inv ME072--8) | Trang sau (.inv ME072--10)`);
+    //if(args[0]==="ME072--9"| args[0]==="Me072--9" | args[0]==="me072--9"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 9) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .addField(`Dedenne Doll`,`Một con búp bê hình Pokémon Dedenne.`)
+    //        .setFooter(`Trang trước (.inv ME072--8) | Trang sau (.inv ME072--10)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
-    if(args[0]==="ME072--10"| args[0]==="Me072--10" | args[0]==="me072--10"){
-        var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- KHO ĐỒ (Size 3 | Page 10) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
-            .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Poké:`,`809`,inline = true)
-            .addField(`Snowflake:`,`1`,inline = true)
-            .addField(`Forgotten Badge`,`Một chiếc huy hiệu cũ kĩ đã rỉ sét. Bây giờ họ không sản xuất thứ này nữa...`)
-            .setFooter(`Trang trước (.inv ME072--9)`);
+    //if(args[0]==="ME072--10"| args[0]==="Me072--10" | args[0]==="me072--10"){
+    //    var ME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
+    //        .setTitle(`- KHO ĐỒ (Size 3 | Page 10) -`).setImage(`https://media.giphy.com/media/iYtNcKttP8tThGl1mS/giphy.gif`)
+    //        .setAuthor (`Dedenne/Trần Khoa Lộc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/33/Dedenne1.png/revision/latest/scale-to-width-down/100?cb=20170618090108`)
+    //        .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+    //        .addField(`Poké:`,`809`,inline = true)
+    //        .addField(`Snowflake:`,`1`,inline = true)
+    //        .addField(`Forgotten Badge`,`Một chiếc huy hiệu cũ kĩ đã rỉ sét. Bây giờ họ không sản xuất thứ này nữa...`)
+    //        .setFooter(`Trang trước (.inv ME072--9)`);
 
-        message.channel.sendEmbed(ME072);
-    }
+    //    message.channel.sendEmbed(ME072);
+    //}
 
     // Espeon (ME906) ///
     if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"){
