@@ -452,7 +452,7 @@ Tinh mắt và nhanh tay (22/5/2018)`);
             .addField(`Ngày sinh:`,`5/4`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ACME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)
 Time to Explode (1/1/2018 -> 6/1/2018)
@@ -479,7 +479,7 @@ Couple Race (18/3/2018)`)
             .addField(`Ngày sinh:`,`14/1`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ACME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)
 Pokémon's Werewolf (17/1/2018 -> 18/1/2018)
