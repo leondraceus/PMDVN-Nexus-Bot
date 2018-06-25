@@ -69,7 +69,7 @@ bot.on('message', (message) => {
         message.channel.sendMessage("(╯°□°）╯︵ ┻━┻")
     }
 
-    if(message.content === "xoạc không" | message.content === "xoạc nha" | message.content === "Ch1ch" | message.content === "ch1ch"| message.content === "xoạc"| message.content === "ch!ch" | message.content === "Ch!ch"){
+    if(message.content === "xoạc không em" | message.content === "xoạc không anh" | message.content === "Ch1ch" | message.content === "ch1ch"| message.content === "xoạc"| message.content === "ch!ch" | message.content === "Ch!ch"){
         message.channel.sendMessage("( ͡° ͜ʖ ͡°)")
     }
 
