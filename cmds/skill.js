@@ -174,8 +174,8 @@ Kho đồ được mở rộng (+5 Slot)`);
             .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`497/525`)
-            .addField(`Kỹ năng (Skills):`,`---`);
+            .addField(`Số điểm (Points):`,`547/750`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
             
         message.channel.sendEmbed(AD006);
     }

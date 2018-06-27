@@ -125,7 +125,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`12/12`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Làm Admin Group`);
+            .addField(`Thành tích:`,`Làm Admin Group`)
+            .addField(`Tổ chức Member Event`,`Treasure Hunt (16/6/2018 -> 17/6/2018)`);
             
         message.channel.sendEmbed(AD006);
     }
