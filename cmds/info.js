@@ -1942,7 +1942,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
           var ACME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Giải nhất:`,`The Sky Challenges (Moltres Challenge)`)
-            .addField(`Giải ba:`,`The Sky Challenges (Zapdos Challenge)`);
+            .addField(`Giải ba:`,`The Sky Challenges (Zapdos Challenge)`)
+            .addField(`Tổ chức Member Event:`,`Quen mà lạ (16/5/2018 -> 23/5/2018)
+Quen mà lạ 2 (8/6/2018)`);
+     
 
          message.channel.sendEmbed(ME303);
          message.channel.sendEmbed(ACME303);
@@ -1979,7 +1982,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             .addField(`Guild:`,`---`)
              var ACME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`Is it your final choice? (25/3/2018)`)
+            .addField(`Tổ chức Member Event:`,`Is it your final choice? (25/3/2018)
+Protractor Team (19/5/2018 -> 6/6/2018)
+Nhìn và đoán 2 (11/6/2018)`)
             .addField(`Giải nhất:`,`The Sky Challenges (Zapdos Challenge)`)
             .addField(`Giải nhì:`,`The Sky Challenges (Articuno Challenge)`);
 
