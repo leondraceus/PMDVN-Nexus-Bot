@@ -484,7 +484,9 @@ Couple Race (18/3/2018)`)
             .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)
 Pokémon's Werewolf (17/1/2018 -> 18/1/2018)
 Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)
-Lucky Room (20/2/2018 -> 22/2/2018)`);
+Lucky Room (20/2/2018 -> 22/2/2018)
+Pokémon's Werewolf 2 (4/6/2018 -> 8/6/2018)
+Jukebox For Everyone (18/6/2018)`);
 
         message.channel.sendEmbed(ME906);
         message.channel.sendEmbed(ACME906);
@@ -1563,7 +1565,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Giải nhì:`,`Pokéween 2 - Lost in the Woods (Tour SD)`)
             .addField(`Giải nhất:`,` Heart Festival (Congenial Duo)`)
-            .addField(`Giải ba:`,` The Sky Challenges (Moltres Challenge)`);
+            .addField(`Giải ba:`,` The Sky Challenges (Moltres Challenge)`)
+            .addField(`Tổ chức Member Event:`,`Vượt chướng ngại vật (13/6/2018)`);
             
         message.channel.sendEmbed(ME868);
         message.channel.sendEmbed(ACME868);
