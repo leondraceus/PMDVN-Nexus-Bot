@@ -457,8 +457,10 @@ Tinh mắt và nhanh tay (22/5/2018)`);
             .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)
 Time to Explode (1/1/2018 -> 6/1/2018)
 Fast and Furious (14/1/2018)
-Berry Collector (25/2/2018 -> 25/2/2018)
-Couple Race (18/3/2018)`)
+Berry Collector (25/2/2018)
+Couple Race (18/3/2018)
+Time to Explode 2 (8/4/2018)
+Pokémon SOS (3/6/2018)`)
             .addField(`Giải nhì:`,`The Sky Challenges (Zapdos Challenge)`)
             .addField(`Giải ba:`,`Heart Festival (Meowth Theater)`)
             .addField(`Giải ba:`,`The Sky Challenges (Articuno Challenge)`);
@@ -1268,7 +1270,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Giải nhì:`,`Prison Bottle Event (Game Center)`)
             .addField(`Giải nhất:`,`Heart Festival (Congenial Duo)`)
-            .addField(`Tổ chức Event:`,`Poké-Quiz (27/5/2018)`);
+            .addField(`Tổ chức Event:`,`Poké-Quiz (27/5/2018)
+Nhìn và đoán (5/6/2018)
+Pokémon Royal Battle (10/6/2018)`);
             
         message.channel.sendEmbed(ME014);
         message.channel.sendEmbed(ACME014);
