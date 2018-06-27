@@ -386,7 +386,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`772/980`)
+            .addField(`Số điểm (Points):`,`794/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng (+5 Slot)`);
 

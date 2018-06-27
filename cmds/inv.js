@@ -1430,7 +1430,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
             .setTitle(`- KHO ĐỒ (Page 1) -`).setImage(`https://media.giphy.com/media/5nueNKRsuVEl9tz5k8/giphy.gif`)
             .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`500`,inline = true)
+            .addField(`Poké:`,`290`,inline = true)
             .addField(`Snowflake:`,`6`,inline = true)
             .addField(`Choco-Heart:`,`15`,inline = true)
             .addField(`Rockruff Doll`,`Một con búp bê hình Pokémon Rockruff.`)
@@ -1448,12 +1448,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME304** | **.i
             .setTitle(`- KHO ĐỒ (Page 2) -`).setImage(`https://media.giphy.com/media/5nueNKRsuVEl9tz5k8/giphy.gif`)
             .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Poké:`,`500`,inline = true)
+            .addField(`Poké:`,`290`,inline = true)
             .addField(`Snowflake:`,`6`,inline = true)
             .addField(`Choco-Heart:`,`15`,inline = true)
             .addField(`Jolteon Doll`,`Một con búp bê hình Pokémon Jolteon.`)
             .addField(`Vaporeon Doll`,`Một con búp bê hình Pokémon Vaporeon.`)
             .addField(`Espeon Doll`,`Một con búp bê hình Pokémon Espeon.`)
+            .addField(`Sylveon Doll`,`Một con búp bê hình Pokémon Sylveon.`)
             .setFooter(`Trang trước (.inv ME008)`);
 
         message.channel.sendEmbed(ME008);
