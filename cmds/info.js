@@ -154,15 +154,15 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     
     /// Gible (AD008) ///
     if(args[0]==="AD008"| args[0]==="ad008" | args[0]==="Ad008" | args[0]==="Gible" | args[0]==="gible"){
-        var AD008 = new Discord.RichEmbed().setColor(`#5CE05F`)
+        var AD008 = new Discord.RichEmbed().setColor(`#FF0000`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/xadjdAw.gif`)
             .setAuthor(`Gible/Leon Draceus`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/37/Gible.png/revision/latest/scale-to-width-down/100?cb=20160827072330`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest/scale-to-width-down/56?cb=20170613044000`)
             .addField(`Chủng loài:`,`Gible`)
             .addField(`Tên Facebook:`,`Leon Draceus`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`4/12`)
-            .addField(`Cấp bậc:`,`Contributor`)
+            .addField(`Cấp bậc:`,`Developer`)
             .addField(`Guild:`,`---`)
             .addField(`Thành tích:`,`Làm Admin Group`);
             
