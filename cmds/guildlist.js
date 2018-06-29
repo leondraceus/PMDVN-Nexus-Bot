@@ -18,8 +18,7 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Jolteon (ME684)`,`Cấp bậc: Thành viên`)
             .addField(`Flareon (ME008)`,`Cấp bậc: Thành viên`)
             .addField(`Vaporeon (ME014)`,`Cấp bậc: Thành viên`)
-            .addField(`Jirachi (ME394)`,`Cấp bậc: Thành viên`)
-            .setFooter(`Guild được thành lập dành cho những bạn yêu thích và đã là một trong các Eeveelutions.);
+            .addField(`Jirachi (ME394)`,`Cấp bậc: Thành viên`);
 
         message.channel.sendEmbed(G001);
         message.channel.sendEmbed(ACG001);
