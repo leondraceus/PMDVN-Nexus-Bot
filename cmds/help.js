@@ -11,9 +11,10 @@ module.exports.run = async (pw, message, args) => {
         .addField(`.skill <member code/pokemon>`,`Xem Pokémon Skill`)
         .addField(`2. TIỆN ÍCH`,`---------------`)
         .addField(`.shop`,`Xem các mặt hàng trên Kecleon's Shop.`)
+        .addField(`.guildclub`,`Xem thông tin về các guild.`)
         .addField(`3. GIẢI TRÍ`,`---------------`)
         .addField(`\u200B`,`.bite | .slap | .smash | .poke | .hug | 
-.kiss | .lick | .intensify | .trigger | .explode | .fliptable`,inline = true)
+.kiss | .lick | .intensify | .trigger | .explode`,inline = true)
         .setColor(`#a366ff`);
    
     message.channel.sendEmbed(embed);
