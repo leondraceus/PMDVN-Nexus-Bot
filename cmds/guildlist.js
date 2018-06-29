@@ -10,7 +10,8 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Ngày thành lập`,`15/6/2018`)
             .addField(`Hội trưởng`,`Espeon (ME906)`)
             .addField(`Guild Base Theme`,`N/A`)
-            .addField(`Số lượng thành viên tối đa`,`5`);
+            .addField(`Số lượng thành viên tối đa`,`5`)
+            .setFooter(`Guild được thành lập dành cho những bạn yêu thích và đã là một trong các Eeveelutions.`);
         var ACG001 = new Discord.RichEmbed().setColor(`#FF69B4`)
             .setTitle(`- THÀNH VIÊN CỦA GUILD -`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/80?cb=20160918160608`)
             .addField(`Espeon (ME906)`,`Cấp bậc: Hội trưởng`)
