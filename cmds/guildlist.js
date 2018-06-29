@@ -31,15 +31,15 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Ngày thành lập`,`20/6/2018`)
             .addField(`Hội trưởng`,`Torterra (ME563)`)
             .addField(`Guild Base Theme`,`N/A`)
-            .addField(`Số lượng thành viên tối đa`,`5`);
+            .addField(`Số lượng thành viên tối đa`,`5`)
+            .addField(`Giới thiệu về Guild:`,`Guild được thành lập dành cho những bạn yêu thích và đã là một trong các Eeveelutions.`);
         var ACG002 = new Discord.RichEmbed().setColor(`#FF69B4`)
             .setTitle(`- THÀNH VIÊN CỦA GUILD -`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/05/Torterra.png/revision/latest/scale-to-width-down/80?cb=20171128145511`)
             .addField(`Torterra (ME563)`,`Cấp bậc: Hội trưởng`)
             .addField(`Serperior (ME868)`,`Cấp bậc: Thành viên`)
             .addField(`Sceptile (ME855)`,`Cấp bậc: Thành viên`)
             .addField(`Lilligant (ME571)`,`Cấp bậc: Thành viên`)
-            .addField(`Decidueye (ME330)`,`Cấp bậc: Thành viên`)
-            .setFooter(`Guild được thành lập dành cho những bạn yêu thích và đã là một trong các Eeveelutions.`);
+            .addField(`Decidueye (ME330)`,`Cấp bậc: Thành viên`);
 
         message.channel.sendEmbed(G002);
         message.channel.sendEmbed(ACG002);
