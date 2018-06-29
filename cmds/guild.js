@@ -13,5 +13,5 @@ module.exports.run = async (pw, message, args) => {
 }
 
 module.exports.help = {
-    name: "guild"
+    name: "guildclub"
 }
