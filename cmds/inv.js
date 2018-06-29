@@ -3287,7 +3287,6 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME889** | **.i
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME156);
-
     }
 
     //// Ditto (ME221) ///
@@ -3300,7 +3299,21 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME889** | **.i
             .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
             
         message.channel.sendEmbed(ME221);
+    }
 
+     //// Rowlet (ME043) ///
+    if(args[0]==="ME043"| args[0]==="me043" | args[0]==="Me043"| args[0]==="Rowlet"| args[0]==="rowlet"){
+        var ME043 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Rowlet/Hoàng Khang Đỗ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/ff/Rowlet.png/revision/latest/scale-to-width-down/100?cb=20170617071317`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`495`,inline = true)
+            .addField(`Rowlet Doll`,`Một con búp bê hình Pokémon Rowlet.`)
+            .addField(`Plusle Doll`,`Một con búp bê hình Pokémon Plusle.`)
+            .addField(`Minun Doll`,`Một con búp bê hình Pokémon Minun.`)
+            .addField(`Zekrom Doll`,`Một con búp bê hình Pokémon Zekrom.`);
+            
+        message.channel.sendEmbed(ME043);
     }
 }
 
