@@ -3276,6 +3276,19 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.inv ME889** | **.i
         message.channel.sendEmbed(ME635);
 
     }
+
+    //// Mega Garchomp (ME156) ///
+    if(args[0]==="ME156"| args[0]==="me156" | args[0]==="Me156"| args[0]==="MegaGarchomp"| args[0]==="megagarchomp"){
+        var ME156 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- KHO ĐỒ -`)
+            .setAuthor(`Mega Garchomp/Nguyễn Ngọc Quí`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Megagarchomp.png/revision/latest/scale-to-width-down/100?cb=20180623083920`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Poké:`,`10`,inline = true)
+            .addField(`Không có Item nào trong kho đồ...`,`\u200B`);
+            
+        message.channel.sendEmbed(ME156);
+
+    }
 }
 
 module.exports.help = {
