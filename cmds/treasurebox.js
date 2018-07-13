@@ -43,6 +43,6 @@ else if (roll == 12 || roll == 24 || roll == 25|| roll == 47 || roll == 48)
 }
 
 module.exports.help = {
-    name: "tor"
+    name: "tod"
 }
 
