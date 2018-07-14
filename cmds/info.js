@@ -125,7 +125,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
             .addField(`Ngày sinh:`,`12/12`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
-            .addField(`Thành tích:`,`Làm Admin Group`);
+            .addField(`Thành tích:`,`Làm Admin Group`)
+            .addField(`Tổ chức Member Event`,`Treasure Hunt (16/6/2018 -> 17/6/2018)`);
             
         message.channel.sendEmbed(AD006);
     }
@@ -153,10 +154,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
     
     /// Gible (AD008) ///
     if(args[0]==="AD008"| args[0]==="ad008" | args[0]==="Ad008" | args[0]==="Gible" | args[0]==="gible"){
-        var AD008 = new Discord.RichEmbed().setColor(`#E7462B`)
+        var AD008 = new Discord.RichEmbed().setColor(`#FF0000`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://i.imgur.com/xadjdAw.gif`)
             .setAuthor(`Gible/Leon Draceus`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/37/Gible.png/revision/latest/scale-to-width-down/100?cb=20160827072330`)
-            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest?cb=20170613044000`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9e/Developer_Logo.png/revision/latest/scale-to-width-down/56?cb=20170613044000`)
             .addField(`Chủng loài:`,`Gible`)
             .addField(`Tên Facebook:`,`Leon Draceus`)
             .addField(`Giới tính:`,`Nam`)
@@ -452,13 +453,15 @@ Tinh mắt và nhanh tay (22/5/2018)`);
             .addField(`Ngày sinh:`,`5/4`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME072 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ACME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Kicking Contest (24/12/2017 -> 1/1/2018)
 Time to Explode (1/1/2018 -> 6/1/2018)
 Fast and Furious (14/1/2018)
-Berry Collector (25/2/2018 -> 25/2/2018)
-Couple Race (18/3/2018)`)
+Berry Collector (25/2/2018)
+Couple Race (18/3/2018)
+Time to Explode 2 (8/4/2018)
+Pokémon SOS (3/6/2018)`)
             .addField(`Giải nhì:`,`The Sky Challenges (Zapdos Challenge)`)
             .addField(`Giải ba:`,`Heart Festival (Meowth Theater)`)
             .addField(`Giải ba:`,`The Sky Challenges (Articuno Challenge)`);
@@ -479,12 +482,14 @@ Couple Race (18/3/2018)`)
             .addField(`Ngày sinh:`,`14/1`)
             .addField(`Cấp bậc:`,`Member`)
             .addField(`Guild:`,`---`);
-        var ACME906 = new Discord.RichEmbed().setColor(`#3A77E6`)
+        var ACME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Pokémon Songs Contest (7/1/2018 -> 10/1/2018)
 Pokémon's Werewolf (17/1/2018 -> 18/1/2018)
 Xoắn não cùng Delibird (23/1/2018 -> 25/1/2018)
-Lucky Room (20/2/2018 -> 22/2/2018)`);
+Lucky Room (20/2/2018 -> 22/2/2018)
+Pokémon's Werewolf 2 (4/6/2018 -> 8/6/2018)
+Jukebox For Everyone (18/6/2018)`);
 
         message.channel.sendEmbed(ME906);
         message.channel.sendEmbed(ACME906);
@@ -1266,7 +1271,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Giải nhì:`,`Prison Bottle Event (Game Center)`)
             .addField(`Giải nhất:`,`Heart Festival (Congenial Duo)`)
-            .addField(`Tổ chức Event:`,`Poké-Quiz (27/5/2018)`);
+            .addField(`Tổ chức Event:`,`Poké-Quiz (27/5/2018)
+Nhìn và đoán (5/6/2018)
+Pokémon Royal Battle (10/6/2018)`);
             
         message.channel.sendEmbed(ME014);
         message.channel.sendEmbed(ACME014);
@@ -1563,7 +1570,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Giải nhì:`,`Pokéween 2 - Lost in the Woods (Tour SD)`)
             .addField(`Giải nhất:`,` Heart Festival (Congenial Duo)`)
-            .addField(`Giải ba:`,` The Sky Challenges (Moltres Challenge)`);
+            .addField(`Giải ba:`,` The Sky Challenges (Moltres Challenge)`)
+            .addField(`Tổ chức Member Event:`,`Vượt chướng ngại vật (13/6/2018)`);
             
         message.channel.sendEmbed(ME868);
         message.channel.sendEmbed(ACME868);
@@ -1942,7 +1950,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
           var ACME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Giải nhất:`,`The Sky Challenges (Moltres Challenge)`)
-            .addField(`Giải ba:`,`The Sky Challenges (Zapdos Challenge)`);
+            .addField(`Giải ba:`,`The Sky Challenges (Zapdos Challenge)`)
+            .addField(`Tổ chức Member Event:`,`Quen mà lạ (16/5/2018 -> 23/5/2018)
+Quen mà lạ 2 (8/6/2018)`);
+     
 
          message.channel.sendEmbed(ME303);
          message.channel.sendEmbed(ACME303);
@@ -1979,7 +1990,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             .addField(`Guild:`,`---`)
              var ACME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÀNH TÍCH -`)
-            .addField(`Tổ chức Member Event:`,`Is it your final choice? (25/3/2018)`)
+            .addField(`Tổ chức Member Event:`,`Is it your final choice? (25/3/2018)
+Protractor Team (19/5/2018 -> 6/6/2018)
+Nhìn và đoán 2 (11/6/2018)`)
             .addField(`Giải nhất:`,`The Sky Challenges (Zapdos Challenge)`)
             .addField(`Giải nhì:`,`The Sky Challenges (Articuno Challenge)`);
 
@@ -2224,7 +2237,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
 
     }
     //// Eevee (ME889) ///
-    if(args[0]==="ME889"| args[0]==="me889" | args[0]==="Me889"| args[0]==="Eevee"| args[0]==="eevee"){
+    if(args[0]==="ME889"| args[0]==="me889" | args[0]==="Me889"){
         var ME889 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Eevee/Usagi Nymphia`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f2/Eevee.png/revision/latest/scale-to-width-down/100?cb=20161005092447`)
@@ -2241,6 +2254,12 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
 
     }
 
+    else if(args[0]==="Eevee" | args[0]==="eevee"){
+        message.channel.sendMessage(`**Hiện tại có 2 Eevee**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME889** | **.info ME635**`)
+
+}
+
     //// Muk (ME724) ///
     if(args[0]==="ME724"| args[0]==="me724" | args[0]==="Me724"| args[0]==="Muk"| args[0]==="muk"){
         var ME724 = new Discord.RichEmbed().setColor(`#3A77E6`)
@@ -2256,6 +2275,78 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD003** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME724);
+
+    }
+
+    //// Eevee (ME635) ///
+    if(args[0]==="ME635"| args[0]==="me635" | args[0]==="Me635"){
+        var ME635 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Eevee/Trường Long Kurai`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f2/Eevee.png/revision/latest/scale-to-width-down/100?cb=20161005092447`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Eevee`)
+            .addField(`Tên Facebook:`,`Trường Long Kurai`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`5/6`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME635);
+
+    }
+
+    //// Mega Garchomp (ME156) ///
+    if(args[0]==="ME156"| args[0]==="me156" | args[0]==="Me156"| args[0]==="MegaGarchomp"| args[0]==="megagarchomp"){
+        var ME156 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Mega Garchomp/Nguyễn Ngọc Quí`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/3b/Megagarchomp.png/revision/latest/scale-to-width-down/100?cb=20180623083920`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Garchomp (Mega)`)
+            .addField(`Tên Facebook:`,`Nguyễn Ngọc Quí`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`1/6`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME156);
+
+    }
+
+    //// Ditto (ME221) ///
+    if(args[0]==="ME221"| args[0]==="me221" | args[0]==="Me221"| args[0]==="Ditto"| args[0]==="ditto"){
+        var ME221 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Ditto/Phạm Thịnh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/03/Ditto.png/revision/latest/scale-to-width-down/100?cb=20180624034644`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Ditto`)
+            .addField(`Tên Facebook:`,`Phạm Thịnh`)
+            .addField(`Giới tính:`,`Bisexual`)
+            .addField(`Ngày sinh:`,`---`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME221);
+
+    }
+
+    //// Rowlet (ME043) ///
+    if(args[0]==="ME043"| args[0]==="me043" | args[0]==="Me043"| args[0]==="Rowlet"| args[0]==="rowlet"){
+        var ME043 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Rowlet/Hoàng Khang Đỗ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/ff/Rowlet.png/revision/latest/scale-to-width-down/100?cb=20170617071317`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Rowlet`)
+            .addField(`Tên Facebook:`,`Hoàng Khang Đỗ`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`6/6`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME043);
 
     }
 }
