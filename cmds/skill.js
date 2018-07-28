@@ -154,7 +154,7 @@ Nhận được thêm Poké khi tham gia Mini Event`);
     }
 
     // Espeon (ME906) ///
-    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"){
+    if(args[0]==="ME906"| args[0]==="Me906" | args[0]==="me906"| args[0]==="Espeon"| args[0]==="espeon"){
         var ME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/64a8qE3IPi7KVT5pVb/giphy.gif`)
             .setAuthor (`Espeon/Ngọc Bảo`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
@@ -1258,11 +1258,11 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME590** | **
         message.channel.sendEmbed(ME701);
     }
 
-    /// Espeon (ME069) ///
-    if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069"){
+    /// Haxorus (ME069) ///
+    if(args[0]==="ME069"| args[0]==="me069" | args[0]==="Me069"| args[0]==="Haxorus"| args[0]==="haxorus"){
         var ME069 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`)
-            .setAuthor(`Espeon/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ef/Espeon.png/revision/latest/scale-to-width-down/100?cb=20160918160608`)
+            .setAuthor(`Haxorus/Nguyễn Minh Triết`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9a/612.png/revision/latest/scale-to-width-down/100?cb=20180728113229`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
             .addField(`Số điểm (Points):`,`20/150`)
@@ -1453,11 +1453,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME720** | **
             
         message.channel.sendEmbed(ME720);
     }
-    else if(args[0]==="Espeon" | args[0]==="espeon"){
-        message.channel.sendMessage(`**Hiện tại có 2 Espeon**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME069** | **.skill ME906**`)
 
-    }
     else if(args[0]==="Zekrom" | args[0]==="zekrom"){
         message.channel.sendMessage(`**Hiện tại có 2 Zekrom**
 Vui lòng dùng code để tra cứu theo lệnh sau: **.info ME644**`)
@@ -1554,7 +1550,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME889** | **
     //// Muk (ME724) ///
     if(args[0]==="ME724"| args[0]==="me724" | args[0]==="Me724"| args[0]==="Muk"| args[0]==="muk"){
         var ME724 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d8/089.gif/revision/latest?cb=20180725063831`)
             .setAuthor(`Muk/Karry Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8e/Muk.png/revision/latest/scale-to-width-down/100?cb=20180608082703`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
