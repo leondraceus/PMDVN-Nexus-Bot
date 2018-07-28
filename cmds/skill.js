@@ -1620,6 +1620,47 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME889** | **
         message.channel.sendEmbed(ME043);
 
     }
+
+   //// Aegislash (ME519) ///
+    if(args[0]==="ME519"| args[0]==="me519" | args[0]==="Me519"| args[0]==="Aegislash"| args[0]==="aegislash"){
+        var ME519 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Aegislash/Pham Duc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/86/Aegislash.png/revision/latest/scale-to-width-down/100?cb=20180722061235`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`15/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME519);
+
+    }
+
+   //// Spheal (ME467) ///
+    if(args[0]==="ME467"| args[0]==="me467" | args[0]==="Me467"| args[0]==="Spheal"| args[0]==="spheal"){
+        var ME467 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Spheal/Long Dương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Spheal.png/revision/latest/scale-to-width-down/100?cb=20180703204000`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`131/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME467);
+
+    }
+
+    /// Reshiram (ME176) ///
+    if(args[0]==="ME176"| args[0]==="me176" | args[0]==="Me176"){
+        var ME176 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Reshiram/Reshiram Unova`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e2/Reshiram.png/revision/latest/scale-to-width-down/100?cb=20160822143716`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`---`)
+            .addField(`Số điểm (Points):`,`0/150`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME176);
+    }
 }
     
 module.exports.help = {

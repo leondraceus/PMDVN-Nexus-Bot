@@ -451,7 +451,7 @@ Tinh mắt và nhanh tay (22/5/2018)`);
             .addField(`Tên Facebook:`,`Trần Khoa Lộc`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`5/4`)
-            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`);
         var ACME072 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
@@ -480,7 +480,7 @@ Pokémon SOS (3/6/2018)`)
             .addField(`Tên Facebook:`,`Ngọc Bảo`)
             .addField(`Giới tính:`,`Nữ`)
             .addField(`Ngày sinh:`,`14/1`)
-            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`);
         var ACME906 = new Discord.RichEmbed().setColor(`#5CE05F`)
             .setTitle(`- THÀNH TÍCH -`)
@@ -2386,6 +2386,60 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME889** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME043);
+
+    }
+
+    //// Aegislash (ME519) ///
+    if(args[0]==="ME519"| args[0]==="me519" | args[0]==="Me519"| args[0]==="Aegislash"| args[0]==="aegislash"){
+        var ME519 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Aegislash/Pham Duc`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/86/Aegislash.png/revision/latest/scale-to-width-down/100?cb=20180722061235`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Aegislash`)
+            .addField(`Tên Facebook:`,`Pham Duc`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`2/12`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME519);
+
+    }
+
+    //// Spheal (ME467) ///
+    if(args[0]==="ME467"| args[0]==="me467" | args[0]==="Me467"| args[0]==="Spheal"| args[0]==="spheal"){
+        var ME467 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Spheal/Long Dương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Spheal.png/revision/latest/scale-to-width-down/100?cb=20180703204000`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Spheal`)
+            .addField(`Tên Facebook:`,`Long Dương`)
+            .addField(`Giới tính:`,`Nam`)
+            .addField(`Ngày sinh:`,`12/6`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME467);
+
+    }
+
+    /// Reshiram (ME176) ///
+    if(args[0]==="ME176"| args[0]==="me176" | args[0]==="Me176"){
+        var ME176 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Reshiram/Reshiram Unova`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e2/Reshiram.png/revision/latest/scale-to-width-down/100?cb=20160822143716`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Reshiram`)
+            .addField(`Tên Facebook:`,`Reshiram Unova`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`9/9`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME176);
 
     }
 }
