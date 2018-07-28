@@ -1300,7 +1300,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME099** | **.
             .addField(`Giải nhất:`,`Heart Festival (Congenial Duo)`)
             .addField(`Tổ chức Event:`,`Poké-Quiz (27/5/2018)
 Nhìn và đoán (5/6/2018)
-Pokémon Royal Battle (10/6/2018)`);
+Pokémon Royal Battle (10/6/2018)
+Nhìn và đoán 3 (7/7/2018)
+Information Quiz (9/7/2018)`);
             
         message.channel.sendEmbed(ME014);
         message.channel.sendEmbed(ACME014);
@@ -1598,7 +1600,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME514** | **.
             .addField(`Giải nhì:`,`Pokéween 2 - Lost in the Woods (Tour SD)`)
             .addField(`Giải nhất:`,` Heart Festival (Congenial Duo)`)
             .addField(`Giải ba:`,` The Sky Challenges (Moltres Challenge)`)
-            .addField(`Tổ chức Member Event:`,`Vượt chướng ngại vật (13/6/2018)`);
+            .addField(`Tổ chức Member Event:`,`Vượt chướng ngại vật (13/6/2018)
+Tăng tốc (4/7/2018)
+Amazing Words (25/7/2018)`);
             
         message.channel.sendEmbed(ME868);
         message.channel.sendEmbed(ACME868);
