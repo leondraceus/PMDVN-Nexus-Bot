@@ -411,7 +411,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME008** | **
             .setAuthor (`Rockruff/Ngân Ngô`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/13/Rockruff.png/revision/latest/scale-to-width-down/100?cb=20170617061838`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`117/150`)
+            .addField(`Số điểm (Points):`,`115/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
 
         message.channel.sendEmbed(ME121);
@@ -1329,19 +1329,25 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME983** | **
         message.channel.sendEmbed(ME199);
     }
 
-    /// Jirachi (ME394) ///
-    if(args[0]==="ME394"| args[0]==="me394" | args[0]==="Me394" | args[0]==="Jirachi" | args[0]==="jirachi"){
+    // Umbreon (ME394) ///
+    if(args[0]==="ME394"| args[0]==="me394" | args[0]==="Me394"){
         var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/YUG0Fcq6nf8zq9oQUo/giphy.gif`)
-            .setAuthor(`Jirachi/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/60/Jirachi.png/revision/latest/scale-to-width-down/100?cb=20160820071654`)
+            .setTitle(`- POKÉMON SKILL -`).setImage(`https://media.giphy.com/media/1k4T6yfd1qe4q2uto1/giphy.gif`)
+            .setAuthor(`Umbreon/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/60/Jirachi.png/revision/latest/scale-to-width-down/100?cb=20160820071654`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`789/980`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
+            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐⭐⭐`)
+            .addField(`Số điểm (Points):`,`1350/1750`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 15% khi mua đồ (4 lần/tháng)
 Kho đồ được mở rộng (+5 Slot)`);
             
         message.channel.sendEmbed(ME394);
     }
+
+    else if(args[0]==="Umbreon" | args[0]==="umbreon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Umbreon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME720** | **.skill ME394**`)
+
+}
 
     /// Pancham (ME969) ///
     if(args[0]==="ME969"| args[0]==="me969" | args[0]==="Me969" | args[0]==="Pancham" | args[0]==="pancham"){
@@ -1363,7 +1369,7 @@ Kho đồ được mở rộng (+5 Slot)`);
             .setAuthor(`Zoroark/Hà My`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d7/Zoroark.png/revision/latest/scale-to-width-down/100?cb=20160918090127`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`---`)
-            .addField(`Số điểm (Points):`,`51/150`)
+            .addField(`Số điểm (Points):`,`52/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME540);
@@ -1435,7 +1441,7 @@ Kho đồ được mở rộng (+5 Slot)`);
     }
 
     /// Umbreon (ME720) ///
-    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"| args[0]==="Umbreon" | args[0]==="umbreon"){
+    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"){
         var ME720 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Umbreon/Võ Tiến`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
@@ -1550,9 +1556,9 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME889** | **
             .setTitle(`- POKÉMON SKILL -`)
             .setAuthor(`Muk/Karry Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8e/Muk.png/revision/latest/scale-to-width-down/100?cb=20180608082703`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Cấp bậc (Rank):`,`⭐`)
-            .addField(`Số điểm (Points):`,`265/300`)
-            .addField(`Kỹ năng (Skills):`,`---`);
+            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
+            .addField(`Số điểm (Points):`,`575/750`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
             
         message.channel.sendEmbed(ME724);
 

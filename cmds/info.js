@@ -2007,13 +2007,13 @@ Quen mà lạ 2 (8/6/2018)`);
         message.channel.sendEmbed(ME199);
     }
 
-    /// Jirachi (ME394) ///
-    if(args[0]==="ME394"| args[0]==="me394" | args[0]==="Me394" | args[0]==="Jirachi" | args[0]==="jirachi"){
+   /// Umbreon (ME394) ///
+    if(args[0]==="ME394"| args[0]==="me394" | args[0]==="Me394"){
         var ME394 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/YUG0Fcq6nf8zq9oQUo/giphy.gif`)
-            .setAuthor(`Jirachi/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/60/Jirachi.png/revision/latest/scale-to-width-down/100?cb=20160820071654`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/1k4T6yfd1qe4q2uto1/giphy.gif`)
+            .setAuthor(`Umbreon/Thiện Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/6/60/Jirachi.png/revision/latest/scale-to-width-down/100?cb=20160820071654`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Jirachi`)
+            .addField(`Chủng loài:`,`Umbreon`)
             .addField(`Tên Facebook:`,`Thiện Nguyễn`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`29/2`)
@@ -2151,7 +2151,7 @@ Nhìn và đoán 2 (11/6/2018)`)
     }
 
     // Umbreon (ME720) ///
-    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"| args[0]==="Umbreon"| args[0]==="Umbreon"){
+    if(args[0]==="ME720"| args[0]==="me720" | args[0]==="Me720"){
         var ME720 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
             .setAuthor(`Umbreon/Võ Tiến`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Umbreon.png/revision/latest/scale-to-width-down/100?cb=20180214122343`)
@@ -2169,6 +2169,11 @@ Nhìn và đoán 2 (11/6/2018)`)
     else if(args[0]==="Espeon" | args[0]==="espeon"){
         message.channel.sendMessage(`**Hiện tại có 2 Espeon**
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME069** | **.info ME906**`)
+
+    }
+    else if(args[0]==="Umbreon" | args[0]==="umbreon"){
+        message.channel.sendMessage(`**Hiện tại có 2 Umbreon**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME720** | **.info ME394**`)
 
     }
     else if(args[0]==="Zekrom" | args[0]==="zekrom"){
