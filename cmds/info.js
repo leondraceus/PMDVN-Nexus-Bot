@@ -495,6 +495,33 @@ Jukebox For Everyone (18/6/2018)`);
         message.channel.sendEmbed(ACME906);
     }
 
+    /// Reshiram (ME395) ///
+    if(args[0]==="ME395"| args[0]==="me395" | args[0]==="Me395"){
+        var ME395 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Reshiram/Hikari Naoko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e2/Reshiram.png/revision/latest/scale-to-width-down/100?cb=20160822143716`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
+            .addField(`Chủng loài:`,`Reshiram`)
+            .addField(`Tên Facebook:`,`Hikari Naoko`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`5/6`)
+            .addField(`Cấp bậc:`,`Contributor`)
+            .addField(`Guild:`,`---`);
+        var ACME395 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- THÀNH TÍCH -`)
+            .addField(`Tổ chức Member Event:`,`PokéLand Wonder Library (18/7/2017 -> 1/8/2017)`)
+            .addField(`Đóng góp truyện tích cực cho The Great Archive`,`\u200B`);
+            
+            message.channel.sendEmbed(ME395);
+            message.channel.sendEmbed(ACME395);
+    }
+
+    else if(args[0]==="Reshiram" | args[0]==="reshiram"){
+        message.channel.sendMessage(`**Hiện tại có 2 Reshiram**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME395** | **.info ME176**`)
+
+    }
+
 
 ////////////////   MEMBER   ////////////////
 

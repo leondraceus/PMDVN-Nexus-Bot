@@ -10,9 +10,9 @@ module.exports.run = async (pw, message, args) => {
             .setTitle(`- POKÉMON SKILL -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/7/73/Lucky_Wheel_Banner.png/revision/latest?cb=20180211043205`)
             .setAuthor(`Shaymin/Inverno Luna`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b7/Shaymin_%28sky%29.png/revision/latest/scale-to-width-down/100?cb=20170617033642`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`606/750`)
-            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`);
+            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
+            .addField(`Số điểm (Points):`,`498/525`)
+            .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME044);
     }
@@ -24,7 +24,7 @@ module.exports.run = async (pw, message, args) => {
             .setAuthor(`Pikachu/Nguyễn Song Hoàng Huy`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/32/Pikachu2.png/revision/latest/scale-to-width-down/100?cb=20160911055810`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`784/980`)
+            .addField(`Số điểm (Points):`,`769/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
  Kho đồ được mở rộng (+5 Slot)`);
         message.channel.sendEmbed(ME061);
@@ -180,18 +180,24 @@ Kho đồ được mở rộng (+5 Slot)`);
         message.channel.sendEmbed(AD006);
     }
 
-    /// Gible (AD008) ///
-    if(args[0]==="AD008"| args[0]==="ad008" | args[0]==="Ad008" | args[0]==="Gible" | args[0]==="gible"){
-        var AD008 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- POKÉMON SKILL -`).setImage(`https://i.imgur.com/xadjdAw.gif`)
-            .setAuthor(`Gible/Leon Draceus`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/3/37/Gible.png/revision/latest/scale-to-width-down/100?cb=20160827072330`)
+    /// Reshiram (ME395) ///
+    if(args[0]==="ME395"| args[0]==="me395" | args[0]==="Me395"){
+        var ME395 = new Discord.RichEmbed().setColor(`#5CE05F`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Reshiram/Hikari Naoko`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/e2/Reshiram.png/revision/latest/scale-to-width-down/100?cb=20160822143716`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
             .addField(`Cấp bậc (Rank):`,`---`)
             .addField(`Số điểm (Points):`,`80/150`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
-        message.channel.sendEmbed(AD008);
+        message.channel.sendEmbed(ME395);
     }
+
+    else if(args[0]==="Reshiram" | args[0]==="reshiram"){
+        message.channel.sendMessage(`**Hiện tại có 2 Reshiram**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME395** | **.skill ME176**`)
+
+}
 
 ////////////////   MEMBER   ////////////////
 
@@ -386,7 +392,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME304** | **
             .setAuthor (`Flareon/Drack Mon`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/1/17/Flareon.png/revision/latest/scale-to-width-down/100?cb=20160821140812`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
-            .addField(`Số điểm (Points):`,`794/980`)
+            .addField(`Số điểm (Points):`,`837/980`)
             .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)
 Kho đồ được mở rộng (+5 Slot)`);
 
@@ -1341,7 +1347,7 @@ Kho đồ được mở rộng (+5 Slot)`);
             .setAuthor(`Pancham/Tuệ Minh Tuệ`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/53/Pancham1.png/revision/latest/scale-to-width-down/100?cb=20160824085003`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Cấp bậc (Rank):`,`⭐⭐`)
-            .addField(`Số điểm (Points):`,`303/525`)
+            .addField(`Số điểm (Points):`,`313/525`)
             .addField(`Kỹ năng (Skills):`,`---`);
             
         message.channel.sendEmbed(ME969);
