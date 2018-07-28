@@ -1970,7 +1970,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
     if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303" | args[0]==="Trevenant" | args[0]==="trevenant"){
         var ME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/7ieNJN5TUe96WYuU5e/giphy.gif`)
-            .setAuthor(`Trevenant/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Kyurem_%28black%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180524073731`)
+            .setAuthor(`Trevenant/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/e/ee/Trevenant.png/revision/latest/scale-to-width-down/100?cb=20180714073832`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
             .addField(`Chủng loài:`,`Trevenant`)
             .addField(`Tên Facebook:`,`Bảo Nguyễn`)
