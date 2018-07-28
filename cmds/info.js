@@ -1966,13 +1966,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
         message.channel.sendEmbed(ME457);
     }
 
-    /// Black Kyurem (ME303) ///
-    if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303" | args[0]==="Blackkyurem" | args[0]==="blackkyurem" | args[0]==="BlackKyurem"){
+    /// Trevenant (ME303) ///
+    if(args[0]==="ME303"| args[0]==="me303" | args[0]==="Me303" | args[0]==="Trevenant" | args[0]==="trevenant"){
         var ME303 = new Discord.RichEmbed().setColor(`#3A77E6`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/29JOHr32kLaHwZTlVB/giphy.gif`)
-            .setAuthor(`Black Kyurem/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Kyurem_%28black%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180524073731`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/7ieNJN5TUe96WYuU5e/giphy.gif`)
+            .setAuthor(`Trevenant/Bảo Nguyễn`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/9f/Kyurem_%28black%29_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180524073731`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Kyurem (Black)`)
+            .addField(`Chủng loài:`,`Trevenant`)
             .addField(`Tên Facebook:`,`Bảo Nguyễn`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`20/12`)
@@ -1983,7 +1983,8 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME983** | **.
             .addField(`Giải nhất:`,`The Sky Challenges (Moltres Challenge)`)
             .addField(`Giải ba:`,`The Sky Challenges (Zapdos Challenge)`)
             .addField(`Tổ chức Member Event:`,`Quen mà lạ (16/5/2018 -> 23/5/2018)
-Quen mà lạ 2 (8/6/2018)`);
+Quen mà lạ 2 (8/6/2018)
+Chiếc nón Delibird 2 (3/7/2018 -> 10/7/2018)`);
      
 
          message.channel.sendEmbed(ME303);
@@ -2023,7 +2024,9 @@ Quen mà lạ 2 (8/6/2018)`);
             .setTitle(`- THÀNH TÍCH -`)
             .addField(`Tổ chức Member Event:`,`Is it your final choice? (25/3/2018)
 Protractor Team (19/5/2018 -> 6/6/2018)
-Nhìn và đoán 2 (11/6/2018)`)
+Nhìn và đoán 2 (11/6/2018)
+The Lost Wish of Jirachi (11/7/2018 -> 14/7/2018)
+Chân ải chân ai (18/7/2018)`)
             .addField(`Giải nhất:`,`The Sky Challenges (Zapdos Challenge)`)
             .addField(`Giải nhì:`,`The Sky Challenges (Articuno Challenge)`);
 
