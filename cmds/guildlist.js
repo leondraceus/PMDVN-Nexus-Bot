@@ -44,6 +44,46 @@ module.exports.run = async (pw, message, args) => {
         message.channel.sendEmbed(G002);
         message.channel.sendEmbed(ACG002);
     }
+
+    // Wish Dream  //
+    if(args[0]==="G003"| args[0]==="g003"){
+        var G003 = new Discord.RichEmbed()
+            .setTitle(`- WISH DREAM -`).setColor(`#FF69B4`).setURL(`http://pmdv-nexus.wikia.com/wiki/Wish_Dream`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f5/Guild_Leader_Badge.png/revision/latest?cb=20180616005707`)
+            .addField(`Rank`,`Starter`)
+            .addField(`Ngày thành lập`,`18/7/2018`)
+            .addField(`Hội trưởng`,`Leafeon (ME401)`)
+            .addField(`Guild Base Theme`,`N/A`)
+            .addField(`Số lượng thành viên tối đa`,`5`);
+        var ACG003 = new Discord.RichEmbed().setColor(`#FF69B4`)
+            .setTitle(`- THÀNH VIÊN CỦA GUILD -`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/80?cb=20171029143458`)
+            .addField(`Leafeon (ME401)`,`Cấp bậc: Hội trưởng`)
+            .addField(`Alolan Meowth (ME725)`,`Cấp bậc: Thành viên`)
+            .addField(`Dedenne (ME072)`,`Cấp bậc: Thành viên`)
+            .addField(`Trevenant (ME303)`,`Cấp bậc: Thành viên`)
+            .addField(`Chandelure (ME819)`,`Cấp bậc: Thành viên`);
+
+        message.channel.sendEmbed(G003);
+        message.channel.sendEmbed(ACG003);
+    }
+
+    // Gracidea  //
+    if(args[0]==="G004"| args[0]==="g004"){
+        var G004 = new Discord.RichEmbed()
+            .setTitle(`- GRACIDEA -`).setColor(`#FF69B4`).setURL(`https://pmdv-nexus.wikia.com/wiki/Gracidea`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/f5/Guild_Leader_Badge.png/revision/latest?cb=20180616005707`)
+            .addField(`Rank`,`Starter`)
+            .addField(`Ngày thành lập`,`21/7/2018`)
+            .addField(`Hội trưởng`,`Shaymin (ME044)`)
+            .addField(`Guild Base Theme`,`N/A`)
+            .addField(`Số lượng thành viên tối đa`,`5`);
+        var ACG004 = new Discord.RichEmbed().setColor(`#FF69B4`)
+            .setTitle(`- THÀNH VIÊN CỦA GUILD -`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/80?cb=20171029143458`)
+            .addField(`Shaymin (ME044))`,`Cấp bậc: Hội trưởng`)
+            .addField(`Brionne (ME062)`,`Cấp bậc: Thành viên`)
+            .addField(`Rockruff (ME121)`,`Cấp bậc: Thành viên`);
+
+        message.channel.sendEmbed(G004);
+        message.channel.sendEmbed(ACG004);
+    }
 }
 
 module.exports.help = {
