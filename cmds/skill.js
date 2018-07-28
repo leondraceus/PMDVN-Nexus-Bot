@@ -1657,6 +1657,24 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.skill ME889** | **
             
         message.channel.sendEmbed(ME176);
     }
+
+    else if(args[0]==="Mew" | args[0]==="mew"){
+        message.channel.sendMessage(`**Hiện tại có 2 Mew**
+Vui lòng dùng code để tra cứu theo các lệnh sau: **AD002** | **.skill ME045**`)
+    }
+
+    /// Mew (ME045) ///
+    if(args[0]==="ME045"| args[0]==="me045" | args[0]==="Me045"){
+        var ME045 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- POKÉMON SKILL -`)
+            .setAuthor(`Mew/Ngọc Tú Sophia`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a4/Mew_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20170616124144`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Cấp bậc (Rank):`,`⭐⭐`)
+            .addField(`Số điểm (Points):`,`323/525`)
+            .addField(`Kỹ năng (Skills):`,`---`);
+            
+        message.channel.sendEmbed(ME045);
+    }
 }
     
 module.exports.help = {

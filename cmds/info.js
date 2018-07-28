@@ -44,7 +44,7 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD001** | **.
 
     else if(args[0]==="Mew" | args[0]==="mew"){
         message.channel.sendMessage(`**Hiện tại có 2 Mew**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD002** | **(Mew/Huỳnh Long - đang cập nhật)**`)
+Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD002** | **.info ME045**`)
     }
 
     /// Zekrom (AD003) ///
@@ -2436,6 +2436,24 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME889** | **.
             .addField(`Thành tích:`,`---`);
             
         message.channel.sendEmbed(ME176);
+
+    }
+
+    /// Mew (ME045) ///
+    if(args[0]==="ME045"| args[0]==="me045" | args[0]==="Me045"){
+        var ME045 = new Discord.RichEmbed().setColor(`#3A77E6`)
+            .setTitle(`- THÔNG TIN -`)
+            .setAuthor(`Mew/Ngọc Tú Sophia`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a4/Mew_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20170616124144`)
+            .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
+            .addField(`Chủng loài:`,`Mew <:shiny:385079020158451722>`)
+            .addField(`Tên Facebook:`,`Ngọc Tú Sophia`)
+            .addField(`Giới tính:`,`Nữ`)
+            .addField(`Ngày sinh:`,`18/2`)
+            .addField(`Cấp bậc:`,`Member`)
+            .addField(`Guild:`,`---`)
+            .addField(`Thành tích:`,`---`);
+            
+        message.channel.sendEmbed(ME045);
 
     }
 }
