@@ -271,13 +271,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.
         message.channel.sendEmbed(ME061);
     }
 
-    /// Mega Rayquaza (ME642) ///
-    if(args[0]==="ME642"| args[0]==="me642" | args[0]==="Me642"){
+    /// Necrozma (ME642) ///
+    if(args[0]==="ME642"| args[0]==="me642" | args[0]==="Me642"| args[0]==="Necrozma"| args[0]==="necrozma"){
         var ME642 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/2fP75ihwgep2bWwtC4/giphy.gif`)
-            .setAuthor (`Mega Rayquaza/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/SL9q7xDxjlbvDLL9ge/giphy.gif`)
+            .setAuthor (`Necrozma/Huy Ninh`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/5/5e/Megarayquaza_%28shiny%29.png/revision/latest/scale-to-width-down/100?cb=20180120142214`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Chủng loài:`,`Rayquaza (Mega) <:shiny:385079020158451722>`)
+            .addField(`Chủng loài:`,`Necrozma <:shiny:385079020158451722>`)
             .addField(`Tên Facebook:`,`Huy Ninh`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`25/6`)
@@ -666,10 +666,10 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME028** | **.
         message.channel.sendEmbed(ME697);
     }
 
-    else if(args[0]==="MegaRayquaza" | args[0]==="Megarayquaza" | args[0]==="megarayquaza"){
-        message.channel.sendMessage(`**Hiện tại có 2 Mega Rayquaza**
-Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.info ME697**`)
-    }
+//    else if(args[0]==="MegaRayquaza" | args[0]==="Megarayquaza" | args[0]==="megarayquaza"){
+//        message.channel.sendMessage(`**Hiện tại có 2 Mega Rayquaza**
+//Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME642** | **.info ME697**`)
+//    }
 
     /// Suicune (ME818) ///
     if(args[0]==="ME818"| args[0]==="me818" | args[0]==="Me818" | args[0]==="Suicune" | args[0]==="suicune"){
@@ -1508,13 +1508,13 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info ME037** | **.
         message.channel.sendEmbed(ME503);
     }
     
-    /// Houndour (ME078) ///
-    if(args[0]==="ME078"| args[0]==="me078" | args[0]==="Me078" | args[0]==="Houndour" | args[0]==="houndour"){
+    /// Xurkitree (ME078) ///
+    if(args[0]==="ME078"| args[0]==="me078" | args[0]==="Me078" | args[0]==="Xurkitree" | args[0]==="xurkitree"){
         var ME078 = new Discord.RichEmbed().setColor(`#3A77E6`)
             .setTitle(`- THÔNG TIN -`)
-            .setAuthor(`Houndour/Mạnh Dương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/ba/Houndour.png/revision/latest/scale-to-width-down/100?cb=20170618081347`)
+            .setAuthor(`Xurkitree/Mạnh Dương`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/8/8c/Xurkitree.png/revision/latest/scale-to-width-down/100?cb=20180716023701`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/a/a6/Member_Logo.png/revision/latest?cb=20170613044002`)
-            .addField(`Chủng loài:`,`Houndour`)
+            .addField(`Chủng loài:`,`Xurkitree`)
             .addField(`Tên Facebook:`,`Mạnh Dương`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`15/9`)
