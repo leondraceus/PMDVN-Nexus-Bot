@@ -76,7 +76,7 @@ module.exports.run = async (pw, message, args) => {
             .addField(`Guild Base Theme`,`N/A`)
             .addField(`Số lượng thành viên tối đa`,`5`);
         var ACG004 = new Discord.RichEmbed().setColor(`#FF69B4`)
-            .setTitle(`- THÀNH VIÊN CỦA GUILD -`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/9/91/Leafeon.png/revision/latest/scale-to-width-down/80?cb=20171029143458`)
+            .setTitle(`- THÀNH VIÊN CỦA GUILD -`).setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b7/Shaymin_%28sky%29.png/revision/latest/scale-to-width-down/100?cb=20170617033642`)
             .addField(`Shaymin (ME044))`,`Cấp bậc: Hội trưởng`)
             .addField(`Brionne (ME062)`,`Cấp bậc: Thành viên`)
             .addField(`Rockruff (ME121)`,`Cấp bậc: Thành viên`);
