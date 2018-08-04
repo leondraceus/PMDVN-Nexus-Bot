@@ -37,10 +37,7 @@ module.exports.run = async (pw, message, args) => {
     else if (roll == 90 || roll == 91)
     message.reply("bạn đã quay trúng Lucky Wheel Banner, chúc mừng!");
 
-    else if (roll == 92)
-    message.reply("bạn đã quay trúng Victory Bell, chúc mừng!");
-
-    else if (roll == 95 || roll == 96)
+    else if (roll == 95 || roll == 96 || roll == 92)
     message.reply("bạn đã quay trúng V-Ticket, chúc mừng!");
 
     else if (roll == 98)
