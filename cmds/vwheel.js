@@ -22,29 +22,14 @@ module.exports.run = async (pw, message, args) => {
     else if (roll == 53 || roll == 54 || roll == 55 || roll == 56 || roll == 57 || roll == 58 || roll == 59 || roll == 60 || roll == 61 || roll == 62)
     message.reply("bạn đã quay trúng 1 Stardust, chúc mừng!");
 
-    else if (roll == 63 || roll == 23)
-    message.reply("bạn đã quay trúng Fire Stone, chúc mừng!");
+    else if (roll == 63 || roll == 23 || roll == 28 || roll == 10 || roll == 67 || roll == 36)
+    message.reply("bạn đã quay trúng 3 Stardust, chúc mừng!");
         
-    else if (roll == 28 || roll == 10)
-    message.reply("bạn đã quay trúng Water Stone, chúc mừng!");
-        
-    else if (roll == 67 || roll == 36)
-    message.reply("bạn đã quay trúng Thunder Stone, chúc mừng!");
+    else if (roll == 11 || roll == 70)
+    message.reply("bạn đã quay trúng 5 Stardust, chúc mừng!");
 
-    else if (roll == 11)
-    message.reply("bạn đã quay trúng Moss Rock, chúc mừng!");
-
-    else if (roll == 70)
-    message.reply("bạn đã quay trúng Frozen Rock, chúc mừng!");
-
-    else if (roll == 27)
-    message.reply("bạn đã quay trúng Lunar Ribbon, chúc mừng!");
-
-    else if (roll == 72)
-    message.reply("bạn đã quay trúng Sun Ribbon, chúc mừng!");
-
-    else if (roll == 73)
-    message.reply("bạn đã quay trúng Affection Heart, chúc mừng!");
+    else if (roll == 27 || roll == 72 || roll == 73)
+    message.reply("bạn đã quay trúng Fire Stone / Thunder Stone / Water Stone / Sun Ribbon / Lunar Ribbon / Mossy Rock / Frozen Rock / Affection Heart, chúc mừng!\n```Chọn 1 trong số món đồ trên.```");
         
     else if (roll == 74 || roll == 75 || roll == 76 || roll == 77 || roll == 78 || roll == 79 || roll == 80 || roll == 81 || roll == 82 || roll == 83)
     message.reply("bạn đã quay trúng Cotton Candy, chúc mừng!");
