@@ -113,18 +113,21 @@ Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD002** | **.
 Vui lòng dùng code để tra cứu theo các lệnh sau: **.info AD005** | **.info ME191**`)
    }
 
-    /// Honchkrow (AD006) ///
-    if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006" | args[0]==="Honchkrow" | args[0]==="honchkrow"){
+    /// Shaymin (AD006) ///
+    if(args[0]==="AD006"| args[0]==="ad006" | args[0]==="Ad006"){
          var AD006 = new Discord.RichEmbed().setColor(`#5CE05F`)
-            .setTitle(`- THÔNG TIN -`).setImage(`https://media.giphy.com/media/1hMdLpJh5vlWZ0wy10/giphy.gif`)
-            .setAuthor(`Honchkrow/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/d/d3/Honchkrow.png/revision/latest?cb=20180515055807`)
+            .setTitle(`- THÔNG TIN -`).setImage(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/0/00/492-sky.gif`)
+            .setAuthor(`Shaymin/Nguyễn Nhật`,`https://vignette.wikia.nocookie.net/pmdv-nexus/images/b/b7/Shaymin_%28sky%29.png/revision/latest/scale-to-width-down/100?cb=20170617033642`)
             .setThumbnail(`https://vignette.wikia.nocookie.net/pmdv-nexus/images/f/fe/Contributor_Logo.png/revision/latest?cb=20170613043958`)
-            .addField(`Chủng loài:`,`Honchkrow`)
+            .addField(`Chủng loài:`,`Shaymin (Sky Forme`)
             .addField(`Tên Facebook:`,`Nguyễn Nhật`)
             .addField(`Giới tính:`,`Nam`)
             .addField(`Ngày sinh:`,`12/12`)
             .addField(`Cấp bậc:`,`Contributor`)
             .addField(`Guild:`,`---`)
+			.addField(`Cấp bậc (Rank):`,`⭐⭐⭐`)
+			.addField(`Số điểm (Points):`,`741/750`)
+            .addField(`Kỹ năng (Skills):`,`Giảm 10% khi mua đồ (2 lần/tháng)`)
             .addField(`Thành tích:`,`Làm Admin Group`)
             .addField(`Tổ chức Member Event`,`Treasure Hunt (16/6/2018 -> 17/6/2018)`);
             
