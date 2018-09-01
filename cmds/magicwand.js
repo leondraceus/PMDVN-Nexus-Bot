@@ -8,7 +8,7 @@ module.exports.run = async (pw, message, args) => {
     else if (roll == 0)
         message.reply("Tiếc quá ! Bạn không nhận được gì cả !");
 
-    else if (roll != 1)
+    else 
     message.reply("bạn đã nhận được " + roll + " Spooky Tokens!");
 }
 
