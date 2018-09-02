@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-bot.user.setGame('with Stardust')
+bot.user.setGame('in Mystical Moon Festival 🌙')
 });
 
 bot.commands = new Discord.Collection();
