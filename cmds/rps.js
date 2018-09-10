@@ -1,4 +1,4 @@
-﻿exports.run = async (client, msg, [choice, user]) => {
+﻿module.exports.run = async (client, msg, [choice, user]) => {
     if (!user) { user = client.user.id; }  
     var data = await client.funcs.userSearch(msg, {user: [null, user], name: this.help.name});
     
@@ -15,7 +15,7 @@
     msg.channel.send(`${data.user[0].prefered} plays ${choice}! ${data.user[1].prefered} plays ${hand}! ${result}`);
 };
     
-exports.conf = {
+module.exports.conf = {
     enabled: true,
     runIn: ["text"],
     aliases: [],
