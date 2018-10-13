@@ -11,20 +11,14 @@ module.exports.run = async (pw, message, args) => {
     else if (roll == 2 || roll == 12 || roll == 48 || roll == 14 || roll == 97 || roll == 55 || roll == 17 || roll == 83 || roll == 26 || roll == 35 || roll == 175 || roll == 176 || roll == 177)
         message.reply("trong Grab Bag có 3 Stardust, chúc mừng!");
 
-    else if (roll == 3 || roll == 20 || roll == 81 || roll == 22)
+    else if (roll == 3 || roll == 20 || roll == 81 || roll == 22 || roll == 5)
         message.reply("trong Grab Bag có 5 Stardust, chúc mừng!");
 
     else if (roll == 87 || roll == 24)
         message.reply("trong Grab Bag có 10 Stardust, chúc mừng!");
 
-    else if (roll == 5)
-        message.reply("trong Grab Bag có Friend Bow, chúc mừng!");
-
     else if (roll == 93 || roll == 28)
         message.reply("trong Grab Bag có Event Policy, chúc mừng!");
-
-    else if (roll == 1)
-        message.reply("trong Grab Bag có Miracle Chest, chúc mừng!");
 
     else if (roll == 101 || roll == 102 || roll == 103 || roll == 104 || roll == 105 || roll == 106 || roll == 107 || roll == 108 || roll == 109 || roll == 110 || roll == 131 || roll == 132 || roll == 133 || roll == 134 || roll == 135 || roll == 136 || roll == 137 || roll == 138 || roll == 139 || roll == 140 || roll == 141 || roll == 142 || roll == 143 || roll == 144 || roll == 145 || roll == 146 || roll == 147 || roll == 148 || roll == 149 || roll == 150 || roll == 179 || roll == 180)
         message.reply("trong Grab Bag có 1 Wooden Stick, chúc mừng!");    
@@ -32,7 +26,7 @@ module.exports.run = async (pw, message, args) => {
     else if (roll == 82 || roll == 31 || roll == 78 || roll == 33 || roll == 34 || roll == 94 || roll == 36 || roll == 76 || roll == 38 || roll == 39)
         message.reply("trong Grab Bag có 3 Wooden Stick, chúc mừng!");
 
-    else if (roll == 64 || roll == 41 || roll == 42|| roll == 43 || roll == 67)
+    else if (roll == 64 || roll == 41 || roll == 42|| roll == 43 || roll == 67 || roll == 1)
         message.reply("trong Grab Bag có 5 Wooden Stick, chúc mừng!");
         
     else if (roll == 7 || roll == 46 || roll == 47 || roll == 77 || roll == 49 || roll == 50 || roll == 51 || roll == 52 || roll == 88 || roll == 84)
