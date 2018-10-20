@@ -8,7 +8,7 @@ bot.login(settings.token);
 
 bot.on('ready', () => {
     console.log(`${bot.user.username} is ready!`);
-bot.user.setGame('in ???')
+bot.user.setGame('in Lake of Newmoon⚫')
 });
 
 bot.commands = new Discord.Collection();
