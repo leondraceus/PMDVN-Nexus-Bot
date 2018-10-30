@@ -50,7 +50,7 @@ module.exports.run = async (pw, message, args) => {
     else if (roll == 80 || roll == 21 || roll == 181 || roll == 182)
         message.reply("trong Grab Bag có 1 Clear Paper, chúc mừng!");
 
-    else if (roll == 30 || roll == 183 || roll == 184 || roll == 185)
+    else if (roll == 30 || roll == 183 || roll == 184 || roll == 10)
         message.reply("trong Grab Bag có 1 Prism, chúc mừng!");
 
     else if (roll == 18 || roll == 54 || roll == 195 || roll == 197 || roll == 210)
@@ -62,7 +62,7 @@ module.exports.run = async (pw, message, args) => {
     else if (roll == 45 || roll == 199 || roll == 200)
         message.reply("trong Grab Bag có 1 Oval Stone, chúc mừng!");
 
-    else if (roll == 10)
+    else if (roll == 185)
         message.reply("trong Grab Bag có 1 Crescent Emblem, chúc mừng!");
 
     else if (roll == 69)
