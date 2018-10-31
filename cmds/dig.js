@@ -2,7 +2,7 @@ module.exports.run = async (pw, message, args) => {
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    var treasure = Math.floor(Math.random() * 50) +1;
+    var treasure = Math.floor(Math.random() * 300) +1;
 
     if (treasure == 1)
     message.reply("bạn đào được .");

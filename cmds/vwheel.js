@@ -32,7 +32,7 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đã quay trúng 5 Stardust, chúc mừng!");
 
     else if (roll == 27 || roll == 72 || roll == 73)
-    message.reply("bạn đã quay trúng Affection Heart, chúc mừng!");
+    message.reply("bạn đã quay trúng Sun Ribbon / Lunar Ribbon / Affection Heart, chúc mừng!\n\```Chọn 1 trong 3 món đồ trên.```");
 
     else if (roll == 93 || roll == 94)
     message.reply("bạn đã quay trúng Lucky Wheel Banner, chúc mừng!");
