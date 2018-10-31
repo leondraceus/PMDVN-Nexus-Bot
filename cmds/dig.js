@@ -4,10 +4,10 @@ module.exports.run = async (pw, message, args) => {
     }
     var treasure = Math.floor(Math.random() * 50) +1;
 
-    if (treasure < 10)
-    message.reply("bạn không đào được gì cả.");
-    else if (treasure == 11 || treasure == 13)
-    message.reply("bạn đào được 1 Gold Bar.");
+    if (treasure == 1)
+    message.reply("bạn đào được .");
+    else if (treasure == 2)
+    message.reply("bạn đào được 2 Gold Bar.");
     else
     message.reply("bạn không đào được gì cả.");
 
