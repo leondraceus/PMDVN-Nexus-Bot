@@ -6,7 +6,7 @@ module.exports.run = async (pw, message, args) => {
 
     if (treasure < 10)
     message.reply("bạn không đào được gì cả.");
-    else (treasure == 11 || treasure == 13)
+    else if (treasure == 11 || treasure == 13)
     message.reply("bạn đào được 1 Gold Bar.");
     else
     message.reply("bạn không đào được gì cả.");
