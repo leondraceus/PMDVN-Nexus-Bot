@@ -2,7 +2,7 @@ module.exports.run = async (pw, message, args) => {
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    var treasure = Math.floor(Math.random() * 300) +1;
+    var treasure = Math.floor(Math.random() * 400) +1;
 
     if (treasure == 279 || treasure == 14 || treasure == 210 || treasure == 167 || treasure == 140 || treasure == 156 || treasure == 214 || treasure == 38 || treasure == 128)
     message.reply("bạn đào được 1 Gold Bar.");
@@ -38,23 +38,23 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đào được Electirizer.");
     else if (treasure == 103 || treasure == 245)
     message.reply("bạn đào được Magmarizer.");
-    else if (treasure == 5 || treasure == 77)
+    else if (treasure == 5 || treasure == 77 || treasure == 25 || treasure == 291)
     message.reply("bạn đào được Dome Fossil.");
-    else if (treasure == 80 || treasure == 148)
+    else if (treasure == 80 || treasure == 148 || treasure == 253 || treasure == 131)
     message.reply("bạn đào được Claw Fossil.");
-    else if (treasure == 121 || treasure == 52)
+    else if (treasure == 121 || treasure == 52 || treasure == 259 || treasure == 228)
     message.reply("bạn đào được Root Fossil.");
-    else if (treasure == 229 || treasure == 27)
+    else if (treasure == 229 || treasure == 27 || treasure == 64 || treasure == 133)
     message.reply("bạn đào được Skull Fossil.");
-    else if (treasure == 198 || treasure == 1)
+    else if (treasure == 198 || treasure == 1 || treasure == 242 || treasure == 68)
     message.reply("bạn đào được Armor Fossil.");
-    else if (treasure == 21 || treasure == 7)
+    else if (treasure == 21 || treasure == 7 || treasure == 146 || treasure == 12)
     message.reply("bạn đào được Cover Fossil.");
-    else if (treasure == 90 || treasure == 277)
+    else if (treasure == 90 || treasure == 277 || treasure == 8 || treasure == 69)
     message.reply("bạn đào được Plume Fossil.");
-    else if (treasure == 55 || treasure == 115)
+    else if (treasure == 55 || treasure == 115 || treasure == 193 || treasure == 37)
     message.reply("bạn đào được Jaw Fossil.");
-    else if (treasure == 17 || treasure == 252)
+    else if (treasure == 17 || treasure == 252 || treasure == 83 || treasure == 178)
     message.reply("bạn đào được Sail Fossil.");
     else if (treasure == 123)
     message.reply("bạn đào được Old Amber.");
