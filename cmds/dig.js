@@ -2,7 +2,7 @@ module.exports.run = async (pw, message, args) => {
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    var treasure = Math.floor(Math.random() * 400) +1;
+    var treasure = Math.floor(Math.random() * 650) +1;
 
     if (treasure == 279 || treasure == 14 || treasure == 210 || treasure == 167 || treasure == 140 || treasure == 156 || treasure == 214 || treasure == 38 || treasure == 128)
     message.reply("bạn đào được 1 Gold Bar.");
