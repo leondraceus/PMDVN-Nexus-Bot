@@ -26,9 +26,9 @@ module.exports.run = async (pw, message, args) => {
     message.reply("bạn đào được Thunder Stone.");
     else if (treasure == 36 || treasure == 202 || treasure == 46 || treasure == 221 || treasure == 191)
     message.reply("bạn đào được Water Stone.");
-    else if (treasure == 101 || treasure == 294 || treasure == 266)
+    else if (treasure == 101 || treasure == 294 || treasure == 266 || treasure == 180)
     message.reply("bạn đào được Sun Stone.");
-    else if (treasure == 187 || treasure == 142 || treasure == 124)
+    else if (treasure == 187 || treasure == 142 || treasure == 124 || treasure == 29)
     message.reply("bạn đào được Moon Stone.");
     else if (treasure == 71 || treasure == 144 || treasure == 296)
     message.reply("bạn đào được Oval Stone.");
