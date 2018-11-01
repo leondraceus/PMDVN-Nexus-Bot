@@ -2,9 +2,17 @@ module.exports.run = async (pw, message, args) => {
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    var treasure = Math.floor(Math.random() * 650) +1;
+    var treasure = Math.floor(Math.random() * 700) +1;
 
-    if (treasure == 279 || treasure == 14 || treasure == 210 || treasure == 167 || treasure == 140 || treasure == 156 || treasure == 214 || treasure == 38 || treasure == 128)
+    if (treasure == 271 || treasure == 127 || treasure == 276 || treasure == 171 || treasure == 153 || treasure == 31 || treasure == 244 || treasure == 176 || treasure == 158 || treasure == 264 || treasure == 183 || treasure == 98 || treasure == 281 || treasure == 87 || treasure == 163 || treasure == 85)
+    message.reply("bạn đào được 100 <:poke:379535433467428867>.");
+    if (treasure == 219 || treasure == 66 || treasure == 75 || treasure == 50 || treasure == 10 || treasure == 139 || treasure == 165 || treasure == 260 || treasure == 195 || treasure == 175 || treasure == 47 || treasure == 270 || treasure == 44 || treasure == 105)
+    message.reply("bạn đào được 200 <:poke:379535433467428867>.");
+    if (treasure == 40 || treasure == 284 || treasure == 199 || treasure == 181 || treasure == 243 || treasure == 173 || treasure == 51 || treasure == 78 || treasure == 53 || treasure == 162 || treasure == 137 || treasure == 159)
+    message.reply("bạn đào được 300 <:poke:379535433467428867>.");
+    if (treasure == 186 || treasure == 290 || treasure == 74 || treasure == 257 || treasure == 88 || treasure == 62 || treasure == 217 || treasure == 168 || treasure == 41 || treasure == 215 || treasure == 104)
+    message.reply("bạn đào được 500 <:poke:379535433467428867>.");
+    else if (treasure == 279 || treasure == 14 || treasure == 210 || treasure == 167 || treasure == 140 || treasure == 156 || treasure == 214 || treasure == 38 || treasure == 128)
     message.reply("bạn đào được 1 Gold Bar.");
     else if (treasure == 120 || treasure == 100 || treasure == 26 || treasure == 233 || treasure == 216 || treasure == 91)
     message.reply("bạn đào được 2 Gold Bar.");
